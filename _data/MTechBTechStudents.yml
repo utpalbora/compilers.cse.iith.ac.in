@@ -1,0 +1,36 @@
+#- name: 
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ: 
+#  education1:  
+#  education2:  
+#  education3: 
+#  education4:  
+- name: Rahul Utkoor
+  photo: rock.jpg
+  info: MTech student
+  email: cs14btech11037@iith.ac.in
+  number_educ: 0
+  education1:
+  
+- name: Venkata Keerthy S
+  photo: rock.jpg
+  info: MTech student
+  email: cs17mtech11018@iith.ac.in
+  number_educ: 0
+  education1:
+
+- name: Rohit Aggarwal
+  photo: rock.jpg
+  info: MTech student
+  email: cs18mtech11030@iith.ac.in
+  number_educ: 0
+  education1:
+
+- name: Pooja Choudhary
+  photo: rock.jpg
+  info: MTech student
+  email: cs18mtech11038@iith.ac.in
+  number_educ: 0
+  education1:

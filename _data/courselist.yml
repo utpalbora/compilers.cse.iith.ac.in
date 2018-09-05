@@ -1,0 +1,297 @@
+#- title: ""
+#  code: ""
+#  semester: ""
+#  year: ""
+#  segment: ""
+#  credits: ""
+#  image: ""
+#  description: ""
+#  link:
+#    url: ""
+#    display: ""
+#  highlight: 1
+#  news2: 
+
+- title: "Introduction to Compiler Engineering"
+  code: "CS6383"
+  semester: "August"
+  year: "2018"
+  segment: ""
+  credits: "2"
+  image: ""
+  description: "Real-world compilers have complex algorithms and optimization strategies implemented in them, along with having various implementation techniques that are language/architecture independent as well as having language/architecture specific features. All the above makes engineering modern real-world compilers also a hard software-engineering problem.
+
+This 1 credit course will focus on understanding these issues, taking the popular LLVM compiler as a case-study.
+
+The following are some of the areas that we plan to study: Introduction to LLVM infrastructure; The LLVM IR; Analyses and Transformations in LLVM; Writing Analysis/Transformation passes in LLVM; Adding new FrontEnds and BackEnds to LLVM; Pass-manager of LLVM and method of adding new passes."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/CompilerEngg-Aug18/"
+    display: "CompilerEngg-Aug18"
+  highlight: 1
+  news2: 
+
+- title: "Advanced Compiler Optimizations"
+  code: "CS6250"
+  semester: "August"
+  year: "2018"
+  segment: ""
+  credits: "3"
+  image: ""
+  description: "The objective of this course is to learn basic and advanced compiler optimization techniques, either traditional or modern in their scope, or scalar-variable based or loop-optimization based in their application or machine independent or dependent in their variety.
+
+The initial part of the course would be devoted to a collection of traditional and classic compiler analyses and optimizations that are primarily based on control flow and data flow analyses. This would be followed by studying more high-level optimizations that are based on the static single assignment intermediate representation as well as low-level optimizations like register allocation, instruction scheduling and software pipelining.
+
+The latter part of this course would be devoted to a model named polyhedral compilation where for-loops can be transformed to run efficiently on advanced architectures like multi-core or GPU using rational and integer linear programming techniques. Here, the focus would be on basics of the three phase process of dependence analysis, affine scheduling and code generation.
+
+A large part of this course would be about either reading advanced compiler optimization papers, or studying the implementations of optimizations in a compiler like LLVM, or implementing optimizations with a goal of obtaining performance/scalability improvements."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/CompilerOpt-Aug18/"
+    display: "CompilerOpt-Aug18"
+  highlight: 1
+  news2:
+
+- title: "Advanced Compiler Design"
+  code: "CS6240"
+  semester: "August"
+  year: "2018"
+  segment: ""
+  credits: "3"
+  image: ""
+  description: "This is a sister course to CS3320+CS3423 being offered to B.Techs. This beginning level M.Tech/PhD course would have additional project work, a paper presentation, and some research component."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Compilers2-Aug18/"
+    display: "Compilers2-Aug18"
+  highlight: 1
+  news2:
+
+- title: "Compilers-II"
+  code: "CS3423"
+  semester: "August"
+  year: "2018"
+  segment: ""
+  credits: "2"
+  image: ""
+  description: " The objective of these courses is to learn basic principles and advanced techniques of compiler design. Both the courses will focus lexical analysis, syntactic analysis, semantic analysis, abstract syntax tree and code-generation as well as basic optimizations.
+
+The initial part of both the courses will focus on the classic techniques of lexical analysis and scanning/screening, syntactic analysis like bottom-up and top-down parsing techniques, semantic analysis, type-checking, abstract syntax tree and code generation. The latter part will focus on intermediate representations and simple optimizations like register allocation and instruction scheduling.
+A significant focus of these courses would be on designing and implementing parts of compiler for a subset of C++/Java. The language of implementation would be in C/C++/Java languages. There would also be effort to study modern compilers like LLVM in the form of mini-assignments."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Compilers2-Aug18/"
+    display: "Compilers2-Aug18"
+  highlight: 1
+  news2:
+
+
+
+- title: "Principles of Programming Languages - I (Fractal 1 Credit Courses) at IITBhilai"
+  code: "CS2400"
+  semester: "August"
+  year: "2017"
+  segment: 
+  credits: 1
+  image: "Fano.png"
+  description: " The objective of CS2400 course is to learn basic principles of programming languages: their concepts, constructs, syntax, semantics and pragmatics. The course will focus on the classic programming language paradigms of Imperative and Object Oriented.
+
+This course will focus on understanding some aspects of Imperative and Object Oriented paradigms using C/C++, Java and Python as languages. "
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Popl1-Aug17-Bhilai/"
+    display: "Popl1-Aug17-Bhilai"
+  highlight: 1
+  news2:
+
+- title: "Compiler Optimizations"
+  code: "CS5260"
+  semester: "January"
+  year: "2017"
+  segment: 
+  credits: 3
+  image: "Fano.png"
+  description: " The objective of this course is to learn basic and advanced compiler optimization techniques, either traditional or modern in their scope, or scalar-variable based or loop-optimization based in their application or machine independent or dependent in their variety.
+
+The initial part of the course would be devoted to a collection of traditional and classic compiler analyses and optimizations that are primarily based on control flow and data flow analyses. This would be followed by studying more high-level optimizations that are based on the static single assignment intermediate representation as well as low-level optimizations like register allocation, instruction scheduling and software pipelining.
+
+The latter part of this course would be devoted to a model named polyhedral compilation where for-loops can be transformed to run efficiently on advanced architectures like multi-core or GPU using rational and integer linear programming techniques. Here, the focus would be on basics of the three phase process of dependence analysis, affine scheduling and code generation.
+
+A large part of this course would be about either reading advanced compiler optimization papers, or studying the implementations of optimizations in a compiler like LLVM, or implementing optimizations with a goal of obtaining performance/scalability improvements."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/CompilerOpt-Jan17/"
+    display: "CompilerOpt-Aug17"
+  highlight: 1
+  news2:
+
+- title: "Introduction to Compiler Engineering"
+  code: "CS6383"
+  semester: "August"
+  year: "2017"
+  segment: ""
+  credits: "2"
+  image: ""
+  description: "Real-world compilers have complex algorithms and optimization strategies implemented in them, along with having various implementation techniques that are language/architecture independent as well as having language/architecture specific features. All the above makes engineering modern real-world compilers also a hard software-engineering problem.
+
+This 1 credit course will focus on understanding these issues, taking the popular LLVM compiler as a case-study.
+
+The following are some of the areas that we plan to study: Introduction to LLVM infrastructure; The LLVM IR; Analyses and Transformations in LLVM; Writing Analysis/Transformation passes in LLVM; Adding new FrontEnds and BackEnds to LLVM; Pass-manager of LLVM and method of adding new passes."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/CompilerEngg-Aug17/"
+    display: "CompilerEngg-Aug17"
+  highlight: 1
+  news2: 
+
+- title: "Advanced Compiler Design"
+  code: "CS6240"
+  semester: "August"
+  year: "2017"
+  segment: ""
+  credits: "3"
+  image: ""
+  description: "This is a sister course to CS3320+CS3423 being offered to B.Techs. This beginning level M.Tech/PhD course would have additional project work, a paper presentation, and some research component."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Compilers2-Aug17/"
+    display: "Compilers2-Aug17"
+  highlight: 1
+  news2: 
+
+- title: "Compilers-II"
+  code: "CS3423"
+  semester: "August"
+  year: "2017"
+  segment: ""
+  credits: "2"
+  image: ""
+  description: " The objective of these courses is to learn basic principles and advanced techniques of compiler design. Both the courses will focus lexical analysis, syntactic analysis, semantic analysis, abstract syntax tree and code-generation as well as basic optimizations.
+
+The initial part of both the courses will focus on the classic techniques of lexical analysis and scanning/screening, syntactic analysis like bottom-up and top-down parsing techniques, semantic analysis, type-checking, abstract syntax tree and code generation. The latter part will focus on intermediate representations and simple optimizations like register allocation and instruction scheduling.
+A significant focus of these courses would be on designing and implementing parts of compiler for a subset of C++/Java. The language of implementation would be in C/C++/Java languages. There would also be effort to study modern compilers like LLVM in the form of mini-assignments."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Compilers2-Aug17/"
+    display: "Compilers2-Aug17"
+  highlight: 1
+  news2: 
+
+- title: "Topics in Compiler Optimizations"
+  code: "CS6300"
+  semester: "January"
+  year: "2017"
+  segment: ""
+  credits: "3"
+  image: ""
+  description: " This advanced graduate level course is only for invited audience. It will focus on advanced optimization techniques."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/CompilerOpt-Jan17/"
+    display: "CompilerOpt-Jan17"
+  highlight: 1
+  news2: 
+
+- title: "Compilers-I"
+  code: "CS3320"
+  semester: "January"
+  year: "2017"
+  segment: ""
+  credits: "1"
+  image: ""
+  description: "The objective of this course is to learn basic principles of compiler design. The course will focus on basic principles of lexical analysis, syntactic analysis, semantic analysis, abstract syntax tree and code-generation as well as basic optimizations.
+
+The initial part of both the courses will focus on the classic techniques of lexical analysis and scanning/screening, syntactic analysis like bottom-up and top-down parsing techniques. The later part of the course will skim through semantic analysis, type-checking, abstract syntax tree and code generation and some basic optimizations."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Compilers-Jan17/"
+    display: "Compilers-Jan17"
+  highlight: 1
+  news2: 
+
+- title: "Principles of Compiler Design"
+  code: "CS3020"
+  semester: "August"
+  year: "2015"
+  segment: ""
+  credits: "3"
+  image: ""
+  description: "The objective of these courses is to learn basic principles and advanced techniques of compiler design. Both the courses will focus lexical analysis, syntactic analysis, semantic analysis, abstract syntax tree and code-generation as well as basic optimizations.
+
+The initial part of both the courses will focus on the classic techniques of lexical analysis and scanning/screening, syntactic analysis like bottom-up and top-down parsing techniques, semantic analysis, type-checking, abstract syntax tree and code generation. The latter part will focus on intermediate representations and simple optimizations like register allocation and instruction scheduling.
+A significant focus of these courses would be on designing and implementing parts of compiler for a subset of C++/Java. The language of implementation would be in C/C++/Java languages. There would also be effort to study modern compilers like LLVM in the form of mini-assignments."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Compilers-Aug15/"
+    display: "Compilers-Aug15"
+  highlight: 1
+  news2:
+
+- title: "Principles of Compiler Design Lab"
+  code: "CS3021"
+  semester: "August"
+  year: "2015"
+  segment: ""
+  credits: "3"
+  image: ""
+  description: "This is the B.Tech lab accompanying the corresponding B.Tech course CS3020. For registrants of CS3020, a registration to CS3021 is compulsory. The major means of evaluation of CS3021 would be the above mentioned project."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Compilers-Aug15/"
+    display: "Compilers-Aug15"
+  highlight: 1
+  news2:
+
+
+- title: "Advanced Compiler Design"
+  code: "CS6240"
+  semester: "August"
+  year: "2015"
+  segment: ""
+  credits: "3"
+  image: ""
+  description: "This is a sister course to CS3020 being offered to B.Techs. This beginning level M.Tech/PhD course would have additional project work, a paper presentation, and some research component."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Compilers-Aug15/"
+    display: "Compilers-Aug15"
+  highlight: 1
+  news2:
+
+- title: "Advanced Compiler Optimizations"
+  code: "CS6250"
+  semester: "January"
+  year: "2015"
+  segment: ""
+  credits: "3"
+  image: ""
+  description: "The objective of this course is to learn basic and advanced compiler optimization techniques, either traditional or modern in their scope, or scalar-variable based or loop-optimization based in their application or machine independent or dependent in their variety.
+
+The initial part of the course would be devoted to a collection of traditional and classic compiler analyses and optimizations that are primarily based on control flow and data flow analyses. This would be followed by studying more high-level optimizations that are based on the static single assignment intermediate representation as well as low-level optimizations like register allocation, instruction scheduling and software pipelining.
+
+The latter part of this course would be devoted to a model named polyhedral compilation where for-loops can be transformed to run efficiently on advanced architectures like multi-core or GPU using rational and integer linear programming techniques. Here, the focus would be on basics of the three phase process of dependence analysis, affine scheduling and code generation.
+
+A large part of this course would be about either reading advanced compiler optimization papers, or studying the implementations of optimizations in a compiler like LLVM, or implementing optimizations with a goal of obtaining performance/scalability improvements."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/CompilerOpt-Jan15/"
+    display: "CompilerOpt-Jan15"
+  highlight: 1
+  news2: 
+
+- title: "Principles of Programming Languages"
+  code: "CS2040"
+  semester: "January"
+  year: "2015"
+  segment: ""
+  credits: "2"
+  image: ""
+  description: "The objective of CS2040 course is to learn basic principles of programming languages: their concepts, constructs, syntax, semantics and pragmatics. The course will focus on the classic programming language paradigms of Imperative, Object Oriented, Functional, Logic and Scripting.
+
+The initial part of this course will focus on understanding some aspects of Imperative and Object Oriented paradigms using C/C++ and Java as languages. The next focus would be the Functional paradigm using Scheme/Racket and ML as languages followed by quickly covering the Logic paradigm using Prolog. Finally, the focus would shift to Scripting paradigm using Python and Javascript as languages."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Popl-Jan15/"
+    display: "Popl-Jan15"
+  highlight: 1
+  news2: 
+
+- title: "Principles of Programming Languages Laboratory"
+  code: "CS2041"
+  semester: "January"
+  year: "2015"
+  segment: ""
+  credits: "2"
+  image: ""
+  description: "A large part of CS2041 lab would be in understanding the syntax or semantics of a variety of languages which fall under various paradigms like Imperative (C/C++), Object Oriented (C++, Java), Functional (Lisp/Scheme/Racket, ML) and Scripting (Python, Javascript). It would be a hands on approach involving writing programs in new programming languages. There would also be projects that involve writing mini-translators for some of the above languages.
+
+CS2041 is the B.Tech lab accompanying the corresponding B.Tech course CS2040. For registrants of CS2040, a registration to CS2041 is compulsory. A major means of evaluation of CS2041 would be the above programming assignments."
+  link:
+    url: "https://www.iith.ac.in/~ramakrishna/Popl-Jan15/"
+    display: "Popl-Jan15"
+  highlight: 1
+  news2: 

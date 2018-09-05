@@ -1,0 +1,9 @@
+- name: "This could be you !"
+  photo: rock.jpg
+  info: See <a href="http://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
+  email: ramakrishna@iith.ac.in
+  number_educ: 0
+  education1:  
+  education2:  
+  education3: 
+  education4:  

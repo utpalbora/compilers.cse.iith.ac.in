@@ -1,0 +1,29 @@
+#- name: 
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ: 
+#  education1:  
+#  education2:  
+#  education3: 
+#  education4:  
+- name: Utpal Bora
+  photo: rock.jpg
+  info: PhD student
+  email: cs14mtech11017@iith.ac.in
+  number_educ: 0
+  education1:
+  
+- name: Gayatri P K
+  photo: rock.jpg
+  info: PhD student
+  email: cs15resch11012@iith.ac.in
+  number_educ: 0
+  education1:
+
+- name: Shalini Jain
+  photo: rock.jpg
+  info: PhD student
+  email: cs15resch11012@iith.ac.in
+  number_educ: 0
+  education1:

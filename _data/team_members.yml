@@ -1,0 +1,45 @@
+- name: Ramakrishna Upadrasta
+  photo: rama.png
+  info: Assistant Professor, started March 2014
+  email: ramakrishna@iith.ac.in
+  number_educ: 5
+  education1: MTech from IISc Bangalore, India
+  education2: MS from Colorado State University, USA, with <a href="https://www.cs.colostate.edu/~svr/">Prof. Sanjay Rajopadye</a>
+  education3: PhD at University of Paris-Sud and INRIA, Paris, France, with <a href="https://who.rocq.inria.fr/Albert.Cohen/">Prof. Albert Cohen</a>
+  education4: Research Engineer at INRIA, Paris
+  education5: Research Scholar at Lawrence Livermore National Laboratories, USA
+  education6: Compiler Engineer in Hewlett Packard, India
+  education7: BTech from Andhra University, Visakhapatnam, India
+  
+- name: Utpal Bora
+  photo: utpal.jpg
+  info: PhD, started August 2015
+  email: cs14mtech11017@iith.ac.in
+  number_educ: 2
+  education1: B.Tech. NIT Jalandhar, Punjab, India
+  education2: M.Tech. IIT Hyderabad, India
+
+- name: Gayatri P K
+  photo: gayatri.jpg
+  info: PhD, started August 2015
+  email: cs15resch11003@iith.ac.in
+  number_educ: 2
+  education1: M.Tech. Kerala University, India
+  education2: B.Tech. Kerala University, India
+  
+- name: Shalini Jain
+  photo: rock.jpg
+  info: PhD, started August 2015
+  email: cs15resch11010@iith.ac.in
+  number_educ: 1
+  education1: M.Tech. IIIT Gwalior, India
+  
+- name: "This could be you !"
+  photo: rock.jpg
+  info: See <a href="http://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
+  email: 
+  number_educ: 0
+  education1:  
+  education2:  
+  education3: 
+  education4:  
