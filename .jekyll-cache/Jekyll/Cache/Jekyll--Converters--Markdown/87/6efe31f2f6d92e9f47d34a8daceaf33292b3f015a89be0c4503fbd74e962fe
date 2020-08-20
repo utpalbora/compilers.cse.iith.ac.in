@@ -1,0 +1,13 @@
+I"?<h1 id="research">Research</h1>
+
+<p>Our broad research is in Programming Languages and Compilers. More specifically, these are the following research areas we are currently working on.</p>
+
+<ul>
+  <li>Domain Specific Programming Languages for Parallelization: Building Domain Specific Languages (DSLs) and compilation strategies for applications from various domains. An example is Big-Data applications and High-Performance Computing. We have funding for this.</li>
+  <li>LLVM Optimizations: Various aspects of the open-source LLVM compiler. We are working in collaboration with various industries on this. I also run the IITH-LLVM group. Join the Group (only with IITH email-IDs)</li>
+  <li>Coarse/Fine-Grain Compiler Optimization and Parallelization techniques for modern architectures for multi-core/GPUs: Proposal of new parallelization algorithms and improvement of the range of programs that are amenable to parallelization schemes in existing polyhedral compilation tools. As an example, I am interested in the range of programs that could be accepted by the well known polyhedral compilation tools like Pluto and Polly.</li>
+  <li>Improvement of Scalability of Tools in Polyhedral Compilation The above mentioned polyhedral compilation tools use expensive tools that limit their scalability. I am interested in improving their scalability using advanced approximations like (U)TVPI sub-polyhedra, similar and more powerful to our POPL-2013 paper.</li>
+  <li>Abstract Interpretation and sub-polyhedral approximations: Abstract interpretation is a formal framework to perform static analysis of programs. It was formalized by the classic work of Cousot-Cousot in the 1970s. Since then, there have been advances, with the Astrée static analyzer being one of its largest successes. It uses a variety of sub-polyhedral approximations; for example Antoine Miné’s Octagon domain. I am interested in various aspects of scalability vs. precision issues of these approximations, with a particular focus in loop-programs (Affine Control Programs/SCoPs).</li>
+  <li>Any aspects of program analysis.</li>
+</ul>
+:ET

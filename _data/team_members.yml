@@ -1,4 +1,5 @@
 - name: Ramakrishna Upadrasta
+  type: faculty
   photo: rama.png
   info: Assistant Professor, started March 2014
   email: ramakrishna@iith.ac.in
@@ -12,28 +13,88 @@
   education7: BTech from Andhra University, Visakhapatnam, India
   
 - name: Utpal Bora
+  type: phd
   photo: utpal.jpg
-  info: PhD, started August 2015
+  info: PhD, started July 2015 (Previously M.Tech TA from August 2014 - July 2015)
   email: cs14mtech11017@iith.ac.in
-  number_educ: 2
-  education1: B.Tech. NIT Jalandhar, Punjab, India
-  education2: M.Tech. IIT Hyderabad, India
+  interests: Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection
+  # number_educ: 2
+  # education1: B.Tech. NIT Jalandhar, Punjab, India
+  # education2: M.Tech. IIT Hyderabad, India
 
-- name: Gayatri P K
-  photo: gayatri.jpg
-  info: PhD, started August 2015
-  email: cs15resch11003@iith.ac.in
-  number_educ: 2
-  education1: M.Tech. Kerala University, India
-  education2: B.Tech. Kerala University, India
+# - name: Gayatri P K
+#   photo: gayatri.jpg
+#   info: PhD, started August 2015
+#   email: cs15resch11003@iith.ac.in
+#   number_educ: 2
+#   education1: M.Tech. Kerala University, India
+#   education2: B.Tech. Kerala University, India
   
 - name: Shalini Jain
+  type: phd
   photo: rock.jpg
   info: PhD, started August 2015
   email: cs15resch11010@iith.ac.in
-  number_educ: 1
-  education1: M.Tech. IIIT Gwalior, India
-  
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+  # number_educ: 1
+  # education1: M.Tech. IIIT Gwalior, India
+
+- name: S. VenkataKeerthy
+  type: phd
+  photo: rock.jpg
+  info: PhD, started May 2020 (Previously M.Tech RA from August 2017 - May 2020)
+  email: cs15resch11010@iith.ac.in
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+
+- name: Shalini Jain
+  type: phd
+  photo: rock.jpg
+  info: PhD, started August 2015
+  email: cs15resch11010@iith.ac.in
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+
+- name: Shalini Jain
+  type: phd
+  photo: rock.jpg
+  info: PhD, started August 2015
+  email: cs15resch11010@iith.ac.in
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+
+- name: Shalini Jain
+  type: phd
+  photo: rock.jpg
+  info: PhD, started August 2015
+  email: cs15resch11010@iith.ac.in
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+
+- name: Shalini Jain
+  type: phd
+  photo: rock.jpg
+  info: PhD, started August 2015
+  email: cs15resch11010@iith.ac.in
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+
+- name: Shalini Jain
+  type: phd
+  photo: rock.jpg
+  info: PhD, started August 2015
+  email: cs15resch11010@iith.ac.in
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+
+- name: Shalini Jain
+  type: phd
+  photo: rock.jpg
+  info: PhD, started August 2015
+  email: cs15resch11010@iith.ac.in
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+
+- name: Shalini Jain
+  type: phd
+  photo: rock.jpg
+  info: PhD, started August 2015
+  email: cs15resch11010@iith.ac.in
+  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+
 - name: "This could be you !"
   photo: rock.jpg
   info: See <a href="http://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
