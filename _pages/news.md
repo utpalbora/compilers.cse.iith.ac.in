@@ -1,7 +1,7 @@
 ---
-title: "Teaching"
+title: "News"
 layout: textlay
-excerpt: "Teaching at IIT Hyderabad."
+excerpt: "News at IIT Hyderabad."
 sitemap: false
 permalink: /teaching/
 ---

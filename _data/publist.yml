@@ -1,3 +1,19 @@
+- title: "PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives"
+  authors: "Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul"
+  description: ""
+  year: "2020"
+  publishedAt: "arxiv"
+  type: "Journel|Transaction|Conference"
+  image: ""
+  link:
+    url: "https://arxiv.org/abs/2006.02230"
+    display:  ""
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2: 
+
+
 - title: ""
   authors: ""
   description: ""
@@ -12,4 +28,3 @@
     authorCopy: ""
   highlight: 1
   news2: 
-
