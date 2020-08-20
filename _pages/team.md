@@ -8,12 +8,12 @@ permalink: /team/
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **.**
 
 
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
+Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#masters-students), [Alumni](#alumni).
 
-## Staff
+## Faculty
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -23,7 +23,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+{% if member.type == 'faculty' %}
+<div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
   <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   <h4>{{ member.name }}</h4>
@@ -62,6 +63,118 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   
   </ul>
 </div>
+{% endif %}
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+## PhD Students
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+{% if member.type == 'phd' %}
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
+  {% if member.url.value == 1 %}
+  <h4><a href="{{ member.url.link }}">{{ member.name }}</a></h4>
+  <i>{{ member.info }}<br><b>email:</b> <{{ member.email }}><br><b>Research Interests:</b> {{ member.interests }}</i>
+  {% endif %}
+
+  {% if member.url.value == 0 %}
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}<br><b>email:</b> <{{ member.email }}><br><b>Research Interests:</b> {{ member.interests }}</i>
+  {% endif %}
+
+</div>
+{% endif %}
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+## Masters Students
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+{% if member.type == 'mtech' %}
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
+  {% if member.url.value == 1 %}
+  <h4><a href="{{ member.url.link }}">{{ member.name }}</a></h4>
+  <i>{{ member.info }}<br><b>email:</b> <{{ member.email }}><br><b>Research Interests:</b> {{ member.interests }}</i>
+  {% endif %}
+
+  {% if member.url.value == 0 %}
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}<br><b>email:</b> <{{ member.email }}><br><b>Research Interests:</b> {{ member.interests }}</i>
+  {% endif %}
+</div>
+{% endif %}
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+## Alumni
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="col">
+{% endif %}
+
+{% if member.type == 'alum' %}
+<div class="col-md-4">
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" /> -->
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}</i>
+</div>
+{% endif %}
 
 {% assign number_printed = number_printed | plus: 1 %}
 
@@ -78,8 +191,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-
-## Master and Bachelor Students 
+<!-- ## Master and Bachelor Students 
 {% assign number_printed = 0 %}
 {% for member in site.data.MTechBTechStudents %}
 
@@ -130,13 +242,14 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %}
+{% endif %} -->
 
 
-## Alumni
-<!--
+<!-- ## Alumni
+
 <table align="center" style="width:100%">
-<tr><th>Visitors</th>
+  <tr>
+    <th>Visitors</th>
     <th>Master Students</th> 
     <th>Bachelor Students</th>
   </tr>
@@ -181,10 +294,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
     <td>Daniëlle van Klink, Spring 2016</td>
   </tr>
 </table>
--->
+
 
 ## Administrative Support
-<a href="mailto:ramanjaneyulu@iith.ac.in">Ramanjaneyulu Narayana</a> is helping us (and other groups) with administration.
+<a href="mailto:ramanjaneyulu@iith.ac.in">Ramanjaneyulu Narayana</a> is helping us (and other groups) with administration. -->
 
 
 

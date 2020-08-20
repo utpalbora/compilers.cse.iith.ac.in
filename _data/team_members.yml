@@ -14,6 +14,9 @@
   
 - name: Utpal Bora
   type: phd
+  url:
+    value: 1
+    link: utpalbora.com
   photo: utpal.jpg
   info: PhD, started July 2015 (Previously M.Tech TA from August 2014 - July 2015)
   email: cs14mtech11017@iith.ac.in
@@ -32,6 +35,9 @@
   
 - name: Shalini Jain
   type: phd
+  url:
+    value: 0
+    link:
   photo: rock.jpg
   info: PhD, started August 2015
   email: cs15resch11010@iith.ac.in
@@ -41,66 +47,108 @@
 
 - name: S. VenkataKeerthy
   type: phd
+  url:
+    value: 0
+    link: 
   photo: rock.jpg
   info: PhD, started May 2020 (Previously M.Tech RA from August 2017 - May 2020)
   email: cs15resch11010@iith.ac.in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+  interests: Program Analysis and Compiler Optimizations, Machine Learning in Compilers and Programming Languages
 
-- name: Shalini Jain
-  type: phd
+- name: Rohit Aggarwal
+  type: mtech
+  url:
+    value: 0
+    link:
   photo: rock.jpg
-  info: PhD, started August 2015
+  info: M.Tech RA, started August 2018
   email: cs15resch11010@iith.ac.in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+  interests: Program representation and Optimization with Machine Learnng
 
-- name: Shalini Jain
-  type: phd
+- name: Gagandeep Goyal
+  type: mtech
+  url:
+    value: 0
+    link:
   photo: rock.jpg
-  info: PhD, started August 2015
+  info: M.Tech RA, started January 2019
   email: cs15resch11010@iith.ac.in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+  interests: Deep Learning in Compilers,Program representation, Polyhedral Compilation and Compiler Optimization
 
-- name: Shalini Jain
-  type: phd
+- name: Nilesh Shah
+  type: mtech
+  url:
+    value: 0
+    link:
   photo: rock.jpg
-  info: PhD, started August 2015
+  info: M.Tech RA, started August 2019
   email: cs15resch11010@iith.ac.in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+  interests: Polyhedral Compilation, Compiler Optimizations
 
-- name: Shalini Jain
-  type: phd
+- name: Shailendra Dilip Singh
+  type: mtech
+  url:
+    value: 0
+    link:
   photo: rock.jpg
-  info: PhD, started August 2015
+  info: M.Tech TA, started August 2019
   email: cs15resch11010@iith.ac.in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+  interests: Compiler Optimization using Deep Learning
 
-- name: Shalini Jain
-  type: phd
+- name: Kuldeep Gautam
+  type: mtech
+  url:
+    value: 1
+    link: kgautam.github.io
   photo: rock.jpg
-  info: PhD, started August 2015
+  info: M.Tech RA, started January 2020
   email: cs15resch11010@iith.ac.in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+  interests: Compiler Optimizations, Deep Learning in Compilers
 
-- name: Shalini Jain
-  type: phd
+- name: Anilava Kundu
+  type: mtech
+  url:
+    value: 0
+    link:
   photo: rock.jpg
-  info: PhD, started August 2015
+  info: M.Tech RA, started January 2020
   email: cs15resch11010@iith.ac.in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+  interests: Static Analysis,Code Compliance in Critical Systems
 
-- name: Shalini Jain
-  type: phd
-  photo: rock.jpg
-  info: PhD, started August 2015
-  email: cs15resch11010@iith.ac.in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+- name: Rahul Utkoor
+  type: alum
+  info: B.Tech + M.Tech, 2014-2019
 
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="http://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
-  email: 
-  number_educ: 0
-  education1:  
-  education2:  
-  education3: 
-  education4:  
+- name: Abhishek A Patwardhan
+  type: alum
+  info: M.Tech, 2015-2018
+
+- name: Dangeti Tharun Kumar
+  type: alum
+  info: M.Tech, 2015-2018
+
+- name: Gayatri PK
+  type: alum
+  info: M.S., 2015-2019
+
+- name: Prateek Bhatu
+  type: alum
+  info: B.Tech + M.Tech, 2015-2017
+
+- name: Santanu Das
+  type: alum
+  info: M.Tech, 2015-2018
+
+- name: Anirudh Sundar Subramaniam
+  type: alum
+  info: M.Tech, 2016-2018
+
+# - name: "This could be you !"
+#   photo: rock.jpg
+#   info: See <a href="http://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
+#   email: 
+#   number_educ: 0
+#   education1:  
+#   education2:  
+#   education3: 
+#   education4:  
