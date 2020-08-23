@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 
-# Group Members
+# Team Members
 
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **.**
 
@@ -28,7 +28,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
   <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>{{ member.info }}<br><b>Email</b>: {{ member.email }}</i>
   <ul style="overflow: hidden">
   
   {% if member.number_educ == 1 %}
@@ -93,13 +93,13 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
   <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   {% if member.url.value == 1 %}
-  <h4><a href="{{ member.url.link }}">{{ member.name }}</a></h4>
-  <i>{{ member.info }}<br><b>email:</b> <{{ member.email }}><br><b>Research Interests:</b> {{ member.interests }}</i>
+  <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
+  <i>{{ member.info }}<br><b>Email:</b> {{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
 
   {% if member.url.value == 0 %}
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br><b>email:</b> <{{ member.email }}><br><b>Research Interests:</b> {{ member.interests }}</i>
+  <i>{{ member.info }}<br><b>Email:</b> {{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
 
 </div>
@@ -133,13 +133,13 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
   <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   {% if member.url.value == 1 %}
-  <h4><a href="{{ member.url.link }}">{{ member.name }}</a></h4>
-  <i>{{ member.info }}<br><b>email:</b> <{{ member.email }}><br><b>Research Interests:</b> {{ member.interests }}</i>
+  <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
+  <i>{{ member.info }}<br><b>Email:</b> {{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
 
   {% if member.url.value == 0 %}
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br><b>email:</b> <{{ member.email }}><br><b>Research Interests:</b> {{ member.interests }}</i>
+  <i>{{ member.info }}<br><b>Email:</b> {{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
 </div>
 {% endif %}

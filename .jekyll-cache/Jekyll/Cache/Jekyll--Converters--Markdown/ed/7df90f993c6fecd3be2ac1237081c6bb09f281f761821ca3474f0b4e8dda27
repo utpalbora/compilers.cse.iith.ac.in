@@ -1,4 +1,4 @@
-I"Ê2<h1 id="group-members">Group Members</h1>
+I"±1<h1 id="team-members">Team Members</h1>
 
 <p><strong>We are  looking for new PhD students, Postdocs, and Master students to join the team</strong> <a href="http://localhost:4000/vacancies">(see openings)</a> <strong>.</strong></p>
 
@@ -12,7 +12,7 @@
     <p><img src="http://localhost:4000/images/teampic/rama.png" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
   <!--<img src="http://localhost:4000/images/teampic/rama.png" class="img-responsive" width="25%" style="float: left" />--></p>
     <h4>Ramakrishna Upadrasta</h4>
-    <p><i>Assistant Professor, started March 2014<br />email: <a href="mailto:ramakrishna@iith.ac.in">ramakrishna@iith.ac.in</a></i></p>
+    <p><i>Assistant Professor, started March 2014<br />email: ramakrishna [AT] iith [dot] ac [dot] in</i></p>
     <ul style="overflow: hidden">
   
   
@@ -76,8 +76,8 @@
     <p><img src="http://localhost:4000/images/teampic/utpal.jpg" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
   <!--<img src="http://localhost:4000/images/teampic/utpal.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
-    <h4><a href="utpalbora.com">Utpal Bora</a></h4>
-    <p><i>PhD, started July 2015 (Previously M.Tech TA from August 2014 - July 2015)<br /><b>email:</b> <a href="mailto:cs14mtech11017@iith.ac.in">cs14mtech11017@iith.ac.in</a><br /><b>Research Interests:</b> Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection</i></p>
+    <h4><a href="utpalbora.com" target="_blank">Utpal Bora</a></h4>
+    <p><i>PhD, started July 2015 (Previously M.Tech TA from August 2014 - July 2015)<br /><b>email:</b> &lt;cs14mtech11017[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection</i></p>
 
   </div>
 
@@ -90,7 +90,7 @@
   <!--<img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
     <h4>Shalini Jain</h4>
-    <p><i>PhD, started August 2015<br /><b>email:</b> <a href="mailto:cs15resch11010@iith.ac.in">cs15resch11010@iith.ac.in</a><br /><b>Research Interests:</b> Compiler Optimizations, Compiler optimizations using machine learning, Profilers</i></p>
+    <p><i>PhD, started August 2015<br /><b>email:</b> &lt;cs15resch11010[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Compiler Optimizations, Compiler optimizations using machine learning, Profilers</i></p>
 
   </div>
 
@@ -99,7 +99,7 @@
   <!--<img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
     <h4>S. VenkataKeerthy</h4>
-    <p><i>PhD, started May 2020 (Previously M.Tech RA from August 2017 - May 2020)<br /><b>email:</b> <a href="mailto:cs15resch11010@iith.ac.in">cs15resch11010@iith.ac.in</a><br /><b>Research Interests:</b> Program Analysis and Compiler Optimizations, Machine Learning in Compilers and Programming Languages</i></p>
+    <p><i>PhD, started May 2020 (Previously M.Tech RA from August 2017 - May 2020)<br /><b>email:</b> &lt;cs17mtech11018[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Program Analysis and Compiler Optimizations, Machine Learning in Compilers and Programming Languages</i></p>
 
   </div>
 
@@ -150,7 +150,7 @@
   <!--<img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
     <h4>Rohit Aggarwal</h4>
-    <p><i>M.Tech RA, started August 2018<br /><b>email:</b> <a href="mailto:cs15resch11010@iith.ac.in">cs15resch11010@iith.ac.in</a><br /><b>Research Interests:</b> Program representation and Optimization with Machine Learnng</i></p>
+    <p><i>M.Tech RA, started August 2018<br /><b>email:</b> &lt;cs18mtech11030[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Program representation and Optimization with Machine Learnng</i></p>
 
   </div>
 
@@ -159,7 +159,7 @@
   <!--<img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
     <h4>Gagandeep Goyal</h4>
-    <p><i>M.Tech RA, started January 2019<br /><b>email:</b> <a href="mailto:cs15resch11010@iith.ac.in">cs15resch11010@iith.ac.in</a><br /><b>Research Interests:</b> Deep Learning in Compilers,Program representation, Polyhedral Compilation and Compiler Optimization</i></p>
+    <p><i>M.Tech RA, started January 2019<br /><b>email:</b> &lt;cs19mtech01003[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Deep Learning in Compilers,Program representation, Polyhedral Compilation and Compiler Optimization</i></p>
 
   </div>
 
@@ -172,7 +172,7 @@
   <!--<img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
     <h4>Nilesh Shah</h4>
-    <p><i>M.Tech RA, started August 2019<br /><b>email:</b> <a href="mailto:cs15resch11010@iith.ac.in">cs15resch11010@iith.ac.in</a><br /><b>Research Interests:</b> Polyhedral Compilation, Compiler Optimizations</i></p>
+    <p><i>M.Tech RA, started August 2019<br /><b>email:</b> &lt;cs19mtech11021[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Polyhedral Compilation, Compiler Optimizations</i></p>
 
   </div>
 
@@ -181,7 +181,7 @@
   <!--<img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
     <h4>Shailendra Dilip Singh</h4>
-    <p><i>M.Tech TA, started August 2019<br /><b>email:</b> <a href="mailto:cs15resch11010@iith.ac.in">cs15resch11010@iith.ac.in</a><br /><b>Research Interests:</b> Compiler Optimization using Deep Learning</i></p>
+    <p><i>M.Tech TA, started August 2019<br /><b>email:</b> &lt;cs19mtech11018[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Compiler Optimization using Deep Learning</i></p>
 
   </div>
 
@@ -190,11 +190,11 @@
 <div class="row">
 
   <div class="col-sm-6 clearfix">
-    <p><img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
-  <!--<img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
+    <p><img src="http://localhost:4000/images/teampic/kuldeep.jpg" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
+  <!--<img src="http://localhost:4000/images/teampic/kuldeep.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
-    <h4><a href="kgautam.github.io">Kuldeep Gautam</a></h4>
-    <p><i>M.Tech RA, started January 2020<br /><b>email:</b> <a href="mailto:cs15resch11010@iith.ac.in">cs15resch11010@iith.ac.in</a><br /><b>Research Interests:</b> Compiler Optimizations, Deep Learning in Compilers</i></p>
+    <h4><a href="kgautam.github.io" target="_blank">Kuldeep Gautam</a></h4>
+    <p><i>M.Tech RA, started January 2020<br /><b>email:</b> &lt;cs20mtech01004[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Compiler Optimizations, Deep Learning in Compilers</i></p>
 
   </div>
 
@@ -203,7 +203,7 @@
   <!--<img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />--></p>
 
     <h4>Anilava Kundu</h4>
-    <p><i>M.Tech RA, started January 2020<br /><b>email:</b> <a href="mailto:cs15resch11010@iith.ac.in">cs15resch11010@iith.ac.in</a><br /><b>Research Interests:</b> Static Analysis,Code Compliance in Critical Systems</i></p>
+    <p><i>M.Tech RA, started January 2020<br /><b>email:</b> &lt;cs20mtech01002[at]iith[dot]ac[dot]in&gt;<br /><b>Research Interests:</b> Static Analysis,Code Compliance in Critical Systems</i></p>
 
   </div>
 
@@ -312,11 +312,7 @@
 
 </div>
 
-<div>
-
-  <p>&lt;/&gt;</p>
-
-  <!-- ## Master and Bachelor Students 
+<!-- ## Master and Bachelor Students 
 
 
 
@@ -435,7 +431,7 @@
 
  -->
 
-  <!-- ## Alumni
+<!-- ## Alumni
 
 <table align="center" style="width:100%">
   <tr>
@@ -489,5 +485,4 @@
 ## Administrative Support
 <a href="mailto:ramanjaneyulu@iith.ac.in">Ramanjaneyulu Narayana</a> is helping us (and other groups) with administration. -->
 
-</div>
 :ET
