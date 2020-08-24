@@ -1,5 +1,19 @@
-- date: 29. August 2018
+- date: 2018-08-29
+  status: "Launch Event"
   headline: "Compilers team got a website!!"
 
-- date: 01. March 2014
+- date: 2020-08-16
+  status: "Paper Accepted"
+  headline: "Congratulations to Utpal Bora for the paper acceptance on LLOV:Static data Race Checker in TACO2020."
+
+- date: 2020-08-16
+  status: "Paper Accepted"
+  headline: "Congratulations! Venkata's paper on IR2Vec gets accepted at TACO2020."
+
+- date: 2018-08-29
+  status: "Launch Event"
+  headline: "Compilers team got a website!!"
+
+- date: 2014-03-01
+  status: "Lets get started"
   headline: Welcome, <b> our lab is officially starting</b>!
