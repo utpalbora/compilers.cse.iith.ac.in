@@ -4,7 +4,7 @@
 {% assign dates = site.data.news | group_by: "date" %}
 {% assign dateSorted = dates  | sort: "name" | reverse %}
 
-{% for y in dateSorted limit:9 %}
+{% for y in dateSorted limit:5 %}
 	{% assign articles = y.items %}
 	{% for article in articles %}
 	{{ article.date }}
