@@ -13,6 +13,6 @@ permalink: /news
    {% assign sortedItems = y.items %}
    {% for article in sortedItems %}
    <p>({{ article.date }}) : {{article.status}}<br>
-   <em>{{ article.headline }}</em></p>
+   <em>{{ article.headline }} {% if article.url != "" %} [<a href="{{ article.url}}">LINK</a>]{% endif %}</em></p>
    {% endfor %}
 {% endfor %}
