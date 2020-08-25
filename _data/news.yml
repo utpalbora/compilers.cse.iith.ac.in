@@ -112,8 +112,8 @@
   headline: "Congratulations to Dangeti Tharun Kumar for getting selected as a Intern at Qualcomm India Pvt. Ltd."
   
 - date: 2015-05-22
-  status: "Pratik selected to Intern at LLVM Compiler Infrastructure"
-  headline: "Congratulations to Pratik Bhatu for getting selected as a Intern at LLVM Compiler Infrastructure."
+  status: "Pratik selected for GSoc at LLVM Compiler Infrastructure"
+  headline: "Congratulations to Pratik Bhatu for getting selected for GSoc at LLVM Compiler Infrastructure."
   
 - date: 2017-05-24
   status: "Pratik selected to Intern at Microsoft Research India"
@@ -124,8 +124,8 @@
   headline: "Congratulations to Utpal Bora for getting selected as a Intern at AMD India Pvt. Ltd."
   
 - date: 2016-05-02
-  status: "Utpal selected to Intern at LLVM Compiler Infrastructure"
-  headline: "Congratulations to Utpal Bora for getting selected as a Intern at LLVM Compiler Infrastructure."
+  status: "Utpal selected for GSoC at LLVM Compiler Infrastructure"
+  headline: "Congratulations to Utpal Bora for getting selected in GSoC at LLVM Compiler Infrastructure."
   
 - date: 2016-03-17
   status: "Utpal selected to Intern at University of Tokyo"
@@ -139,6 +139,41 @@
   status: "Gayatri selected to Intern at Qualcomm India Pvt. Ltd"
   headline: "Congratulations to Gayatri P K for getting selected as a Intern at Qualcomm India Pvt. Ltd."
   
+- date: 2017-10-14
+  status: "Talk by Shalini et al. at LLVM Developers' Meet"
+  headline: "Follow the talk by Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta on An LLVM based Loop Profiler at 2017 US Developers' Meeting."
+  
+- date: 2019-02-02
+  status: "Talk by Abhishek at OMASE"
+  headline: "Talk by Abhishek A Patwardhan on Exploting GPU caches By Polyhedral Compilation at OMASE 2019 (co-located with CGO 2019), Washington DC, USA (Virtual/online talk was given)."
+  
+- date: 2017-09-11
+  status: "Talk by Abhishek at CSE Departmental Seminar Series"
+  headline: "Follow the talk by Abhishek A Patwardhan on Polyhedral Compilation for High Performance Computing at CSE Departmental Seminar Series."
+  
+- date: 2017-11-13
+  status: "Talk by Tharun et al. at HPC"
+  headline: "Follow the talk by Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta on Improved Loop Distribution in LLVM using Polyhedral Dependences at The Fourth Workshop on the LLVM Compiler Infrastructure in HPC."
+  
+- date: 2020-02-23
+  status: "Talk by Utpal at CGO"
+  headline: "Follow the talk by Utpal Bora on LLOV: A Fast Static Data-Race Checker for OpenMP Programs at Fourth LLVM Performance Workshop at CGO."
+  
+- date: 2016-11-03
+  status: "Talk by Utpal et al. at LLVM Developers' Meet"
+  headline: "Follow the talk by Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta on Polly as an Analysis pass in LLVM at 2016 US LLVM Developers' Meeting."
+  
+- date: 2017-10-08
+  status: "Talk by Annanay et al. at LLVM Developers' Meet"
+  headline: "Follow the talk by Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and Ramakrishna Upadrastan on Enabling Polyhedral optimizations in TensorFlow through Polly at 2017 US LLVM Developers' Meeting."
+
+- date: 2016-11-17
+  status: "Talk by Nandini et al. at LLVM Developers' Meet"
+  headline: "Follow the talk by Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta on Reducing the Computational Complexity of RegionInfo at 2016 US LLVM Developers' Meeting."
+  
+- date: 2018-10-21
+  status: "Talk by Malhar at LLVM Developers' Meet"
+  headline: "Follow the talk by Malhar Thakkar on ISL Memory Management Using Clang Static Analyzer at 2018 US LLVM Developers' Meeting."
   
 - date: 2014-03-01
   status: "Lets get started"
