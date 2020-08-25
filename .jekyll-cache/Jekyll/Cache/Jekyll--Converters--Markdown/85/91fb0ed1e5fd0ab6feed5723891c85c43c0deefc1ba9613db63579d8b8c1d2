@@ -1,0 +1,608 @@
+I"Šf<h1 id="publications">Publications</h1>
+
+<h2 id="highlights">Highlights</h2>
+
+<p>(For a full list see <a href="#full-list">below</a> or go to <a href="https://scholar.google.ch/citations?user=3qZCtWYAAAAJ&amp;hl=en" target="_blank">Google Scholar</a>, <a href="https://dblp.org/pers/hd/u/Upadrasta:Ramakrishna" target="_blank">dblp</a>)</p>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul</em></p>
+      <p><strong><a href="https://arxiv.org/abs/2006.02230">PolyDL</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>PolyScientist: Automatic Loop Transformations Combined with Microkernels for Optimization of Deep Learning Primitives</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul</em></p>
+      <p><strong><a href="https://arxiv.org/abs/2002.02145">PolyScientist</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>LLOV: A Fast Static Data-Race Checker for OpenMP Programs</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye</em></p>
+      <p><strong><a href="https://arxiv.org/abs/1912.12189">LLOV</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>LLOV: A Fast Static Data-Race Checker for OpenMP Programs</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>P4LLVM: An LLVM Based P4 Compiler</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>S. VenkataKeerthy, Tharun Kumar. D and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="https://doi.org/10.1109/ICNP.2018.00059">P4LLVM</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>An analysis of executable size reduction by LLVM passes</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="https://doi.org/10.1007/s40012-019-00248-5"></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>IR2Vec: A Flow Analysis based Scalable Infrastructure for Program Encodings</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, Maunendra Desarkar, Ramakrishna Upadrasta and Y. N. Srikant</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Polyhedral Model Guided Automatic GPU Cache Exploitation Framework</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="http://impact.gforge.inria.fr/impact2019/papers/IMPACT_2019_paper_2.pdf"></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Best Poster Award</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="http://raiith.iith.ac.in/4130/1/texPPCG.pdf"></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Best M.Tech thesis Award</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="http://raiith.iith.ac.in/4129/"></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Academic Excellence Award</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>S. VenkataKeerthy</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Research Appreciation Award</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>S. VenkataKeerthy</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Academic Excellence Award</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Abhishek A Patwardhan</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Academic Excellence Award</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Anirudh Sundar S</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Best Poster Award</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Academic Excellence Award</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Utpal Bora</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit></pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em></em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Some Improvements to Branch Probability Information (BPI)</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>An LLVM based Loop Profiler</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>When Polyhedral Optimizations Meet Deep Learning Kernels</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="http://raiith.iith.ac.in/5200/1/HiPC%202017.pdf">HiPC_2017</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="http://raiith.iith.ac.in/4130/1/texPPCG.pdf">texPPCG 2016</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>A Comparative Study of Vectorization in Compilers</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing">Study of Vectorization 2016</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Polly as an Analysis pass in LLVM</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="https://drive.google.com/file/d/1myFb1MNbI7xCZhaj2YsO04Yex_RVH8Oh/view?usp=sharing">Polly as an Analysis pass in LLVM 2016</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Reducing the Computational Complexity of RegionInfo</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="https://drive.google.com/file/d/1LwK7fCa4hOTG9aWvQ0-qxvXSxJn8BnQ-/view?usp=sharing">Reducing the Computational Complexity of RegionInfo 2016</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>An LLVM based Loop Profiler</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="">LLVM based Loop Profiler</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Exploting GPU caches By Polyhedral Compilation</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="">Exploting GPU caches</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Polyhedral Compilation for High Performance Computing</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Abhishek A Patwardhan</em></p>
+      <p><strong><a href="">Polyhedral Compilation for High Performance Computing</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Polly as an Analysis pass in LLVM</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="http://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf">Polyhedral Compilation for High Performance Computing</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Enabling Polyhedral optimizations in TensorFlow through Polly</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href=""></a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>ISL Memory Management Using Clang Static Analyzer</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Malhar Thakkar, Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="https://youtu.be/AgHy_4cQzMU">ISL Memory Managementg</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Reducing the Computational Complexity of RegionInfo</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="https://www.youtube.com/watch?v=yOVeJtA5zxw">Reducing the Computational Complexity of RegionInfo</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Introduction to LLVM Compiler Infrastructure</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Utpal Bora &amp; Bhatu Pratik</em></p>
+      <p><strong><a href="https://docs.google.com/presentation/d/185UgWQ5RlNnITBziFH_GxFC9_XCoaVSwjN0a58Ga4Mg/edit?usp=sharing">Introduction to LLVM Compiler Infrastructure</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>LLOV: A Fast Static Data-Race Checker for OpenMP Programs</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye</em></p>
+      <p><strong><a href="https://llvm.org/devmtg/2020-02-23/">LLOV</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <pubtit>Improved Loop Distribution in LLVM using Polyhedral Dependences</pubtit>
+      <p><img src="http://localhost:4000/images/pubpic/" class="img-responsive" width="33%" style="float: left" /></p>
+      <p></p>
+      <p><em>Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta</em></p>
+      <p><strong><a href="https://llvm-hpc4-workshop.github.io/talks.html#grosser">Improved Loop Distribution in LLVM using Polyhedral Dependences</a></strong></p>
+      <p class="text-danger"><strong> </strong></p>
+      <p> </p>
+    </div>
+  </div>
+
+</div>
+
+<p> Â  </p>
+
+<h2 id="full-list">Full List</h2>
+
+<p>PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives <br />
+  <em>Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul </em><br /><a href="https://arxiv.org/abs/2006.02230">PolyDL</a></p>
+
+<p>PolyScientist: Automatic Loop Transformations Combined with Microkernels for Optimization of Deep Learning Primitives <br />
+  <em>Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul </em><br /><a href="https://arxiv.org/abs/2002.02145">PolyScientist</a></p>
+
+<p>LLOV: A Fast Static Data-Race Checker for OpenMP Programs <br />
+  <em>Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye </em><br /><a href="https://arxiv.org/abs/1912.12189">LLOV</a></p>
+
+<p>LLOV: A Fast Static Data-Race Checker for OpenMP Programs <br />
+  <em>Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye </em><br /><a href=""></a></p>
+
+<p>P4LLVM: An LLVM Based P4 Compiler <br />
+  <em>S. VenkataKeerthy, Tharun Kumar. D and Ramakrishna Upadrasta </em><br /><a href="https://doi.org/10.1109/ICNP.2018.00059">P4LLVM</a></p>
+
+<p>An analysis of executable size reduction by LLVM passes <br />
+  <em>Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta </em><br /><a href="https://doi.org/10.1007/s40012-019-00248-5"></a></p>
+
+<p>IR2Vec: A Flow Analysis based Scalable Infrastructure for Program Encodings <br />
+  <em>S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, Maunendra Desarkar, Ramakrishna Upadrasta and Y. N. Srikant </em><br /><a href=""></a></p>
+
+<p>Polyhedral Model Guided Automatic GPU Cache Exploitation Framework <br />
+  <em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta </em><br /><a href=""></a></p>
+
+<p>Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem <br />
+  <em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta </em><br /><a href="http://impact.gforge.inria.fr/impact2019/papers/IMPACT_2019_paper_2.pdf"></a></p>
+
+<p>Best Poster Award <br />
+  <em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta </em><br /><a href="http://raiith.iith.ac.in/4130/1/texPPCG.pdf"></a></p>
+
+<p>Best M.Tech thesis Award <br />
+  <em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta </em><br /><a href="http://raiith.iith.ac.in/4129/"></a></p>
+
+<p>Academic Excellence Award <br />
+  <em>S. VenkataKeerthy </em><br /><a href=""></a></p>
+
+<p>Research Appreciation Award <br />
+  <em>S. VenkataKeerthy </em><br /><a href=""></a></p>
+
+<p>Academic Excellence Award <br />
+  <em>Abhishek A Patwardhan </em><br /><a href=""></a></p>
+
+<p>Academic Excellence Award <br />
+  <em>Anirudh Sundar S </em><br /><a href=""></a></p>
+
+<p>Best Poster Award <br />
+  <em>Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta </em><br /><a href=""></a></p>
+
+<p>Academic Excellence Award <br />
+  <em>Utpal Bora </em><br /><a href=""></a></p>
+
+<p><br />
+  <em> </em><br /><a href=""></a></p>
+
+<p>Some Improvements to Branch Probability Information (BPI) <br />
+  <em>Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta </em><br /><a href=""></a></p>
+
+<p>An LLVM based Loop Profiler <br />
+  <em>Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta </em><br /><a href=""></a></p>
+
+<p>When Polyhedral Optimizations Meet Deep Learning Kernels <br />
+  <em>Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta </em><br /><a href="http://raiith.iith.ac.in/5200/1/HiPC%202017.pdf">HiPC_2017</a></p>
+
+<p>Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler <br />
+  <em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta </em><br /><a href="http://raiith.iith.ac.in/4130/1/texPPCG.pdf">texPPCG 2016</a></p>
+
+<p>A Comparative Study of Vectorization in Compilers <br />
+  <em>Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta </em><br /><a href="https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing">Study of Vectorization 2016</a></p>
+
+<p>Polly as an Analysis pass in LLVM <br />
+  <em>Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta </em><br /><a href="https://drive.google.com/file/d/1myFb1MNbI7xCZhaj2YsO04Yex_RVH8Oh/view?usp=sharing">Polly as an Analysis pass in LLVM 2016</a></p>
+
+<p>Reducing the Computational Complexity of RegionInfo <br />
+  <em>Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta </em><br /><a href="https://drive.google.com/file/d/1LwK7fCa4hOTG9aWvQ0-qxvXSxJn8BnQ-/view?usp=sharing">Reducing the Computational Complexity of RegionInfo 2016</a></p>
+
+<p>An LLVM based Loop Profiler <br />
+  <em>Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta </em><br /><a href="">LLVM based Loop Profiler</a></p>
+
+<p>Exploting GPU caches By Polyhedral Compilation <br />
+  <em>Abhishek A Patwardhan &amp; Ramakrishna Upadrasta </em><br /><a href="">Exploting GPU caches</a></p>
+
+<p>Polyhedral Compilation for High Performance Computing <br />
+  <em>Abhishek A Patwardhan </em><br /><a href="">Polyhedral Compilation for High Performance Computing</a></p>
+
+<p>Polly as an Analysis pass in LLVM <br />
+  <em>Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta </em><br /><a href="http://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf">Polyhedral Compilation for High Performance Computing</a></p>
+
+<p>Enabling Polyhedral optimizations in TensorFlow through Polly <br />
+  <em>Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and Ramakrishna Upadrasta </em><br /><a href=""></a></p>
+
+<p>ISL Memory Management Using Clang Static Analyzer <br />
+  <em>Malhar Thakkar, Ramakrishna Upadrasta </em><br /><a href="https://youtu.be/AgHy_4cQzMU">ISL Memory Managementg</a></p>
+
+<p>Reducing the Computational Complexity of RegionInfo <br />
+  <em>Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta </em><br /><a href="https://www.youtube.com/watch?v=yOVeJtA5zxw">Reducing the Computational Complexity of RegionInfo</a></p>
+
+<p>Introduction to LLVM Compiler Infrastructure <br />
+  <em>Utpal Bora &amp; Bhatu Pratik </em><br /><a href="https://docs.google.com/presentation/d/185UgWQ5RlNnITBziFH_GxFC9_XCoaVSwjN0a58Ga4Mg/edit?usp=sharing">Introduction to LLVM Compiler Infrastructure</a></p>
+
+<p>LLOV: A Fast Static Data-Race Checker for OpenMP Programs <br />
+  <em>Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye </em><br /><a href="https://llvm.org/devmtg/2020-02-23/">LLOV</a></p>
+
+<p>Improved Loop Distribution in LLVM using Polyhedral Dependences <br />
+  <em>Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta </em><br /><a href="https://llvm-hpc4-workshop.github.io/talks.html#grosser">Improved Loop Distribution in LLVM using Polyhedral Dependences</a></p>
+
+:ET
