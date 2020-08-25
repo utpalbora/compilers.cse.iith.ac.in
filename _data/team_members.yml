@@ -1,14 +1,15 @@
 - name: Ramakrishna Upadrasta
   type: faculty
   photo: rama.png
-  info: Assistant Professor, started March 2014
-  email: ramakrishna [AT] iith [DOT] ac [DOT] in
+  url: https://iith.ac.in/~ramakrishna/
+  info: Assistant Professor, started March, 2014
+  email: ramakrishna [AT] cse [DOT] iith [DOT] ac [DOT] in
   number_educ: 5
   education1: MTech from IISc Bangalore, India
   education2: MS from Colorado State University, USA, with <a href="https://www.cs.colostate.edu/~svr/">Prof. Sanjay Rajopadye</a>
-  education3: PhD AT University of Paris-Sud and INRIA, Paris, France, with <a href="https://who.rocq.inria.fr/Albert.Cohen/">Prof. Albert Cohen</a>
-  education4: Research Engineer AT INRIA, Paris
-  education5: Research Scholar AT Lawrence Livermore National Laboratories, USA
+  education3: PhD at University of Paris-Sud and INRIA, Paris, France, with <a href="https://who.rocq.inria.fr/Albert.Cohen/">Prof. Albert Cohen</a>
+  education4: Research Engineer at INRIA, Paris
+  education5: Research Scholar at Lawrence Livermore National Laboratories, USA
   education6: Compiler Engineer in Hewlett Packard, India
   education7: BTech from Andhra University, Visakhapatnam, India
   
@@ -16,9 +17,9 @@
   type: phd
   url:
     value: 1
-    link: utpalbora.com
+    link: http://utpalbora.com/
   photo: utpal.jpg
-  info: PhD, started July 2015 (Previously M.Tech TA from August 2014 - July 2015)
+  info: started July, 2015 (Previously M.Tech TA from August, 2014 - July, 2015)
   email: cs14mtech11017 [AT] iith [DOT] ac [DOT] in
   interests: Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection
   # number_educ: 2
@@ -38,8 +39,8 @@
   url:
     value: 0
     link:
-  photo: rock.jpg
-  info: PhD, started August 2015
+  photo: shalini.jpg
+  info: started August, 2015
   email: cs15resch11010 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
   # number_educ: 1
@@ -50,9 +51,9 @@
   url:
     value: 0
     link: 
-  photo: rock.jpg
-  info: PhD, started May 2020 (Previously M.Tech RA from August 2017 - May 2020)
-  email: cs17mtech11018 [AT] iith [DOT] ac [DOT] in
+  photo: venkat.jpg
+  info: started May, 2020 (Previously M.Tech RA from August, 2017 - May, 2020)
+  email: cs17m20p100001 [AT] iith [DOT] ac [DOT] in
   interests: Program Analysis and Compiler Optimizations, Machine Learning in Compilers and Programming Languages
 
 - name: Rohit Aggarwal
@@ -60,8 +61,8 @@
   url:
     value: 0
     link:
-  photo: rock.jpg
-  info: M.Tech RA, started August 2018
+  photo: rohit.jpg
+  info: M.Tech RA, started August, 2018
   email: cs18mtech11030 [AT] iith [DOT] ac [DOT] in
   interests: Program representation and Optimization with Machine Learnng
 
@@ -70,8 +71,8 @@
   url:
     value: 0
     link:
-  photo: rock.jpg
-  info: M.Tech RA, started January 2019
+  photo: gagan.jpg
+  info: M.Tech RA, started January, 2019
   email: cs19mtech01003 [AT] iith [DOT] ac [DOT] in
   interests: Deep Learning in Compilers,Program representation, Polyhedral Compilation and Compiler Optimization
 
@@ -80,8 +81,8 @@
   url:
     value: 0
     link:
-  photo: rock.jpg
-  info: M.Tech RA, started August 2019
+  photo: nilesh.jpg
+  info: M.Tech RA, started August, 2019
   email: cs19mtech11021 [AT] iith [DOT] ac [DOT] in
   interests: Polyhedral Compilation, Compiler Optimizations
 
@@ -90,8 +91,8 @@
   url:
     value: 0
     link:
-  photo: rock.jpg
-  info: M.Tech TA, started August 2019
+  photo: shailendra.jpg
+  info: M.Tech TA, started August, 2019
   email: cs19mtech11018 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization using Deep Learning
 
@@ -99,9 +100,9 @@
   type: mtech
   url:
     value: 1
-    link: kgautam01.github.io
+    link: http://kgautam01.github.io/
   photo: kuldeep.jpg
-  info: M.Tech RA, started January 2020
+  info: M.Tech RA, started January, 2020
   email: cs20mtech01004 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimizations, Deep Learning in Compilers
 
@@ -110,8 +111,8 @@
   url:
     value: 0
     link:
-  photo: rock.jpg
-  info: M.Tech RA, started January 2020
+  photo: anilava.jpg
+  info: M.Tech RA, started January, 2020
   email: cs20mtech01002 [AT] iith [DOT] ac [DOT] in
   interests: Static Analysis,Code Compliance in Critical Systems
 
@@ -121,11 +122,11 @@
 
 - name: Abhishek A Patwardhan
   type: alum
-  info: M.Tech, 2015-2018
+  info: M.Tech RA, 2015-2018
 
 - name: Dangeti Tharun Kumar
   type: alum
-  info: M.Tech, 2015-2018
+  info: M.Tech RA, 2015-2018
 
 - name: Gayatri PK
   type: alum
@@ -133,11 +134,11 @@
 
 - name: Prateek Bhatu
   type: alum
-  info: B.Tech + M.Tech, 2015-2017
+  info: B.Tech + M.Tech, 2012-2017
 
 - name: Santanu Das
   type: alum
-  info: M.Tech, 2015-2018
+  info: M.Tech RA, 2015-2018
 
 - name: Anirudh Sundar Subramaniam
   type: alum
