@@ -7,7 +7,7 @@
   image: ""
   link:
     url: "https://arxiv.org/abs/2006.02230"
-    display:  ""
+    display:  "PolyDL"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -23,7 +23,7 @@
   image: ""
   link:
     url: "https://arxiv.org/abs/2002.02145"
-    display:  ""
+    display:  "PolyScientist"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -40,7 +40,7 @@
   image: ""
   link:
     url: "https://arxiv.org/abs/1912.12189"
-    display:  ""
+    display:  "LLOV"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -50,7 +50,7 @@
 - title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
   authors: "Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye"
   description: ""
-  year: "2019"
+  year: "2020"
   publishedAt: "ACM Transactions on Architecture and Code Optimization (TACO)"
   type: "Conference"
   image: ""
@@ -71,7 +71,7 @@
   image: ""
   link:
     url: "https://doi.org/10.1109/ICNP.2018.00059"
-    display:  ""
+    display:  "P4LLVM"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -88,7 +88,11 @@
   image: ""
   link:
     url: "https://doi.org/10.1007/s40012-019-00248-5"
+<<<<<<< HEAD
     display:  ""
+=======
+    display:  "An analysis of executable size reduction by LLVM passes"
+>>>>>>> anilava
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -140,7 +144,7 @@
   image: ""
   link:
     url: "http://impact.gforge.inria.fr/impact2019/papers/IMPACT_2019_paper_2.pdf"
-    display:  ""
+    display:  "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -156,8 +160,8 @@
   type: "Awards"
   image: ""
   link:
-    url: ""
-    display:  ""
+    url: "http://raiith.iith.ac.in/4130/1/texPPCG.pdf"
+    display:  "Best Poster Award"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -173,8 +177,8 @@
   type: "Journel|Transaction|Conference"
   image: ""
   link:
-    url: ""
-    display:  ""
+    url: "http://raiith.iith.ac.in/4129/"
+    display:  "Best M.Tech thesis Award"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -413,7 +417,7 @@
   image: ""
   link:
     url: ""
-    display: "LLVM based Loop Profiler"
+    display: ""
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -488,7 +492,7 @@
   image: ""
   link:
     url: "https://youtu.be/AgHy_4cQzMU"
-    display: "ISL Memory Managementg"
+    display: "ISL Memory Management"
     slides: ""
     authorCopy: ""
   highlight: 1
