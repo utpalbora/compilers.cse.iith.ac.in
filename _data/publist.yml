@@ -88,11 +88,8 @@
   image: ""
   link:
     url: "https://doi.org/10.1007/s40012-019-00248-5"
-<<<<<<< HEAD
     display:  ""
-=======
     display:  "An analysis of executable size reduction by LLVM passes"
->>>>>>> anilava
     slides: ""
     authorCopy: ""
   highlight: 1
