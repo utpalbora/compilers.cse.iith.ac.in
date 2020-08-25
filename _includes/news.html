@@ -1,12 +1,17 @@
 
 <div class="well">
 <h4>News</h4>
+{% assign dates = site.data.news | group_by: "date" %}
+{% assign dateSorted = dates  | sort: "name" | reverse %}
 
-{% for article in site.data.news limit:9 %}
-{{ article.date }}
-<p><em>{{ article.headline }}</em></p>
+{% for y in dateSorted limit:5 %}
+	{% assign articles = y.items %}
+	{% for article in articles %}
+	{{ article.date }}
+	<p><em>{{ article.status }}</em></p>
+	{% endfor %}
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+<h4><a href="{{ site.url }}{{ site.baseurl }}/news">... see all News</a></h4>
     
     </div>

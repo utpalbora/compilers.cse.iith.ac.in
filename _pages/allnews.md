@@ -3,12 +3,16 @@ title: "News"
 layout: textlay
 excerpt: "IIT Hyderabad."
 sitemap: false
-permalink: /allnews.html
+permalink: /news
 ---
 
 # News
-
-{% for article in site.data.news %}
-<p>{{ article.date }} <br>
-<em>{{ article.headline }}</em></p>
+{% assign dates = site.data.news | group_by: "date" %}
+{% assign dateSorted = dates | sort: "name" | reverse %}
+{% for y in dateSorted %}
+   {% assign sortedItems = y.items %}
+   {% for article in sortedItems %}
+   <p>({{ article.date }}) : {{article.status}}<br>
+   <em>{{ article.headline }}</em></p>
+   {% endfor %}
 {% endfor %}

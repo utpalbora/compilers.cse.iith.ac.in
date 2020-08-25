@@ -1,5 +1,145 @@
-- date: 29. August 2018
-  headline: "Compilers team got a website!!"
+- date: 2018-07-08
+  status: "Paper on P4LLLVM gets accepted in P4EU"
+  headline: "Congratulations to S. VenkataKeerthy, Tharun Kumar. D and Ramakrishna Upadrasta for the paper acceptance on P4LLVM: An LLVM Based P4 Compiler at P4EU workshop in ICNP 2018 Conference."
 
-- date: 01. March 2014
+- date: 2019-01-02
+  status: "Paper on UTVPI-OA gets accepted in IMPACT"
+  headline: "Congratulations to Abhishek A Patwardhan & Ramakrishna Upadrasta for their paper acceptance on Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem at IMPACT workshop in HiPEAC 2019 conference."
+  
+- date: 2019-07-02
+  status: "Paper by Abhishek et al. gets accepted in HPCS"
+  headline: "Congratulations to Abhishek A Patwardhan & Ramakrishna Upadrasta for their paper acceptance on Polyhedral Model Guided Automatic GPU Cache Exploitation Framework at HPCS 2019."
+  
+- date: 2019-06-05
+  status: "Paper by Shalini et al. gets accepted in CSI Transactions on ICT"
+  headline: "Congratulations to Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta for their paper acceptance on An analysis of executable size reduction by LLVM passes at CSI Transactions on ICT."
+  
+- date: 2016-12-16
+  status: "Poster on Texturizing PPCG gets accepted in IEEE"
+  headline: "Congratulations to Abhishek A Patwardhan & Ramakrishna Upadrasta for their poster acceptance on 'Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler' at IEEE International Conference on High Performance Computing, Hyderabad, India."
+  
+- date: 2017-12-11
+  status: "Poster by Hrishikesh et al. gets accepted in IEEE"
+  headline: "Congratulations to Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta for their poster acceptance on 'When Polyhedral Optimizations Meet Deep Learning Kernels' at IEEE International Conference on High Performance Computing, Jaipur, India."
+  
+- date: 2017-10-13
+  status: "Poster on An LLVM based Loop Profiler gets accepted in LLVM"
+  headline: "Congratulations to Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta for their poster acceptance on 'An LLVM based Loop Profiler' at LLVM Developers' Meeting 2017."
+  
+- date: 2020-01-20
+  status: "Poster on BPI gets accepted in LLVM"
+  headline: "Congratulations to Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta for their poster acceptance on 'Some Improvements to Branch Probability Information (BPI)' at LLVM Developers' Meeting 2020."
+  
+- date: 2016-12-22
+  status: "Poster on Study of Vectorization gets accepted in IEEE"
+  headline: "Congratulations to Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta for their poster acceptance on 'A Comparative Study of Vectorization in Compilers' at IEEE International Conference on High Performance Computing, Hyderabad, India."
+  
+- date: 2016-12-22
+  status: "Poster on Study of Vectorization gets accepted in IEEE"
+  headline: "Congratulations to Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta for their poster acceptance on 'A Comparative Study of Vectorization in Compilers' at IEEE International Conference on High Performance Computing, Hyderabad, India."
+  
+- date: 2016-11-11
+  status: "Poster on Polly as an Analysis pass in LLVM gets accepted in LLVM"
+  headline: "Congratulations to Utpal Bora, Johannes Doerfert, Tobias Grosser,
+  Venugopal Raghavan and Ramakrishna Upadrasta for their poster acceptance on 'Polly as an Analysis pass in LLVM' at  LLVM Developers' Meeting 2016."
+  
+- date: 2016-11-11
+  status: "Poster by Nandini Singhal et al. gets accepted in LLVM"
+  headline: "Congratulations to Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta for their poster acceptance on 'Reducing the Computational Complexity of RegionInfo' at  LLVM Developers' Meeting 2016."
+  
+- date: 2020-08-16
+  status: "Paper on LLOV gets accepted in TACO"
+  headline: "Congratulations to Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye for their paper acceptance on LLOV: A Fast Static Data-Race Checker for OpenMP Programs in TACO."
+
+- date: 2020-08-16
+  status: "Paper on IR2Vec gets accepted in TACO"
+  headline: "Congratulations to S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, Maunendra Desarkar, Ramakrishna Upadrasta and Y. N. Srikant for their paper acceptance on IR2Vec: A Flow Analysis based Scalable Infrastructure for Program Encodings at TACO."
+
+- date: 2018-07-29
+  status: "Abhishek Wins Best M.Tech thesis Award"
+  headline: "Congratulations to Abhishek A Patwardhan (Guide:Ramakrishna Upadrasta) for winning the Best M.Tech thesis Award."
+  
+- date: 2016-12-15
+  status: "Abhishek Wins Best Poster Award"
+  headline: "Congratulations to Abhishek A Patwardhan (Guide:Ramakrishna Upadrasta) for winning the Best Poster Award."
+  
+- date: 2019-03-19
+  status: "Venkat Wins Academic Excellence Award"
+  headline: "Congratulations to S. VenkataKeerthy (Guide:Ramakrishna Upadrasta) for winning the Academic Excellence Award."
+  
+- date: 2019-03-19
+  status: "Venkat Wins Research Appreciation Award"
+  headline: "Congratulations to S. VenkataKeerthy (Guide:Ramakrishna Upadrasta) for winning the Research Appreciation Award."
+  
+- date: 2017-03-21
+  status: "Abhishek Wins Academic Excellence Award"
+  headline: "Congratulations to Abhishek A Patwardhan (Guide:Ramakrishna Upadrasta) for winning the Academic Excellence Award."
+  
+- date: 2017-07-08
+  status: "Anirudh Wins Academic Excellence Award"
+  headline: "Congratulations to Anirudh Sundar S (Guide:Ramakrishna Upadrasta) for winning the Academic Excellence Award."
+  
+- date: 2016-12-26
+  status: "Santanu Wins Best Poster Award"
+  headline: "Congratulations to Santanu Das, D. Tharun Kumar, Utpal Bora and Ramakrishna Upadrasta for winning the Best Poster Award."
+  
+- date: 2015-03-18
+  status: "Utpal Wins Academic Excellence Award"
+  headline: "Congratulations to Utpal Bora (Guide:Ramakrishna Upadrasta) for winning the Academic Excellence Award."
+  
+- date: 2016-03-12
+  status: "Abhishek selected to Intern at University of Tokyo"
+  headline: "Congratulations to Abhishek A Patwardhan for getting selected as a Intern at University of Tokyo."
+  
+- date: 2017-07-07
+  status: "Anirudh selected to Intern at University of Tokyo"
+  headline: "Congratulations to Anirudh Sundar S for getting selected as a Intern at University of Tokyo."
+  
+- date: 2018-06-10
+  status: "Venkat selected to Intern at University of Tokyo"
+  headline: "Congratulations to S. VenkataKeerthy for getting selected as a Intern at University of Tokyo."
+  
+- date: 2018-01-11
+  status: "Santanu selected to Intern at Qualcomm India Pvt. Ltd"
+  headline: "Congratulations to Santanu Das for getting selected as a Intern at Qualcomm India Pvt. Ltd."
+
+- date: 2017-08-01
+  status: "Dangeti Tharun selected to Intern at University of Tokyo"
+  headline: "Congratulations to Dangeti Tharun Kumar for getting selected as a Intern at University of Tokyo."
+  
+- date: 2018-01-11
+  status: "Dangeti Tharun selected to Intern at Qualcomm India Pvt. Ltd"
+  headline: "Congratulations to Dangeti Tharun Kumar for getting selected as a Intern at Qualcomm India Pvt. Ltd."
+  
+- date: 2015-05-22
+  status: "Pratik selected to Intern at LLVM Compiler Infrastructure"
+  headline: "Congratulations to Pratik Bhatu for getting selected as a Intern at LLVM Compiler Infrastructure."
+  
+- date: 2017-05-24
+  status: "Pratik selected to Intern at Microsoft Research India"
+  headline: "Congratulations to Pratik Bhatu for getting selected as a Intern at Microsoft Research India."
+
+- date: 2015-01-08
+  status: "Utpal selected to Intern at AMD India Pvt. Ltd"
+  headline: "Congratulations to Utpal Bora for getting selected as a Intern at AMD India Pvt. Ltd."
+  
+- date: 2016-05-02
+  status: "Utpal selected to Intern at LLVM Compiler Infrastructure"
+  headline: "Congratulations to Utpal Bora for getting selected as a Intern at LLVM Compiler Infrastructure."
+  
+- date: 2016-03-17
+  status: "Utpal selected to Intern at University of Tokyo"
+  headline: "Congratulations to Utpal Bora for getting selected as a Intern at University of Tokyo."
+  
+- date: 2015-06-05
+  status: "Utpal selected to Intern at Ritsumeikan University"
+  headline: "Congratulations to Utpal Bora for getting selected as a Intern at Ritsumeikan University."
+  
+- date: 2019-01-05
+  status: "Gayatri selected to Intern at Qualcomm India Pvt. Ltd"
+  headline: "Congratulations to Gayatri P K for getting selected as a Intern at Qualcomm India Pvt. Ltd."
+  
+  
+- date: 2014-03-01
+  status: "Lets get started"
   headline: Welcome, <b> our lab is officially starting</b>!
