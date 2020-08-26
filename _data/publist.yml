@@ -7,7 +7,7 @@
   image: ""
   link:
     url: "https://arxiv.org/abs/2006.02230"
-    display:  "PolyDL"
+    display:  "arxiv"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -23,80 +23,12 @@
   image: ""
   link:
     url: "https://arxiv.org/abs/2002.02145"
-    display:  "PolyScientist"
+    display:  "arxiv"
     slides: ""
     authorCopy: ""
   highlight: 1
-  news2: 
+  news2:  
 
-
- 
-- title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
-  authors: "Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye"
-  description: ""
-  year: "2019"
-  publishedAt: "arxiv"
-  type: "Conference"
-  image: ""
-  link:
-    url: "https://arxiv.org/abs/1912.12189"
-    display:  "LLOV"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
-- title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
-  authors: "Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye"
-  description: ""
-  year: "2020"
-  publishedAt: "ACM Transactions on Architecture and Code Optimization (TACO)"
-  type: "Conference"
-  image: ""
-  link:
-    url: ""
-    display:  ""
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-- title: "P4LLVM: An LLVM Based P4 Compiler"
-  authors: "S. VenkataKeerthy, Tharun Kumar. D and Ramakrishna Upadrasta"
-  description: ""
-  year: "2018"
-  publishedAt: "P4WE workshop in International Conference on Network Protocols (ICNP)"
-  type: "Conference"
-  image: ""
-  link:
-    url: "https://doi.org/10.1109/ICNP.2018.00059"
-    display:  "P4LLVM"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "An analysis of executable size reduction by LLVM passes"
-  authors: "Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta"
-  description: ""
-  year: "2019"
-  publishedAt: "CSI Transaction on ICT"
-  type: "Conference"
-  image: ""
-  link:
-    url: "https://doi.org/10.1007/s40012-019-00248-5"
-    display:  "An analysis of executable size reduction by LLVM passes"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
- 
 - title: "IR2Vec: A Flow Analysis based Scalable Infrastructure for Program Encodings"
   authors: "S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, Maunendra Desarkar, Ramakrishna Upadrasta and Y. N. Srikant"
   description: ""
@@ -110,195 +42,24 @@
     slides: ""
     authorCopy: ""
   highlight: 1
-  news2: 
-
+  news2:
 
  
-- title: "Polyhedral Model Guided Automatic GPU Cache Exploitation Framework"
-  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
+- title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
+  authors: "Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye"
   description: ""
-  year: "2019"
-  publishedAt: "17th International Conference on High Performance Computing & Simulation (HPCS 2019) Special CADO session, Dublin, Ireland"
+  year: "2020"
+  publishedAt: "ACM Transactions on Architecture and Code Optimization (TACO)"
   type: "Conference"
   image: ""
   link:
-    url: ""
-    display:  ""
+    url: "https://arxiv.org/abs/1912.12189"
+    display:  "arxiv"
     slides: ""
     authorCopy: ""
   highlight: 1
-  news2: 
+  news2:
 
-
- 
-- title: "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
-  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
-  description: ""
-  year: "2019"
-  publishedAt: "9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain"
-  type: "Conference"
-  image: ""
-  link:
-    url: "http://impact.gforge.inria.fr/impact2019/papers/IMPACT_2019_paper_2.pdf"
-    display:  "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "Best Poster Award"
-  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
-  description: ""
-  year: "2016"
-  publishedAt: "IEEE International Conference on High Performance Computing, Hyderabad, India"
-  type: "Awards"
-  image: ""
-  link:
-    url: "http://raiith.iith.ac.in/4130/1/texPPCG.pdf"
-    display:  "Best Poster Award"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "Best M.Tech thesis Award"
-  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
-  description: ""
-  year: "2018"
-  publishedAt: "AMD India PVT LTD"
-  type: "Journel|Transaction|Conference"
-  image: ""
-  link:
-    url: "http://raiith.iith.ac.in/4129/"
-    display:  "Best M.Tech thesis Award"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "Academic Excellence Award"
-  authors: "S. VenkataKeerthy"
-  description: ""
-  year: "2019"
-  publishedAt: "IIT Hyderabad"
-  type: "Award"
-  image: ""
-  link:
-    url: ""
-    display:  ""
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "Research Appreciation Award"
-  authors: "S. VenkataKeerthy"
-  description: ""
-  year: "2019"
-  publishedAt: "IIT Hyderabad"
-  type: "Award"
-  image: ""
-  link:
-    url: ""
-    display:  ""
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "Academic Excellence Award"
-  authors: "Abhishek A Patwardhan"
-  description: ""
-  year: "2017"
-  publishedAt: "IIT Hyderabad"
-  type: "Award"
-  image: ""
-  link:
-    url: ""
-    display:  ""
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "Academic Excellence Award"
-  authors: "Anirudh Sundar S"
-  description: ""
-  year: "2017"
-  publishedAt: "IIT Hyderabad"
-  type: "Award"
-  image: ""
-  link:
-    url: ""
-    display:  ""
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "Best Poster Award"
-  authors: "Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta"
-  description: ""
-  year: "2016"
-  publishedAt: "IEEE International Conference on High Performance Computing, Hyderabad, India"
-  type: "Award"
-  image: ""
-  link:
-    url: ""
-    display:  ""
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: "Academic Excellence Award"
-  authors: "Utpal Bora"
-  description: ""
-  year: "2015"
-  publishedAt: "IIT Hyderabad"
-  type: "Award"
-  image: ""
-  link:
-    url: ""
-    display:  ""
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
-
-
- 
-- title: ""
-  authors: ""
-  description: ""
-  year: ""
-  publishedAt: ""
-  type: "Journel|Transaction|Conference"
-  image: ""
-  link:
-    url: ""
-    display:  ""
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2: 
- 
 - title: "Some Improvements to Branch Probability Information (BPI)"
   authors: "Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta"
   description: ""
@@ -313,7 +74,112 @@
     authorCopy: ""
   highlight: 1
   news2:
+ 
+- title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
+  authors: "Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye"
+  description: ""
+  year: "2020"
+  publishedAt: "Fourth LLVM Performance Workshop at CGO"
+  type: "Talks"
+  image: ""
+  link:
+    url: "https://llvm.org/devmtg/2020-02-23/"
+    display: "Slides"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
 
+- title: "An analysis of executable size reduction by LLVM passes"
+  authors: "Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta"
+  description: ""
+  year: "2019"
+  publishedAt: "CSI Transaction on ICT"
+  type: "Conference"
+  image: ""
+  link:
+    url: "https://doi.org/10.1007/s40012-019-00248-5"
+    display:  "Paper"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2: 
+
+- title: "Polyhedral Model Guided Automatic GPU Cache Exploitation Framework"
+  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
+  description: ""
+  year: "2019"
+  publishedAt: "17th International Conference on High Performance Computing & Simulation (HPCS 2019) Special CADO session, Dublin, Ireland"
+  type: "Conference"
+  image: ""
+  link:
+    url: ""
+    display:  ""
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
+
+- title: "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
+  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
+  description: ""
+  year: "2019"
+  publishedAt: "9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain"
+  type: "Conference"
+  image: ""
+  link:
+    url: "http://impact.gforge.inria.fr/impact2019/papers/IMPACT_2019_paper_2.pdf"
+    display:  "PDF"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2: 
+
+- title: "Exploting GPU caches By Polyhedral Compilation"
+  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
+  description: ""
+  year: "2019"
+  publishedAt: "OMASE 2019 (co-located with CGO 2019), Washington DC, USA (Virtual/online talk was given)"
+  type: "Talks"
+  image: ""
+  link:
+    url: ""
+    display: ""
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
+
+- title: "P4LLVM: An LLVM Based P4 Compiler"
+  authors: "S. VenkataKeerthy, Tharun Kumar. D and Ramakrishna Upadrasta"
+  description: ""
+  year: "2018"
+  publishedAt: "P4WE workshop in International Conference on Network Protocols (ICNP)"
+  type: "Conference"
+  image: ""
+  link:
+    url: "https://doi.org/10.1109/ICNP.2018.00059"
+    display:  "Paper"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
+
+- title: "ISL Memory Management Using Clang Static Analyzer"
+  authors: "Malhar Thakkar, Ramakrishna Upadrasta"
+  description: ""
+  year: "2018"
+  publishedAt: "2018 US LLVM Developers' Meeting"
+  type: "Talks"
+  image: ""
+  link:
+    url: "https://youtu.be/AgHy_4cQzMU"
+    display: "Video"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2: 
+   
 - title: "An LLVM based Loop Profiler"
   authors: "Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta"
   description: ""
@@ -338,67 +204,7 @@
   image: ""
   link:
     url: "http://raiith.iith.ac.in/5200/1/HiPC%202017.pdf"
-    display:  "HiPC_2017"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2:
-
-- title: "Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler"
-  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
-  description: ""
-  year: "2016"
-  publishedAt: "IEEE International Conference on High Performance Computing, Hyderabad, India"
-  type: "Posters"
-  image: ""
-  link:
-    url: "http://raiith.iith.ac.in/4130/1/texPPCG.pdf"
-    display:  "texPPCG 2016"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2:
-
-- title: "A Comparative Study of Vectorization in Compilers"
-  authors: "Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta"
-  description: ""
-  year: "2016"
-  publishedAt: "IEEE International Conference on High Performance Computing, Hyderabad, India"
-  type: "Posters"
-  image: ""
-  link:
-    url: "https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing"
-    display:  "Study of Vectorization 2016"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2:
-
-- title: "Polly as an Analysis pass in LLVM"
-  authors: "Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta"
-  description: ""
-  year: "2016"
-  publishedAt: "2016 US LLVM Developers' Meeting"
-  type: "Posters"
-  image: ""
-  link:
-    url: "https://drive.google.com/file/d/1myFb1MNbI7xCZhaj2YsO04Yex_RVH8Oh/view?usp=sharing"
-    display:  "Polly as an Analysis pass in LLVM 2016"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2:
-
-- title: "Reducing the Computational Complexity of RegionInfo"
-  authors: "Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta"
-  description: ""
-  year: "2016"
-  publishedAt: "2016 US LLVM Developers' Meeting"
-  type: "Posters"
-  image: ""
-  link:
-    url: "https://drive.google.com/file/d/1LwK7fCa4hOTG9aWvQ0-qxvXSxJn8BnQ-/view?usp=sharing"
-    display:  "Reducing the Computational Complexity of RegionInfo 2016"
+    display:  "PDF"
     slides: ""
     authorCopy: ""
   highlight: 1
@@ -419,21 +225,6 @@
   highlight: 1
   news2:
 
-- title: "Exploting GPU caches By Polyhedral Compilation"
-  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
-  description: ""
-  year: "2019"
-  publishedAt: "OMASE 2019 (co-located with CGO 2019), Washington DC, USA (Virtual/online talk was given)"
-  type: "Talks"
-  image: ""
-  link:
-    url: ""
-    display: "Exploting GPU caches"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2:
-
 - title: "Polyhedral Compilation for High Performance Computing"
   authors: "Abhishek A Patwardhan"
   description: ""
@@ -443,23 +234,8 @@
   image: ""
   link:
     url: ""
-    display: "Polyhedral Compilation for High Performance Computing"
+    display: ""
     slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2:
-
-- title: "Polly as an Analysis pass in LLVM"
-  authors: "Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta"
-  description: ""
-  year: "2016"
-  publishedAt: "2016 US LLVM Developers' Meeting"
-  type: "Talks"
-  image: ""
-  link:
-    url: "http://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf"
-    display: "Polyhedral Compilation for High Performance Computing"
-    slides: "http://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf"
     authorCopy: ""
   highlight: 1
   news2:
@@ -479,18 +255,93 @@
   highlight: 1
   news2:
 
-- title: "ISL Memory Management Using Clang Static Analyzer"
-  authors: "Malhar Thakkar, Ramakrishna Upadrasta"
+- title: "Improved Loop Distribution in LLVM using Polyhedral Dependences"
+  authors: "Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta"
   description: ""
-  year: "2018"
-  publishedAt: "2018 US LLVM Developers' Meeting"
+  year: "2017"
+  publishedAt: "The Fourth Workshop on the LLVM Compiler Infrastructure in HPC"
   type: "Talks"
   image: ""
   link:
-    url: "https://youtu.be/AgHy_4cQzMU"
-    display: "ISL Memory Management"
+    url: "https://llvm-hpc4-workshop.github.io/talks.html#grosser"
+    display: "Github"
     slides: ""
     authorCopy: ""
+  highlight: 1
+  news2:
+
+
+- title: "Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler"
+  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
+  description: ""
+  year: "2016"
+  publishedAt: "IEEE International Conference on High Performance Computing, Hyderabad, India"
+  type: "Posters"
+  image: ""
+  link:
+    url: "http://raiith.iith.ac.in/4130/1/texPPCG.pdf"
+    display:  "PDF"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
+
+- title: "A Comparative Study of Vectorization in Compilers"
+  authors: "Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta"
+  description: ""
+  year: "2016"
+  publishedAt: "IEEE International Conference on High Performance Computing, Hyderabad, India"
+  type: "Posters"
+  image: ""
+  link:
+    url: "https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing"
+    display:  "Slides"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
+
+- title: "Polly as an Analysis pass in LLVM"
+  authors: "Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta"
+  description: ""
+  year: "2016"
+  publishedAt: "2016 US LLVM Developers' Meeting"
+  type: "Posters"
+  image: ""
+  link:
+    url: "https://drive.google.com/file/d/1myFb1MNbI7xCZhaj2YsO04Yex_RVH8Oh/view?usp=sharing"
+    display:  "Slides"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
+
+- title: "Reducing the Computational Complexity of RegionInfo"
+  authors: "Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta"
+  description: ""
+  year: "2016"
+  publishedAt: "2016 US LLVM Developers' Meeting"
+  type: "Posters"
+  image: ""
+  link:
+    url: "https://drive.google.com/file/d/1LwK7fCa4hOTG9aWvQ0-qxvXSxJn8BnQ-/view?usp=sharing"
+    display:  "Slides"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
+
+
+- title: "Polly as an Analysis pass in LLVM"
+  authors: "Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta"
+  description: ""
+  year: "2016"
+  publishedAt: "2016 US LLVM Developers' Meeting"
+  type: "Talks"
+  image: ""
+  link:
+    url: "http://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf"
+    display: "Slides"	
   highlight: 1
   news2:
 
@@ -503,9 +354,10 @@
   image: ""
   link:
     url: "https://www.youtube.com/watch?v=yOVeJtA5zxw"
-    display: "Reducing the Computational Complexity of RegionInfo"
-    slides: "http://llvm.org/devmtg/2016-11/Slides/Singhal-ReducingTheComputationalComplexity.pdf"
-    authorCopy: ""
+    display: "Video"
+  slides: 
+     url: "http://llvm.org/devmtg/2016-11/Slides/Singhal-ReducingTheComputationalComplexity.pdf"
+     display: "Slides"	  
   highlight: 1
   news2:
 
@@ -518,40 +370,6 @@
   image: ""
   link:
     url: "https://docs.google.com/presentation/d/185UgWQ5RlNnITBziFH_GxFC9_XCoaVSwjN0a58Ga4Mg/edit?usp=sharing"
-    display: "Introduction to LLVM Compiler Infrastructure"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2:
-
-
-- title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
-  authors: "Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye"
-  description: ""
-  year: "2020"
-  publishedAt: "Fourth LLVM Performance Workshop at CGO"
-  type: "Talks"
-  image: ""
-  link:
-    url: "https://llvm.org/devmtg/2020-02-23/"
-    display: "LLOV"
-    slides: ""
-    authorCopy: ""
-  highlight: 1
-  news2:
-
-
-- title: "Improved Loop Distribution in LLVM using Polyhedral Dependences"
-  authors: "Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta"
-  description: ""
-  year: "2017"
-  publishedAt: "The Fourth Workshop on the LLVM Compiler Infrastructure in HPC"
-  type: "Talks"
-  image: ""
-  link:
-    url: "https://llvm-hpc4-workshop.github.io/talks.html#grosser"
-    display: "Improved Loop Distribution in LLVM using Polyhedral Dependences"
-    slides: ""
-    authorCopy: ""
+    display: "Slides" 	
   highlight: 1
   news2:
