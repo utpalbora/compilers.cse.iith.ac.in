@@ -18,7 +18,7 @@ permalink: /research/
 }
 </style>
 
-## Research Domain
+## Research Domains
 Our broad research is in Programming Languages and Compilers. More specifically, following are the research areas we are currently working on.
 
 ### Static analysis and Program Optimizations
