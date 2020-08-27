@@ -1,6 +1,6 @@
 
 <div class="well">
-<h4>News</h4>
+<h4>Recent News</h4>
 {% assign dates = site.data.news | group_by: "date" %}
 {% assign dateSorted = dates  | sort: "name" | reverse %}
 

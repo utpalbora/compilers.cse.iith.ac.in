@@ -29,7 +29,7 @@
   headline: "Congratulations to Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta for their poster acceptance on 'When Polyhedral Optimizations Meet Deep Learning Kernels' at IEEE International Conference on High Performance Computing, Jaipur, India."
   
 - date: 2017-10-13
-  status: "lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM dev con"
+  status: "Lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM dev con"
   url: "https://youtu.be/MKhXpRNekaM"
   headline: "Congratulations to Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta for their poster acceptance on 'An LLVM based Loop Profiler' at LLVM Developers' Meeting 2017."
   
@@ -193,7 +193,7 @@
 - date: 2017-10-08
   status: "Talk by Annanay et al. at LLVM Developers' Meet"
   url: "https://youtu.be/uq67__tfdtQ"
-  headline: "Follow the talk by Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and Ramakrishna Upadrastan on Enabling Polyhedral optimizations in TensorFlow through Polly at 2017 US LLVM Developers' Meeting."
+  headline: "Follow the talk by Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and Ramakrishna Upadrasta on Enabling Polyhedral optimizations in TensorFlow through Polly at 2017 US LLVM Developers' Meeting."
   
 - date: 2018-10-21
   status: "Talk by Malhar at LLVM Developers' Meet"

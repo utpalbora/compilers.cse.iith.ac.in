@@ -49,7 +49,7 @@ permalink: /
 
 
 
- **We are looking for passionate new PhD students and MTech RA students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **Interested in the work we do? Join us** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
  
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_IITH.png" style="height: 80px">
