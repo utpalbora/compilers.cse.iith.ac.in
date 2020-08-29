@@ -26,9 +26,7 @@ Our broad research is in Programming Languages and Compilers. More specifically,
 * Detecting bugs at compile time reduces the risk of runtime failures, which can be fatal for safety critical systems. 
 * Program optimization can reduce the execution time of the program, thereby enhancing the performance and increasing user experience.
 <details>
-<summary class="dp" markdown='span'><b>LLOV</b>  <a href="https://github.com/utpalbora/LLOV" target="_blank"> <img  class="dp-img" alt="LLOV GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="15px" height="15px"></a>  </summary>
-
- <!-- **LLOV**  [![LLOV Github](https://github.githubassets.com/favicons/favicon.svg){:height="15px" width="15px"}](https://github.com/utpalbora/LLOV "LLOV GitHub"){:target="\_blank"} -->
+<summary class="dp" markdown='span'><b><a href="{{ site.url }}{{ site.baseurl }}/projects/llov/" target="_blank">LLOV</a></b> </summary>
 
 ##### LLOV is a fast, static, data-race checker for OpenMP programs. It is language-agnostic and can detect races in C/C++ and FORTRAN programs.
 
