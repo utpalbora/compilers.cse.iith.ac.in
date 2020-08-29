@@ -3,7 +3,7 @@ title: "News"
 layout: textlay
 excerpt: "IIT Hyderabad."
 sitemap: false
-permalink: /news
+permalink: /news/
 ---
 
 # News
