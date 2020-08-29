@@ -20,7 +20,7 @@ It also uses *ModRef* analysis to detect races in non-affine programs in a conse
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/llov/OmpVerify.jpeg" width="85%">
 </figure>
 
-LLOV has two phases, first it performs analysis on LLVM IR and then verification/race-detection using integer sets.
+LLOV has two phases, first it performs analysis on LLVM IR, and then performs verification/race-detection using integer sets.
 
 ### Internals
 #### Race detection in affine regions:
@@ -41,8 +41,8 @@ The above code segment can be represented mathematically using integer sets. We 
 </figure>
 
 The reduced dependence graph (RDG) for the above code segment is shown in figure 2.a.
-In order to detect parallel loops, projection of the RDG is taken on each dimension of the loop as shown in figure 2.b and 2.c.
-The above loop nest is parallel in outer dimension as can be seen from figure 2.b because of zero magnitude projections while 
+In order to detect parallel loops, projections of the RDG are taken on each dimension of the loop as shown in figure 2.b and 2.c.
+The above loop nest is parallel in outer dimension as can be seen from figure 2.b because of zero magnitude projections, whereas
 the inner loop is not parallel due to non-zero magnitude of the projections.
 The code segment has a race condition since the dependence across the inner dimension will be violated by this parallelization.
 <figure>
@@ -55,11 +55,7 @@ exactly modelled by Polly, we use LLVM’s Alias Analysis (AA) to conservatively
 regions that cannot be modelled by Polly.
 
 We use the Mod/Ref information from the Alias Analysis engine of LLVM to analyze
-whether a shared memory location is read (Ref) or modified (Mod) by an instruction. The AA
-engine provides generic helper functions to return the Mod/Ref information for a memory location
-and an instruction of one of the following types: callsite, load, store, atomic read-write, invoke, etc.
-The Mod and Ref bits are set for an instruction if the execution of the instruction might modify or
-reference the specified memory location.
+whether a shared memory location is read (Ref) or modified (Mod) by an instruction.
 
 If an operation inside a parallel region on the specified memory location is not protected by
 locks and Mod/Ref is set, LLOV flags a race signaling a potential data-race condition. The AA race
@@ -109,10 +105,10 @@ Since the coverage of LLOV and SWORD are not complete, figure 3.b shows time tak
 ![Build](https://github.com/utpalbora/LLOV/workflows/Build/badge.svg)
 ![Test](https://github.com/utpalbora/LLOV/workflows/Test/badge.svg)
 
-LLOV is available for free in our [GitHub](https://github.com/utpalbora/llov){:target="_blank"} page.
+LLOV is available free of cost on our [GitHub](https://github.com/utpalbora/llov){:target="_blank"} page.
 
 ### Contact
-If you have any issues, questions, comments or suggestions, feel free to reach out to us at [llov-dev@googlegroups.com](https://groups.google.com/g/llov-dev){:target="_blank"}
+For any issues, questions, comments or suggestions, feel free to reach out to us at [llov-dev@googlegroups.com](https://groups.google.com/g/llov-dev){:target="_blank"}
 
 <style type="text/css" rel="stylesheet">
 img.emoji {
