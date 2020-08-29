@@ -24,8 +24,8 @@ permalink: /publications/
   <p style="margin:0;padding:0;border:0;"><em><b>{{ publi.award.display }}</b></em></p>
   {% endif %}
   {% if publi.link or publi.slides or publi.github %}
-  <p style="margin:0;padding:0;border:0;">{% if publi.link.url!="" %} <strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}{% if publi.slides.url!="" %}<strong><a href="{{ publi.slides.url }}">{{ publi.slides.display }}</a>&nbsp;</strong>{% endif %}<strong><a href="{{ publi.github.url }}">{{ publi.github.display }}</a></strong></p>
-  {% endif %}	
+  <p style="margin:0;padding:0;border:0;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url }}" target="_blank">{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}{% if publi.slides.url!="" %}<strong><a href="{{ publi.slides.url }}" target="_blank">{{ publi.slides.display }}</a> &nbsp; </strong>{% endif %}<strong><a href="{{ publi.github.url }}" target="_blank">{{ publi.github.display }}</a></strong></p>
+  {% endif %}
 </div>
 {% endif %}
 {% endfor %}
