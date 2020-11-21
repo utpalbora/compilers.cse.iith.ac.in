@@ -1,3 +1,18 @@
+- date: 2020-11-01
+  status: "Paper on PolyDL gets accepted in TACO"
+  url: ""
+  headline: "Congratulations to SANKET TAVARAGERI, ALEXANDER HEINECKE, SASIKANTH AVANCHA, BHARAT KAUL, Intel Labs, GAGANDEEP GOYAL, RAMAKRISHNA UPADRASTA, IIT Hyderabad for their paper acceptance on PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives in TACO."
+
+- date: 2020-12-16
+  status: "Talk by Venkat et al. at FSTTCS Workshop"
+  url: "https://www.microsoft.com/en-us/research/event/research-highlights-in-programming-languages-fsttcs-2020/"
+  headline: "Follow the talk by S. VenkataKeerthy and Ramakrishna Upadrasta on IR2Vec: A Flow Analysis based Scalable Infrastructure for Program Encodings at The Lightning talk in Fourth LLVM Performance Workshop at CGO, 2020."
+
+- date: 2020-12-17
+  status: "Talk by Utpal et al. at FSTTCS Workshop"
+  url: "https://www.microsoft.com/en-us/research/event/research-highlights-in-programming-languages-fsttcs-2020/"
+  headline: "Follow the talk by Utpal Bora and Ramakrishna Upadrasta on LLOV: A Fast Static Data-Race Checker for OpenMP Programs in TACO at The Lightning talk in Fourth LLVM Performance Workshop at CGO, 2020."
+
 - date: 2018-07-08
   status: "Paper on P4LLLVM gets accepted in P4EU"
   url: ""
