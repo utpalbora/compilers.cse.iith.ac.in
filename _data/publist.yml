@@ -45,7 +45,7 @@
 
  
 - title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
-  authors: "Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye"
+  authors: "Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye"
   description: ""
   year: "2020"
   publishedAt: "ACM Transactions on Architecture and Code Optimization (TACO)"
@@ -73,10 +73,10 @@
   news2:
  
 - title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
-  authors: "Utpal Bora, Santanu Das, Pankaj Kureja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye"
+  authors: "Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye"
   description: ""
   year: "2020"
-  publishedAt: "Lightning talk in Fourth LLVM Performance Workshop at CGO"
+  publishedAt: "Technical talk in the Fourth LLVM Performance Workshop at CGO"
   type: "Talks"
   image: ""
   link:
