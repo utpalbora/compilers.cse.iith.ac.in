@@ -29,7 +29,7 @@
   headline: "Congratulations to Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta for their poster acceptance on 'When Polyhedral Optimizations Meet Deep Learning Kernels' at IEEE International Conference on High Performance Computing, Jaipur, India."
   
 - date: 2017-10-13
-  status: "Lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM dev con"
+  status: "Lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM Developers' Meetings"
   url: "https://youtu.be/MKhXpRNekaM"
   headline: "Congratulations to Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta for their poster acceptance on 'An LLVM based Loop Profiler' at LLVM Developers' Meeting 2017."
   
@@ -44,13 +44,13 @@
   headline: "Congratulations to Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta for their poster acceptance on 'A Comparative Study of Vectorization in Compilers' at IEEE International Conference on High Performance Computing, Hyderabad, India."
   
 - date: 2016-11-11
-  status: "lightning talk and poster by Utpal et al. on Polly as an Analysis pass in LLVM accepted in LLVM dev con"
+  status: "lightning talk and poster by Utpal et al. on Polly as an Analysis pass in LLVM accepted in LLVM Developers' Meetings"
   url: "https://www.youtube.com/watch?v=TIimzQtZ6UA"
   headline: "Congratulations to Utpal Bora, Johannes Doerfert, Tobias Grosser,
   Venugopal Raghavan and Ramakrishna Upadrasta for their poster acceptance on 'Polly as an Analysis pass in LLVM' at  LLVM Developers' Meeting 2016."
   
 - date: 2016-11-11
-  status: "lightning talk and poster by Nandini et al. accepted in LLVM dev con"
+  status: "lightning talk and poster by Nandini et al. accepted in LLVM Developers' Meetings"
   url: "https://www.youtube.com/watch?v=yOVeJtA5zxw"
   headline: "Congratulations to Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta for their poster acceptance on 'Reducing the Computational Complexity of RegionInfo' at  LLVM Developers' Meeting 2016."
   
