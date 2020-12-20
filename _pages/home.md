@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-[Compilers team at IITH](http://compilers.cse.iith.ac.in) 
+[Compilers team at IITH](https://compilers.cse.iith.ac.in) 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -17,6 +17,9 @@ permalink: /
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
         <li data-target="#carousel" data-slide-to="5"></li>
+        <li data-target="#carousel" data-slide-to="6"></li>
+        <li data-target="#carousel" data-slide-to="7"></li>
+        <li data-target="#carousel" data-slide-to="8"></li>
     </ol>
 
     <!-- Items -->
@@ -35,6 +38,15 @@ permalink: /
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/homepic/PolyhedralInfo_Poster.jpg" alt="Slide 4" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/projects/llov/OmpVerify.jpeg" alt="LLOV" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/projects/llov/llov-time.png" alt="LLOV Time" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/projects/ir2vec/flow.jpg" alt="IR2VEC">
         </div>
     </div> 
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
