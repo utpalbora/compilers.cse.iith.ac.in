@@ -44,7 +44,7 @@
   headline: "Congratulations to Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta for their poster acceptance on 'When Polyhedral Optimizations Meet Deep Learning Kernels' at IEEE International Conference on High Performance Computing, Jaipur, India."
   
 - date: 2017-10-13
-  status: "Lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM Developers' Meetings'17"
+  status: "Lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM Developers' Meeting'17"
   url: "https://youtu.be/MKhXpRNekaM"
   headline: "Congratulations to Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta for their poster acceptance on 'An LLVM based Loop Profiler' at LLVM Developers' Meeting 2017."
   
@@ -59,13 +59,13 @@
   headline: "Congratulations to Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta for their poster acceptance on 'A Comparative Study of Vectorization in Compilers' at IEEE International Conference on High Performance Computing, Hyderabad, India."
   
 - date: 2016-11-11
-  status: "Lightning talk and poster by Utpal et al. on Polly as an Analysis pass in LLVM accepted in LLVM Developers' Meetings'16"
+  status: "Lightning talk and poster by Utpal et al. on Polly as an Analysis pass in LLVM accepted in LLVM Developers' Meeting'16"
   url: "https://www.youtube.com/watch?v=TIimzQtZ6UA"
   headline: "Congratulations to Utpal Bora, Johannes Doerfert, Tobias Grosser,
   Venugopal Raghavan and Ramakrishna Upadrasta for their poster acceptance on 'Polly as an Analysis pass in LLVM' at  LLVM Developers' Meeting 2016."
   
 - date: 2016-11-11
-  status: "lightning talk and poster by Nandini et al. accepted in LLVM Developers' Meetings'16"
+  status: "lightning talk and poster by Nandini et al. accepted in LLVM Developers' Meeting'16"
   url: "https://www.youtube.com/watch?v=yOVeJtA5zxw"
   headline: "Congratulations to Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta for their poster acceptance on 'Reducing the Computational Complexity of RegionInfo' at  LLVM Developers' Meeting 2016."
   
@@ -206,12 +206,12 @@
   
   
 - date: 2017-10-08
-  status: "Talk by Annanay et al. at LLVM Developers' Meetings'17"
+  status: "Talk by Annanay et al. at LLVM Developers' Meeting'17"
   url: "https://youtu.be/uq67__tfdtQ"
   headline: "Follow the talk by Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and Ramakrishna Upadrasta on Enabling Polyhedral optimizations in TensorFlow through Polly at 2017 US LLVM Developers' Meeting."
   
 - date: 2018-10-21
-  status: "Talk by Malhar at LLVM Developers' Meetings'18"
+  status: "Talk by Malhar at LLVM Developers' Meeting'18"
   url: "https://youtu.be/AgHy_4cQzMU"
   headline: "Follow the talk by Malhar Thakkar on ISL Memory Management Using Clang Static Analyzer at 2018 US LLVM Developers' Meeting."
   
