@@ -14,12 +14,19 @@ permalink: /team/
 Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#masters-students), [Alumni](#alumni).
 
 ## Faculty
+{% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% if member.type == 'faculty' %}
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
 <div class="row">
+{% endif %}
+
+{% if member.type == 'faculty' %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   <h4><a href="{{ member.url }}" target="_blank">{{ member.name }}</h4>
   <i>{{ member.info }}<br>{{ member.email }}</i>
   <ul style="overflow: hidden">
@@ -55,16 +62,24 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   
   </ul>
 </div>
+{% endif %}
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
 </div>
 {% endif %}
+
 {% endfor %}
 
-<br/>
-## PhD Students
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
+## PhD Students
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-{% if member.type == 'phd' %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -72,8 +87,10 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 <div class="row">
 {% endif %}
 
+{% if member.type == 'phd' %}
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left">
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
@@ -85,6 +102,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   {% endif %}
 
 </div>
+{% endif %}
 
 {% assign number_printed = number_printed | plus: 1 %}
 
@@ -92,21 +110,16 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 </div>
 {% endif %}
 
-{% endif %}
-
 {% endfor %}
-{% if  number_printed !=0  %}
-{% if  even_odd ==0  %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
 </div>
 {% endif %}
-{% endif %}
-
-<br/>
 
 ## Masters Students
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-{% if member.type == 'mtech' %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -114,8 +127,10 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 <div class="row">
 {% endif %}
 
+{% if member.type == 'mtech' %}
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
@@ -125,8 +140,8 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
-
 </div>
+{% endif %}
 
 {% assign number_printed = number_printed | plus: 1 %}
 
@@ -134,14 +149,11 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 </div>
 {% endif %}
 
-{% endif %}
-
 {% endfor %}
 
-{% if  number_printed !=0  %}
-{% if  even_odd ==0  %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
 </div>
-{% endif %}
 {% endif %}
 
 ## Alumni
@@ -156,6 +168,8 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 
 {% if member.type == 'alum' %}
 <div class="col-md-4">
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" /> -->
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
 </div>
@@ -174,7 +188,6 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 </div>
 {% endif %}
 
-<<<<<<< HEAD
 
 
 <!-- ## Master and Bachelor Students 
@@ -269,9 +282,6 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 
 ## Administrative Support
 <a href="mailto:ramanjaneyulu@iith.ac.in">Ramanjaneyulu Narayana</a> is helping us (and other groups) with administration. -->
-=======
-<br/>
->>>>>>> d4d2b4985ad5c2f6e6311c75cb3b122cdc5ed2ae
 
 
 

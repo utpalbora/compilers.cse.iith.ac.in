@@ -17,7 +17,7 @@
   type: phd
   url:
     value: 1
-    link: https://utpalbora.com/
+    link: http://utpalbora.com/
   photo: utpal.jpg
   info: started July, 2015 (Previously M.Tech TA from August, 2014 - July, 2015)
   email: cs14mtech11017 [AT] iith [DOT] ac [DOT] in
@@ -100,7 +100,7 @@
   type: mtech
   url:
     value: 1
-    link: https://kgautam01.github.io/
+    link: http://kgautam01.github.io/
   photo: kuldeep.jpg
   info: M.Tech RA, started January, 2020
   email: cs20mtech01004 [AT] iith [DOT] ac [DOT] in
@@ -146,7 +146,7 @@
 
 # - name: "This could be you !"
 #   photo: rock.jpg
-#   info: See <a href="https://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
+#   info: See <a href="http://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
 #   email: 
 #   number_educ: 0
 #   education1:  

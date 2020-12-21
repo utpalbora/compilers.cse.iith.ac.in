@@ -9,7 +9,9 @@
 title: Scalable Compilers for Heterogeneous Architectures Group
 email: ramakrishna@iith.ac.in
 description: > # this means to ignore newlines until "baseurl:"
-  Compilers Group at IIT Hyderabad
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: ""
 #baseurl: "compilers.cse.iith.ac.in"
 url: ""
@@ -45,8 +47,6 @@ kramdown:
 
 plugins:
   - jekyll-last-modified-at
-  - jemoji
-  - jekyll-redirect-from
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:

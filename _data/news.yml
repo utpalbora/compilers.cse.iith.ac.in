@@ -1,30 +1,15 @@
-- date: 2020-12-06
-  status: "Discussion of IR2Vec in ACM Chapter of IITH"
-  url: "https://meet.google.com/cwz-svtu-tvy"
-  headline: "Join us for the discussion on IR2Vec by Venkat in the ACM Chapter of IITH."
-
-- date: 2020-11-01
-  status: "Paper on PolyDL gets accepted in TACO"
-  url: ""
-  headline: "Congratulations to SANKET TAVARAGERI, ALEXANDER HEINECKE, SASIKANTH AVANCHA, BHARAT KAUL, Intel Labs, GAGANDEEP GOYAL, RAMAKRISHNA UPADRASTA, IIT Hyderabad for their paper acceptance on PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives in TACO."
-
-- date: 2020-12-16
-  status: "Talk by Venkat and Utpal in RHPL Workshop@FSTTCS'20"
-  url: "https://www.microsoft.com/en-us/research/event/research-highlights-in-programming-languages-fsttcs-2020/"
-  headline: "Follow the talk by S. VenkataKeerthy and Utpal Bora along with Ramakrishna Upadrasta on their recent works of IR2Vec and LLOV in the Workshop on Research Highlights in Programming Languages at FSTTCS, 2020."
-
 - date: 2018-07-08
-  status: "Paper on P4LLLVM gets accepted in P4EU@ICNP'18"
+  status: "Paper on P4LLLVM gets accepted in P4EU"
   url: ""
   headline: "Congratulations to S. VenkataKeerthy, Tharun Kumar. D and Ramakrishna Upadrasta for the paper acceptance on P4LLVM: An LLVM Based P4 Compiler at P4EU workshop in ICNP 2018 Conference."
 
 - date: 2019-01-02
-  status: "Paper on UTVPI-OA gets accepted in IMPACT'19"
+  status: "Paper on UTVPI-OA gets accepted in IMPACT"
   url: ""
   headline: "Congratulations to Abhishek A Patwardhan & Ramakrishna Upadrasta for their paper acceptance on Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem at IMPACT workshop in HiPEAC 2019 conference."
   
 - date: 2019-07-02
-  status: "Paper by Abhishek et al. gets accepted in HPCS'19"
+  status: "Paper by Abhishek et al. gets accepted in HPCS"
   url: ""
   headline: "Congratulations to Abhishek A Patwardhan & Ramakrishna Upadrasta for their paper acceptance on Polyhedral Model Guided Automatic GPU Cache Exploitation Framework at HPCS 2019."
   
@@ -34,50 +19,38 @@
   headline: "Congratulations to Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta for their paper acceptance on An analysis of executable size reduction by LLVM passes at CSI Transactions on ICT."
   
 - date: 2016-12-16
-  status: "Poster on Texturizing PPCG gets accepted in HiPC'16"
+  status: "Poster on Texturizing PPCG gets accepted in IEEE"
   url: ""
   headline: "Congratulations to Abhishek A Patwardhan & Ramakrishna Upadrasta for their poster acceptance on 'Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler' at IEEE International Conference on High Performance Computing, Hyderabad, India."
   
 - date: 2017-12-11
-  status: "Poster by Hrishikesh et al. gets accepted in HiPC'17"
+  status: "Poster by Hrishikesh et al. gets accepted in IEEE"
   url: ""
   headline: "Congratulations to Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta for their poster acceptance on 'When Polyhedral Optimizations Meet Deep Learning Kernels' at IEEE International Conference on High Performance Computing, Jaipur, India."
   
 - date: 2017-10-13
-<<<<<<< HEAD
-  status: "Lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM Developers' Meetings"
-=======
-  status: "Lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM dev con'17"
->>>>>>> d4d2b4985ad5c2f6e6311c75cb3b122cdc5ed2ae
+  status: "Lightning talk and poster by Shalini on An LLVM based Loop Profiler accepted in LLVM dev con"
   url: "https://youtu.be/MKhXpRNekaM"
   headline: "Congratulations to Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta for their poster acceptance on 'An LLVM based Loop Profiler' at LLVM Developers' Meeting 2017."
   
 - date: 2020-01-20
-  status: "Poster on BPI gets accepted in EuroLLVM'20"
+  status: "Poster on BPI gets accepted in LLVM"
   url: ""
   headline: "Congratulations to Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta for their poster acceptance on 'Some Improvements to Branch Probability Information (BPI)' at LLVM Developers' Meeting 2020."
   
 - date: 2016-12-22
-  status: "Poster on Study of Vectorization gets accepted in HiPC'16"
+  status: "Poster on Study of Vectorization gets accepted in IEEE"
   url: ""
   headline: "Congratulations to Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta for their poster acceptance on 'A Comparative Study of Vectorization in Compilers' at IEEE International Conference on High Performance Computing, Hyderabad, India."
   
 - date: 2016-11-11
-<<<<<<< HEAD
-  status: "lightning talk and poster by Utpal et al. on Polly as an Analysis pass in LLVM accepted in LLVM Developers' Meetings"
-=======
-  status: "Lightning talk and poster by Utpal et al. on Polly as an Analysis pass in LLVM accepted in LLVM dev con'16"
->>>>>>> d4d2b4985ad5c2f6e6311c75cb3b122cdc5ed2ae
+  status: "lightning talk and poster by Utpal et al. on Polly as an Analysis pass in LLVM accepted in LLVM dev con"
   url: "https://www.youtube.com/watch?v=TIimzQtZ6UA"
   headline: "Congratulations to Utpal Bora, Johannes Doerfert, Tobias Grosser,
   Venugopal Raghavan and Ramakrishna Upadrasta for their poster acceptance on 'Polly as an Analysis pass in LLVM' at  LLVM Developers' Meeting 2016."
   
 - date: 2016-11-11
-<<<<<<< HEAD
-  status: "lightning talk and poster by Nandini et al. accepted in LLVM Developers' Meetings"
-=======
-  status: "lightning talk and poster by Nandini et al. accepted in LLVM dev con'16"
->>>>>>> d4d2b4985ad5c2f6e6311c75cb3b122cdc5ed2ae
+  status: "lightning talk and poster by Nandini et al. accepted in LLVM dev con"
   url: "https://www.youtube.com/watch?v=yOVeJtA5zxw"
   headline: "Congratulations to Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta for their poster acceptance on 'Reducing the Computational Complexity of RegionInfo' at  LLVM Developers' Meeting 2016."
   
@@ -197,7 +170,7 @@
   headline: "Congratulations to Gayatri P K for getting selected as a Intern at Qualcomm India Pvt. Ltd."
   
 - date: 2019-02-02
-  status: "Talk by Abhishek at OMASE'19"
+  status: "Talk by Abhishek at OMASE"
   url: ""
   headline: "Talk by Abhishek A Patwardhan on Exploting GPU caches By Polyhedral Compilation at OMASE 2019 (co-located with CGO 2019), Washington DC, USA (Virtual/online talk was given)."
   
@@ -212,18 +185,18 @@
   headline: "Follow the talk by Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta on Improved Loop Distribution in LLVM using Polyhedral Dependences at The Fourth Workshop on the LLVM Compiler Infrastructure in HPC."
   
 - date: 2020-02-23
-  status: "Talk by Utpal at LLVM Performance Workshop@CGO'20"
+  status: "Talk by Utpal at CGO"
   url: "https://llvm.org/devmtg/2020-02-23/"
   headline: "Follow the talk by Utpal Bora on LLOV: A Fast Static Data-Race Checker for OpenMP Programs at Fourth LLVM Performance Workshop at CGO."
   
   
 - date: 2017-10-08
-  status: "Talk by Annanay et al. at LLVM dev con'17"
+  status: "Talk by Annanay et al. at LLVM Developers' Meet"
   url: "https://youtu.be/uq67__tfdtQ"
   headline: "Follow the talk by Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and Ramakrishna Upadrasta on Enabling Polyhedral optimizations in TensorFlow through Polly at 2017 US LLVM Developers' Meeting."
   
 - date: 2018-10-21
-  status: "Talk by Malhar at LLVM dev con'18"
+  status: "Talk by Malhar at LLVM Developers' Meet"
   url: "https://youtu.be/AgHy_4cQzMU"
   headline: "Follow the talk by Malhar Thakkar on ISL Memory Management Using Clang Static Analyzer at 2018 US LLVM Developers' Meeting."
   

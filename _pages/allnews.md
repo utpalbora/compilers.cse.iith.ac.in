@@ -3,7 +3,7 @@ title: "News"
 layout: textlay
 excerpt: "IIT Hyderabad."
 sitemap: false
-permalink: /news/
+permalink: /news
 ---
 
 # News
@@ -12,7 +12,7 @@ permalink: /news/
 {% for y in dateSorted %}
    {% assign sortedItems = y.items %}
    {% for article in sortedItems %}
-   <p>({{ article.date }}) : <b>{{article.status}}</b><br>
-   <em>{{ article.headline }}</em> {% if article.url != "" %} [<a href="{{ article.url}}" target="_blank">LINK</a>]{% endif %}</p>
+   <p>({{ article.date }}) : {{article.status}}<br>
+   <em>{{ article.headline }} {% if article.url != "" %} [<a href="{{ article.url}}">LINK</a>]{% endif %}</em></p>
    {% endfor %}
 {% endfor %}
