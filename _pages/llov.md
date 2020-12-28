@@ -10,10 +10,6 @@ permalink: /projects/llov/
 *Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye*
 #### To appear in [ACM TACO](https://dl.acm.org/journal/taco){:target="_blank"} ([Preprint](https://arxiv.org/abs/1912.12189){:target="_blank"})
 
-
-LLOV was the work of Utpal from Ahom land.
-
-
 LLOV is a fast, language agnostic, static data race checker for OpenMP programs.
 It supports OpenMP programs written in C, C++ and FORTRAN.
 LLOV works on LLVM IR and uses Polyhedral compilation techniques to detect races.
