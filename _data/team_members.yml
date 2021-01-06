@@ -116,6 +116,16 @@
   email: cs20mtech01002 [AT] iith [DOT] ac [DOT] in
   interests: Static Analysis,Code Compliance in Critical Systems
 
+- name: Siddharth Jain
+  type: mtech
+  url:
+    value: 0
+    link:
+  photo: siddharth.jpg
+  info: M.Tech RA, started August, 2020
+  email: cs20mtech12003 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimizations, Machine Learning
+
 - name: Rahul Utkoor
   type: alum
   info: B.Tech + M.Tech, 2014-2019
