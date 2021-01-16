@@ -10,7 +10,7 @@ permalink: /projects/ir2vec/
 
 # IR2Vec: LLVM IR based Scalable Program Embeddings
 *S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, [Maunendra Desarkar](https://www.iith.ac.in/~maunendra/){:target="_blank"}, [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"} and [Y. N. Srikant](https://www.csa.iisc.ac.in/~srikant/){:target="_blank"}*
-#### To appear in [ACM TACO](https://dl.acm.org/journal/taco){:target="_blank"} ([Preprint](https://arxiv.org/abs/1909.06228){:target="_blank"})
+#### Published in [ACM TACO](https://dl.acm.org/doi/10.1145/3418463){:target="_blank"} ([arXiv](https://arxiv.org/abs/1909.06228){:target="_blank"})
 
 IR2Vec is a LLVM IR based framework to generate distributed representations for the source code in an unsupervised manner, which can be used to represent programs as input to solve machine learning tasks that take programs as inputs.
 It can capture intrinsic characteristics of the program. This is achieved by using the flow analyses information like *Use-Def*, *Reaching Definitions* and *Live Variable information* of the program.
