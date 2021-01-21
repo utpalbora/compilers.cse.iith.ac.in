@@ -1,17 +1,7 @@
 - date: 2021-01-18
-  status: "Full paper Presentation by Venkat@HiPEAC'21"
-  url: ""
-  headline: "Follow the talk by S. VenkataKeerthy on IR2Vec @hipeac'21"
-
-- date: 2021-01-18
-  status: "Full paper Presentation by Utpal@HiPEAC'21"
-  url: ""
-  headline: "Follow the talk by Utpal Bora on LLOV @hipeac'21"
-
-- date: 2021-01-18
-  status: "Full paper Presentation on PolyDL @HiPEAC'21"
-  url: ""
-  headline: "Follow the talk by Sanket Tavarageri with Gagandeep on PolyDL @hipeac'21"
+  status: "3 full paper presentations @HiPEAC'21"
+  url: "https://www.hipeac.net/2021/budapest/#/program/sessions/7878/"
+  headline: "Talk by S. VenkataKeerthy on IR2Vec, Utpal on LLOV and, Dr. Sanket Tavarageri of Intel Labs with Gagan on PolyDL"
 
 - date: 2020-12-06
   status: "Discussion of IR2Vec in ACM Chapter of IITH"
