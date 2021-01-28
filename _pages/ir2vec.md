@@ -53,10 +53,10 @@ On both of these tasks we achieve better accuracies and speed-ups with very few 
         </figure>
 
 ### Artifacts
-![Build](https://github.com/svkeerthy/IR2Vec-Engine/workflows/Build/badge.svg)
-![Test](https://github.com/svkeerthy/IR2Vec-Engine/workflows/Test/badge.svg)
+![Publish](https://github.com/IITH-Compilers/IR2Vec/workflows/Publish/badge.svg)
+![Tests](https://github.com/IITH-Compilers/IR2Vec/workflows/Tests/badge.svg)
 
-Code and other artifacts are available in our [GitHub](https://github.com/IITH-Compilers/IR2Vec-Binaries) page.
+Code and other artifacts are available in our [GitHub](https://github.com/IITH-Compilers/IR2Vec) page.
 
 ### What do you think?
 If you have any comments or questions, feel free to reach out to us at [ir2vec-developers@googlegroups.com](https://groups.google.com/g/ir2vec-developers)
