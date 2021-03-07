@@ -26,7 +26,7 @@ Our broad research is in Programming Languages and Compilers. More specifically,
 * Detecting bugs at compile time reduces the risk of runtime failures, which can be fatal for safety critical systems. 
 * Program optimization can reduce the execution time of the program, thereby enhancing the performance and increasing user experience.
 <details>
-<summary class="dp" markdown='span'><b><a href="{{ site.url }}{{ site.baseurl }}/projects/llov/" target="_blank">LLOV</a></b> </summary>
+<summary class="dp" markdown='span'><b><a href="{{ site.url }}{{ site.baseurl }}/projects/llov/" target="_blank">LLOV</a></b> <a href="https://github.com/utpalbora/LLOV" target="_blank"> <img  class="dp-img" alt="LLOV GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="15px" height="15px"></a> <a href="https://www.youtube.com/watch?v=kyD4ysn8ljE&t=3781s&ab_channel=HiPEAC" target="_blank"> <img  class="dp-img" alt="LLOV Video" src="https://www.youtube.com/s/desktop/75da313d/img/favicon.ico" width="15px" height="15px"></a></summary>
 
 ##### LLOV is a fast, static, data-race checker for OpenMP programs. It is language-agnostic and can detect races in C/C++ and FORTRAN programs.
 
@@ -42,7 +42,7 @@ Our broad research is in Programming Languages and Compilers. More specifically,
 A well defined sequence of compiler optimizations will have a strong impact on performance of the program. Optimization decisions for achieving optimal performance are complex and are computationally hard. Hence machine learning techniques can help in making making better optimization decisions.
 
 <details>
-<summary class="dp" markdown='span'> <b><a href="{{ site.url }}{{ site.baseurl }}/projects/ir2vec/" target="_blank">IR2Vec</a></b> </summary>
+<summary class="dp" markdown='span'> <b><a href="{{ site.url }}{{ site.baseurl }}/projects/ir2vec/" target="_blank">IR2Vec</a></b> <a href="https://github.com/IITH-Compilers/IR2Vec" target="_blank"> <img  class="dp-img" alt="IR2Vec GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="15px" height="15px"></a> <a href="https://www.youtube.com/watch?v=kyD4ysn8ljE&t=4688s&ab_channel=HiPEAC" target="_blank"> <img  class="dp-img" alt="IR2Vec_Video" src="https://www.youtube.com/s/desktop/75da313d/img/favicon.ico" width="15px" height="15px"> </summary>
 
 ##### IR2Vec is the framework based on LLVM IR to represent programs as distributed vectors. Such vectors, representing the programs can be used by ML models to solve optimization and software engineering tasks.
 </details>
@@ -51,7 +51,7 @@ A well defined sequence of compiler optimizations will have a strong impact on p
 ### Compilers for Deep Learning
 With the emergence of various deep learning models and hardware architectures, it is infeasible to write optimized code for every architecture. There are various techniques to optimize the code but the search space is huge. Hence deep learning techniques helps to design good heuristics to select optimized code.
 <details>
-<summary class="dp" markdown='span'> <b>PolyDL</b> </summary>
+<summary class="dp" markdown='span'> <b>PolyDL</b> <a href="https://www.youtube.com/watch?v=kyD4ysn8ljE&t=1866s&ab_channel=HiPEAC" target="_blank"> <img  class="dp-img" alt="PolyDL Video" src="https://www.youtube.com/s/desktop/75da313d/img/favicon.ico" width="15px" height="15px"></a></summary>
 
 ##### End to end tool to find the Optimized Code for the hardware.
 </details>

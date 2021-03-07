@@ -10,7 +10,7 @@ permalink: /projects/ir2vec/
 
 # IR2Vec: LLVM IR based Scalable Program Embeddings
 *S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, [Maunendra Desarkar](https://www.iith.ac.in/~maunendra/){:target="_blank"}, [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"} and [Y. N. Srikant](https://www.csa.iisc.ac.in/~srikant/){:target="_blank"}*
-#### Published in [ACM TACO](https://dl.acm.org/doi/10.1145/3418463){:target="_blank"} ([arXiv](https://arxiv.org/abs/1909.06228){:target="_blank"})
+#### Published in [ACM TACO](https://dl.acm.org/doi/10.1145/3418463){:target="_blank"} ([arXiv](https://arxiv.org/abs/1909.06228){:target="_blank"}) <a href="https://github.com/IITH-Compilers/IR2Vec" target="_blank"> <img  class="dp-img" alt="IR2Vec GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a> <a href="https://www.youtube.com/watch?v=kyD4ysn8ljE&t=4688s&ab_channel=HiPEAC" target="_blank"> <img  class="dp-img" alt="IR2Vec_Video" src="https://www.youtube.com/s/desktop/75da313d/img/favicon.ico" width="23px" height="23px">
 
 IR2Vec is a LLVM IR based framework to generate distributed representations for the source code in an unsupervised manner, which can be used to represent programs as input to solve machine learning tasks that take programs as inputs.
 It can capture intrinsic characteristics of the program. This is achieved by using the flow analyses information like *Use-Def*, *Reaching Definitions* and *Live Variable information* of the program.
@@ -53,10 +53,10 @@ On both of these tasks we achieve better accuracies and speed-ups with very few 
         </figure>
 
 ### Artifacts
-![Build](https://github.com/svkeerthy/IR2Vec-Engine/workflows/Build/badge.svg)
-![Test](https://github.com/svkeerthy/IR2Vec-Engine/workflows/Test/badge.svg)
+![Publish](https://github.com/IITH-Compilers/IR2Vec/workflows/Publish/badge.svg)
+![Tests](https://github.com/IITH-Compilers/IR2Vec/workflows/Tests/badge.svg)
 
-Code and other artifacts are available in our [GitHub](https://github.com/IITH-Compilers/IR2Vec-Binaries) page.
+Code and other artifacts are available in our [GitHub](https://github.com/IITH-Compilers/IR2Vec) page.
 
 ### What do you think?
 If you have any comments or questions, feel free to reach out to us at [ir2vec-developers@googlegroups.com](https://groups.google.com/g/ir2vec-developers)
