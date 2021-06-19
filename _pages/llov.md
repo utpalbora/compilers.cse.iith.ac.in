@@ -8,7 +8,8 @@ permalink: /projects/llov/
 
 # LLOV: A Fast Static Data-Race Checker for OpenMP Programs
 *Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye*
-#### To appear in [ACM TACO](https://dl.acm.org/journal/taco){:target="_blank"} ([Preprint](https://arxiv.org/abs/1912.12189){:target="_blank"})
+#### Published in [ACM TACO](https://dl.acm.org/doi/10.1145/3418597){:target="_blank"} ([pre-print](https://arxiv.org/abs/1912.12189){:target="_blank"}) (Talks: [HiPEAC'21](https://www.youtube.com/watch?v=kyD4ysn8ljE&t=3781s&ab_channel=HiPEAC))
+
 
 LLOV is a fast, language agnostic, static data race checker for OpenMP programs.
 It supports OpenMP programs written in C, C++ and FORTRAN.
