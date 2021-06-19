@@ -1,6 +1,6 @@
 ---
 title: "ACM Summer School"
-layout: textlay
+layout: event
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false
 permalink: /event/summer_school/
@@ -9,20 +9,7 @@ permalink: /event/summer_school/
 
 Dates: 6 to 16 July 2021
 
-Coordinators:
-
-Academic:
-
-Abhijat Vichare abhijatv@acm.org
-* Ramakrishna Upadrasta ramakrishna@iith.ac.in
-
-Local (from host institute):
-* Ramakrishna Upadrasta ramakrishna@iith.ac.in
-
-Organizing institution: IIT Hyderabad
-
-Platform: Google-Meet/Microsoft Teams
-
+<div id="about">
 Description of school:
 Compilers are pervasive and critical for any software application to execute on any Computer System. You might be already familiar with the C/C++ compiler used to compile C/C++ source code into an executable. However, did you know that there is a compiler being used when you play your favourite 3D game or browse your favourite HTML5 website? Not just that, Compiler technology has applications beyond the traditional task of generating executables! Today it is used to detect defects in code, catch security issues and even generate HW Designs from software specifications. As the era of Artificial Intelligence dawns with techniques like Machine Learning and Deep Learning helping computer perform some amazing human like tasks the importance of designing great compilers increases many-fold, not just to generate the most optimized programs for latest HW but also to help programmer productivity by translating programs coded in Domain Specific Languages that are custom built for Machine Learning and AI.
 
@@ -37,12 +24,6 @@ A high-level module structure is as follows:
 * Compiler optimizations: machine-independent and machine-dependent
 * Interfacing with program execution
 
-Partial list of speakers:
-
-* R. Govindarajan (IISc Bangalore)
-* Girish Bharambe (NVIDIA, Pune)
-* Krishna V Nandivada (IIT Madras)
-* Ramakrishna Upadrasta (IIT Hyderabad)
 
 Background/prior courses recommended:
 
@@ -50,3 +31,39 @@ Background/prior courses recommended:
 * Assembly language programming would be very usefu
 * GNU/Linux command line, e.g. “cp <file1> <pathname2>” instead of drag and drop
 * Programming using C
+</div>
+
+<div id="speaker">
+Partial list of speakers:
+
+* R. Govindarajan (IISc Bangalore)
+* Girish Bharambe (NVIDIA, Pune)
+* Krishna V Nandivada (IIT Madras)
+* Ramakrishna Upadrasta (IIT Hyderabad)
+</div>
+
+<div id="organizer">
+Coordinators:
+
+Academic:
+
+* Abhijat Vichare [abhijatv@acm.org](abhijatv@acm.org)
+* Ramakrishna Upadrasta [ramakrishna@iith.ac.in](ramakrishna@iith.ac.in)
+
+Local (from host institute):
+* Ramakrishna Upadrasta [ramakrishna@iith.ac.in](ramakrishna@iith.ac.in)
+
+Organizing institution: [IIT Hyderabad](https://iith.ac.in/)
+
+Platform: Google-Meet/Microsoft Teams
+</div>
+<div id="sponser">
+Sponsers: 
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 20px">
+</div>
+
+<div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/acm_india_council_logo_sm.jpg" style="height: 40px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/iit-hyderabad-logo.png" style="height: 40px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 40px">
+</div>
