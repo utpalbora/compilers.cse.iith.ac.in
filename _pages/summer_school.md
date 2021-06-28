@@ -5,11 +5,18 @@ excerpt: "IITH Compilers Team -- Research"
 sitemap: false
 permalink: /event/summerschool2021/
 ---
+<div id="about">
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px">
 # Summer School on Programming Language Analysis and Optimizations Hosted by IIT Hyderabad (online)
+
+<div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/acm_india_council_logo_sm.jpg" style="height: 40px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/iit-hyderabad-logo.png" style="height: 40px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 40px">
+</div>
 
 ### Dates: 6 to 16 July 2021
 
-<div id="about">
 Compilers are pervasive and critical for any software application to execute on any Computer System. You might be already familiar with the C/C++ compiler used to compile C/C++ source code into an executable. However, did you know that there is a compiler being used when you play your favourite 3D game or browse your favourite HTML5 website? Not just that, Compiler technology has applications beyond the traditional task of generating executables! Today it is used to detect defects in code, catch security issues and even generate HW Designs from software specifications. As the era of Artificial Intelligence dawns with techniques like Machine Learning and Deep Learning helping computer perform some amazing human like tasks the importance of designing great compilers increases many-fold, not just to generate the most optimized programs for latest HW but also to help programmer productivity by translating programs coded in Domain Specific Languages that are custom built for Machine Learning and AI.
 
 This summer school aims at providing you a foundation in theory and practice of optimizing compilers. Further, a study of essential components of program execution environments will provide you with an end-to-end understanding of the life of a program in a computer system.
@@ -27,26 +34,45 @@ A high-level module structure is as follows:
 #### Background/prior courses recommended
 
 * Computer Architecture
-* Assembly language programming would be very usefu
+* Assembly language programming would be very useful
 * GNU/Linux command line, e.g. “cp <file1> <pathname2>” instead of drag and drop
 * Programming using C
 </div>
-
+<br>
 <div id="speakers">
 
 ### Partial list of speakers
 
-* R. Govindarajan (IISc Bangalore)
-* Girish Bharambe (NVIDIA, Pune)
-* Krishna V Nandivada (IIT Madras)
-* Ramakrishna Upadrasta (IIT Hyderabad)
-</div>
+{% assign number_printed = 0 %}
+{% for member in site.data.event_speakers %}
 
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/event/speakerpic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="25%" style="float: left">
+  {% if member.url.value == 1 %}
+  <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
+  <i>{{ member.title }}<br>{{ member.institute }}</i>
+  <p style="color:Blue;">{{ member.topic }}</p>
+  {% endif %}
+
+  {% if member.url.value == 0 %}
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.title }}<br>{{ member.institute }}</i>
+  <p style="color:Blue;">{{ member.topic }}</p>
+  {% endif %}
+</div>
+{% endfor %}
+</div>
+<br>
 <div id="schedule">
 
 ### Schedule
-* To be announced shortly
-
+Some general guidelines
+* Lectures: (Morning) Max 3 hours per day (with breaks of 15min--30mins)
+* Tutorials/Hands-on: (Afternoon) 1--2hr tutorial per day on practical aspects Compilers/LLVM/Modern-Systems. Students will be guided (by the Local-Faculty/Other-Faculty/TAs) on various aspects of compilers and tools.
+<br>
+<!-- {% for schedule in site.data.weekly.schedule %} -->
+<!-- {{ schedule }} -->
+<!-- {% endfor %} -->
 </div>
 
 <div id="organizers">
@@ -70,10 +96,4 @@ Platform: Google-Meet/Microsoft Teams
 
 ## Sponsers
 <img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 20px">
-</div>
-
-<div>
-<img src="{{ site.url }}{{ site.baseurl }}/images/event/acm_india_council_logo_sm.jpg" style="height: 40px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/event/iit-hyderabad-logo.png" style="height: 40px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 40px">
 </div>

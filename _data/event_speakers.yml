@@ -1,0 +1,98 @@
+- name: Nandivada V Krishna
+  title: Professor
+  institute: Indian Institute of Technology Madras
+  url:
+    value: 1
+    link: http://www.cse.iitm.ac.in/~krishna/
+  photo: nandivada.jpg
+  # email: 
+  topic: Machine independent optimizations
+
+- name: R Govindarajan
+  title: Professor
+  institute: Indian Institute of Science
+  url:
+    value: 1
+    link: https://www.csa.iisc.ac.in/~govind/
+  photo: govind.png
+  # email: 
+  topic: Machine Architecture and Machine dependent optimizations
+
+- name: Uday Khedker
+  title: Professor
+  institute: Indian Institute of Technology Bombay
+  url:
+    value: 1
+    link: https://www.cse.iitb.ac.in/~uday/
+  photo: udaykhedker.jpg
+  # email: 
+  topic: Data Flow Analyses and Perspectives in Compilation
+
+- name: Subhajit Roy
+  title: Associate Professor
+  institute: Indian Institute of Technology Kanpur
+  url:
+    value: 1
+    link: https://www.cse.iitk.ac.in/users/subhajit/
+  photo: subhajitroy.jpg
+  # email: 
+  topic: Control-Flow Analyses and Static Single Assignment form
+
+- name: Jyothi Vedurada
+  title: Assistant Professor
+  institute: Indian Institute of Technology Hyderabad
+  url:
+    value: 1
+    link: https://jyothivedurada.github.io/
+  photo: jyothi.png
+  # email: 
+  topic: Points-to-Analysis
+
+- name: Swati Jaiswal
+  title: Assistant Professor
+  institute: Visvesvaraya National Institute of Technology Nagpur
+  url:
+    value: 1
+    link: https://cse.vnit.ac.in/people/sjaiswal/
+  photo: swatijaiswal.png
+  # email: 
+  topic: Object Oriented Compilation
+
+- name: Unnikrishnan
+  title: Assistant Professor
+  institute: Indian Institute of Technology Palakkad
+  url:
+    value: 1
+    link: https://iitpkd.ac.in/people/unnikrishnan
+  photo: DRPHUNNIKRISHNAN.jpg
+  # email: 
+  topic: Code Generation and BackEnd
+
+- name: Girish Bharambe
+  institute: NVIDIA
+  url:
+    value: 0
+    link: 
+  photo: NvidiaEngineers.jfif
+  # email: 
+  topic: Runtime, Linker, GPUs and Compilation
+
+- name: Sanjay Rajopadhye
+  title: Professor
+  institute: Colorado State University
+  url:
+    value: 1
+    link: https://www.cs.colostate.edu/~svr/
+  photo: DrSanjay.jpg
+  # email: 
+  topic: Polyhedral Compilation and Loop Optimizations
+
+- name: Ramakrishna Upadrasta
+  title: Assistant Professor
+  institute: Indian Institute of Technology Hyderabad
+  url:
+    value: 1
+    link: https://iith.ac.in/~ramakrishna/
+  photo: rama.png
+  # email: 
+  topic: Introduction to Compilers, Compiler Engineering, MLIR and DSLs
