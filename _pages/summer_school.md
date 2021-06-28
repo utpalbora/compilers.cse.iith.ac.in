@@ -84,8 +84,8 @@ A high-level module structure is as follows:
 <br/>
 </div>
 
-<div id="schedule_header">
-&ensp;
+<div id="schedule">
+<br/>
 ### Schedule
 *Detailed schedule will be published soon.* 
 
