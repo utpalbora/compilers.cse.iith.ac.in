@@ -1,13 +1,3 @@
-- name: Nandivada V Krishna
-  title: Professor
-  institute: Indian Institute of Technology Madras
-  url:
-    value: 1
-    link: http://www.cse.iitm.ac.in/~krishna/
-  photo: nandivada.jpg
-  # email: 
-  topic: Machine independent optimizations
-
 - name: R Govindarajan
   title: Professor
   institute: Indian Institute of Science
@@ -17,6 +7,16 @@
   photo: govind.png
   # email: 
   topic: Machine Architecture and Machine dependent optimizations
+
+- name: Nandivada V Krishna
+  title: Professor
+  institute: Indian Institute of Technology Madras
+  url:
+    value: 1
+    link: http://www.cse.iitm.ac.in/~krishna/
+  photo: nandivada.jpg
+  # email: 
+  topic: Machine independent optimizations
 
 - name: Uday Khedker
   title: Professor

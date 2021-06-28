@@ -7,12 +7,13 @@ permalink: /event/summerschool2021/
 ---
 <div id="about">
 <img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px">
-# Summer School on Programming Language Analysis and Optimizations Hosted by IIT Hyderabad (online)
+# Summer School on Programming Language Analysis and Optimizations
+## Hosted by IIT Hyderabad (online)
 
-<div>
-<img src="{{ site.url }}{{ site.baseurl }}/images/event/acm_india_council_logo_sm.jpg" style="height: 40px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/event/iit-hyderabad-logo.png" style="height: 40px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 40px">
+<div class="col-sm-4 col-sm-8 col-sm-12 grideventid">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/event/acm_india_council_logo_sm.jpg" style="height: 40px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/event/iit-hyderabad-logo.png" style="height: 40px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 40px">
 </div>
 
 ### Dates: 6 to 16 July 2021
@@ -46,23 +47,23 @@ A high-level module structure is as follows:
 {% assign number_printed = 0 %}
 {% for member in site.data.event_speakers %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 clearfix grideventid">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/speakerpic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="25%" style="float: left">
   {% if member.url.value == 1 %}
-  <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
+  <h4 class="speakerinfo"><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   <i>{{ member.title }}<br>{{ member.institute }}</i>
   <p style="color:Blue;">{{ member.topic }}</p>
   {% endif %}
 
   {% if member.url.value == 0 %}
-  <h4>{{ member.name }}</h4>
+  <h4 class="speakerinfo">{{ member.name }}</h4>
   <i>{{ member.title }}<br>{{ member.institute }}</i>
   <p style="color:Blue;">{{ member.topic }}</p>
   {% endif %}
 </div>
 {% endfor %}
 </div>
-<br>
+
 <div id="schedule">
 
 ### Schedule
