@@ -1,12 +1,12 @@
 - date: 2021-06-28
   status: "ACM Summer School 2021"
   new : "true"
-  url: "http://https://compilers.cse.iith.ac.in/event/summerschool2021/"
+  url: "../event/summerschool2021/"
   headline: "Summer School on Programming Language Analysis and Optimizations, Hosted by IIT Hyderabad"
 
 - date: 2021-01-18
   status: "Three full paper presentations @HiPEAC'21"
-  new : "true"
+  new : "false"
   url: "https://www.hipeac.net/2021/budapest/#/program/sessions/7878/"
   headline: "Talk by S. VenkataKeerthy on IR2Vec, Utpal on LLOV and, Dr. Sanket Tavarageri of Intel Labs with Gagan on PolyDL"
 
