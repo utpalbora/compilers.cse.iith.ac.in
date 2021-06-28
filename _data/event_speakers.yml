@@ -6,7 +6,7 @@
     link: https://www.csa.iisc.ac.in/~govind/
   photo: govind.png
   # email: 
-  topic: Machine Architecture and Machine dependent optimizations
+  topic: Machine Architecture and Machine Dependent Optimizations
 
 - name: Nandivada V Krishna
   title: Professor
@@ -16,7 +16,7 @@
     link: http://www.cse.iitm.ac.in/~krishna/
   photo: nandivada.jpg
   # email: 
-  topic: Machine independent optimizations
+  topic: Machine Independent Optimizations
 
 - name: Uday Khedker
   title: Professor
@@ -46,7 +46,7 @@
     link: https://jyothivedurada.github.io/
   photo: jyothi.png
   # email: 
-  topic: Points-to-Analysis
+  topic: Constant Propagation and Points-to-Analysis
 
 - name: Swati Jaiswal
   title: Assistant Professor
@@ -75,7 +75,7 @@
     link: 
   photo: NvidiaEngineers.jfif
   # email: 
-  topic: Runtime, Linker, GPUs and Compilation
+  topic: Runtime and Linkers
 
 - name: Sanjay Rajopadhye
   title: Professor
@@ -95,4 +95,4 @@
     link: https://iith.ac.in/~ramakrishna/
   photo: rama.png
   # email: 
-  topic: Introduction to Compilers, Compiler Engineering, MLIR and DSLs
+  topic: Compiler Engineering, MLIR and DSLs

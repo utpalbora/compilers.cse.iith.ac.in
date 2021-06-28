@@ -67,9 +67,15 @@ A high-level module structure is as follows:
 <div id="schedule">
 
 ### Schedule
-Some general guidelines
-* Lectures: (Morning) Max 3 hours per day (with breaks of 15min--30mins)
-* Tutorials/Hands-on: (Afternoon) 1--2hr tutorial per day on practical aspects Compilers/LLVM/Modern-Systems. Students will be guided (by the Local-Faculty/Other-Faculty/TAs) on various aspects of compilers and tools.
+* Lectures: (Morning) 3 - 4 hours per day (with breaks of 15min--30mins)
+* Tutorials/Hands-on: (Afternoon) 2 - 2.5 hours per day on practical aspects on the following: 
+  * Language tools - Lex, Yacc, Antlr
+  * LLVM - Infrastructure, IR, Analysis and Transformation Passes
+  * Modern compiler systems - 
+    * Polyhedral compilation tools - Pluto, ISL, PET, CLooG
+    * MLIR, AutoTVM, ...
+
+*Detailed schedule will be published soon.* 
 <br>
 <!-- {% for schedule in site.data.weekly.schedule %} -->
 <!-- {{ schedule }} -->
@@ -78,12 +84,12 @@ Some general guidelines
 
 <div id="organizers">
 
-### Coordinators:
+### Coordinators
 
 #### Academic
-
 * Abhijat Vichare [abhijatv@acm.org](abhijatv@acm.org)
 * Ramakrishna Upadrasta [ramakrishna@cse.iith.ac.in](ramakrishna@cse.iith.ac.in)
+* Jyothi Vedurada [jyothiv@cse.iith.ac.in](jyothiv@cse.iith.ac.in)
 
 #### Local (from host institute)
 * Ramakrishna Upadrasta [ramakrishna@cse.iith.ac.in](ramakrishna@cse.iith.ac.in)
@@ -95,6 +101,6 @@ Platform: Google-Meet/Microsoft Teams
 </div>
 <div id="sponsers">
 
-## Sponsers
+## Sponsors
 <img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 20px">
 </div>
