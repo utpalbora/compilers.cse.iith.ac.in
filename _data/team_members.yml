@@ -26,14 +26,6 @@
   # education1: B.Tech. NIT Jalandhar, Punjab, India
   # education2: M.Tech. IIT Hyderabad, India
 
-# - name: Gayatri P K
-#   photo: gayatri.jpg
-#   info: PhD, started August 2015
-#   email: cs15resch11003@iith.ac.in
-#   number_educ: 2
-#   education1: M.Tech. Kerala University, India
-#   education2: B.Tech. Kerala University, India
-  
 - name: Shalini Jain
   type: phd
   url:
@@ -54,7 +46,7 @@
   photo: venkat.jpg
   info: started May, 2020 (Previously M.Tech RA from August, 2017 - May, 2020)
   email: cs17m20p100001 [AT] iith [DOT] ac [DOT] in
-  interests: Program Analysis and Compiler Optimizations, Machine Learning in Compilers and Programming Languages
+  interests: Machine Learning in Compilers and Programming Languages
 
 - name: Rohit Aggarwal
   type: mtech
