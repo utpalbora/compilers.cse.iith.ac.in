@@ -19,7 +19,7 @@ Dates: 6th to 16th July 2021
 </span>
 </div>
 
-<div class="col-sm-4 col-sm-8 col-sm-12 grideventid">
+<div class="col-sm-4 col-sm-8 col-sm-12 gridevent" style="text-align: center;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/acm_india_council_logo_sm.jpg" style="height: 40px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/iit-hyderabad-logo.png" style="height: 40px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 40px">
@@ -58,7 +58,7 @@ A high-level module structure is as follows:
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
-<div class="col-sm-6 clearfix grideventid">
+<div class="col-sm-6 clearfix gridevent">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/speakerpic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="25%" style="float: left">
   {% if member.url.value == 1 %}
   <h4 class="speakerinfo"><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
@@ -84,8 +84,8 @@ A high-level module structure is as follows:
 <br/>
 </div>
 
-<div id="schedule">
-
+<div id="schedule_header">
+&ensp;
 ### Schedule
 *Detailed schedule will be published soon.* 
 
@@ -100,9 +100,6 @@ A high-level module structure is as follows:
 **Students would be provided with a Docker container with the necessary softwares installed.**
 
 <br>
-<!-- {% for schedule in site.data.weekly.schedule %} -->
-<!-- {{ schedule }} -->
-<!-- {% endfor %} -->
 </div>
 
 <div id="organizers">

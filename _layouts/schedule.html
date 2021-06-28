@@ -1,17 +1,17 @@
-{% assign start_time = site.data.weekly.timeline | first %}
+{% assign start_time = page.timeline | first %}
 {% capture offset %}{% include minutes.liquid time=start_time %}{% endcapture %}
 <div class="schedule">
-  <ul class="schedule-timeline" style="min-width: {{ site.data.weekly.schedule | size | times: 130 }}px">
-    {% for time in site.data.weekly.timeline %}
+  <ul class="schedule-timeline" style="min-width: {{ page.schedule | size | times: 130 }}px">
+    {% for time in page.timeline %}
     <li class="schedule-time">{{ time }} </li>
     {% endfor %}
   </ul>
   <ul class="schedule-group">
-    {% for day in site.data.weekly.schedule %}
+    {% for day in page.schedule %}
     <li class="schedule-day">
       <h2 class="schedule-header">{{ day.name }}</h2>
       {% if day.events %}
-      <ul class="schedule-events" style="height: {{ site.data.weekly.timeline | size | times: 40 }}px">
+      <ul class="schedule-events" style="height: {{ page.timeline | size | times: 40 }}px">
       {% for event in day.events %}
         {% capture start %}{% include minutes.liquid time=event.start %}{% endcapture %}
         {% capture end %}{% include minutes.liquid time=event.end %}{% endcapture %}

@@ -22,6 +22,40 @@ include:
 sass:
   sass_dir: _sass
 
+# Theme settings
+remote_theme: pmarsceill/just-the-docs@v0.3.3
+color_scheme: light
+permalink: pretty
+
+# Collections for website data
+collections:
+  staffers:
+  modules:
+  schedules:
+  announcements:
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+  - scope:
+      path: ''
+      type: modules
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -47,6 +81,7 @@ plugins:
   - jekyll-last-modified-at
   - jemoji
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
