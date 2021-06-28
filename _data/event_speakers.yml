@@ -8,16 +8,6 @@
   # email: 
   topic: Machine Architecture and Machine Dependent Optimizations
 
-- name: Nandivada V Krishna
-  title: Professor
-  institute: Indian Institute of Technology Madras
-  url:
-    value: 1
-    link: http://www.cse.iitm.ac.in/~krishna/
-  photo: nandivada.jpg
-  # email: 
-  topic: Machine Independent Optimizations
-
 - name: Uday Khedker
   title: Professor
   institute: Indian Institute of Technology Bombay
@@ -27,6 +17,26 @@
   photo: udaykhedker.jpg
   # email: 
   topic: Data Flow Analyses and Perspectives in Compilation
+
+- name: Sanjay Rajopadhye
+  title: Professor
+  institute: Colorado State University
+  url:
+    value: 1
+    link: https://www.cs.colostate.edu/~svr/
+  photo: DrSanjay.jpg
+  # email: 
+  topic: Polyhedral Compilation and Loop Optimizations
+
+- name: Nandivada V Krishna
+  title: Professor
+  institute: Indian Institute of Technology Madras
+  url:
+    value: 1
+    link: http://www.cse.iitm.ac.in/~krishna/
+  photo: nandivada.jpg
+  # email: 
+  topic: Machine Independent Optimizations
 
 - name: Subhajit Roy
   title: Associate Professor
@@ -38,16 +48,6 @@
   # email: 
   topic: Control-Flow Analyses and Static Single Assignment form
 
-- name: Jyothi Vedurada
-  title: Assistant Professor
-  institute: Indian Institute of Technology Hyderabad
-  url:
-    value: 1
-    link: https://jyothivedurada.github.io/
-  photo: jyothi.png
-  # email: 
-  topic: Constant Propagation and Points-to-Analysis
-
 - name: Swati Jaiswal
   title: Assistant Professor
   institute: Visvesvaraya National Institute of Technology Nagpur
@@ -58,7 +58,7 @@
   # email: 
   topic: Object Oriented Compilation
 
-- name: Unnikrishnan
+- name: Unnikrishnan C
   title: Assistant Professor
   institute: Indian Institute of Technology Palakkad
   url:
@@ -77,22 +77,22 @@
   # email: 
   topic: Runtime and Linkers
 
-- name: Sanjay Rajopadhye
-  title: Professor
-  institute: Colorado State University
-  url:
-    value: 1
-    link: https://www.cs.colostate.edu/~svr/
-  photo: DrSanjay.jpg
-  # email: 
-  topic: Polyhedral Compilation and Loop Optimizations
-
 - name: Ramakrishna Upadrasta
   title: Assistant Professor
   institute: Indian Institute of Technology Hyderabad
   url:
     value: 1
     link: https://iith.ac.in/~ramakrishna/
-  photo: rama.png
+  photo: Ramakrishna_Upadrasta.jpg
   # email: 
   topic: Compiler Engineering, MLIR and DSLs
+
+- name: Jyothi Vedurada
+  title: Assistant Professor
+  institute: Indian Institute of Technology Hyderabad
+  url:
+    value: 1
+    link: https://jyothivedurada.github.io/
+  photo: jyothi.png
+  # email: 
+  topic: Constant Propagation and Points-to-Analysis
