@@ -5,9 +5,11 @@ excerpt: "IITH Compilers Team -- Research"
 sitemap: false
 permalink: /event/summerschool2021/
 ---
-<img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px">
 <div id="about">
-# Summer School on Programming Language Analysis and Optimizations
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px">
+</figure>
+## Summer School on Programming Language Analysis and Optimizations
 
 
 <div style="font-size: 150%;">
