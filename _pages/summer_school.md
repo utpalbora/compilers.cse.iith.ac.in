@@ -8,15 +8,22 @@ permalink: /event/summerschool2021/
 <img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px">
 <div id="about">
 # Summer School on Programming Language Analysis and Optimizations
-## Hosted by IIT Hyderabad (online)
 
-<div class="col-sm-4 col-sm-8 col-sm-12 grideventid">
+
+<div style="font-size: 150%;">
+<span style="text-align: left;">
+Hosted by: IIT Hyderabad (online)
+</span>
+<span style="float: right; padding-right:50px">
+Dates: 6th to 16th July 2021
+</span>
+</div>
+
+<div class="col-sm-4 col-sm-8 col-sm-12 gridevent" style="text-align: center;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/acm_india_council_logo_sm.jpg" style="height: 40px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/iit-hyderabad-logo.png" style="height: 40px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/nvidia.jpg" style="height: 40px">
 </div>
-
-### Dates: 6 to 16 July 2021
 
 Compilers are pervasive and critical for any software application to execute on any Computer System. You might be already familiar with the C/C++ compiler used to compile C/C++ source code into an executable. However, did you know that there is a compiler being used when you play your favourite 3D game or browse your favourite HTML5 website? Not just that, Compiler technology has applications beyond the traditional task of generating executables! Today it is used to detect defects in code, catch security issues and even generate HW Designs from software specifications. As the era of Artificial Intelligence dawns with techniques like Machine Learning and Deep Learning helping computer perform some amazing human like tasks the importance of designing great compilers increases many-fold, not just to generate the most optimized programs for latest HW but also to help programmer productivity by translating programs coded in Domain Specific Languages that are custom built for Machine Learning and AI.
 
@@ -48,7 +55,11 @@ A high-level module structure is as follows:
 {% assign number_printed = 0 %}
 {% for member in site.data.event_speakers %}
 
-<div class="col-sm-6 clearfix grideventid">
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+<div class="col-sm-6 clearfix gridevent">
   <img src="{{ site.url }}{{ site.baseurl }}/images/event/speakerpic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="25%" style="float: left">
   {% if member.url.value == 1 %}
   <h4 class="speakerinfo"><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
@@ -62,6 +73,13 @@ A high-level module structure is as follows:
   <p style="color:Blue;">{{ member.topic }}</p>
   {% endif %}
 </div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 {% endfor %}
 
 </div>
@@ -78,10 +96,9 @@ A high-level module structure is as follows:
     * Polyhedral compilation tools - Pluto, ISL, PET, CLooG
     * MLIR, AutoTVM, ...
 
-*Detailed schedule will be published soon.* 
-<!-- {% for schedule in site.data.weekly.schedule %} -->
-<!-- {{ schedule }} -->
-<!-- {% endfor %} -->
+**Students would be provided with a Docker container with the necessary softwares installed.**
+
+<br>
 </div>
 
 <div id="organizers">
