@@ -33,56 +33,136 @@ timeline:
 schedule:
   - name: Jul 12th (Monday)
     events:
-      - name: Prof. Khedker
+      - name: Prof. Uday Khedker
         start: 9:30 AM
-        end: 12:45 PM
-        info: Data flow analyses, 4 classic problems, RD, UD, DFA Theory
+        end: 10:30 AM
+        info: Data flow analyses
+      - name: Prof. Uday Khedker
+        start: 11:00 AM
+        end: 12:00 PM
+        info: Data flow analyses
+      - name: Prof. Uday Khedker
+        start: 12:15 PM
+        end: 1:15 PM
+        info: Data flow analyses
+      - name: Tutorial
+        start: 3:00 PM
+        end: 4:00 PM
+        info: Writing passes in LLVM 2
+      - name: Tutorial
+        start: 4:30 PM
+        end: 5:30 PM
+        info: Writing passes in LLVM 2
   - name: Jul 13th (Tuesday)
     events:
-      - name: Prof. Jyothi
+      - name: Prof. Jyothi Vedurada
         start: 9:00 AM
+        end: 10:00 AM
+        info: Program analyses and optimizations
+      - name: Prof. Jyothi Vedurada
+        start: 10:30 AM
+        end: 11:30 AM
+        info: Program analyses and optimizations
+      - name: Prof. Jyothi Vedurada
+        start: 11:45 AM
         end: 12:45 PM
-        info: Intraprocedural analysis, Constant propagation, Points-to analyses
+        info: Program analyses and optimizations
       - name: Girish Bharambe
         start: 3:00 PM
+        end: 4:00 PM
+        info: Program execution, Runtime, Linker
+      - name: Girish Bharambe
+        start: 4:30 PM
         end: 5:30 PM
         info: Program execution, Runtime, Linker
       - name: Prof. Sanjay Rajopadhye
         start: 7:30 PM
+        end: 8:15 PM
+        info: Polyhedral Compilation 1
+      - name: Prof. Sanjay Rajopadhye
+        start: 8:30 PM
         end: 9:15 PM
-        info: Polyhedral Compilation Introduction
+        info: Polyhedral Compilation 1
   - name: Jul 14th (Wednesday)
     events:
       - name: Prof. Sanjay Rajopadhye
         start: 7:00 AM
+        end: 7:50 AM
+        info: Polyhedral Compilation 2
+      - name: Prof. Sanjay Rajopadhye
+        start: 8:00 AM
         end: 8:30 AM
-        info: Polyhedral Compilation Introduction
-      - name: Prof. Unnikrishnan
+        info: Polyhedral Compilation 2
+      - name: Prof. Unnikrishnan Cheramangalath
         start: 9:00 AM
+        end: 10:00 AM
+        info: Codegen
+      - name: Prof. Unnikrishnan Cheramangalath
+        start: 10:30 AM
+        end: 11:30 AM
+        info: Codegen
+      - name: Prof. Unnikrishnan Cheramangalath
+        start: 11:45 AM
         end: 12:45 PM
-        info: LLVM-->MIR-->BackEnd, TableGen etc.
+        info: Codegen
+      - name: Tutorial
+        start: 3:00 PM
+        end: 4:00 PM
+        info: Polyhedral Compiler Tools 1
+      - name: Tutorial
+        start: 4:30 PM
+        end: 5:30 PM
+        info: Polyhedral Compiler Tools 1
   - name: Jul 15th (Thursday)
     events:
       - name: Prof. Sanjay Rajopadhye
         start: 7:00 AM
+        end: 7:50 AM
+        info: Polyhedral Compilation 3
+      - name: Prof. Sanjay Rajopadhye
+        start: 8:00 AM
         end: 8:30 AM
-        info: Dependence graphs/analysis, Polyhedral Compilation
+        info: Polyhedral Compilation 3
+      - name: Tutorial
+        start: 3:00 PM
+        end: 4:00 PM
+        info: Polyhedral Compiler Tools 2
+      - name: Tutorial
+        start: 4:30 PM
+        end: 5:30 PM
+        info: Polyhedral Compiler Tools 2
       - name: Prof. Sanjay Rajopadhye
         start: 7:30 PM
+        end: 8:15 PM
+        info: Polyhedral Compilation 4
+      - name: Prof. Sanjay Rajopadhye
+        start: 8:30 PM
         end: 9:15 PM
-        info: Dependence graphs/analysis, Polyhedral Compilation
+        info: Polyhedral Compilation 4
   - name: Jul 16th (Friday)
     events:
       - name: Prof. Sanjay Rajopadhye
         start: 7:00 AM
+        end: 7:50 AM
+        info: Polyhedral Compilation 5
+      - name: Prof. Sanjay Rajopadhye
+        start: 8:00 AM
         end: 8:30 AM
-        info: Optional
-      - name: Prof. Khedker
+        info: Polyhedral Compilation 5
+      - name: Prof. Uday Khedker
         start: 10:30 AM
+        end: 11:30 AM
+        info: Perspectives in Compilation
+      - name: Prof. Uday Khedker
+        start: 11:45 AM
         end: 12:45 PM
-        info: 'Perspectives in Compilation: History and Challenges on Compilation'
-      - name: Prof. Ramakrishna
+        info: Perspectives in Compilation
+      - name: Prof. Ramakrishna Upadrasta
         start: 3:00 PM
+        end: 4:00 PM
+        info: DSLs, MLIR
+      - name: Prof. Ramakrishna Upadrasta
+        start: 4:30 PM
         end: 5:30 PM
-        info: 'DSLs, Advanced Compiler Systems: MLIR'
+        info: DSLs, MLIR
 ---

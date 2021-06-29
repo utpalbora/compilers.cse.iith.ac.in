@@ -81,7 +81,7 @@
       margin: 0;
       padding: $sp-1 $sp-2;
       position: absolute;
-      width: 100%;
+      width: 90%;
   
       .name {
         @extend .fs-3, .fw-700;
@@ -92,16 +92,49 @@
         @extend .fs-2;
       }
   
-      &.lecture {
-        background-color: $grey-dk-000;
+      &.prof-r-govindarajan {
+        background-color: $lime;
       }
-  
-      &.section {
-        background-color: $purple-000;
+
+      &.prof-uday-khedker {
+        background-color: $green-100;
       }
-  
-      &.office-hours {
+
+      &.prof-sanjay-rajopadhye {
+        background-color: $aqua;
+      }
+
+      &.prof-nandivada-v-krishna {
         background-color: $blue-000;
       }
+
+      &.prof-subhajit-roy {
+        background-color: $rose;
+      }
+
+      &.prof-swati-jaiswal {
+        background-color: $blue-200;
+      }
+
+      &.prof-unnikrishnan-cheramangalath {
+        background-color: $orange;
+      }
+      
+      &.girish-bharambe {
+        background-color: $grass;
+      }
+
+      &.prof-ramakrishna-upadrasta {
+        background-color: $red-200;
+      }
+
+      &.prof-jyothi-vedurada {
+        background-color: $purple-000;
+      }  
+
+      &.tutorial {
+        background-color: $yellow-300;
+      }
+
     }
   }  

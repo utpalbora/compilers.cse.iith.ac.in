@@ -13,16 +13,16 @@ timeline:
   - '12:00 PM'
   - '12:30 PM'
   - '1:00 PM'
-  # - '1:30 PM'
-  # - '2:00 PM'
-  # - '2:30 PM'
-  # - '3:00 PM'
-  # - '3:30 PM'
-  # - '4:00 PM'
-  # - '4:30 PM'
-  # - '5:00 PM'
-  # - '5:30 PM'
-  # - '6:00 PM'
+  - '1:30 PM'
+  - '2:00 PM'
+  - '2:30 PM'
+  - '3:00 PM'
+  - '3:30 PM'
+  - '4:00 PM'
+  - '4:30 PM'
+  - '5:00 PM'
+  - '5:30 PM'
+  - '6:00 PM'
   # - '6:30 PM'
   # - '7:00 PM'
   # - '7:30 PM'
@@ -33,53 +33,112 @@ timeline:
 schedule:
   - name: Jul 6th (Tuesday)
     events:
-      - name: Prof. Ramakrishna
+      - name: Prof. Ramakrishna Upadrasta
         start: 9:00 AM
         end: 10:00 AM
-        info: Introduction to compilers
-      - name: Prof. Govind
+        info: Introduction to Compilers
+      - name: Prof. R Govindarajan
         start: 10:30 AM
         end: 11:30 AM
         location: Machine Architecture and Pipelining
-      - name: Prof. Ramakrishna
+      - name: Tutorial
         start: 11:45 AM
         end: 12:45 PM
-        info: Playing around with the docker with pre-installed Clang/LLVM.
+        info: LLVM Compiler Tutorial toolchain
+      - name: Tutorial
+        start: 3:00 PM
+        end: 4:00 PM
+        info: Clang/LLVM Optimizations and options
+      - name: Tutorial
+        start: 4:30 PM
+        end: 5:30 PM
+        info: Clang/LLVM Optimizations and options
   - name: Jul 7th (Wednesday)
     events: 
-      - name: Prof. Krishna
+      - name: Prof. Nandivada V Krishna
         start: 9:00 AM
         end: 10:00 AM
-        info: CSE, LICM, peephole. Various Loop optimization.
-      - name: Prof. Krishna
+        info: Machine Independent optimizations
+      - name: Prof. Nandivada V Krishna
         start: 10:30 AM
         end: 11:30 AM
-        info: CSE, LICM, peephole. Various Loop optimization.
-      - name: Prof. Krishna
+        info: Machine Independent optimizations
+      - name: Prof. Nandivada V Krishna
         start: 11:45 AM
         end: 12:45 PM
-        info: CSE, LICM, peephole. Various Loop optimization.
-
+        info: Machine Independent optimizations
+      - name: Tutorial
+        start: 3:00 PM
+        end: 4:00 PM
+        info: Lexical Analysis and Parsing
+      - name: Tutorial
+        start: 4:30 PM
+        end: 5:30 PM
+        info: Lexical Analysis and Parsing
   - name: Jul 8th (Thursday)
     events:
-      - name: Prof. RG
-        start: 9:00 AM
-        end: 12:45 PM
-        info: Register Allocation, Scheduling and Software pipelining
-  - name: Jul 9th (Friday)
-    events :
-      - name: Prof. RG
+      - name: Prof. R Govindarajan
         start: 9:00 AM
         end: 10:00 AM
-        info: Dependency Analysis, vectorization and parallelization.
-      - name: Prof. Swati
+        info: Machine Dependent Optimizations 1
+      - name: Prof. R Govindarajan
         start: 10:30 AM
-        end: 12:40 PM
-        info: Internal Representation of Classes, Virtual Functions, Virtual Function Table representation. 
+        end: 11:30 AM
+        info: Machine Dependent Optimizations 1
+      - name: Prof. R Govindarajan
+        start: 11:45 AM
+        end: 12:45 PM
+        info: Machine Dependent Optimizations 1
+      - name: Tutorial
+        start: 3:00 PM
+        end: 4:00 PM
+        info: Introduction to LLVM and Clang
+      - name: Tutorial
+        start: 4:30 PM
+        end: 5:30 PM
+        info: Introduction to LLVM and Clang
+  - name: Jul 9th (Friday)
+    events :
+      - name: Prof. R Govindarajan
+        start: 9:00 AM
+        end: 10:00 AM
+        info: Machine Dependent Optimizations 2
+      - name: Prof. Swati Jaiswal
+        start: 10:30 AM
+        end: 11:30 AM
+        info: Internal Representation of Classes 
+      - name: Prof. Swati Jaiswal
+        start: 11:45 AM
+        end: 12:45 PM
+        info: Internal Representation of Classes 
+      - name: Tutorial
+        start: 3:00 PM
+        end: 4:00 PM
+        info: LLVM IR
+      - name: Tutorial
+        start: 4:30 PM
+        end: 5:30 PM
+        info: LLVM IR
   - name: Jul 10th (Saturday)
     events:
-      - name: Prof. Subhajit
+      - name: Prof. Subhajit Roy
         start: 9:00 AM
+        end: 10:00 AM
+        info: Control-Flow Analyses
+      - name: Prof. Subhajit Roy
+        start: 10:30 AM
+        end: 11:30 AM
+        info: Control-Flow Analyses
+      - name: Prof. Subhajit Roy
+        start: 11:45 AM
         end: 12:45 PM
-        info: Control flow analysis, Dominators, Post-dominators, Natural loops, Control-Dependences and SSA.
+        info: Control-Flow Analyses
+      - name: Tutorial
+        start: 3:00 PM
+        end: 4:00 PM
+        info: Writing passes in LLVM 1
+      - name: Tutorial
+        start: 4:30 PM
+        end: 5:30 PM
+        info: Writing passes in LLVM 1
 ---
