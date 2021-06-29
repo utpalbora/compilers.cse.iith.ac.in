@@ -22,39 +22,16 @@ include:
 sass:
   sass_dir: _sass
 
-# Theme settings
-remote_theme: pmarsceill/just-the-docs@v0.3.3
-color_scheme: light
-permalink: pretty
-
 # Collections for website data
 collections:
-  staffers:
-  modules:
   schedules:
-  announcements:
 # Default layouts for each collection type
 defaults:
-  - scope:
-      path: ''
-      type: staffers
-    values:
-      layout: staffer
-  - scope:
-      path: ''
-      type: modules
-    values:
-      layout: module
   - scope:
       path: ''
       type: schedules
     values:
       layout: schedule
-  - scope:
-      path: ''
-      type: announcements
-    values:
-      layout: announcement
 
 # Conversion
 markdown: kramdown

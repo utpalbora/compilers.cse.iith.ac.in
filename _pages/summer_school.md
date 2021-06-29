@@ -100,6 +100,13 @@ A high-level module structure is as follows:
 **Students would be provided with a Docker container with the necessary softwares installed.**
 
 <br>
+{% assign week_num = 1 %}
+{% for schedule in site.schedules %}
+<h4> Week {{ week_num }}</h4>
+{{ schedule }}
+<br>
+{% assign week_num = week_num | plus: 1 %}
+{% endfor %}
 </div>
 
 <div id="organizers">

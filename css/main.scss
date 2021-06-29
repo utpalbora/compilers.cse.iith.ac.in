@@ -1,7 +1,8 @@
 ---
 ---
+{% include css/just-the-docs.scss.liquid color_scheme=light %}
 @import "bootstrap";
-// @import "custom";
+@import "custom/custom";
 
 img { margin-bottom: 24px; 
      margin-top: 17px; 
