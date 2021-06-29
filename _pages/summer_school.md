@@ -5,8 +5,8 @@ excerpt: "IITH Compilers Team -- Research"
 sitemap: false
 permalink: /event/summerschool2021/
 ---
-<div id="about">
 <img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px">
+<div id="about">
 # Summer School on Programming Language Analysis and Optimizations
 ## Hosted by IIT Hyderabad (online)
 
@@ -40,8 +40,9 @@ A high-level module structure is as follows:
 * Programming using C
 </div>
 <br>
-<div id="speakers">
 
+
+<div id="speakers" style="overflow: hidden;">
 ### Partial list of speakers
 
 {% assign number_printed = 0 %}
@@ -62,11 +63,13 @@ A high-level module structure is as follows:
   {% endif %}
 </div>
 {% endfor %}
+
 </div>
 
-<div id="schedule">
 
+<div id="schedule-table">
 ### Schedule
+
 * Lectures: (Morning) 3 - 4 hours per day (with breaks of 15min--30mins)
 * Tutorials/Hands-on: (Afternoon) 2 - 2.5 hours per day on practical aspects on the following: 
   * Language tools - Lex, Yacc, Antlr
@@ -76,7 +79,6 @@ A high-level module structure is as follows:
     * MLIR, AutoTVM, ...
 
 *Detailed schedule will be published soon.* 
-<br>
 <!-- {% for schedule in site.data.weekly.schedule %} -->
 <!-- {{ schedule }} -->
 <!-- {% endfor %} -->
