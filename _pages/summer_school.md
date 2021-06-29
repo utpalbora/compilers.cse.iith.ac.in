@@ -48,7 +48,6 @@ A high-level module structure is as follows:
 </div>
 <br>
 
-
 <div id="speakers" style="overflow: hidden;">
 ### Partial list of speakers
 
