@@ -58,15 +58,15 @@ schedule:
       - name: Prof. Jyothi Vedurada
         start: 9:00 AM
         end: 10:00 AM
-        info: Inter and Intra procedural optimizations
+        info: Inter and Intra procedural analyses
       - name: Prof. Jyothi Vedurada
         start: 10:30 AM
         end: 11:30 AM
-        info: Inter and Intra procedural optimizations
+        info: Inter and Intra procedural analyses
       - name: Prof. Jyothi Vedurada
         start: 11:45 AM
         end: 12:45 PM
-        info: Inter and Intra procedural optimizations
+        info: Inter and Intra procedural analyses
       - name: Girish Bharambe
         start: 3:00 PM
         end: 4:00 PM
