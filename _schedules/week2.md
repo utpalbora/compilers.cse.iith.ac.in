@@ -96,11 +96,11 @@ schedule:
       - name: Prof. Unnikrishnan Cheramangalath
         start: 9:30 AM
         end: 10:30 AM
-        info: Code Generation
+        info: Code Generation & Backend
       - name: Prof. Unnikrishnan Cheramangalath
         start: 11:00 AM
         end: 12:30 PM
-        info: Code Generation
+        info: Code Generation & Backend
       - name: Tutorial
         start: 3:00 PM
         end: 4:00 PM
