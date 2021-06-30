@@ -34,16 +34,16 @@ schedule:
   - name: Jul 12th (Monday)
     events:
       - name: Prof. Uday Khedker
-        start: 9:30 AM
-        end: 10:30 AM
+        start: 9:00 AM
+        end: 10:00 AM
         info: Data flow analyses
       - name: Prof. Uday Khedker
-        start: 11:00 AM
-        end: 12:00 PM
+        start: 10:30 AM
+        end: 11:30 AM
         info: Data flow analyses
       - name: Prof. Uday Khedker
-        start: 12:15 PM
-        end: 1:15 PM
+        start: 11:45 AM
+        end: 12:45 PM
         info: Data flow analyses
       - name: Tutorial
         start: 3:00 PM
@@ -58,23 +58,23 @@ schedule:
       - name: Prof. Jyothi Vedurada
         start: 9:00 AM
         end: 10:00 AM
-        info: Program analyses and optimizations
+        info: Inter and Intra procedural optimizations
       - name: Prof. Jyothi Vedurada
         start: 10:30 AM
         end: 11:30 AM
-        info: Program analyses and optimizations
+        info: Inter and Intra procedural optimizations
       - name: Prof. Jyothi Vedurada
         start: 11:45 AM
         end: 12:45 PM
-        info: Program analyses and optimizations
+        info: Inter and Intra procedural optimizations
       - name: Girish Bharambe
         start: 3:00 PM
         end: 4:00 PM
-        info: Program execution, Runtime, Linker
+        info: Runtime, Linker and GPUs
       - name: Girish Bharambe
         start: 4:30 PM
         end: 5:30 PM
-        info: Program execution, Runtime, Linker
+        info: Runtime, Linker and GPUs
       - name: Prof. Sanjay Rajopadhye
         start: 7:30 PM
         end: 8:15 PM
@@ -94,17 +94,13 @@ schedule:
         end: 8:30 AM
         info: Polyhedral Compilation 2
       - name: Prof. Unnikrishnan Cheramangalath
-        start: 9:00 AM
-        end: 10:00 AM
-        info: Codegen
+        start: 9:30 AM
+        end: 10:30 AM
+        info: Code Generation
       - name: Prof. Unnikrishnan Cheramangalath
-        start: 10:30 AM
-        end: 11:30 AM
-        info: Codegen
-      - name: Prof. Unnikrishnan Cheramangalath
-        start: 11:45 AM
-        end: 12:45 PM
-        info: Codegen
+        start: 11:00 AM
+        end: 12:30 PM
+        info: Code Generation
       - name: Tutorial
         start: 3:00 PM
         end: 4:00 PM
@@ -141,21 +137,21 @@ schedule:
         info: Polyhedral Compilation 4
   - name: Jul 16th (Friday)
     events:
-      - name: Prof. Sanjay Rajopadhye
+      - name: Buffer Slot
         start: 7:00 AM
         end: 7:50 AM
-        info: Polyhedral Compilation 5
-      - name: Prof. Sanjay Rajopadhye
+        info: 
+      - name: Buffer Slot
         start: 8:00 AM
         end: 8:30 AM
-        info: Polyhedral Compilation 5
+        info: 
       - name: Prof. Uday Khedker
-        start: 10:30 AM
-        end: 11:30 AM
+        start: 9:30 AM
+        end: 10:30 AM
         info: Perspectives in Compilation
       - name: Prof. Uday Khedker
-        start: 11:45 AM
-        end: 12:45 PM
+        start: 11:00 AM
+        end: 12:00 PM
         info: Perspectives in Compilation
       - name: Prof. Ramakrishna Upadrasta
         start: 3:00 PM

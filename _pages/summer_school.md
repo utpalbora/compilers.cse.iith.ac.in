@@ -87,6 +87,7 @@ A high-level module structure is as follows:
 
 
 <div id="schedule-table">
+<br/>
 ### Schedule
 
 * Lectures: (Morning) 3 - 4 hours per day (with breaks of 15min--30mins)
@@ -131,13 +132,7 @@ A high-level module structure is as follows:
 <div id="organizers">
 
 ### Coordinators
-
-#### Academic
 * Abhijat Vichare [abhijatv@acm.org](abhijatv@acm.org)
-* Ramakrishna Upadrasta [ramakrishna@cse.iith.ac.in](ramakrishna@cse.iith.ac.in)
-* Jyothi Vedurada [jyothiv@cse.iith.ac.in](jyothiv@cse.iith.ac.in)
-
-#### Local (from host institute)
 * Ramakrishna Upadrasta [ramakrishna@cse.iith.ac.in](ramakrishna@cse.iith.ac.in)
 * Jyothi Vedurada [jyothiv@cse.iith.ac.in](jyothiv@cse.iith.ac.in)
 

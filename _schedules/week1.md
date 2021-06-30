@@ -40,7 +40,7 @@ schedule:
       - name: Prof. R Govindarajan
         start: 10:30 AM
         end: 11:30 AM
-        location: Machine Architecture and Pipelining
+        info: Machine Architecture and Pipelining
       - name: Tutorial
         start: 11:45 AM
         end: 12:45 PM
@@ -106,11 +106,11 @@ schedule:
       - name: Prof. Swati Jaiswal
         start: 10:30 AM
         end: 11:30 AM
-        info: Internal Representation of Classes 
+        info: Compilation of Object Oriented Languages 
       - name: Prof. Swati Jaiswal
         start: 11:45 AM
         end: 12:45 PM
-        info: Internal Representation of Classes 
+        info: Compilation of Object Oriented Languages 
       - name: Tutorial
         start: 3:00 PM
         end: 4:00 PM
@@ -124,15 +124,15 @@ schedule:
       - name: Prof. Subhajit Roy
         start: 9:00 AM
         end: 10:00 AM
-        info: Control-Flow Analyses
+        info: Control-Flow Analyses & SSA
       - name: Prof. Subhajit Roy
         start: 10:30 AM
         end: 11:30 AM
-        info: Control-Flow Analyses
+        info: Control-Flow Analyses & SSA
       - name: Prof. Subhajit Roy
         start: 11:45 AM
         end: 12:45 PM
-        info: Control-Flow Analyses
+        info: Control-Flow Analyses & SSA
       - name: Tutorial
         start: 3:00 PM
         end: 4:00 PM
