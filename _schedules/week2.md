@@ -34,16 +34,16 @@ schedule:
   - name: Jul 12th (Monday)
     events:
       - name: Prof. Uday Khedker
-        start: 9:00 AM
-        end: 10:00 AM
+        start: 9:30 AM
+        end: 10:30 AM
         info: Data flow analyses
       - name: Prof. Uday Khedker
-        start: 10:30 AM
-        end: 11:30 AM
+        start: 11:00 AM
+        end: 12:00 PM
         info: Data flow analyses
       - name: Prof. Uday Khedker
-        start: 11:45 AM
-        end: 12:45 PM
+        start: 12:15 PM
+        end: 1:15 PM
         info: Data flow analyses
       - name: Tutorial
         start: 3:00 PM
