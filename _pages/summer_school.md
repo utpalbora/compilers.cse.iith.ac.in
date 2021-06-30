@@ -6,7 +6,9 @@ sitemap: false
 permalink: /event/summerschool2021/
 ---
 <div id="about">
+<figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px">
+</figure>
 ## Summer School on Programming Language Analysis and Optimizations
 
 
@@ -47,8 +49,8 @@ A high-level module structure is as follows:
 * Programming using C
 </div>
 <br>
-<div id="speakers">
 
+<div id="speakers" style="overflow: hidden;">
 ### Partial list of speakers
 
 {% assign number_printed = 0 %}
@@ -81,13 +83,12 @@ A high-level module structure is as follows:
 
 {% endfor %}
 
-<br/>
 </div>
 
-<div id="schedule">
+
+<div id="schedule-table">
 <br/>
 ### Schedule
-*Detailed schedule will be published soon.* 
 
 * Lectures: (Morning) 3 - 4 hours per day (with breaks of 15min--30mins)
 * Tutorials/Hands-on: (Afternoon) 2 - 2.5 hours per day on practical aspects on the following: 
@@ -100,18 +101,38 @@ A high-level module structure is as follows:
 **Students would be provided with a Docker container with the necessary softwares installed.**
 
 <br>
+{% assign week_num = 1 %}
+
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#week1" data-toggle="tab">Week 1</a></li>
+    <li><a href="#week2" data-toggle="tab">Week 2</a></li>
+</ul>
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="week1">
+{% for schedule in site.schedules %}
+{{ schedule }}
+<br>
+{% break %}
+{% endfor %}
+</div>
+
+<div role="tabpanel" class="tab-pane" id="week2">
+{% for schedule in site.schedules %}
+{% if week_num == 1 %}
+{% assign week_num = 2 %}
+{% continue %}
+{% endif %}
+{{ schedule }}
+{% endfor %}
+</div>
+</div>
+
 </div>
 
 <div id="organizers">
 
 ### Coordinators
-
-#### Academic
 * Abhijat Vichare [abhijatv@acm.org](abhijatv@acm.org)
-* Ramakrishna Upadrasta [ramakrishna@cse.iith.ac.in](ramakrishna@cse.iith.ac.in)
-* Jyothi Vedurada [jyothiv@cse.iith.ac.in](jyothiv@cse.iith.ac.in)
-
-#### Local (from host institute)
 * Ramakrishna Upadrasta [ramakrishna@cse.iith.ac.in](ramakrishna@cse.iith.ac.in)
 * Jyothi Vedurada [jyothiv@cse.iith.ac.in](jyothiv@cse.iith.ac.in)
 

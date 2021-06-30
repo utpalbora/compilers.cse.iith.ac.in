@@ -21,8 +21,8 @@
             style="top: {{ top }}px; height: {{ height }}px;">
           <div class="name">{{ event.name }}</div>
           <div class="time">{{ event.start }}–{{ event.end }}</div>
-          {% if event.location %}
-          <div class="location">{{ event.location }}</div>
+          {% if event.info %}
+          <div class="info">{{ event.info }}</div>
           {% endif %}
         </li>
       {% endfor %}
