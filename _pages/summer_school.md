@@ -8,9 +8,9 @@ permalink: /event/summerschool2021/
 
 <section id="about" style="position: relative; padding-top: 50px;">
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px; border-radius: 0%;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/event/iith-banner1.jpg" style="height: 280px">
 </figure>
-## Summer School on Programming Language Analysis and Optimizations
+## ACM India Summer School on Programming Language Analysis and Optimizations
 
 
 <div style="font-size: 150%;">
