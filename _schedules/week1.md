@@ -91,18 +91,18 @@ schedule:
         info: Introduction to LLVM and Clang
   - name: Jul 9th (Friday)
     events :
-      - name: Prof. R Govindarajan
+      - name: Prof. Swati Jaiswal
         start: 9:00 AM
         end: 10:00 AM
-        info: Machine Dependent Optimizations 2
+        info: Compilation of Object Oriented Languages 
       - name: Prof. Swati Jaiswal
         start: 10:30 AM
         end: 11:30 AM
         info: Compilation of Object Oriented Languages 
-      - name: Prof. Swati Jaiswal
+      - name: Prof. R Govindarajan
         start: 11:45 AM
         end: 12:45 PM
-        info: Compilation of Object Oriented Languages 
+        info: Machine Dependent Optimizations 2
       - name: Tutorial
         start: 3:00 PM
         end: 4:00 PM
