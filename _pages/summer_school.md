@@ -51,7 +51,7 @@ A high-level module structure is as follows:
 </section>
 
 <section id="speakers" style="position: relative; padding-top: 50px;">
-### Partial list of speakers
+### List of Speakers
 
 {% assign number_printed = 0 %}
 {% for member in site.data.event_speakers %}

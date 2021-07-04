@@ -36,15 +36,15 @@ schedule:
       - name: Tutorial
         start: 11:45 AM
         end: 12:45 PM
-        info: LLVM Compiler Tutorial toolchain
+        info: Introduction to LLVM Compiler toolchain
       - name: Tutorial
         start: 3:00 PM
         end: 4:00 PM
-        info: Clang/LLVM Optimizations and options
+        info: Compiler Options and Optimizations
       - name: Tutorial
         start: 4:30 PM
         end: 5:30 PM
-        info: Clang/LLVM Optimizations and options
+        info: Compiler Options and Optimizations
   - name: Jul 7th (Wednesday)
     events: 
       - name: Prof. Nandivada V Krishna
@@ -84,11 +84,11 @@ schedule:
       - name: Tutorial
         start: 3:00 PM
         end: 4:00 PM
-        info: Introduction to LLVM and Clang
+        info: Clang and Clang Tooling
       - name: Tutorial
         start: 4:30 PM
         end: 5:30 PM
-        info: Introduction to LLVM and Clang
+        info: Clang and Clang Tooling
   - name: Jul 9th (Friday)
     events :
       - name: Prof. Swati Jaiswal
