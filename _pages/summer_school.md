@@ -103,11 +103,11 @@ A high-level module structure is as follows:
 {% assign week_num = 1 %}
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#week1" data-toggle="tab">Week 1</a></li>
-    <li><a href="#week2" data-toggle="tab">Week 2</a></li>
+    <li><a href="#week1" data-toggle="tab">Week 1</a></li>
+    <li class="active"><a href="#week2" data-toggle="tab">Week 2</a></li>
 </ul>
 <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="week1">
+<div role="tabpanel" class="tab-pane" id="week1">
 {% for schedule in site.schedules %}
 {{ schedule }}
 <br>
@@ -115,7 +115,7 @@ A high-level module structure is as follows:
 {% endfor %}
 </div>
 
-<div role="tabpanel" class="tab-pane" id="week2">
+<div role="tabpanel" class="tab-pane active" id="week2">
 {% for schedule in site.schedules %}
 {% if week_num == 1 %}
 {% assign week_num = 2 %}
