@@ -121,10 +121,6 @@ schedule:
         info: Polyhedral Compilation 4
   - name: Jul 16th (Friday)
     events:
-      - name: Buffer Slot
-        start: 7:00 AM
-        end: 8:30 AM
-        info: 
       - name: Prof. Uday Khedker
         start: 9:30 AM
         end: 10:30 AM
@@ -133,10 +129,10 @@ schedule:
         start: 11:00 AM
         end: 12:00 PM
         info: Perspectives in Compilation
-      - name: Prof. Ramakrishna Upadrasta
+      - name: Tutorial
         start: 2:30 PM
-        end: 4:00 PM
-        info: DSLs, MLIR
+        end: 3:45 PM
+        info: MLIR
       - name: Panel Discussion
         start: 4:00 PM
         end: 5:00 PM
