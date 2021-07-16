@@ -51,3 +51,8 @@ Group Pic.
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/groupPic-1.jpg" width="60%" >
 </figure>
 
+ACM Summer School on Compilers/PL 2021
+
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/ACM-SummerSchool2021.png" width="90%" >
+</figure>
