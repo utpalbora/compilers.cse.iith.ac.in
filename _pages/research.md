@@ -51,7 +51,7 @@ A well defined sequence of compiler optimizations will have a strong impact on p
 ### Compilers for Deep Learning
 With the emergence of various deep learning models and hardware architectures, it is infeasible to write optimized code for every architecture. There are various techniques to optimize the code but the search space is huge. Hence deep learning techniques helps to design good heuristics to select optimized code.
 <details>
-<summary class="dp" markdown='span'> <b>PolyDL</b> <a href="https://www.youtube.com/watch?v=kyD4ysn8ljE&t=1866s&ab_channel=HiPEAC" target="_blank"> <img  class="dp-img" alt="PolyDL Video" src="https://www.youtube.com/s/desktop/75da313d/img/favicon.ico" width="15px" height="15px"></a></summary>
+<summary class="dp" markdown='span'> <b><a href="{{ site.url }}{{ site.baseurl }}/projects/polydl/" target="_blank">PolyDL</a></b> <a href="https://www.youtube.com/watch?v=kyD4ysn8ljE&t=1866s&ab_channel=HiPEAC" target="_blank"> <img  class="dp-img" alt="PolyDL Video" src="https://www.youtube.com/s/desktop/75da313d/img/favicon.ico" width="15px" height="15px"></a></summary>
 
 ##### End to end tool to find the Optimized Code for the hardware.
 </details>
