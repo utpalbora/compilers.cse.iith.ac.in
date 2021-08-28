@@ -37,3 +37,6 @@ Using our methodology we performed experiments on Convolution and GEMM’s on In
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polydl/maskrcnn.png" width="85%">
 </figure>
+
+### Funding
+This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications & Information Technology, Government of India. This work is partially supported by a Visvesvaraya PhD Scheme under the MEITY, GoI, an NSM research grant, a Visvesvaraya Young Faculty Research Fellowship from MeitY, and a faculty research grant from AMD.
