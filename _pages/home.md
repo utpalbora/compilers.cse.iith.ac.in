@@ -70,5 +70,6 @@ permalink: /
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_AMD.png" style="height: 80px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Qualcomm.png" style="height: 80px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Intel.png" style="height: 80px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSM.jpg" style="height: 65px; padding-left: 30px">
 </figure>
 

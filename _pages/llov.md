@@ -108,6 +108,9 @@ Since the coverage of LLOV and SWORD are not complete, figure 3.b shows time tak
 
 LLOV is available free of cost on our [GitHub](https://github.com/utpalbora/llov){:target="_blank"} page.
 
+### Funding
+This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications & Information Technology, Government of India. This work is partially supported by a Visvesvaraya PhD Scheme under the MEITY, GoI, an NSM research grant, a Visvesvaraya Young Faculty Research Fellowship from MeitY, and a faculty research grant from AMD.
+
 ### Contact
 For any issues, questions, comments or suggestions, feel free to reach out to us at [llov-dev@googlegroups.com](https://groups.google.com/g/llov-dev){:target="_blank"}
 

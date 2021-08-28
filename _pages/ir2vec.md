@@ -58,6 +58,9 @@ On both of these tasks we achieve better accuracies and speed-ups with very few 
 
 Code and other artifacts are available in our [GitHub](https://github.com/IITH-Compilers/IR2Vec) page.
 
+### Funding
+This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications & Information Technology, Government of India. This work is partially supported by a Visvesvaraya PhD Scheme under the MEITY, GoI, an NSM research grant, a Visvesvaraya Young Faculty Research Fellowship from MeitY, and a faculty research grant from AMD.
+
 ### What do you think?
 If you have any comments or questions, feel free to reach out to us at [ir2vec-developers@googlegroups.com](https://groups.google.com/g/ir2vec-developers)
 
