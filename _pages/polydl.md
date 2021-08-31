@@ -40,6 +40,4 @@ Using our methodology we performed experiments on Convolution and GEMM’s on In
 
 ### Funding
 This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications
-& Information Technology, Government of India. This work is partially supported by a Visvesvaraya PhD Scheme under
-the MEITY, GoI (PhD-MLA/04(02)/2015-16), an NSM research grant (MeitY/R&D/HPC/2(1)/2014), a Visvesvaraya Young
-Faculty Research Fellowship from MeitY, and a faculty research grant from AMD.
+& Information Technology, Government of India. This work has been partly supported by the funding received from DST, Govt of India, through the Data Science cluster of the ICPS program (DST/ICPS/CLUSTER/Data Science/2018/General), and an NSM research grant (MeitY/R&D/HPC/2(1)/2014).
