@@ -159,6 +159,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 <div class="col-md-4">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
+  <i>{{ member.affiliation }}</i>
 </div>
 {% endif %}
 

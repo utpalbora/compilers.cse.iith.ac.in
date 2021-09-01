@@ -2,7 +2,7 @@
   type: faculty
   photo: rama.png
   url: https://iith.ac.in/~ramakrishna/
-  info: Assistant Professor, started March, 2014
+  info: Assistant Professor, started March 2014
   email: ramakrishna [AT] cse [DOT] iith [DOT] ac [DOT] in
   number_educ: 5
   education1: MTech from IISc Bangalore, India
@@ -19,7 +19,7 @@
     value: 1
     link: https://utpalbora.com/
   photo: utpal.jpg
-  info: started July, 2015 (Previously M.Tech TA from August, 2014 - July, 2015)
+  info: started July 2015 (Previously M.Tech TA from August 2014 - July 2015)
   email: cs14mtech11017 [AT] iith [DOT] ac [DOT] in
   interests: Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection
   # number_educ: 2
@@ -32,7 +32,7 @@
     value: 0
     link:
   photo: shalini.jpg
-  info: started August, 2015
+  info: started August 2015
   email: cs15resch11010 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
   # number_educ: 1
@@ -44,19 +44,9 @@
     value: 0
     link: 
   photo: venkat.jpg
-  info: started May, 2020 (Previously M.Tech RA from August, 2017 - May, 2020)
+  info: started May 2020 (Previously M.Tech RA from August 2017 - May 2020)
   email: cs17m20p100001 [AT] iith [DOT] ac [DOT] in
   interests: Machine Learning in Compilers and Programming Languages
-
-- name: Rohit Aggarwal
-  type: mtech
-  url:
-    value: 0
-    link:
-  photo: rohit.jpg
-  info: M.Tech RA, started August, 2018
-  email: cs18mtech11030 [AT] iith [DOT] ac [DOT] in
-  interests: Program representation and Optimization with Machine Learnng
 
 - name: Gagandeep Goyal
   type: mtech
@@ -64,7 +54,7 @@
     value: 0
     link:
   photo: gagan.jpg
-  info: M.Tech RA, started January, 2019
+  info: M.Tech RA, started January 2019
   email: cs19mtech01003 [AT] iith [DOT] ac [DOT] in
   interests: Deep Learning in Compilers,Program representation, Polyhedral Compilation and Compiler Optimization
 
@@ -74,19 +64,9 @@
     value: 0
     link:
   photo: nilesh.jpg
-  info: M.Tech RA, started August, 2019
+  info: M.Tech RA, started August 2019
   email: cs19mtech11021 [AT] iith [DOT] ac [DOT] in
   interests: Polyhedral Compilation, Compiler Optimizations
-
-- name: Shailendra Dilip Singh
-  type: mtech
-  url:
-    value: 0
-    link:
-  photo: shailendra.jpg
-  info: M.Tech TA, started August, 2019
-  email: cs19mtech11018 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization using Deep Learning
 
 - name: Kuldeep Gautam
   type: mtech
@@ -94,7 +74,7 @@
     value: 1
     link: https://kgautam01.github.io/
   photo: kuldeep.jpg
-  info: M.Tech RA, started January, 2020
+  info: M.Tech RA, started January 2020
   email: cs20mtech01004 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimizations, Deep Learning in Compilers
 
@@ -104,7 +84,7 @@
     value: 0
     link:
   photo: anilava.jpg
-  info: M.Tech RA, started January, 2020
+  info: M.Tech RA, started January 2020
   email: cs20mtech01002 [AT] iith [DOT] ac [DOT] in
   interests: Static Analysis,Code Compliance in Critical Systems
 
@@ -114,7 +94,7 @@
     value: 0
     link:
   photo: siddharth.jpg
-  info: M.Tech RA, started August, 2020
+  info: M.Tech RA, started August 2020
   email: cs20mtech12003 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimizations, Machine Learning
 
@@ -126,35 +106,52 @@
   photo: yashas.jpg
   info: started January, 2021 (Previously B.Tech 2017 - 2021)
   email: cs17b21m000001 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimizations, Program representation, Machine Learning
+  interests: Compilers for Networks, Compiler Optimizations, Program representation, Machine Learning
 
-- name: Rahul Utkoor
+- name: Shailendra Dilip Singh
   type: alum
-  info: B.Tech + M.Tech, 2014-2019
+  info: M.Tech TA, 2019-2021
+  affiliation:
 
-- name: Abhishek A Patwardhan
+- name: Rohit Aggarwal
   type: alum
-  info: M.Tech RA, 2015-2018
-
-- name: Dangeti Tharun Kumar
-  type: alum
-  info: M.Tech RA, 2015-2018
+  info: M.Tech RA, 2018-2021
+  affiliation: 
 
 - name: Gayatri PK
   type: alum
   info: M.S., 2015-2019
+  affiliation: 
 
-- name: Prateek Bhatu
+- name: Rahul Utkoor
   type: alum
-  info: B.Tech + M.Tech, 2012-2017
-
-- name: Santanu Das
-  type: alum
-  info: M.Tech RA, 2015-2018
+  info: B.Tech + M.Tech, 2014-2019
+  affiliation: 
 
 - name: Anirudh Sundar Subramaniam
   type: alum
   info: M.Tech, 2016-2018
+  affiliation: 
+
+- name: Abhishek A Patwardhan
+  type: alum
+  info: M.Tech RA, 2015-2018
+  affiliation: 
+
+- name: Dangeti Tharun Kumar
+  type: alum
+  info: M.Tech RA, 2015-2018
+  affiliation: 
+
+- name: Santanu Das
+  type: alum
+  info: M.Tech RA, 2015-2018
+  affiliation: 
+
+- name: Prateek Bhatu
+  type: alum
+  info: B.Tech + M.Tech, 2012-2017
+  affiliation: 
 
 # - name: "This could be you !"
 #   photo: rock.jpg
