@@ -6,25 +6,21 @@ sitemap: false
 permalink: /projects/llov/
 ---
 
-# LLOV: A Fast Static Data-Race Checker for OpenMP Programs
-*Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye*
-#### Published in [ACM TACO](https://dl.acm.org/doi/10.1145/3418597){:target="_blank"} ([pre-print](https://arxiv.org/abs/1912.12189){:target="_blank"}) (Talks: [HiPEAC'21](https://www.youtube.com/watch?v=kyD4ysn8ljE&t=3781s&ab_channel=HiPEAC))
-
+# LLOV: LLVM OpenMP Verifier
 
 LLOV is a fast, language agnostic, static data race checker for OpenMP programs.
 It supports OpenMP programs written in C, C++ and FORTRAN.
-LLOV works on LLVM IR and uses Polyhedral compilation techniques to detect races.
+LLOV works on LLVM IR and uses May-Happen-in-Parallel (MHP) analysis and Polyhedral compilation techniques to detect races.
 It can also verify that a program segment is data race free.
-It also uses *ModRef* analysis to detect races in non-affine programs in a conservative manner.
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/llov/OmpVerify.jpeg" width="85%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/llov/LLOV-MHP-arch.jpeg" width="85%">
 </figure>
 
-LLOV has two phases, first it performs analysis on LLVM IR, and then performs verification/race-detection using integer sets.
+LLOV has two phases, first it performs analysis on LLVM IR, and then performs verification/race-detection using integer sets of ISL and MHP Analysis.
 
 ### Internals
-#### Race detection in affine regions:
+#### Race detection using precise Dependence Analysis of Polly:
 LLOV models a parallel region as a static control part (SCoP) and computes the dependences.
 
 ```cpp
@@ -50,47 +46,44 @@ The code segment has a race condition since the dependence across the inner dime
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/llov/llov-projections.png" width="85%">
 </figure>
 
-#### Race detection in non-affine regions:
+#### Race detection using MHP Analysis:
 In addition to race detection in affine regions that can be
-exactly modelled by Polly, we use LLVM’s Alias Analysis (AA) to conservatively analyze non-affine
-regions that cannot be modelled by Polly.
+exactly modelled by Polly, LLOV performs MHP analysis for regions that cannot be modelled by Polly.
 
-We use the Mod/Ref information from the Alias Analysis engine of LLVM to analyze
-whether a shared memory location is read (Ref) or modified (Mod) by an instruction.
+LLOV performs Phase Interval Analysis (PIA) to compute the execution phase of a Basic Block.
+To perform PIA, LLOV constructs a TaskGraph consisting of the basic blocks, control-flow edges, and call edges.
+PIA is a forward flow, data-flow analysis in the monotone framework where the domain of analysis is the interval lattice.
+The phase of execution of a basic block increase 1) upon entering a parallel region, 2) upon encountering a barrier, and 3) upon exiting a parallel region.
+Each node of the TaskGraph is annotated with the minimum and the maximum phase of execution represented by a closed interval [lb, ub].
+Two nodes in the TaskGraph can run in parallel iff their phase intervals overlap.
+When the phase intervals of the source and the sink basic blocks of a data dependence overlap, LLOV flags a race signaling a potential data-race condition.
 
-If an operation inside a parallel region on the specified memory location is not protected by
-locks and Mod/Ref is set, LLOV flags a race signaling a potential data-race condition. The AA race
-checks are invoked only when the region cannot be modelled by Polly as an affine region. The
-Mod/Ref analysis of LLVM is conservative, and can lead to LLOV producing false positive races.
-Thus LLOV provides a limited support of non-affine programs.
-
-### Pragmas supported by LLOV v0.2
+### Pragmas supported by LLOV v0.3
 
 {:class="table table-bordered"}
-| OpenMP Pragma |  LLOV |  ompVerify |  PolyOMP  |  DRACO  |  SWORD |  Archer v2 |  ROMP v2 |
-| :---        |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |
-| #pragma omp parallel |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp for |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp parallel for |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp critical |:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp atomic |:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp master |:x:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp single |:x:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp simd |:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
-| #pragma omp parallel for simd |:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
-| #pragma omp parallel sections |:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp sections |:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp threadprivate |:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp ordered |:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp distribute |:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp task |:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp taskgroup |:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp taskloop |:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp taskwait |:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp barrier |:x:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| #pragma omp teams |:x:|:x:|:x:|:x:|:x:|:x:|:x:|
-| #pragma omp target |:x:|:x:|:x:|:x:|:x:|:x:|:x:|
-| #pragma omp target map |:x:|:x:|:x:|:x:|:x:|:x:|:x:|
+| OpenMP Pragma | LLOV-MHP |  LLOV |  ompVerify |  PolyOMP  |  DRACO  |  SWORD |  Archer v2 |  ROMP v2 |
+| :---        |    :---:   | :----:   |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |
+| #pragma omp parallel |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp for |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp parallel for |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp critical |:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp atomic |:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp master |:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp single |:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp simd |:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
+| #pragma omp parallel for simd |:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
+| #pragma omp parallel sections |:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp sections |:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp threadprivate |:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp ordered |:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp distribute |:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp task |:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp taskgroup |:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp taskloop |:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp taskwait |:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp barrier |:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| #pragma omp teams |:heavy_check_mark:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|
+| #pragma omp target |:heavy_check_mark:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|
 
 ### Performance
 LLOV is orders of magnitude faster than the state-of-the-art race detection tools.
@@ -107,6 +100,15 @@ Since the coverage of LLOV and SWORD are not complete, figure 3.b shows time tak
 ![Test](https://github.com/utpalbora/LLOV/workflows/Test/badge.svg)
 
 LLOV is available free of cost on our [GitHub](https://github.com/utpalbora/llov){:target="_blank"} page.
+
+### Publications:
+#### OpenMP aware MHP Analysis for Improved Static Data-Race Detection
+*Utpal Bora, Shraiysh Vaishay, Saurabh Joshi, Ramakrishna Upadrasta*
+##### Published in [LLVM-HPC'21](){:target="_blank"} ([pre-print](https://arxiv.org/abs/){:target="_blank"}) (Talks: [LLVM-HPC'21]())
+
+#### LLOV: A Fast Static Data-Race Checker for OpenMP Programs
+*Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye*
+##### Published in [ACM TACO](https://dl.acm.org/doi/10.1145/3418597){:target="_blank"} ([pre-print](https://arxiv.org/abs/1912.12189){:target="_blank"}) (Talks: [HiPEAC'21](https://www.youtube.com/watch?v=kyD4ysn8ljE&t=3781s&ab_channel=HiPEAC))
 
 ### Funding
 This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications
