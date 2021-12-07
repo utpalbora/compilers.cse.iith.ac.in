@@ -1,32 +1,49 @@
-- title: "PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives"
-  authors: "Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul"
-  year: "2020"
+- title: "AI Powered Compiler Techniques for DL Code Optimization"
+  authors: "Sanket Tavarageri, Gagandeep Goyal, Sasikanth Avancha, Bharat Kaul, Ramakrishna Upadrasta"
+  year: "2021"
   publishedAt: "arXiv"
   type: "Journel|Transaction|Conference"
   image: ""
   link:
-    url: "https://arxiv.org/abs/2006.02230"
+    url: "https://arxiv.org/abs/2104.05573"
     display:  "arXiv"
     slides: ""
     authorCopy: ""
   highlight: 1
   news2: 
 
-
-- title: "PolyScientist: Automatic Loop Transformations Combined with Microkernels for Optimization of Deep Learning Primitives"
+- title: "PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives"
   authors: "Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul"
   description: ""
   year: "2020"
-  publishedAt: "arXiv"
+  publishedAt: "ACM Transactions on Architecture and Code Optimization (TACO)"
   type: "Conference"
   image: ""
   link:
-    url: "https://arxiv.org/abs/2002.02145"
-    display:  "arXiv"
+    url: "https://dl.acm.org/doi/abs/10.1145/3433103"
+    display:  "Paper"
     slides: ""
     authorCopy: ""
+  github:
+    url: "https://github.com/IITH-Compilers/polydl"
+    display: "Github"	
   highlight: 1
-  news2:  
+  news2:
+
+# - title: "PolyScientist: Automatic Loop Transformations Combined with Microkernels for Optimization of Deep Learning Primitives"
+#   authors: "Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul"
+#   description: ""
+#   year: "2020"
+#   publishedAt: "arXiv"
+#   type: "Conference"
+#   image: ""
+#   link:
+#     url: "https://arxiv.org/abs/2002.02145"
+#     display:  "arXiv"
+#     slides: ""
+#     authorCopy: ""
+#   highlight: 1
+#   news2:  
 
 - title: "IR2Vec: A Flow Analysis based Scalable Infrastructure for Program Encodings"
   authors: "S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, Maunendra Desarkar, Ramakrishna Upadrasta and Y. N. Srikant"
