@@ -48,16 +48,6 @@
   email: cs17m20p100001 [AT] iith [DOT] ac [DOT] in
   interests: Machine Learning in Compilers and Programming Languages
 
-- name: Gagandeep Goyal
-  type: mtech
-  url:
-    value: 0
-    link:
-  photo: gagan.jpg
-  info: M.Tech RA, started January 2019
-  email: cs19mtech01003 [AT] iith [DOT] ac [DOT] in
-  interests: Deep Learning in Compilers,Program representation, Polyhedral Compilation and Compiler Optimization
-
 - name: Nilesh Shah
   type: mtech
   url:
@@ -107,6 +97,11 @@
   info: started January, 2021 (Previously B.Tech 2017 - 2021)
   email: cs17b21m000001 [AT] iith [DOT] ac [DOT] in
   interests: Compilers for Networks, Compiler Optimizations, Program representation, Machine Learning
+
+- name: Gagandeep Goyal
+  type: alum
+  info: M.Tech RA, 2019-2022
+  affiliation:
 
 - name: Shailendra Dilip Singh
   type: alum
