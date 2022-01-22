@@ -97,6 +97,16 @@
   info: started January, 2021 (Previously B.Tech 2017 - 2021)
   email: cs17b21m000001 [AT] iith [DOT] ac [DOT] in
   interests: Compilers for Networks, Compiler Optimizations, Program representation, Machine Learning
+  
+  - name: Sayan Dey
+  type: mtech
+  url:
+    value: 1
+    link: https://github.com/sayan-dey
+  photo: sayan.jpg
+  info: M.Tech RA, started January 2022
+  email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Compilers for Networks, Machine Learning
 
 - name: Gagandeep Goyal
   type: alum
