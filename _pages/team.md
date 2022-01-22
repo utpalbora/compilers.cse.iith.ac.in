@@ -145,6 +145,8 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 {% endif %}
 {% endif %}
 
+<!--
+
 ## Alumni
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -175,6 +177,8 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+-->
 
 <br/>
 
