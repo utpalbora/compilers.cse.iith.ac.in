@@ -118,56 +118,57 @@
   email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Reinforcement Learning, Accelarated Computing
 
-- name: Gagandeep Goyal
-  type: alum
-  info: M.Tech RA, 2019-2022
-  affiliation:
+#- name: Gagandeep Goyal
+# type: alum
+# info: M.Tech RA, 2019-2022
+# affiliation:
 
-- name: Shailendra Dilip Singh
-  type: alum
-  info: M.Tech TA, 2019-2021
-  affiliation:
+#- name: Shailendra Dilip Singh
+# type: alum
+# info: M.Tech TA, 2019-2021
+# affiliation:
 
-- name: Rohit Aggarwal
-  type: alum
-  info: M.Tech RA, 2018-2021
-  affiliation: 
+# - name: Rohit Aggarwal
+# type: alum
+# info: M.Tech RA, 2018-2021
+# affiliation: 
 
-- name: Gayatri PK
-  type: alum
-  info: M.S., 2015-2019
-  affiliation: 
+#- name: Gayatri PK
+#  type: alum
+#  info: M.S., 2015-2019
+#  affiliation: 
 
-- name: Rahul Utkoor
-  type: alum
-  info: B.Tech + M.Tech, 2014-2019
-  affiliation: 
+#- name: Rahul Utkoor
+#  type: alum
+#  info: B.Tech + M.Tech, 2014-2019
+#  affiliation: 
 
-- name: Anirudh Sundar Subramaniam
-  type: alum
-  info: M.Tech, 2016-2018
-  affiliation: 
+#- name: Anirudh Sundar Subramaniam
+#  type: alum
+#  info: M.Tech, 2016-2018
+#  affiliation: 
 
-- name: Abhishek A Patwardhan
-  type: alum
-  info: M.Tech RA, 2015-2018
-  affiliation: 
+#- name: Abhishek A Patwardhan
+#  type: alum
+#  info: M.Tech RA, 2015-2018
+#  affiliation: 
 
-- name: Dangeti Tharun Kumar
-  type: alum
-  info: M.Tech RA, 2015-2018
-  affiliation: 
+#- name: Dangeti Tharun Kumar
+#  type: alum
+#  info: M.Tech RA, 2015-2018
+#  affiliation: 
 
-- name: Santanu Das
-  type: alum
-  info: M.Tech RA, 2015-2018
-  affiliation: 
+#- name: Santanu Das
+#  type: alum
+#  info: M.Tech RA, 2015-2018
+#  affiliation: 
 
-- name: Prateek Bhatu
-  type: alum
-  info: B.Tech + M.Tech, 2012-2017
-  affiliation: 
+#- name: Prateek Bhatu
+#  type: alum
+#  info: B.Tech + M.Tech, 2012-2017
+#  affiliation: 
 
+# This part was already commented
 # - name: "This could be you !"
 #   photo: rock.jpg
 #   info: See <a href="https://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
