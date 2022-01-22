@@ -107,6 +107,16 @@
   info: M.Tech RA, started January 2022
   email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Compilers for Networks, Machine Learning
+  
+  - name: Shikhar Jain
+  type: mtech
+  url:
+    value: 1
+    link: https://github.com/zimgithub
+  photo: Shikhar.jpg
+  info: M.Tech RA, started January 2022
+  email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Reinforcement Learning, Accelarated Computing
 
 - name: Gagandeep Goyal
   type: alum
