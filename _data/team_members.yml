@@ -41,8 +41,8 @@
 - name: S. VenkataKeerthy
   type: phd
   url:
-    value: 0
-    link: 
+    value: 1
+    link: https://svkeerthy.github.io/
   photo: venkat.jpg
   info: started May 2020 (Previously M.Tech RA from August 2017 - May 2020)
   email: cs17m20p100001 [AT] iith [DOT] ac [DOT] in
