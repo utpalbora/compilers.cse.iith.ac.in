@@ -1,20 +1,14 @@
 ---
-title: "IITH Compilers Team"
+title: "IITH Compilers Alumni"
 layout: gridlay
-excerpt: "IITH Compilers Team members"
+excerpt: "IITH Compilers Alumni"
 sitemap: false
 permalink: /alumni/
 ---
 
-# Alumni Members
-
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **.**
-
-
-
-## Alumni
+# Alumni
 {% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
+{% for member in site.data.alumni %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -22,10 +16,12 @@ permalink: /alumni/
 <div class="col">
 {% endif %}
 
+<!-- <div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left"> -->
 <div class="col-md-4">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
-  <i>{{ member.affiliation }}</i>
+  <i>{{ member.next }}</i>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

@@ -1,9 +1,53 @@
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="http://compilers.cse.iith.ac.in/vacancies">openings</a> for more info
-  email: ramakrishna@iith.ac.in
-  number_educ: 0
-  education1:  
-  education2:  
-  education3: 
-  education4:  
+- name: Gagandeep Goyal
+  type: alum
+  info: M.Tech RA, 2019-2022
+  photo: gagan.jpg
+  next:
+
+- name: Shailendra Dilip Singh
+  type: alum
+  info: M.Tech TA, 2019-2021
+  photo: shailendra.jpg
+  next:
+
+- name: Rohit Aggarwal
+  type: alum
+  info: M.Tech RA, 2018-2021
+  photo: rohit.jpg
+  next: 
+
+- name: Gayatri PK
+  type: alum
+  info: M.S., 2015-2019
+  photo: gayatri.jpg
+  next: 
+
+- name: Rahul Utkoor
+  type: alum
+  info: B.Tech + M.Tech, 2014-2019
+  next: 
+
+- name: Anirudh Sundar Subramaniam
+  type: alum
+  info: M.Tech, 2016-2018
+  next: 
+
+- name: Abhishek A Patwardhan
+  type: alum
+  info: M.Tech RA, 2015-2018
+  next: 
+
+- name: Dangeti Tharun Kumar
+  type: alum
+  info: M.Tech RA, 2015-2018
+  next: 
+
+- name: Santanu Das
+  type: alum
+  info: M.Tech RA, 2015-2018
+  next: 
+
+- name: Prateek Bhatu
+  type: alum
+  info: B.Tech + M.Tech, 2012-2017
+  next: 
