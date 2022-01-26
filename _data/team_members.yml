@@ -41,22 +41,12 @@
 - name: S. VenkataKeerthy
   type: phd
   url:
-    value: 0
-    link: 
+    value: 1
+    link: https://svkeerthy.github.io/
   photo: venkat.jpg
   info: started May 2020 (Previously M.Tech RA from August 2017 - May 2020)
   email: cs17m20p100001 [AT] iith [DOT] ac [DOT] in
   interests: Machine Learning in Compilers and Programming Languages
-
-- name: Gagandeep Goyal
-  type: mtech
-  url:
-    value: 0
-    link:
-  photo: gagan.jpg
-  info: M.Tech RA, started January 2019
-  email: cs19mtech01003 [AT] iith [DOT] ac [DOT] in
-  interests: Deep Learning in Compilers,Program representation, Polyhedral Compilation and Compiler Optimization
 
 - name: Nilesh Shah
   type: mtech
@@ -107,52 +97,79 @@
   info: started January, 2021 (Previously B.Tech 2017 - 2021)
   email: cs17b21m000001 [AT] iith [DOT] ac [DOT] in
   interests: Compilers for Networks, Compiler Optimizations, Program representation, Machine Learning
+  
+- name: Sayan Dey
+  type: mtech
+  url:
+    value: 1
+    link: https://github.com/sayan-dey
+  photo: sayan.jpg
+  info: M.Tech RA, started January 2022
+  email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Compilers for Networks, Machine Learning
+  
+- name: Shikhar Jain
+  type: mtech
+  url:
+    value: 1
+    link: https://github.com/zimgithub
+  photo: Shikhar.jpg
+  info: M.Tech RA, started January 2022
+  email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Reinforcement Learning, Accelarated Computing
 
-- name: Shailendra Dilip Singh
-  type: alum
-  info: M.Tech TA, 2019-2021
-  affiliation:
+#- name: Gagandeep Goyal
+# type: alum
+# info: M.Tech RA, 2019-2022
+# affiliation:
 
-- name: Rohit Aggarwal
-  type: alum
-  info: M.Tech RA, 2018-2021
-  affiliation: 
+#- name: Shailendra Dilip Singh
+# type: alum
+# info: M.Tech TA, 2019-2021
+# affiliation:
 
-- name: Gayatri PK
-  type: alum
-  info: M.S., 2015-2019
-  affiliation: 
+# - name: Rohit Aggarwal
+# type: alum
+# info: M.Tech RA, 2018-2021
+# affiliation: 
 
-- name: Rahul Utkoor
-  type: alum
-  info: B.Tech + M.Tech, 2014-2019
-  affiliation: 
+#- name: Gayatri PK
+#  type: alum
+#  info: M.S., 2015-2019
+#  affiliation: 
 
-- name: Anirudh Sundar Subramaniam
-  type: alum
-  info: M.Tech, 2016-2018
-  affiliation: 
+#- name: Rahul Utkoor
+#  type: alum
+#  info: B.Tech + M.Tech, 2014-2019
+#  affiliation: 
 
-- name: Abhishek A Patwardhan
-  type: alum
-  info: M.Tech RA, 2015-2018
-  affiliation: 
+#- name: Anirudh Sundar Subramaniam
+#  type: alum
+#  info: M.Tech, 2016-2018
+#  affiliation: 
 
-- name: Dangeti Tharun Kumar
-  type: alum
-  info: M.Tech RA, 2015-2018
-  affiliation: 
+#- name: Abhishek A Patwardhan
+#  type: alum
+#  info: M.Tech RA, 2015-2018
+#  affiliation: 
 
-- name: Santanu Das
-  type: alum
-  info: M.Tech RA, 2015-2018
-  affiliation: 
+#- name: Dangeti Tharun Kumar
+#  type: alum
+#  info: M.Tech RA, 2015-2018
+#  affiliation: 
 
-- name: Prateek Bhatu
-  type: alum
-  info: B.Tech + M.Tech, 2012-2017
-  affiliation: 
+#- name: Santanu Das
+#  type: alum
+#  info: M.Tech RA, 2015-2018
+#  affiliation: 
 
+#- name: Prateek Bhatu
+#  type: alum
+#  info: B.Tech + M.Tech, 2012-2017
+#  affiliation: 
+
+
+# This part was already commented
 # - name: "This could be you !"
 #   photo: rock.jpg
 #   info: See <a href="https://compilers.cse.iith.ac.in/vacancies">openings</a> for more info

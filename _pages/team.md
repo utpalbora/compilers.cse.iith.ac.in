@@ -11,7 +11,7 @@ permalink: /team/
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **.**
 
 
-Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#masters-students), [Alumni](#alumni).
+Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#masters-students), [Alumni]({{ site.url }}{{ site.baseurl }}/alumni).
 
 ## Faculty
 {% for member in site.data.team_members %}
@@ -145,6 +145,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 {% endif %}
 {% endif %}
 
+<!--
 ## Alumni
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -175,6 +176,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+-->
 
 <br/>
 
