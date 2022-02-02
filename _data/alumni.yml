@@ -2,52 +2,78 @@
   type: alum
   info: M.Tech RA, 2019-2022
   photo: gagan.jpg
-  next:
-
+  thesis: Profile Guided Intelligent Compilers
+  thesis_link:
+  next: AMD compilers team
+ 
 - name: Shailendra Dilip Singh
   type: alum
   info: M.Tech TA, 2019-2021
   photo: shailendra.jpg
-  next:
-
+  thesis: Vectorization and Code-Summarization using IR2Vec
+  thesis_link:
+  next: Adobe
+ 
 - name: Rohit Aggarwal
   type: alum
   info: M.Tech RA, 2018-2021
   photo: rohit.jpg
-  next: 
-
+  thesis: Applying Machine Learning Techniques to Compilers and Programs
+  thesis_link:
+  next: AMD compilers team
+ 
 - name: Gayatri PK
   type: alum
   info: M.S., 2015-2019
   photo: gayatri.jpg
-  next: 
-
+  thesis: GPU-Based Multi-Level Parallelization for Hines Solver and Some Related Problems
+  thesis_link: http://raiith.iith.ac.in/5560/
+  next: Qualcomm compilers team
+ 
 - name: Rahul Utkoor
   type: alum
   info: B.Tech + M.Tech, 2014-2019
-  next: 
-
+  photo: rock.jpg
+  thesis: A Loop-level Analysis and Optimal Sub-sequence Mining
+  thesis_link: http://raiith.iith.ac.in/5563/
+  next: Qualcomm compilers team
+ 
 - name: Anirudh Sundar Subramaniam
   type: alum
   info: M.Tech, 2016-2018
-  next: 
-
+  photo: rock.jpg
+  thesis: Optimization and parallelization of tensor and ODE/PDE computations on GPU
+  thesis_link: http://raiith.iith.ac.in/4112/
+  next: Qualcomm compilers team
+ 
 - name: Abhishek A Patwardhan
   type: alum
   info: M.Tech RA, 2015-2018
-  next: 
-
+  photo: rock.jpg
+  thesis: Polyhedral Compilation:Applications, Approximations and GPU-specific Optimizations
+  thesis_link: http://raiith.iith.ac.in/4129/
+  next: Nvidia compilers team
+ 
 - name: Dangeti Tharun Kumar
   type: alum
   info: M.Tech RA, 2015-2018
-  next: 
-
+  photo: rock.jpg
+  thesis: Vectorization, Obfuscation and P4 LLVM Tool-chain
+  thesis_link: http://raiith.iith.ac.in/4106/
+  next: AMD compilers team
+ 
 - name: Santanu Das
   type: alum
   info: M.Tech RA, 2015-2018
-  next: 
-
+  photo: rock.jpg
+  thesis: Optimizations In Compiler:Vectorization, Reordering, Register Allocation And Verification Of Explicitly Parallel Programs
+  thesis_link: http://raiith.iith.ac.in/4126/
+  next: Qualcomm compilers team
+ 
 - name: Prateek Bhatu
   type: alum
   info: B.Tech + M.Tech, 2012-2017
-  next: 
+  photo: rock.jpg
+  thesis: A Study of Software Prefetching in LLVM
+  thesis_link: https://raiith.iith.ac.in/3393/
+  next: AMD compilers team
