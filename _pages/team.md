@@ -21,6 +21,9 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left" />
   <h4><a href="{{ member.url }}" target="_blank">{{ member.name }}</h4>
+
+  <p class="right">
+
   <i>{{ member.info }}<br>{{ member.email }}</i>
   <ul style="overflow: hidden">
   
@@ -55,6 +58,8 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   {% endif %}
   
   </ul>
+
+</p>
 </div>
 </div>
 {% endif %}
@@ -77,6 +82,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left">
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
+  <p class="right">
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
 
@@ -84,7 +90,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
-
+</p>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -119,6 +125,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left">
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
+  <p class="right">
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
 
@@ -126,7 +133,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   {% endif %}
-
+</p>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
