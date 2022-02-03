@@ -8,7 +8,7 @@
  
 - name: Shailendra Dilip Singh
   type: alum
-  info: M.Tech TA, 2019-2021
+  info: M.Tech, 2019-2021
   photo: shailendra.jpg
   thesis: Vectorization and Code-Summarization using IR2Vec
   thesis_link:
@@ -33,7 +33,7 @@
 - name: Rahul Utkoor
   type: alum
   info: B.Tech + M.Tech, 2014-2019
-  photo: rock.jpg
+  photo: male.jpeg
   thesis: A Loop-level Analysis and Optimal Sub-sequence Mining
   thesis_link: http://raiith.iith.ac.in/5563/
   next: Qualcomm compilers team
@@ -41,7 +41,7 @@
 - name: Anirudh Sundar Subramaniam
   type: alum
   info: M.Tech, 2016-2018
-  photo: rock.jpg
+  photo: male.jpeg
   thesis: Optimization and parallelization of tensor and ODE/PDE computations on GPU
   thesis_link: http://raiith.iith.ac.in/4112/
   next: Qualcomm compilers team
@@ -49,7 +49,7 @@
 - name: Abhishek A Patwardhan
   type: alum
   info: M.Tech RA, 2015-2018
-  photo: rock.jpg
+  photo: male.jpeg
   thesis: Polyhedral Compilation:Applications, Approximations and GPU-specific Optimizations
   thesis_link: http://raiith.iith.ac.in/4129/
   next: Nvidia compilers team
@@ -57,7 +57,7 @@
 - name: Dangeti Tharun Kumar
   type: alum
   info: M.Tech RA, 2015-2018
-  photo: rock.jpg
+  photo: male.jpeg
   thesis: Vectorization, Obfuscation and P4 LLVM Tool-chain
   thesis_link: http://raiith.iith.ac.in/4106/
   next: AMD compilers team
@@ -65,7 +65,7 @@
 - name: Santanu Das
   type: alum
   info: M.Tech RA, 2015-2018
-  photo: rock.jpg
+  photo: male.jpeg
   thesis: Optimizations In Compiler:Vectorization, Reordering, Register Allocation And Verification Of Explicitly Parallel Programs
   thesis_link: http://raiith.iith.ac.in/4126/
   next: Qualcomm compilers team
@@ -73,7 +73,7 @@
 - name: Prateek Bhatu
   type: alum
   info: B.Tech + M.Tech, 2012-2017
-  photo: rock.jpg
+  photo: male.jpeg
   thesis: A Study of Software Prefetching in LLVM
   thesis_link: https://raiith.iith.ac.in/3393/
   next: AMD compilers team
