@@ -23,43 +23,53 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <h4><a href="{{ member.url }}" target="_blank">{{ member.name }}</h4>
 
   <p class="right">
-
   <i>{{ member.info }}<br>{{ member.email }}</i>
+  </p>
   <ul style="overflow: hidden">
   
   {% if member.number_educ == 1 %}
+  <p class="right">
   <li> {{ member.education1 }} </li>
+  </p>
   {% endif %}
   
   {% if member.number_educ == 2 %}
+  <p class="right">
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
+  </p>
   {% endif %}
   
   {% if member.number_educ == 3 %}
+  <p class="right">
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
+  </p>
   {% endif %}
   
   {% if member.number_educ == 4 %}
+  <p class="right">
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
+  </p>
   {% endif %}
  
   {% if member.number_educ == 5 %}
+  <p class="right">
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
+  </p>
   {% endif %}
   
   </ul>
 
-</p>
+
 </div>
 </div>
 {% endif %}
@@ -82,15 +92,19 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left">
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
+  
   <p class="right">
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
+  </p>
   {% endif %}
 
   {% if member.url.value == 0 %}
   <h4>{{ member.name }}</h4>
+  <p class="right">
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
+  </p>
   {% endif %}
-</p>
+  
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -127,13 +141,16 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   <p class="right">
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
+  </p>
   {% endif %}
 
   {% if member.url.value == 0 %}
   <h4>{{ member.name }}</h4>
+  <p class="right">
   <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
+  </p>
   {% endif %}
-</p>
+
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -186,7 +203,6 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 -->
 
 <br/>
-
 
 
 
