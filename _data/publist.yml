@@ -71,6 +71,9 @@
     display:  "arXiv"
     slides: ""
     authorCopy: ""
+  github:
+    url: "https://github.com/IITH-Compilers/IR2Vec"
+    display: "Github"	  
   highlight: 1
   news2:
 
