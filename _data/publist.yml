@@ -1,3 +1,17 @@
+- title: "OpenMP aware MHP Analysis for Improved Static Data-Race Detection"
+  authors: "Utpal Bora, Shraiysh Vaishay, Saurabh Joshi, Ramakrishna Upadrasta"
+  year: "2021"
+  publishedAt: "arXiv"
+  type: "Journel|Transaction|Conference"
+  image: ""
+  link:
+    url: "https://arxiv.org/pdf/2111.04259.pdf"
+    display:  "arXiv"
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2: 
+
 - title: "AI Powered Compiler Techniques for DL Code Optimization"
   authors: "Sanket Tavarageri, Gagandeep Goyal, Sasikanth Avancha, Bharat Kaul, Ramakrishna Upadrasta"
   year: "2021"
