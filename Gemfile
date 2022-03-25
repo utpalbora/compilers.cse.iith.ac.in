@@ -8,5 +8,5 @@ group :jekyll_plugins do
     gem "jekyll-redirect-from"
     gem "jekyll-seo-tag"
   end
-
-gem "webrick", "~> 1.7"
+#below line needed for command jekyll serve to launch in local branch
+#gem "webrick", "~> 1.7"
