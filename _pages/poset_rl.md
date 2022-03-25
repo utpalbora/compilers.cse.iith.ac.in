@@ -45,3 +45,9 @@ The improvements we achieved over Oz in terms of binary size and execution time 
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/size_table.png" width="65%">
 </figure>
+
+### Funding
+This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications
+& Information Technology, Government of India. This work is partially supported by a Visvesvaraya PhD Scheme under
+the MEITY, GoI (PhD-MLA/04(02)/2015-16), an NSM research grant (MeitY/R&D/HPC/2(1)/2014), a Visvesvaraya Young
+Faculty Research Fellowship from MeitY, and a Google PhD Fellowship.
