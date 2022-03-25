@@ -46,6 +46,9 @@ A well defined sequence of compiler optimizations will have a strong impact on p
 
 ##### IR2Vec is the framework based on LLVM IR to represent programs as distributed vectors. Such vectors, representing the programs can be used by ML models to solve optimization and software engineering tasks.
 </details>
+<details>
+<summary class="dp" markdown='span'> <b><a href="{{ site.url }}{{ site.baseurl }}/projects/posetrl/" target="_blank">POSET-RL</a></b></summary>
+</details>
 ----
 
 ### Compilers for Deep Learning

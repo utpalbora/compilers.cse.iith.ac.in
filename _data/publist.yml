@@ -1,3 +1,17 @@
+- title: "POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning"
+  authors: "Shalini Jain, Yashas Andaluri, S. VenkataKeerthy, Ramakrishna Upadrasta"
+  year: "2022"
+  publishedAt: "To appear in ISPASS"
+  type: "Conference"
+  image: ""
+  link:
+    url: ""
+    display:  ""
+    slides: ""
+    authorCopy: ""
+  highlight: 1
+  news2:
+
 - title: "OpenMP aware MHP Analysis for Improved Static Data-Race Detection"
   authors: "Utpal Bora, Shraiysh Vaishay, Saurabh Joshi, Ramakrishna Upadrasta"
   year: "2021"

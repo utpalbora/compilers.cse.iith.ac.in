@@ -1,7 +1,7 @@
 ---
 title: "POSET-RL"
-# redirect_from:
-#     - /research/posetrl
+redirect_from:
+    - /research/posetrl
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false
@@ -48,6 +48,6 @@ The improvements we achieved over Oz in terms of binary size and execution time 
 
 ### Funding
 This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications
-& Information Technology, Government of India. This work is partially supported by a Visvesvaraya PhD Scheme under
+& Information Technology, Government of India. This work is supported by a Visvesvaraya PhD Scheme under
 the MEITY, GoI (PhD-MLA/04(02)/2015-16), an NSM research grant (MeitY/R&D/HPC/2(1)/2014), a Visvesvaraya Young
 Faculty Research Fellowship from MeitY, and a Google PhD Fellowship.
