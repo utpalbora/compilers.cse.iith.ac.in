@@ -47,7 +47,7 @@ A well defined sequence of compiler optimizations will have a strong impact on p
 ##### IR2Vec is the framework based on LLVM IR to represent programs as distributed vectors. Such vectors, representing the programs can be used by ML models to solve optimization and software engineering tasks.
 </details>
 <details>
-<summary class="dp" markdown='span'> <b><a href="{{ site.url }}{{ site.baseurl }}/projects/posetrl/" target="_blank">POSET-RL</a></b></summary>
+<summary class="dp" markdown='span'> <b><a href="{{ site.url }}{{ site.baseurl }}/projects/posetrl/" target="_blank">POSET-RL</a></b> <a href="https://github.com/IITH-Compilers/POSET-RL" target="_blank"> <img  class="dp-img" alt="IR2Vec GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="15px" height="15px"></a></summary>
 </details>
 ----
 
