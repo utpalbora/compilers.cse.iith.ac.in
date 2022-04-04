@@ -32,7 +32,7 @@ The reinforcement learning model is trained and evaluated on programs that are r
 
 <center>
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/ODG_old.png" width="65%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/ODG.png" width="65%">
 </figure>
 </center>
 
@@ -44,17 +44,22 @@ The improvements we achieved over Oz in terms of binary size and execution time 
 <center>
 <table>
 <tr>
-<td><img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/SPEC-x86-binary-size1.png" width="85%"></td>
-<td><img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/SPEC-x86-binary-size2.png" width="85%"></td>
+<td><img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/binsize_small.png" width="90%"></td>
+<td><img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/binsize_large.png" width="90%"></td>
 </tr>
 <tr>
-<td><img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/SPEC-2017_x86_runtime_1.png" width="85%"></td>
-<td><img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/SPEC-2017_x86_runtime_2.png" width="85%"></td>
+<td><img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/runtime_small.png" width="90%"></td>
+<td><img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/runtime_large.png" width="90%"></td>
 </tr>
 </table>
+</center>
 
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/size_table.png" width="65%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/x86_aarch64_binsize_summary.png" width="95%">
+</figure>
+<center>
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/projects/poset_rl/x86_runtime_summary.png" width="70%">
 </figure>
 </center>
 
