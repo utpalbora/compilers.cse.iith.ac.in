@@ -10,7 +10,7 @@ permalink: /projects/posetrl/
 
 # POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning
 *Shalini Jain, Yashas Andaluri, S. VenkataKeerthy and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}*
-#### To Be Published in ISPASS 2022
+#### To Be Published in ISPASS 2022 ([Slides](https://llvm.org/devmtg/2022-04-03/slides/POSET-RL.Phase.ordering.for.Optimizing.Size.and.Execution.Time.using.Reinforcement.Learning.pdf){:target="_blank"})
 
 The increasing memory demands of applications are difficult to meet on devices which have constrained resources. Limiting the usage of memory in
 such cases is of paramount importance. However, code size improvements should not have a negative impact on the runtime.
