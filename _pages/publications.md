@@ -18,17 +18,21 @@ permalink: /publications/
 {% if publi.highlight == 1 %}
 <div>
   <pubtit>{{ publi.title }}</pubtit>
+
+  {% if publi.link %}
+  <p style="margin:0;padding:0;border:0;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url }}" target="_blank"><pubtit>{{ publi.title }}</pubtit>{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}</p>
+  {% endif %}  
+
   <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>
   <p style="margin:0;padding:0;border:0;"><em>{{ publi.publishedAt }}</em>,&nbsp;<em>{{ publi.year}}</em></p>
   {% if publi.award %}
   <p style="margin:0;padding:0;border:0;"><em><b>{{ publi.award.display }}</b></em></p>
   {% endif %}
-  {% if publi.link or publi.slides or publi.github %}
-  <p style="margin:0;padding:0;border:0;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url }}" target="_blank">{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}{% if publi.slides.url!="" %}<strong><a href="{{ publi.slides.url }}" target="_blank">{{ publi.slides.display }}</a> &nbsp; </strong>{% endif %}<strong><a href="{{ publi.github.url }}" target="_blank">{{ publi.github.display }}</a></strong></p>
-  {% endif %}
+  
+ 
 </div>
 {% endif %}
-{% endfor %}
+{% endfor %} 
 
 <p> &nbsp; </p>
 
