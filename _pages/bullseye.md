@@ -24,13 +24,35 @@ theorem linearization technique, we propose template (Interval or Octagon) sub-p
 
 We propose various approximations of Miss set 𝑀. First, we propose a simple statistical approximation. Second, we propose linearization method, where the mathematical theory is based on
 Handelman’s theorem. Here, we extend the earlier characterization of positive polynomials over a
-polytope by Feautrier, and polynomial linearizations by Maréchal et al.. Here, we
+polytope by Feautrier, and polynomial linearizations by Maréchal et al. Here, we
 propose to approximate 𝑀 using sub-polyhedral (interval and octagon) template polyhedra
 to provide a highly scalable linearization. Another linearization is proposed which is based on mathematical theory of Bernstein
 polynomials, and Bernstein expansion over convex polytope by Clauss et al.
 
 ![image]({{ site.url }}{{ site.baseurl }}/images/projects/bullseye/Bullseyevshaystack.png){: style="float: left"; height="50%" width="50%"}
 ![image]({{ site.url }}{{ site.baseurl }}/images/projects/bullseye/geomean_error.jpg){: style="float: left"; height="40%" width="40%"}
+ 
+
+### Sampling and Linearization of Stack distance polynomials
+
+
+#### Sparse Enum
+
+![image]({{ site.url }}{{ site.baseurl }}/images/projects/bullseye/domain-sparse.png){: style="float: left"; height="45%" width="45%"}
+![image]({{ site.url }}{{ site.baseurl }}/images/projects/bullseye/domain-sparse100.png){: style="float: left"; height="45%" width="45%"}
+
+#### Handelman theorem based Sub-polyhedral (Interval/Octagon) Linearization
+
+
+![image]({{ site.url }}{{ site.baseurl }}/images/projects/bullseye/handelman-formulation.png){: style="float: left"; height="100%" width="100%"}
+ The above equation describes a parametric LP formulation the cost function of which is
+parametric; both Λ-vector and Ψ-vector are unknown. The constraints however describe a normal
+(non-parametric) polyhedron in Λ. Such a formulation could be solved using a parametric rational
+linear solver, like the MPT solver to obtain 𝜙. We propose a novel method, that avoids calling a parametric solver, resulting in a set of non-parametric cost functions, through the following steps: (i) restricting the shape of the affine
+form 𝜙 to a fixed template (intervals/octagons), and (ii) instantiating the parameter vector (Ψ) using
+vertices (of domain 𝐷′) to obtain a non-parametric cost function.
+#### Example:
+![image]({{ site.url }}{{ site.baseurl }}/images/projects/bullseye/nussinov-example.jpg){: style="float: left"; height="100%" width="100%"}
  
 
 ### Performance and accuracy
