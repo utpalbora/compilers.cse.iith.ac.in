@@ -64,7 +64,7 @@ With the emergence of various deep learning models and hardware architectures, i
 A class of programs called affine programs can be represented as integer polyhedra to perform high level transformations such as loop-fusion, loop-distribution, tiling, skewing, loop-rotaion, etc. to optimize for runtime. Polyhedral compilation can perform complex transformations to generate architecture dependent optimized code.
 
 <details>
-<summary class="dp" markdown='span'> <b><a href="{{ site.url }}{{ site.baseurl }}/projects/bullseye/" target="_blank">BullsEye</a></b> <a href="https://github.com/IITH-Compilers/bullseye" target="_blank"> <img  class="dp-img" alt="BullsEye GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="15px" height="15px"></a> <a href="#" target="_blank"> <img  class="dp-img" alt="Bullseye_Video" src="https://www.youtube.com/s/desktop/75da313d/img/favicon.ico" width="15px" height="15px"> </summary>
+<summary class="dp" markdown='span'> <b><a href="{{ site.url }}{{ site.baseurl }}/projects/bullseye/" target="_blank">BullsEye</a></b> <a href="https://github.com/IITH-Compilers/bullseye" target="_blank"> <img  class="dp-img" alt="BullsEye GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="15px" height="15px"></a> <a href="#" target="_blank"> </summary>
 
 ##### BullsEye is a analytical cache model based on Least recently used fully associative caches. 
 </details>
