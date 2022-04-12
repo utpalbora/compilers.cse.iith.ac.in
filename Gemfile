@@ -10,3 +10,7 @@ group :jekyll_plugins do
   end
 #below line needed for command jekyll serve to launch in local branch
 #gem "webrick", "~> 1.7"
+
+#12/04/2022
+#below line needed for command jekyll serve to launch in local branch
+#gem "webrick", "~> 1.7"

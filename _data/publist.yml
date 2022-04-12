@@ -15,7 +15,9 @@
   highlight: 1
   news2:
 
-- title: "OpenMP aware MHP Analysis for Improved Static Data-Race Detection"
+- link: 
+    url: "http://localhost:4000/projects/llov"
+    display: "OpenMP aware MHP Analysis for Improved Static Data-Race Detection"
   authors: "Utpal Bora, Shraiysh Vaishay, Saurabh Joshi, Ramakrishna Upadrasta"
   year: "2021"
   publishedAt: "arXiv"
@@ -149,7 +151,11 @@
   highlight: 1
   news2:
 
-- title: "An analysis of executable size reduction by LLVM passes"
+- link:
+    url: "http://localhost:4000/projects/ananalysisofex/" 
+    display: "An analysis of executable size reduction by LLVM passes" 
+
+#title: "An analysis of executable size reduction by LLVM passes"
   authors: "Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta"
   description: ""
   year: "2019"
@@ -164,7 +170,10 @@
   highlight: 1
   news2: 
 
-- title: "Polyhedral Model Guided Automatic GPU Cache Exploitation Framework"
+- link:
+    url: "http://localhost:4000/projects/polyhedralmodelguided/" 
+    display: "Polyhedral Model Guided Automatic GPU Cache Exploitation Framework"
+    #title: "Polyhedral Model Guided Automatic GPU Cache Exploitation Framework"
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
@@ -180,7 +189,10 @@
   highlight: 1
   news2:
 
-- title: "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
+- link:
+    url: "http://localhost:4000/projects/tightestutvpipolyhedral/" 
+    display: "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
+#title: "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
@@ -206,7 +218,10 @@
   highlight: 1
   news2:
 
-- title: "P4LLVM: An LLVM Based P4 Compiler"
+- link:
+    url: "http://localhost:4000/projects/llvmbasedp4compiler/" 
+    display: "P4LLVM: An LLVM Based P4 Compiler" 
+#title: "P4LLVM: An LLVM Based P4 Compiler"
   authors: "Tharun Kumar. D, S. VenkataKeerthy and Ramakrishna Upadrasta"
   description: ""
   year: "2018"
