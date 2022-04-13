@@ -31,7 +31,10 @@
   highlight: 1
   news2: 
 
-- title: "AI Powered Compiler Techniques for DL Code Optimization"
+- link:
+    url: "http://localhost:4000/projects/polydl/"
+    display: "AI Powered Compiler Techniques for DL Code Optimization" 
+#title: "AI Powered Compiler Techniques for DL Code Optimization"
   authors: "Sanket Tavarageri, Gagandeep Goyal, Sasikanth Avancha, Bharat Kaul, Ramakrishna Upadrasta"
   year: "2021"
   publishedAt: "arXiv"
@@ -123,7 +126,10 @@
   highlight: 1
   news2:
 
-- title: "Some Improvements to Branch Probability Information (BPI)"
+- link:
+    url: "http://localhost:4000/projects/TalkimproveBPI/" 
+    display: "Some Improvements to Branch Probability Information (BPI)" 
+#title: "Some Improvements to Branch Probability Information (BPI)"
   authors: "Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta"
   description: ""
   year: "2020"
@@ -237,7 +243,10 @@
   highlight: 1
   news2:
 
-- title: "ISL Memory Management Using Clang Static Analyzer"
+- link:
+    url: "http://localhost:4000/projects/Talkislmemmanage/" 
+    display: "ISL Memory Management Using Clang Static Analyzer" 
+#title: "ISL Memory Management Using Clang Static Analyzer"
   authors: "Malhar Thakkar, Ramakrishna Upadrasta"
   description: ""
   year: "2018"
@@ -252,7 +261,10 @@
   highlight: 1
   news2: 
    
-- title: "An LLVM based Loop Profiler"
+- link:
+    url: "http://localhost:4000/projects/Talkloopprofiler/" 
+    display: "An LLVM based Loop Profiler"
+#title: "An LLVM based Loop Profiler"
   authors: "Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta"
   description: ""
   year: "2017"
