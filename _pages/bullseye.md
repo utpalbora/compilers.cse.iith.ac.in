@@ -79,10 +79,6 @@ provides good scalability and accuracy; it is also input problem-size independen
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/bullseye/dinero_papi.jpg" width="100%">
 </figure>
-## Publication:
-#### 1. BullsEye: Scalable and Accurate Approximation Framework for Cache Miss Calculation
-*Nilesh Shah, Ashitabh Misra, Antoine Miné, Rakesh Venkat, and Ramakrishna Upadrasta*
-##### To be Published in [arxiv](){:target="_blank"} ([pre-print](https://arxiv.org/abs/XXXXX){:target="_blank"})
 
 ### Artifacts
 Code and other artifacts will be available on our [GitHub](https://github.com/IITH-Compilers/bullseye) page.
