@@ -22,8 +22,8 @@ theorem linearization technique, we propose template (Interval or Octagon) sub-p
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/bullseye/bullseye_system.png" width="100%">
 </figure>
 
-We propose various approximations of Miss set 𝑀. We propose a simple statistical approximation and linearization method, where the mathematical theory is based on
-Handelman’s theorem. We extend the earlier characterization of positive polynomials over a
+We propose various approximations of Miss set 𝑀:(i) SparseEnum: a simple statistical approximation and (ii) Two linearization methods, where the mathematical theory is based on
+Handelman’s theorem and Bernstein representation of polynomials. We extend the earlier characterization of positive polynomials over a
 polytope by Feautrier, and polynomial linearizations by Maréchal et al. For scalable solutions, we
 propose to approximate 𝑀 using sub-polyhedral (interval and octagon) template polyhedra
 to provide a highly scalable linearization. Another linearization is proposed based on mathematical theory of Bernstein
