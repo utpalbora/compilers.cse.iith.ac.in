@@ -8,8 +8,8 @@ permalink: /projects/bullseye/
 
 # BullsEye: Scalable and Accurate Approximation Framework for Cache Miss Calculation
 *Nilesh Shah, Ashitabh Misra, [Antoine Miné](https://www-apr.lip6.fr/~mine/){:target="_blank"}, [Rakesh Venkat](https://www.iith.ac.in/~rakeshvenkat/){:target="_blank"}, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}*
-#### Under review in [ACM TACO](https://dl.acm.org/journal/taco){:target="_blank"} ([pre-print](https://arxiv.org/abs/XXXX){:target="_blank"}) <a href="https://github.com/IITH-Compilers/bullseye" target="_blank"> <img  class="dp-img" alt="BullsEye GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 
+#### Under review ([pre-print](https://arxiv.org/abs/XXXX){:target="_blank"}) <a href="https://github.com/IITH-Compilers/bullseye" target="_blank"> <img  class="dp-img" alt="BullsEye GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 
 BullsEye, a novel, scalable, accurate, and problem-size independent approximation framework.
 It is an analytical cache model for fully associative caches with LRU replacement policy focusing on sampling
