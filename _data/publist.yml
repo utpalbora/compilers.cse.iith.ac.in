@@ -38,9 +38,7 @@
   authors: "Sanket Tavarageri, Gagandeep Goyal, Sasikanth Avancha, Bharat Kaul, Ramakrishna Upadrasta"
   year: "2021"
   publishedAt: "arXiv"
-  type: "Journel|Transaction|Conference"
-  image: ""
-  # link:
+  type: "Journel|TransactiPublished in 9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain"
   #   url: "https://arxiv.org/abs/2104.05573"
   #   display:  "arXiv"
   #   slides: ""
@@ -55,7 +53,7 @@
   authors: "Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul"
   description: ""
   year: "2020"
-  publishedAt: "ACM Transactions on Architecture and Code Optimization (TACO)"
+  publishedAt: "ACM@TACO"
   type: "Conference"
   image: ""
   # link:
@@ -91,7 +89,7 @@
   authors: "S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, Maunendra Desarkar, Ramakrishna Upadrasta and Y. N. Srikant"
   description: ""
   year: "2020"
-  publishedAt: "ACM Transactions on Architecture and Code Optimization (TACO)"
+  publishedAt: "ACM@TACO"
   type: "Conference"
   image: ""
   # link:
@@ -112,7 +110,7 @@
   authors: "Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye"
   description: ""
   year: "2020"
-  publishedAt: "ACM Transactions on Architecture and Code Optimization (TACO)"
+  publishedAt: "ACM@TACO"
   type: "Conference"
   image: ""
   # link:
@@ -133,7 +131,7 @@
   authors: "Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta"
   description: ""
   year: "2020"
-  publishedAt: "Poster in European LLVM Developers’ Meeting"
+  publishedAt: "European LLVM Dev’ Meet"
   type: "Posters"
   image: ""
   highlight: 1
@@ -146,7 +144,7 @@
   authors: "Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye"
   description: ""
   year: "2020"
-  publishedAt: "Technical talk in the Fourth LLVM Performance Workshop at CGO"
+  publishedAt: "LLVM@CGO"
   type: "Talks"
   image: ""
   # link:
@@ -183,7 +181,7 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "17th International Conference on High Performance Computing & Simulation (HPCS 2019) Special CADO session, Dublin, Ireland"
+  publishedAt: "(HPCS 2019), Dublin, Ireland"
   type: "Conference"
   image: ""
   # link:
@@ -202,7 +200,7 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain"
+  publishedAt: "HiPEAC 2019 Valencia, Spain"
   type: "Conference"
   image: ""
   # link:
@@ -214,11 +212,14 @@
   highlight: 1
   news2: 
 
-- title: "Exploting GPU caches By Polyhedral Compilation"
+- link: 
+    url: "https://compilers.cse.iith.ac.in/404.html"
+    display: "Exploting GPU caches By Polyhedral Compilation" 
+#- title: "Exploting GPU caches By Polyhedral Compilation"
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "Talk in OMASE 2019 (co-located with CGO 2019), Washington DC, USA (Virtual/online talk was given)"
+  publishedAt: "Talk in OMASE 2019, USA"
   type: "Talks"
   image: ""
   highlight: 1
@@ -231,7 +232,7 @@
   authors: "Tharun Kumar. D, S. VenkataKeerthy and Ramakrishna Upadrasta"
   description: ""
   year: "2018"
-  publishedAt: "P4WE workshop in International Conference on Network Protocols (ICNP)"
+  publishedAt: "P4WE@ICNP"
   type: "Conference"
   image: ""
   # link:
@@ -250,7 +251,7 @@
   authors: "Malhar Thakkar, Ramakrishna Upadrasta"
   description: ""
   year: "2018"
-  publishedAt: "Lightning talk in US LLVM Developers' Meeting"
+  publishedAt: "US,LLVM Dev' Meet"
   type: "Talks"
   image: ""
   # link:
@@ -268,7 +269,7 @@
   authors: "Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "Poster and Lightning talk in US LLVM Developers' Meeting"
+  publishedAt: "US,LLVM Dev' Mee"
   type: "Posters"
   image: ""
   # link:
@@ -280,11 +281,14 @@
   highlight: 1
   news2:
 
-- title: "When Polyhedral Optimizations Meet Deep Learning Kernels"
+- link:
+    url: "http://localhost:4000/projects/polly_dl/"
+    display: "When Polyhedral Optimizations Meet Deep Learning Kernels"
+#- title: "When Polyhedral Optimizations Meet Deep Learning Kernels"
   authors: "Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "Poster in IEEE International Conference on High Performance Computing, Jaipur, India"
+  publishedAt: "IEEE@ICHPC, India"
   type: "Posters"
   image: ""
   # link:
@@ -297,21 +301,27 @@
   highlight: 1
   news2:
 
-- title: "Enabling Polyhedral optimizations in TensorFlow through Polly"
+- link:
+    url: "http://localhost:4000/projects/polly_tensor/"
+    display: "Enabling Polyhedral optimizations in TensorFlow through Polly"
+#- title: "Enabling Polyhedral optimizations in TensorFlow through Polly"
   authors: "Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "Lightning talk in US LLVM Developers' Meeting"
+  publishedAt: "US LLVM Dev Meet"
   type: "Talks"
   image: ""
   highlight: 1
   news2:
 
-- title: "Improved Loop Distribution in LLVM using Polyhedral Dependences"
+- link:
+    url: "http://localhost:4000/projects/loop_distri/"
+    display: "Improved Loop Distribution in LLVM using Polyhedral Dependences"
+#- title: "Improved Loop Distribution in LLVM using Polyhedral Dependences"
   authors: "Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "Lightning talk in Workshop on the LLVM Compiler Infrastructure in HPC (in SC 2017)"
+  publishedAt: "LLVM Compiler Infrastructure in HPC (in SC 2017)"
   type: "Talks"
   image: ""
   # link:
@@ -322,11 +332,14 @@
   highlight: 1
   news2:
 
-- title: "Implementation of a Cache Miss Calculator in LLVM/Polly"
+- link:
+    url: "http://localhost:4000/projects/cache_miss_calc/"
+    display: "Implementation of a Cache Miss Calculator in LLVM/Polly"
+#- title: "Implementation of a Cache Miss Calculator in LLVM/Polly"
   authors: "Keyur Joshi, Ramakrishna Upadrasta, and Albert Cohen"
   description: ""
   year: "2017"
-  publishedAt: "Lightning talk in Workshop on the LLVM Compiler Infrastructure in HPC (in SC 2017)"
+  publishedAt: "LLVM Compiler Infrastructure in HPC (in SC 2017)"
   type: "Talks"
   image: ""
   # link:
@@ -337,12 +350,14 @@
   highlight: 1
   news2:
 
-
-- title: "Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler"
+- link:
+    url: "http://localhost:4000/projects/ppcg/"
+    display: "Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler"
+#- title: "Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler"
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2016"
-  publishedAt: "Poster in IEEE International Conference on High Performance Computing, Hyderabad, India"
+  publishedAt: "IEEE@ICHPC, India"
   type: "Posters"
   image: ""
   # link:
@@ -355,11 +370,14 @@
   highlight: 1
   news2:
 
-- title: "A Comparative Study of Vectorization in Compilers"
+- link:
+    url: "http://localhost:4000/projects/vectorization/"
+    display: "A Comparative Study of Vectorization in Compilers"
+#- title: "A Comparative Study of Vectorization in Compilers"
   authors: "Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta"
   description: ""
   year: "2016"
-  publishedAt: "Poster in IEEE International Conference on High Performance Computing, Hyderabad, India"
+  publishedAt: "IEEE@ICHPC, India"
   type: "Posters"
   image: ""
   # link:
@@ -373,11 +391,14 @@
   news2:
 
 
-- title: "Polly as an Analysis pass in LLVM"
+- link:
+    url: "http://localhost:4000/projects/polly_analysis/"
+    display: "Polly as an Analysis pass in LLVM"
+#- title: "Polly as an Analysis pass in LLVM"
   authors: "Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta"
   description: ""
   year: "2016"
-  publishedAt: "Poster and Lightning talk in US LLVM Developers' Meeting"
+  publishedAt: "US LLVM Dev' Meet"
   type: "Talks"
   image: ""
   # link:
@@ -386,11 +407,14 @@
   highlight: 1
   news2:
 
-- title: "Reducing the Computational Complexity of RegionInfo"
+- link:
+    url: "http://localhost:4000/projects/comp_complexity/"
+    display: "Reducing the Computational Complexity of RegionInfo"
+#- title: "Reducing the Computational Complexity of RegionInfo"
   authors: "Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta"
   description: ""
   year: "2016"
-  publishedAt: "Poster and Lightning talk in US LLVM Developers' Meeting"
+  publishedAt: "US LLVM Dev' Meet"
   type: "Talks"
   image: ""
   # link:

@@ -100,3 +100,21 @@ firstp {
     margin-right: 30px;
 }
 
+.trophyimage {
+    position: relative;
+    top:-13px;
+    height:20px;
+}
+    
+.trophyimage:hover:after {
+    position: absolute;
+    content: attr(title);
+    display: inline-block;
+    left: 0px;
+    top: -10px;
+    padding: 5px;
+    background-color: white;
+    color: red;
+    width: auto;
+   
+}

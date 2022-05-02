@@ -16,22 +16,44 @@ permalink: /publications/
 {% for publi in site.data.publist %}
 
 {% if publi.highlight == 1 %}
-<div>
-  <pubtit>{{ publi.title }}</pubtit>
 
+<div style="position:relative; top:10px;">  
+  <pubtit>{{ publi.title }}</pubtit>  
+  
+  <div style="float:left; width:80%;position:relative; top:2px;">
+  
+  
   {% if publi.link %}
+  
+  <div style="float:left; width:auto;display:flex;">    
   <p style="margin:0;padding:0;border:0;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url }}" target="_blank"><pubtit>{{ publi.title }}</pubtit>{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}</p>
-  {% endif %}  
+  {% if publi.award %} 
+  {% assign aw=publi.award.display %} 
+  <div class="trophyimage" title="{{aw}}">
+  <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px;">
+  </div>
+ {% endif %} 
+  </div>
+  <div>
+  <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>    
+</div>
+  
+  
+  
+    
+  
+    {% endif %}
+  
+  </div>
 
-  <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>
-  <p style="margin:0;padding:0;border:0;"><em>{{ publi.publishedAt }}</em>,&nbsp;<em>{{ publi.year}}</em></p>
-  {% if publi.award %}
-  <p style="margin:0;padding:0;border:0;"><em><b>{{ publi.award.display }}</b></em></p>
-  {% endif %}
+  <div style="float:left; width:20%;position:relative; top:2px;">
+  <p style="margin:20px;padding:0;border:0;"><em>{{ publi.publishedAt }}</em>,&nbsp;<em>{{ publi.year}}</em></p>
+  </div>
   
  
 </div>
 {% endif %}
+
 {% endfor %} 
 
 <p> &nbsp; </p>
