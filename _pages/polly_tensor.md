@@ -10,11 +10,9 @@ permalink: /projects/polly_tensor/
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
-<h1>TALK: Enabling Polyhedral optimizations in TensorFlow through Polly</h1>
-<p><u>Annanay Agarwal (presenter)</u>, Michael Kruse, Brian Retford, Tobias Grosser and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Presented at <a href="https://www.llvm.org/devmtg/2017-10/">US LLVM Developers’ Meeting, 2017
-</a>  
- </h4>
+<h1>Enabling Polyhedral optimizations in TensorFlow through Polly</h1>
+<p>Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
+<h4> Presented at US LLVM Developers’ Meeting, 2017 </h4>
 
 <br>
 <div style="position:relative; top:-25px;">

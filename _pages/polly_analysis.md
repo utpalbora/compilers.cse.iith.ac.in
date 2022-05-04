@@ -10,14 +10,16 @@ permalink: /projects/polly_analysis/
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
-<h1>TALK: Polly as an Analysis pass in LLVM</h1>
+<h1>Polly as an Analysis pass in LLVM</h1>
 <p>Utpal Bora, Johannes Doerfert, Tobias Grosser, Venugopal Raghavan and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Presented at <a href="https://www.llvm.org/devmtg/2016-11/">US LLVM Developers’ Meeting, 2016
-</a>  
+<h4> Presented at US LLVM Developers’ Meeting, 2016 
 
 <a>
  </a>  
  </h4>
+
+ <br>
+ 
  <div style="position:relative; top:-25px;">
  <h4><a href="https://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf" target="_blank">(Slides)</a>
  </h4>

@@ -12,11 +12,15 @@ permalink: /projects/polly_dl/
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>When Polyhedral Optimizations Meet Deep Learning Kernels</h1>
 <p>Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Published at <a href="https://raiith.iith.ac.in/5200/1/HiPC%202017.pdf">IEEE International Conference on High Performance Computing, Jaipur, India, 2017
-</a>  
- </h4>
+<h4> Published at IEEE International Conference on High Performance Computing, Jaipur, India, 2017</h4>
 
- 
+<br>
+
+<div style="position:relative; top:-25px;">
+ <h4><a href="https://raiith.iith.ac.in/5200/1/HiPC%202017.pdf" target="_blank">Paper</a>
+ </h4>
+ </div>
+
  <br>     
 <p> Deep Neural Networks (DNN) are well understood to be one of the largest consumers of HPC resources
 and efficiently running their training and inference phases on modern heterogeneous architectures (and accelerators)

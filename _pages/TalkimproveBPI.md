@@ -12,9 +12,8 @@ permalink: /projects/TalkimproveBPI/
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>Some Improvements to the Branch Probability Information (BPI)</h1>
 <p>Akash Banerjee ,Rohit Aggarwal, S. VenkataKeerthy and  <a href="https://scholar.google.co.in/citations?user=kYDwjPAAAAAJ&hl=en" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Presented in <a href="https://llvm.org/devmtg/2018-10/">European LLVM Developers’ Meeting, 2020 (Poster)
-</a>  
- 
+<h4> Presented at European LLVM Developers’ Meeting, 2020
+<br>
  <a href= "https://github.com/TIFitis/BPI--llvm" target="_blank">
  <img class="dp-img" alt="OpenMp_Github" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px" />
  </a>  

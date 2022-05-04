@@ -8,7 +8,7 @@ permalink: /projects/polydl/
 
 # PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives
 *Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul*
-#### Published in [ACM TACO](https://dl.acm.org/doi/abs/10.1145/3433103){:target="_blank"} ([pre-print](https://arxiv.org/abs/2006.02230){:target="_blank"}) (Talks: [HiPEAC'21](https://www.youtube.com/watch?v=kyD4ysn8ljE&t=1866s)) <a href="https://github.com/IITH-Compilers/polydl" target="_blank"> <img  class="dp-img" alt="PolyDL GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
+#### Published at [ACM TACO](https://dl.acm.org/doi/abs/10.1145/3433103){:target="_blank"} ([pre-print](https://arxiv.org/abs/2006.02230){:target="_blank"}) (Talks: [HiPEAC'21](https://www.youtube.com/watch?v=kyD4ysn8ljE&t=1866s)) <a href="https://github.com/IITH-Compilers/polydl" target="_blank"> <img  class="dp-img" alt="PolyDL GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 
 
 PolyDL framework optimizes DL codes on CPUs following a two-step approach. Outer loop tuning with novel reuse algorithm in Polyhedral Compilation. For the inner loop, the expertly coded microkernels are used for effective vectorization. The performance of the generated code by the PolyDL system is comparable to the (Intel) oneDNN library. PolyDL system eases the development of high performance for DL workloads and is faster than autotuning systems.

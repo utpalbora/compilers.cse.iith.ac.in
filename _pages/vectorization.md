@@ -10,10 +10,9 @@ permalink: /projects/vectorization/
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
-<h1>TALK: A Comparative Study of Vectorization in Compilers</h1>
+<h1>A Comparative Study of Vectorization in Compilers</h1>
 <p>Santanu Das, D. Tharun Kumar, Utpal Bora and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Presented at <a href="https://www.computer.org/csdl/proceedings/hipcw/2016/12OmNBRbknQ">IEEE International Conference on High Performance Computing, Hyderabad, India, 2016
-</a>
+<h4> Presented at IEEE International Conference on High Performance Computing, Hyderabad, India, 2016
  </h4>
 
 <br>

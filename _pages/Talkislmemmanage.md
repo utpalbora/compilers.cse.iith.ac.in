@@ -12,9 +12,10 @@ permalink: /projects/Talkislmemmanage/
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>ISL Memory Management Using Clang Static Analyzer</h1>
 <p>Malhar Thakkar and <a href="https://scholar.google.co.in/citations?user=kYDwjPAAAAAJ&hl=en" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Presented in <a href="https://llvm.org/devmtg/2018-10/">2018 Bay Area LLVM Developers' Meeting
-</a>     
+<h4> Presented at 2018 Bay Area LLVM Developers' Meeting
  </h4>
+
+ <br>
  
  <div style="display: flex; justify-content: center;">
  <iframe width="1064" height="608" src="https://www.youtube.com/embed/AgHy_4cQzMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -10,14 +10,12 @@ permalink: /projects/cache_miss_calc/
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
-<h1>TALK: Implementation of a Cache Miss Calculator in LLVM/Polly</h1>
+<h1>Implementation of a Cache Miss Calculator in LLVM/Polly</h1>
 <p>Keyur Joshi, Albert Cohen and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta </p>
-<h4> Presented at <a href="https://dl.acm.org/doi/proceedings/10.1145/3148173">Workshop on the LLVM Compiler Infrastructure in HPC (in SC 2017), 2017
-</a>  
- 
- <br>
+<h4> Presented at Workshop on the LLVM Compiler Infrastructure in HPC (in SC 2017), 2017</h4>
 
- </h4>
+<br>
+
  <div style="position:relative; top:-25px;">
  <h4><a href="https://llvm-hpc4-workshop.github.io/talks.html#joshi" target="_blank">(Slides)</a>
  </h4>

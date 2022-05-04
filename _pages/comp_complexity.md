@@ -10,10 +10,9 @@ permalink: /projects/comp_complexity/
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
-<h1>TALK: Reducing the Computational Complexity of RegionInfo</h1>
-<p><u>Nandini Singhal (presenter)</u>, Pratik Bhatu, Aditya Kumar, Tobias Grosser and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank"> Ramakrishna Upadrasta</p>
-<h4> Presented at <a href="https://www.llvm.org/devmtg/2016-11/">US LLVM Developers’ Meeting, 2016
-</a>  
+<h1>Reducing the Computational Complexity of RegionInfo</h1>
+<p>Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank"> Ramakrishna Upadrasta</p>
+<h4> Presented at US LLVM Developers’ Meeting, 2016
 </h4>
 
 <br>

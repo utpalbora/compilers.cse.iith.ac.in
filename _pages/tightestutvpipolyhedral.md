@@ -12,14 +12,18 @@ permalink: /projects/tightestutvpipolyhedral/
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem</h1>
 <p>Abhishek A Patwardhan and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Published in <a href="https://acohen.gitlabpages.inria.fr/impact/impact2019/papers/IMPACT_2019_paper_2.pdf">9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain
-</a> 
+<h4> Published at 9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain</h4>
  
+<br>
+ 
+<div style="position:relative; top:-25px;">
+ <h4><a href="https://acohen.gitlabpages.inria.fr/impact/impact2019/papers/IMPACT_2019_paper_2.pdf" target="_blank">Paper</a>
+ </h4>
  
  <a href= "https://github.com/IITH-Compilers/ISL-UTVPI?files=1" target="_blank">
  <img class="dp-img" alt="OpenMp_Github" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px" />
  </a> 
- </h4>
+ </div> 
  
 <p> Many static analysis problems involve solving mathematical data-flow equations over various numerical abstract domains. Convex polyhedra is one such abstract domain that is widely used to precisely capture affine relationships among program variables. However, majority of the analysis problems based on convex polyhedral domains fail to scale for large problem sizes due to the high-complexity/exponential nature of operations defined over them (such as Feasibility, Optimization, Fourier-Motzkin, Vertex enumeration).
 The (Unit-)Two Variable Per Inequality (UTVPI) Polyhedra (also called as Octagons) have been proven to be a very useful abstract domain; due to its improved worst-case polynomial time complexity, as well as ease of implementation. In order to enable usage of Octagon abstract domain, it becomes important to efficiently compute the tightest Octagonal Over-Approximation (OA) from an arbitrary convex-polyhedron.

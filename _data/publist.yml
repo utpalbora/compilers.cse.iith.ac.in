@@ -181,7 +181,7 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "(HPCS 2019), Dublin, Ireland"
+  publishedAt: "(HPCS 2019), Ireland"
   type: "Conference"
   image: ""
   # link:
@@ -200,7 +200,7 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "HiPEAC 2019 Valencia, Spain"
+  publishedAt: "HiPEAC 2019 Spain"
   type: "Conference"
   image: ""
   # link:
@@ -219,7 +219,7 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "Talk in OMASE 2019, USA"
+  publishedAt: "Talk in OMASE 2019"
   type: "Talks"
   image: ""
   highlight: 1
@@ -269,7 +269,7 @@
   authors: "Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "US,LLVM Dev' Mee"
+  publishedAt: "US,LLVM Dev' Meet"
   type: "Posters"
   image: ""
   # link:
@@ -321,7 +321,7 @@
   authors: "Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "LLVM Compiler Infrastructure in HPC (in SC 2017)"
+  publishedAt: "LLVM Compiler Infrastructure in HPC"
   type: "Talks"
   image: ""
   # link:
@@ -339,7 +339,7 @@
   authors: "Keyur Joshi, Ramakrishna Upadrasta, and Albert Cohen"
   description: ""
   year: "2017"
-  publishedAt: "LLVM Compiler Infrastructure in HPC (in SC 2017)"
+  publishedAt: "LLVM Compiler Infrastructure in HPC"
   type: "Talks"
   image: ""
   # link:
@@ -385,8 +385,8 @@
   #   display:  "Slides"
   #   slides: ""
   #   authorCopy: ""
-  # award:
-  #    display: "Won best poster award"	
+  award:
+      display: "Won best poster award"	
   highlight: 1
   news2:
 
@@ -425,4 +425,3 @@
   #    display: "Slides"	  
   highlight: 1
   news2:
-

@@ -35,6 +35,8 @@ permalink: /publications/
  {% endif %} 
   </div>
   <div>
+  
+  <br/>
   <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>    
 </div>
   
@@ -47,7 +49,7 @@ permalink: /publications/
   </div>
 
   <div style="float:left; width:20%;position:relative; top:2px;">
-  <p style="margin:20px;padding:0;border:0;"><em>{{ publi.publishedAt }}</em>,&nbsp;<em>{{ publi.year}}</em></p>
+  <p style="margin:20px;padding:0;border:0;"><em>{{ publi.publishedAt }}</em> <br> <em>{{ publi.year}}</em></p>
   </div>
   
  
@@ -56,6 +58,6 @@ permalink: /publications/
 
 {% endfor %} 
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> 
 
 
