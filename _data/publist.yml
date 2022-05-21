@@ -1,4 +1,21 @@
 - link:
+    url: "http://localhost:4000/projects/pktproc_algo_id/"
+    display: "Packet Processing Algorithm Identification using Program Embeddings"
+# - title: "Packet Processing Algorithm Identification using Program Embeddings"      
+  authors: "S. VenkataKeerthy, Yashas Andaluri, Sayan Dey, Rinku Shah, Praveen Tammana, Ramakrishna Upadrasta"
+  year: "2022"
+  publishedAt: "To appear in APNet"
+  type: "Workshop"
+  image: ""
+  # link:
+  #   url: ""
+  #   display:  ""
+  #   slides: ""
+  #   authorCopy: ""
+  highlight: 1
+  news2:
+
+- link:
     url: "https://compilers.cse.iith.ac.in/projects/posetrl/"
     display: "POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning"
 # - title: "POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning"      
@@ -53,7 +70,7 @@
   authors: "Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul"
   description: ""
   year: "2020"
-  publishedAt: "ACM@TACO"
+  publishedAt: "TACO"
   type: "Conference"
   image: ""
   # link:
@@ -89,7 +106,7 @@
   authors: "S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, Maunendra Desarkar, Ramakrishna Upadrasta and Y. N. Srikant"
   description: ""
   year: "2020"
-  publishedAt: "ACM@TACO"
+  publishedAt: "TACO"
   type: "Conference"
   image: ""
   # link:
@@ -110,7 +127,7 @@
   authors: "Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye"
   description: ""
   year: "2020"
-  publishedAt: "ACM@TACO"
+  publishedAt: "TACO"
   type: "Conference"
   image: ""
   # link:
@@ -131,7 +148,7 @@
   authors: "Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta"
   description: ""
   year: "2020"
-  publishedAt: "European LLVM Dev’ Meet"
+  publishedAt: "European LLVM Meet"
   type: "Posters"
   image: ""
   highlight: 1
@@ -144,7 +161,7 @@
   authors: "Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye"
   description: ""
   year: "2020"
-  publishedAt: "LLVM@CGO"
+  publishedAt: "LLVM CGO"
   type: "Talks"
   image: ""
   # link:
@@ -181,7 +198,7 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "(HPCS 2019), Ireland"
+  publishedAt: "HPCS"
   type: "Conference"
   image: ""
   # link:
@@ -200,7 +217,7 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "HiPEAC 2019 Spain"
+  publishedAt: "HiPEAC"
   type: "Conference"
   image: ""
   # link:
@@ -232,7 +249,7 @@
   authors: "Tharun Kumar. D, S. VenkataKeerthy and Ramakrishna Upadrasta"
   description: ""
   year: "2018"
-  publishedAt: "P4WE@ICNP"
+  publishedAt: "P4WE ICNP"
   type: "Conference"
   image: ""
   # link:
@@ -251,7 +268,7 @@
   authors: "Malhar Thakkar, Ramakrishna Upadrasta"
   description: ""
   year: "2018"
-  publishedAt: "US,LLVM Dev' Meet"
+  publishedAt: "US LLVM Dev Meet"
   type: "Talks"
   image: ""
   # link:
@@ -269,7 +286,7 @@
   authors: "Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das and Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "US,LLVM Dev' Meet"
+  publishedAt: "US LLVM Dev Meet"
   type: "Posters"
   image: ""
   # link:
@@ -288,7 +305,7 @@
   authors: "Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "IEEE@ICHPC, India"
+  publishedAt: "HiPC"
   type: "Posters"
   image: ""
   # link:
@@ -321,7 +338,7 @@
   authors: "Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser and Ramakrishna Upadrasta"
   description: ""
   year: "2017"
-  publishedAt: "LLVM Compiler Infrastructure in HPC"
+  publishedAt: "LLVM HPC"
   type: "Talks"
   image: ""
   # link:
@@ -339,7 +356,7 @@
   authors: "Keyur Joshi, Ramakrishna Upadrasta, and Albert Cohen"
   description: ""
   year: "2017"
-  publishedAt: "LLVM Compiler Infrastructure in HPC"
+  publishedAt: "LLVM HPC"
   type: "Talks"
   image: ""
   # link:
@@ -357,7 +374,7 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2016"
-  publishedAt: "IEEE@ICHPC, India"
+  publishedAt: "HiPC"
   type: "Posters"
   image: ""
   # link:
@@ -377,7 +394,7 @@
   authors: "Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta"
   description: ""
   year: "2016"
-  publishedAt: "IEEE@ICHPC, India"
+  publishedAt: "HiPC"
   type: "Posters"
   image: ""
   # link:
@@ -395,10 +412,10 @@
     url: "http://localhost:4000/projects/polly_analysis/"
     display: "Polly as an Analysis pass in LLVM"
 #- title: "Polly as an Analysis pass in LLVM"
-  authors: "Utpal Bora, Johannes Doerfert, Tobias Grosser,Venugopal Raghavan and Ramakrishna Upadrasta"
+  authors: "Utpal Bora, Johannes Doerfert, Tobias Grosser, Venugopal Raghavan and Ramakrishna Upadrasta"
   description: ""
   year: "2016"
-  publishedAt: "US LLVM Dev' Meet"
+  publishedAt: "US LLVM Dev Meet"
   type: "Talks"
   image: ""
   # link:
@@ -414,7 +431,7 @@
   authors: "Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta"
   description: ""
   year: "2016"
-  publishedAt: "US LLVM Dev' Meet"
+  publishedAt: "US LLVM Dev Meet"
   type: "Talks"
   image: ""
   # link:

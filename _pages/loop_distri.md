@@ -17,7 +17,7 @@ permalink: /projects/loop_distri/
 <br>
 
  <div style="position:relative; top:-25px;">
- <h4><a href="https://llvm-hpc4-workshop.github.io/talks.html#grosser" target="_blank">(Slides)</a>
+ <h4><a href="https://llvm-hpc4-workshop.github.io/talks.html#grosser" target="_blank">Slides</a>
  </h4>
  </div> 
  

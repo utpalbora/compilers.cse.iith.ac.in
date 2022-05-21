@@ -18,7 +18,7 @@ permalink: /projects/vectorization/
 <br>
 
  <div style="position:relative; top:-25px;">
- <h4><a href="https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing" target="_blank">(Slides)</a>
+ <h4><a href="https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing" target="_blank">Slides</a>
  </h4>
 
  <br>     

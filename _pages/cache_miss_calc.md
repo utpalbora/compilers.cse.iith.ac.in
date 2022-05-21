@@ -17,7 +17,7 @@ permalink: /projects/cache_miss_calc/
 <br>
 
  <div style="position:relative; top:-25px;">
- <h4><a href="https://llvm-hpc4-workshop.github.io/talks.html#joshi" target="_blank">(Slides)</a>
+ <h4><a href="https://llvm-hpc4-workshop.github.io/talks.html#joshi" target="_blank">Slides</a>
  </h4>
  </div> 
  

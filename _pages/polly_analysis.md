@@ -21,7 +21,7 @@ permalink: /projects/polly_analysis/
  <br>
  
  <div style="position:relative; top:-25px;">
- <h4><a href="https://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf" target="_blank">(Slides)</a>
+ <h4><a href="https://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf" target="_blank">Slides</a>
  </h4>
  </div> 
  

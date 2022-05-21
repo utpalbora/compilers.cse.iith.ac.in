@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-[Compilers team at IITH](https://compilers.cse.iith.ac.in) 
+[Compilers team at IITH](http://localhost:4000/team/) 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->

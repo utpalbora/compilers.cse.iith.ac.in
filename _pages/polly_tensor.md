@@ -16,7 +16,7 @@ permalink: /projects/polly_tensor/
 
 <br>
 <div style="position:relative; top:-25px;">
- <h4><a href="https://llvm.org/devmtg/2017-10/slides/Agarwal-Enabling%20Polyhedral%20optimizations%20in%20TensorFlow%20through%20Polly.pdf" target="_blank">(Slides)</a>
+ <h4><a href="https://llvm.org/devmtg/2017-10/slides/Agarwal-Enabling%20Polyhedral%20optimizations%20in%20TensorFlow%20through%20Polly.pdf" target="_blank">Slides</a>
  </h4>
  </div> 
 <div style="display: flex; justify-content: center;">

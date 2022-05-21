@@ -29,26 +29,24 @@ permalink: /publications/
   <p style="margin:0;padding:0;border:0;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url }}" target="_blank"><pubtit>{{ publi.title }}</pubtit>{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}</p>
   {% if publi.award %} 
   {% assign aw=publi.award.display %} 
-  <div class="trophyimage" title="{{aw}}">
+
+  <div class="trophyimage">
   <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px;">
   </div>
+
  {% endif %} 
   </div>
   <div>
   
-  <br/>
+  <br>
   <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>    
 </div>
-  
-  
-  
     
-  
-    {% endif %}
+ {% endif %}
   
   </div>
 
-  <div style="float:left; width:20%;position:relative; top:2px;">
+  <div style="float:left; width:20%;position:relative; top:-18px;">
   <p style="margin:20px;padding:0;border:0;"><em>{{ publi.publishedAt }}</em> <br> <em>{{ publi.year}}</em></p>
   </div>
   

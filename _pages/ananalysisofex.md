@@ -12,7 +12,7 @@ permalink: /projects/ananalysisofex/
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>An analysis of executable size reduction by LLVM passes</h1>
 <p>Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Published at CSI Transactions on ICT,2019</h4>
+<h4> Published at CSI Transactions on ICT, 2019</h4>
 <br>
  <div style="position:relative; top:-25px;">
  <h4><a href="https://link.springer.com/article/10.1007/s40012-019-00248-5" target="_blank">Paper</a>

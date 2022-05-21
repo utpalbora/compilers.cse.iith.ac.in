@@ -18,7 +18,7 @@ permalink: /projects/comp_complexity/
 <br>
 
  <div style="position:relative; top:-25px;">
- <h4><a href="https://llvm.org/devmtg/2016-11/Slides/Singhal-ReducingTheComputationalComplexity.pdf" target="_blank">(Slides)</a>
+ <h4><a href="https://llvm.org/devmtg/2016-11/Slides/Singhal-ReducingTheComputationalComplexity.pdf" target="_blank">Slides</a>
  </h4>
  </div> 
  <div style="display: flex; justify-content: center;">
