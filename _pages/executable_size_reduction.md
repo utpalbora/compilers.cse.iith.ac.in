@@ -1,11 +1,11 @@
 ---
 title: "An analysis of executable size reduction by LLVM passes"
-redirect_from:
-    - /publications/ananalysisofex
+#redirect_from:
+#    - /publications/ananalysisofex
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /projects/ananalysisofex/
+permalink: /publications/executable_size_reduction/
 ---
 
 

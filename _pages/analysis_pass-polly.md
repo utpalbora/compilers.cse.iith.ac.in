@@ -1,11 +1,11 @@
 ---
 title: "Polly as an Analysis pass in LLVM"
-redirect_from:
-    - /publications/polly_analysis
+#redirect_from:
+#    - /publications/polly_analysis
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /projects/polly_analysis/
+permalink: /publications/analysis_pass-polly/
 ---
 
 

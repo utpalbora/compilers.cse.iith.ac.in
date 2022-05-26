@@ -1,11 +1,11 @@
 ---
 title: "Packet Processing Algorithm Identification using Program Embeddings"
-redirect_from:
-    - /publications/pktproc_algo_id
+#redirect_from:
+#    - /publications/pktproc_algo_id
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /projects/pktproc_algo_id/
+permalink: /publications/packet_processing/
 ---
 
 

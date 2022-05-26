@@ -25,8 +25,8 @@ permalink: /publications/
   
   {% if publi.link %}
   
-  <div style="float:left; width:auto;display:flex;">    
-  <p style="margin:0;padding:0;border:0;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url }}" target="_blank"><pubtit>{{ publi.title }}</pubtit>{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}</p>
+  <div style="width:auto;display:flex;">    
+  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url_remote }}" target="_blank"><pubtit>{{ publi.title }}</pubtit>{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}</p>
   {% if publi.award %} 
   {% assign aw=publi.award.display %} 
 
@@ -36,18 +36,19 @@ permalink: /publications/
 
  {% endif %} 
   </div>
-  <div>
-  
-  <br>
+
+  <div>  
   <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>    
 </div>
     
  {% endif %}
-  
+  <div style="margin-top:25px;">
+  <p></p>
+  </div>
   </div>
 
   <div style="float:left; width:20%;position:relative; top:-18px;">
-  <p style="margin:20px;padding:0;border:0;"><em>{{ publi.publishedAt }}</em> <br> <em>{{ publi.year}}</em></p>
+  <p style="margin:20px;padding:0;border:0;"><em>{{ publi.publishedAt }}</em>,  <em>{{ publi.year}}</em></p>
   </div>
   
  

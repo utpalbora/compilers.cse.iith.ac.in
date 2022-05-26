@@ -1,18 +1,18 @@
 ---
 title: "Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler"
-redirect_from:
-    - /publications/ppcg
+#redirect_from:
+#    - /publications/ppcg
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /projects/ppcg/
+permalink: /publications/texturizing_ppcg/
 ---
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler</h1>
 <p>Abhishek A Patwardhan and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Published at IEEE International Conference on High Performance Computing, Hyderabad, India, 2016
+<h4> Poster-Presented in IEEE International Conference on High Performance Computing, 2016
  </h4>
 
 <br>

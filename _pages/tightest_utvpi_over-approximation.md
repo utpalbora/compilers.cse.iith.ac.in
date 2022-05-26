@@ -1,18 +1,18 @@
 ---
 title: "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
-redirect_from:
-    - /publications/tightestutvpipolyhedral
+#redirect_from:
+#    - /publications/tightestutvpipolyhedral
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /projects/tightestutvpipolyhedral/
+permalink: /publications/tightest_utvpi_over-approximation/
 ---
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem</h1>
 <p>Abhishek A Patwardhan and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Published at 9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain</h4>
+<h4> Poster-Presented in 9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC, 2019</h4>
  
 <br>
  

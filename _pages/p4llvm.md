@@ -1,18 +1,18 @@
 ---
 title: "P4LLVM: An LLVM Based P4 Compiler"
-redirect_from:
-    - /publications/llvmbasedp4compiler
+#redirect_from:
+#    - /publications/llvmbasedp4compiler
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /projects/llvmbasedp4compiler/
+permalink: /publications/p4llvm/
 ---
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>P4LLVM: An LLVM Based P4 Compiler</h1>
-<p>Tharun Kumar. D, S. VenkataKeerthy and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Published at 2018 IEEE 26th International Conference on Network Protocols (ICNP)</h4>
+<p>Tharun Kumar Dangeti, S. VenkataKeerthy and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
+<h4> Published at P4WE workshop in International Conference on Network Protocols (ICNP), 2018</h4>
 
 <br>
  

@@ -1,18 +1,18 @@
 ---
 title: "When Polyhedral Optimizations Meet Deep Learning Kernels"
-redirect_from:
-    - /publications/polly_dl
+#redirect_from:
+#    - /publications/polly_dl
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /projects/polly_dl/
+permalink: /publications/polly_dl/
 ---
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>When Polyhedral Optimizations Meet Deep Learning Kernels</h1>
 <p>Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan and <a href="https://www.iith.ac.in/~ramakrishna" target="_blank">Ramakrishna Upadrasta</p>
-<h4> Published at IEEE International Conference on High Performance Computing, Jaipur, India, 2017</h4>
+<h4> Poster - Presented at International Conference on High Performance Computing, 2017</h4>
 
 <br>
 

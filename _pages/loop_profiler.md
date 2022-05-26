@@ -1,11 +1,11 @@
 ---
 title: "An LLVM based Loop Profiler"
-redirect_from:
-    - /publications/Talkloopprofiler
+#redirect_from:
+#    - /publications/Talkloopprofiler
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /projects/Talkloopprofiler/
+permalink: /publications/loop_profiler/
 ---
 
 
