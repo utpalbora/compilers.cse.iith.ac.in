@@ -1,4 +1,5 @@
-- link:    
+- link:
+    shortname: "packet_processing"    
     url_local: "http://localhost:4000/publications/packet_processing/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/packet_processing/"     
     display: "Packet Processing Algorithm Identification using Program Embeddings"
@@ -7,12 +8,13 @@
   year: "2022"
   publishedAt: "To appear in APNet"
   type: "Workshop"
-  image: ""  
+  image: ""
+  trophy_display: 0  
   highlight: 1
   news2:
 
 - link:
-    #url: "https://compilers.cse.iith.ac.in/projects/posetrl/"
+    shortname: "posetrl"
     url_local: "http://localhost:4000/projects/posetrl/"
     url_remote: "https://compilers.cse.iith.ac.in/projects/posetrl/"
     display: "POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning"
@@ -21,25 +23,27 @@
   year: "2022"
   publishedAt: "To appear in ISPASS"
   type: "Conference"
-  image: ""  
+  image: ""
+  trophy_display: 0  
   highlight: 1
   news2:
 
 - link: 
-    #url: "http://localhost:4000/projects/llov"
+    shortname: "llov"
     url_local: "http://localhost:4000/projects/llov/"
     url_remote: "https://compilers.cse.iith.ac.in/projects/llov/"
     display: "OpenMP aware MHP Analysis for Improved Static Data-Race Detection"
   authors: "Utpal Bora, Shraiysh Vaishay, Saurabh Joshi, Ramakrishna Upadrasta"
   year: "2021"
-  publishedAt: "arXiv"
+  publishedAt: "LLVM-HPC"
   type: "Journel|Transaction|Conference"
-  image: ""  
+  image: ""
+  trophy_display: 0  
   highlight: 1
   news2: 
 
 - link:
-    #url: "http://localhost:4000/projects/polydl/"
+    shortname: "polydl"
     url_local: "http://localhost:4000/projects/polydl/"
     url_remote: "https://compilers.cse.iith.ac.in/projects/polydl/"
     display: "AI Powered Compiler Techniques for DL Code Optimization" 
@@ -48,15 +52,12 @@
   year: "2021"
   publishedAt: "arXiv"
   type: "Journel|TransactiPublished in 9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain"
-  #   url: "https://arxiv.org/abs/2104.05573"
-  #   display:  "arXiv"
-  #   slides: ""
-  #   authorCopy: ""
+  trophy_display: 0
   highlight: 1
   news2: 
 
 - link:
-    #url: "https://compilers.cse.iith.ac.in/projects/polydl/"
+    shortname: "polydl"
     url_local: "http://localhost:4000/projects/polydl/"
     url_remote: "https://compilers.cse.iith.ac.in/projects/polydl/"
     display: "PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives"
@@ -66,15 +67,16 @@
   year: "2020"
   publishedAt: "TACO"
   type: "Conference"
-  image: ""  
-  #   display: "Github"	
+  image: ""
+  trophy_display: 0  
+  #  display: "Github"	
   highlight: 1
   news2:
 
 
 
 - link: 
-    #url: "https://compilers.cse.iith.ac.in/projects/ir2vec/"
+    shortname: "ir2vec"
     url_local: "http://localhost:4000/projects/ir2vec/"
     url_remote: "https://compilers.cse.iith.ac.in/projects/ir2vec/"
     display: "IR2Vec: A Flow Analysis based Scalable Infrastructure for Program Encodings"
@@ -85,12 +87,13 @@
   publishedAt: "TACO"
   type: "Conference"
   image: ""  
+  trophy_display: 0
   #   display: "Github"	  
   highlight: 1
   news2:
 
 - link:
-    #url: "https://compilers.cse.iith.ac.in/projects/llov/"
+    shortname: "llov"
     url_local: "http://localhost:4000/projects/llov/"
     url_remote: "https://compilers.cse.iith.ac.in/projects/llov/"
     display: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs" 
@@ -101,14 +104,14 @@
   publishedAt: "TACO"
   type: "Conference"
   image: ""  
-  #   display: "Github"	
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/bpi_improvement/"
-    url_local: "http://localhost:4000/publications/bpi_improvement/"
-    url_remote: "https://compilers.cse.iith.ac.in/publications/bpi_improvement/" 
+    shortname: "bpi_improvement"
+    url_local: "http://localhost:4000/publications/bpi_improvements/"
+    url_remote: "https://compilers.cse.iith.ac.in/publications/bpi_improvements/" 
     display: "Some Improvements to Branch Probability Information (BPI)" 
 #title: "Some Improvements to Branch Probability Information (BPI)"
   authors: "Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy and Ramakrishna Upadrasta"
@@ -117,26 +120,14 @@
   publishedAt: "Euro'LLVM Meet"
   type: "Posters"
   image: ""
+  trophy_display: 0
   highlight: 1
   news2:
 
-- link:
-    #url: "https://compilers.cse.iith.ac.in/projects/llov/"
-    url_local: "http://localhost:4000/projects/llov/"
-    url_remote: "https://compilers.cse.iith.ac.in/projects/llov/" 
-    display: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs" 
-# - title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"  
-  authors: "Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta and Sanjay Rajopadhye"
-  description: ""
-  year: "2020"
-  publishedAt: "LLVM CGO"
-  type: "Talks"
-  image: ""  
-  highlight: 1
-  news2:
+
 
 - link:
-    #url: "http://localhost:4000/projects/executable_size_reduction/"
+    shortname: "executable_size_reduction"
     url_local: "http://localhost:4000/publications/executable_size_reduction/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/executable_size_reduction/" 
     display: "An analysis of executable size reduction by LLVM passes" 
@@ -148,11 +139,12 @@
   publishedAt: "CSI[ICT]"
   type: "Conference"
   image: ""  
+  trophy_display: 0
   highlight: 1
   news2: 
 
 - link:
-    #url: "http://localhost:4000/projects/automatic_cache_exploitation/"
+    shortname: "automatic_cache_exploitation"
     url_local: "http://localhost:4000/publications/automatic_cache_exploitation/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/automatic_cache_exploitation/" 
     display: "Polyhedral Model Guided Automatic GPU Cache Exploitation Framework"
@@ -163,11 +155,12 @@
   publishedAt: "HPCS"
   type: "Conference"
   image: ""  
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/tightest_utvpi_over-approximation/" 
+    shortname: "tightest_utvpi_over-approximation" 
     url_local: "http://localhost:4000/publications/tightest_utvpi_over-approximation/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/tightest_utvpi_over-approximation/"
     display: "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
@@ -175,16 +168,17 @@
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
   description: ""
   year: "2019"
-  publishedAt: "HiPEAC"
+  publishedAt: "IMPACT"
   type: "Conference"
   image: ""  
+  trophy_display: 0
   highlight: 1
   news2: 
 
 - link: 
-    #url: "https://compilers.cse.iith.ac.in/404.html"
-    url_local: "http://localhost:4000/404.html"
-    url_remote: "https://compilers.cse.iith.ac.in/404.html"
+    #shortname: "https://compilers.cse.iith.ac.in/404.html"
+    url_local: "http://localhost:4000/publications"
+    url_remote: "https://compilers.cse.iith.ac.in/publications"
     display: "Exploting GPU caches By Polyhedral Compilation" 
 #- title: "Exploting GPU caches By Polyhedral Compilation"
   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
@@ -193,11 +187,12 @@
   publishedAt: "OMASE"
   type: "Talks"
   image: ""
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/p4llvm/"
+    shortname: "p4llvm"
     url_local: "http://localhost:4000/publications/p4llvm/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/p4llvm/" 
     display: "P4LLVM: An LLVM Based P4 Compiler" 
@@ -208,11 +203,12 @@
   publishedAt: "P4WE in ICNP"
   type: "Conference"
   image: ""  
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/isl_memory_management/"
+    shortname: "isl_memory_management"
     url_local: "http://localhost:4000/publications/isl_memory_management/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/isl_memory_management/" 
     display: "ISL Memory Management Using Clang Static Analyzer" 
@@ -223,11 +219,12 @@
   publishedAt: "US LLVM Dev Meet"
   type: "Talks"
   image: ""  
+  trophy_display: 0
   highlight: 1
   news2: 
    
 - link:
-    #url: "http://localhost:4000/projects/loop_profiler/"
+    shortname: "loop_profiler"
     url_local: "http://localhost:4000/publications/loop_profiler/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/loop_profiler/" 
     display: "An LLVM based Loop Profiler"
@@ -238,13 +235,14 @@
   publishedAt: "US LLVM Dev Meet"
   type: "Posters"
   image: ""  
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/polly_dl/"
-    url_local: "http://localhost:4000/publications/polly_dl/"
-    url_remote: "https://compilers.cse.iith.ac.in/publications/polly_dl/"
+    shortname: "optimizing_dl_kernels"
+    url_local: "http://localhost:4000/publications/optimizing_dl_kernels/"
+    url_remote: "https://compilers.cse.iith.ac.in/publications/optimizing_dl_kernels/"
     display: "When Polyhedral Optimizations Meet Deep Learning Kernels"
 #- title: "When Polyhedral Optimizations Meet Deep Learning Kernels"
   authors: "Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta"
@@ -255,11 +253,12 @@
   image: ""  
   award:
       display: "Won best poster award"
+  trophy_display: 1
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/polly_tensorflow/"
+    shortname: "polly_tensorflow"
     url_local: "http://localhost:4000/publications/polly_tensorflow/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/polly_tensorflow/"
     display: "Enabling Polyhedral optimizations in TensorFlow through Polly"
@@ -270,11 +269,12 @@
   publishedAt: "US LLVM Dev Meet"
   type: "Talks"
   image: ""
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/loop_distribution_improvement/"
+    shortname: "loop_distribution_improvement"
     url_local: "http://localhost:4000/publications/loop_distribution_improvement/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/loop_distribution_improvement/"
     display: "Improved Loop Distribution in LLVM using Polyhedral Dependences"
@@ -285,11 +285,12 @@
   publishedAt: "LLVM HPC"
   type: "Talks"
   image: ""  
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/cache_miss_calc/"
+    shortname: "cache_miss_calc"
     url_local: "http://localhost:4000/publications/cache_miss_calc/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/cache_miss_calc/"
     display: "Implementation of a Cache Miss Calculator in LLVM/Polly"
@@ -300,11 +301,12 @@
   publishedAt: "LLVM HPC"
   type: "Talks"
   image: ""  
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/texturizing_ppcg/"
+    shortname: "texturizing_ppcg"
     url_local: "http://localhost:4000/publications/texturizing_ppcg/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/texturizing_ppcg/"
     display: "Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler"
@@ -317,11 +319,12 @@
   image: ""  
   award:
      display: "Won best poster award"
+  trophy_display: 1
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/vectorization/"
+    shortname: "vectorization"
     url_local: "http://localhost:4000/publications/vectorization/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/vectorization/"
     display: "A Comparative Study of Vectorization in Compilers"
@@ -334,12 +337,13 @@
   image: ""  
   award:
       display: "Won best poster award"	
+  trophy_display: 1
   highlight: 1
   news2:
 
 
 - link:
-    #url: "http://localhost:4000/projects/analysis_pass-polly/"
+    shortname: "analysis_pass-polly"
     url_local: "http://localhost:4000/publications/analysis_pass-polly/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/analysis_pass-polly/"
     display: "Polly as an Analysis pass in LLVM"
@@ -353,11 +357,12 @@
   # link:
   #   url: "http://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf"
   #   display: "Slides"	
+  trophy_display: 0
   highlight: 1
   news2:
 
 - link:
-    #url: "http://localhost:4000/projects/comp_complexity/"
+    shortname: "comp_complexity"
     url_local: "http://localhost:4000/publications/comp_complexity/"
     url_remote: "https://compilers.cse.iith.ac.in/publications/comp_complexity/"
     display: "Reducing the Computational Complexity of RegionInfo"
@@ -369,5 +374,6 @@
   type: "Talks"
   image: ""  
   #    display: "Slides"	  
+  trophy_display: 0
   highlight: 1
   news2:

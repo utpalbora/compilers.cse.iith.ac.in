@@ -156,3 +156,16 @@ firstp {}
     width: auto;
     
 }
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.page-header,
+.page-footer {
+    background-color: rgb(75, 70, 74);
+    color: #fff;
+    padding: 20px;
+}

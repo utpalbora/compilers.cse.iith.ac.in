@@ -8,10 +8,9 @@ sitemap: false
 permalink: /publications/isl_memory_management/
 ---
 
-
 <div class="container-fluid" style="height:100%; width:100%"> 
 <h1>ISL Memory Management Using Clang Static Analyzer</h1>
-<p>Malhar Thakkar and <a href="https://scholar.google.co.in/citations?user=kYDwjPAAAAAJ&hl=en" target="_blank">Ramakrishna Upadrasta</p>
+<p>Malhar Thakkar and <a href="https://people.iith.ac.in/ramakrishna/" target="_blank">Ramakrishna Upadrasta</p>
 <h4> Presented at US LLVM Developers' Meeting, 2018
  </h4>
 
@@ -27,3 +26,4 @@ Fix most of the true positives (due to missing annotations) and false positives 
 </p>
 <br>
 </div>
+

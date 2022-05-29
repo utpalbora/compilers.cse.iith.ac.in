@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-[Compilers team at IITH](https://compilers.cse.iith.ac.in) 
+[Compilers team at IITH](https://compilers.cse.iith.ac.in/team/) 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -60,7 +60,7 @@ permalink: /
 </div>
 
 
-
+ 
  **Interested in the work we do? Join us** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
  
 <figure class="fourth" style="width:800px;">

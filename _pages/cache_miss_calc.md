@@ -23,5 +23,5 @@ permalink: /publications/cache_miss_calc/
  
  <br>     
 <p> We propose an LLVM pass to mathematically measure cache misses for Static Control Parts (SCoPs) of programs. Our implementation builds on top of the Polly infrastructure and has support for features such as LRU associativity, unknown array base addresses, and (some) approximation. We describe our preliminary results and limitations by using this pass on a selection of SCoPs. Finally we list directions for expanding and improving this work. </p>
-<br>
+
 </div>
