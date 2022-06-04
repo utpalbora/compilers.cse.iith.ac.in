@@ -26,7 +26,7 @@ permalink: /publications/
   {% if publi.link %}
   
   <div style="width:auto;display:flex;">    
-  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url_remote }}" target="_blank">{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}</p>
+  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url_local }}" target="_blank">{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}</p>
   {% if publi.award %}
   {% if publi.trophy_display == 1  %} 
   {% assign aw=publi.award.display %} 
@@ -48,8 +48,8 @@ permalink: /publications/
   </div>
   </div>
 
-  <div style="float:left; width:20%;position:relative; top:-18px;">
-  <p style="margin:20px;padding:0;border:0;"><em>{{ publi.publishedAt }}</em>,  <em>{{ publi.year}}</em></p>
+  <div style="float:left; width:20%;position:relative; top:-15px;">
+  <p style="margin:20px;padding:0;border:0;font-weight:bold; color:grey"><em>{{ publi.publishedAt }}</em>  <em>{{ publi.year}}</em></p>
   </div>
   
  

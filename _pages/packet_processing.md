@@ -1,7 +1,7 @@
 ---
 title: "Packet Processing Algorithm Identification using Program Embeddings"
-#redirect_from:
-#    - /publications/pktproc_algo_id
+# redirect_from:
+#     - /publications/packet_processing
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
@@ -16,22 +16,22 @@ permalink: /publications/packet_processing/
 
 <br>
 
-<div style="position:relative; top:-25px;">
- <h4><a href="https://apnet22.hotcrp.com/paper/31" target="_blank">Paper</a>
+<!-- <div style="position:relative; top:-25px;">
+ <h4><a href="https://apnet22.hotcrp.com/doc/apnet22-paper31.pdf" target="_blank">Paper</a>
  </h4>
  </div>
 
- <br>     
+ <br>      -->
 <p> To keep up with the network speeds, many recent works propose to offload network functions to SmartNICs. The process involves identifying packet-processing algorithms in a network function program then offloading them to appropriate accelerators available on SmartNICs. This process is often done manually for each architecture and is error-prone and laborious. In this work, we propose an automated solution to identify algorithms in network function programs. We model our approach as a classification problem of Machine Learning (ML) and propose using sophisticated program embeddings for representing the network function programs. We also identify the limited availability of datasets and propose a way of extrapolating them by systematically generating equivalent programs using (existing) compiler transformations in popular compiler infrastructures. Our approach relies on modeling programs as embeddings, uses ML models trained on such extrapolated datasets, and shows superior results over the recent works.</p>
 <br>
 </div>
 
-<h3>&nbsp;&nbsp; Precision, Recall and F1 score for algorithm identification using our approach </h3>
+<!-- <h3>&nbsp;&nbsp; Precision, Recall and F1 score for algorithm identification using our approach </h3>
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/pktproc_algo_id/all_ir2vec_crc_results.png" width="70%"/>  
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/packet_processing/all_ir2vec_crc_results.png" width="70%"/>  
 </figure>
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/pktproc_algo_id/all_ir2vec_crypto_results.png" width="70%"/>
-</figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/packet_processing/all_ir2vec_crypto_results.png" width="70%"/>
+</figure>  -->

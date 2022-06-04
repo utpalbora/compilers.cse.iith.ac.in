@@ -21,7 +21,7 @@ permalink: /publications/loop_profiler/
  <a href="https://llvm.org/devmtg/2017-10/slides/Jain-LLVM%20based%20Loop%20Profiler.pdf" target="_blank">Slides</a>
  &nbsp;
  <a href= "https://github.com/IITH-Compilers/LLVM-Loop-Profiler" target="_blank">
- <img class="dp-img" alt="OpenMp_Github" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px" />
+ <img class="dp-img" alt="OpenMp_Github" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"  />
  </a>  
 
  </h4>
