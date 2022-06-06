@@ -27,9 +27,9 @@ permalink: /publications/
   
   <div style="width:auto;display:flex;">
   {% if publi.shortname !="" %}    
-  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.project==1 %} <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{publi.shortname}}" target="_blank">{{ publi.tittle }}</a> &nbsp; </strong>{% elsif publi.publication==1 %}<strong><a href="{{site.url}}{{site.baseurl}}/publications/{{publi.shortname }}" target="_blank">{{ publi.tittle }}</a> &nbsp; </strong> {% endif %}</p>
+  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.project==1 %} <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{publi.shortname}}" target="_blank">{{ publi.title }}</a> &nbsp; </strong>{% elsif publi.publication==1 %}<strong><a href="{{site.url}}{{site.baseurl}}/publications/{{publi.shortname }}" target="_blank">{{ publi.title }}</a> &nbsp; </strong> {% endif %}</p>
   {% else %}
-  <p style="margin:0;padding:0;border:0;font-size:large;"><strong>{{ publi.tittle }}</strong></p>
+  <p style="margin:0;padding:0;border:0;font-size:large;"><strong>{{ publi.title }}</strong></p>
   {% endif %}
 
   {% if publi.award %}   
