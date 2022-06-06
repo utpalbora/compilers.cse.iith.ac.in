@@ -18,42 +18,43 @@ permalink: /publications/
 {% if publi.highlight == 1 %}
 
 <div style="position:relative; top:10px;">  
-  <pubtit>{{ publi.title }}</pubtit>  
+    
   
   <div style="float:left; width:80%;position:relative; top:2px;">
   
   
-  {% if publi.link %}
+  {% if publi.shortname %}
   
-  <div style="width:auto;display:flex;">    
-  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.link.url!="" %}<strong><a href="{{ publi.link.url_local }}" target="_blank">{{ publi.link.display }}</a> &nbsp; </strong>{% endif %}</p>
-  {% if publi.award %}
-  {% if publi.trophy_display == 1  %} 
-  {% assign aw=publi.award.display %} 
+  <div style="width:auto;display:flex;">
+  {% if publi.shortname !="" %}    
+  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.project==1 %} <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{publi.shortname}}" target="_blank">{{ publi.tittle }}</a> &nbsp; </strong>{% elsif publi.publication==1 %}<strong><a href="{{site.url}}{{site.baseurl}}/publications/{{publi.shortname }}" target="_blank">{{ publi.tittle }}</a> &nbsp; </strong> {% endif %}</p>
+  {% else %}
+  <p style="margin:0;padding:0;border:0;font-size:large;"><strong>{{ publi.tittle }}</strong></p>
+  {% endif %}
 
+  {% if publi.award %}   
+  {% assign aw=publi.award.display %} 
   <div class="trophyimage">
   <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px;">
-  </div>
- {% endif %}
+  </div> 
  {% endif %} 
   </div>
 
   <div>  
   <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>    
 </div>
-    
- {% endif %}
   <div style="margin-top:25px;">
   <p></p>
   </div>
   </div>
 
   <div style="float:left; width:20%;position:relative; top:-15px;">
-  <p style="margin:20px;padding:0;border:0;font-weight:bold; color:grey"><em>{{ publi.publishedAt }}</em>  <em>{{ publi.year}}</em></p>
+  <p style="margin:20px;padding:0;border:0;font-weight:bold;text-align:right; color:grey"><em>{{ publi.publishedAt }}</em>  <em>'{{publi.year| slice: 2,4 }}</em></p>
   </div>
   
  
 </div>
+{% endif %}
 {% endif %}
 
 {% endfor %} 
