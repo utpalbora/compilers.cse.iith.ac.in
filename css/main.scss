@@ -50,7 +50,16 @@ firstp {}
     /* or 950px */
 }
 
+#join-us {
+    clear: both;
+    padding-left: 16px;
+}
+
 /* Home, News */
+#newsid {
+    position: relative
+}
+
 #newsid p {
     text-align: left;
 }
@@ -71,6 +80,10 @@ firstp {}
     box-shadow: 2px 2px 5px #888888
 }
 
+#homeid {
+    position: relative;
+}
+
 #homeid img {
     margin: 0 0 0 0;
     border-radius: 5%;
@@ -85,6 +98,11 @@ firstp {}
 
 #gridid .row {
     margin-bottom: 24px;
+}
+
+.fourth {
+    width: 80%;
+    margin-left: 10%;
 }
 
 
