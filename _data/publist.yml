@@ -29,7 +29,7 @@
   publishedAt: "LLVM-HPC"
   project: 1
   publication: 0
-  type: "Journel|Transaction|Conference"
+  type: "Journal|Transaction|Conference"
   # image: ""   
   highlight: 1
  
@@ -41,7 +41,7 @@
   publishedAt: "arXiv"
   project: 1
   publication: 0
-  type: "Journel|TransactiPublished in 9th International Workshop on Polyhedral Compilation Techniques In conjunction with HiPEAC 2019 Valencia, Spain"  
+  type: "Journal|Transaction|Conference"  
   highlight: 1
  
 
@@ -259,7 +259,7 @@
   highlight: 1
  
 
-- shortname: ""
+- shortname: "vectorization"
   title: "A Comparative Study of Vectorization in Compilers"
   authors: "Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta"
   description: ""
