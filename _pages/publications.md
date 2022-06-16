@@ -12,6 +12,26 @@ permalink: /publications/
 
 (For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=3qZCtWYAAAAJ&hl=en){:target="_blank"}, [dblp](https://dblp.org/pers/hd/u/Upadrasta:Ramakrishna){:target="_blank"})
 
+<style>
+  .trophyimage {
+    position: relative;
+    top: -13px;
+    height: 20px;
+}
+
+.trophyimage:hover:after {   
+    position: relative;
+    content: var(--content,"");
+    display: inline-block;
+    left: 24px;
+    top: -40px;    
+    background-color: rgba(241, 242, 179, 0.985);
+    color: red;
+    width: auto;
+    
+}
+</style>
+
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
@@ -33,10 +53,15 @@ permalink: /publications/
   {% endif %}
 
   {% if publi.award %}   
-  {% assign aw=publi.award.display %} 
-  <div class="trophyimage">
-  <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px;">
+  {% assign aw=publi.award.title %} 
+  <div class="trophyimage" style="--content:'{{aw}}';">
+  <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px;">  
   </div> 
+  <script> 
+  var a='{{aw}}';
+  console.log(a); 
+    document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
+  </script>
  {% endif %} 
   </div>
 

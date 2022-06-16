@@ -136,27 +136,6 @@ firstp {}
     box-shadow: none !important;
 }
 
-
-.trophyimage {
-    position: relative;
-    top: -13px;
-    height: 20px;
-}
-
-.trophyimage:hover:after {
-    // box-shadow: none !important;
-    position: relative;
-    content: "Won best poster award";
-    display: inline-block;
-    left: 24px;
-    top: -40px;
-    //  padding: 5px;
-    background-color: rgba(241, 242, 179, 0.985);
-    color: red;
-    width: auto;
-    
-}
-
 .wrapper {
     min-height: 100%;
     display: grid;
