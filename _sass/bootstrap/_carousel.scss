@@ -6,6 +6,10 @@
 // Wrapper for the slide container and indicators
 .carousel {
   position: relative;
+  height: 45vh;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 }
 
 .carousel-inner {
@@ -17,12 +21,13 @@
     display: none;
     position: relative;
     @include transition(.6s ease-in-out left);
+    // min-height: 50vh;
 
     // Account for jankitude on images
     > img,
     > a > img {
       @include img-responsive;
-      line-height: 1;
+      line-height: 1;      
     }
 
     // WebKit CSS3 transforms for supported devices

@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-[Compilers team at IITH](https://compilers.cse.iith.ac.in) 
+[Compilers team at IITH](https://compilers.cse.iith.ac.in/team/) 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -58,20 +58,4 @@ permalink: /
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-
-
- **Interested in the work we do? Join us** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
- 
-<figure class="fourth" style="width:800px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_IITH.png" style="height: 80px;padding-left: 30px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_LLVM.png" style="height: 80px;padding-left: 30px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_PollyLabs1.png" style="height: 80px;padding-left: 30px;width:180px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_AMD.png" style="height: 80px;padding-left: 30px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Meity.jpg" style="height: 85px; padding-left: 30px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Qualcomm.png" style="height: 80px;padding-left: 10px;width:180px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Intel.png" style="height: 70px;padding-left: 35px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSM.jpg" style="height: 65px; padding-left: 35px">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Google.jpg" style="height: 65px; padding-left: 35px">
-</figure>
 

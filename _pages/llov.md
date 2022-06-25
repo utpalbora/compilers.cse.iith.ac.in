@@ -119,7 +119,7 @@ LLOV is available free of cost on our [GitHub](https://github.com/utpalbora/llov
 
 #### 2. LLOV: A Fast Static Data-Race Checker for OpenMP Programs
 *Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye*
-##### Published in [ACM TACO](https://dl.acm.org/doi/10.1145/3418597){:target="_blank"} ([pre-print](https://arxiv.org/abs/1912.12189){:target="_blank"}) (Talks: [HiPEAC'21](https://www.youtube.com/watch?v=kyD4ysn8ljE&t=3781s&ab_channel=HiPEAC))
+##### Published in [ACM TACO](https://dl.acm.org/doi/10.1145/3418597){:target="_blank"} ([pre-print](https://arxiv.org/abs/1912.12189){:target="_blank"}) (Talks: [HiPEAC'21](https://www.youtube.com/watch?v=kyD4ysn8ljE&t=3781s&ab_channel=HiPEAC), [LLVM-CGO'20](https://llvm.org/devmtg/2020-02-23/))
 
 ## Funding
 This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications
