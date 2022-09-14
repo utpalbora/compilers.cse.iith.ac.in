@@ -118,6 +118,16 @@
   email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Reinforcement Learning, Accelarated Computing
 
+- name: Soumya Banerjee
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/Soumyaworks
+  photo: Soumya.jpg
+  info: M.Tech RA, started August 2022
+  email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler optimization, Machine Learning
+
 #- name: Gagandeep Goyal
 # type: alum
 # info: M.Tech RA, 2019-2022
