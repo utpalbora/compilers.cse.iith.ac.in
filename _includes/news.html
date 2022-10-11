@@ -1,7 +1,7 @@
 
 <div class="well">
 <h4>Recent News</h4>
-{% assign dates = site.data.news | group_by: "date" %}
+{% assign dates = site.data.news | group_by: "date" %} 
 {% assign dateSorted = dates  | sort: "name" | reverse %}
 
 {% for y in dateSorted limit:5 %}
