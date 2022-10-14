@@ -1,22 +1,28 @@
-- date: 2022-4-18
+- date: 2022-10-11
+  status: "Successful PhD thesis defence of Utpal Bora"
+  new: "false"
+  url: ""
+  headline: "Utpal Bora successfully defended his PhD thesis. Congratulations Dr. Utpal!"
+
+- date: 2022-04-18
   status: "Acceptance of paper by Venkat et al. in APNet 2022"
   new: "false"
   url: ""
   headline: "Congratulations to S. VenkataKeerthy, Yashas Andaluri, Sayan Dey, Rinku Shah, Praveen Tammana and Ramakrishna Upadrasta for acceptance of their paper on Packet Processing Algorithm Identification using Program Embeddings in APNet 2022"
 
-- date: 2022-3-18
+- date: 2022-03-18
   status: "Acceptance of paper by Shalini et al. in ISPASS 2022"
   new: "false"
   url: ""
   headline: "Congratulations to Shalini Jain, Yashas Andaluri, S. VenkataKeerthy and Ramakrishna Upadrasta for acceptance of their paper on Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning in ISPASS 2022"
 
-- date: 2021-9-24
+- date: 2021-09-24
   status: "Venkat awarded Google PhD Fellowship 2021"
   new: "false"
   url: "https://research.google/outreach/phd-fellowship/recipients/"
   headline: "Congratulations to S. VenkataKeerthy for being awarded the Google PhD Fellowship 2021"
 
-- date: 2021-9-17
+- date: 2021-09-17
   status: "Paper by Utpal et al. gets accepted in LLVM-HPC 2021"
   new: "false"
   url: ""
