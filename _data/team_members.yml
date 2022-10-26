@@ -128,6 +128,16 @@
   email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
   interests: Compiler optimization, Machine Learning
 
+- name: Raj Ambekar
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/RajAmbekar191094
+  photo: Raj_Ambekar.png
+  info: M.Tech RA, started August 2022
+  email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler optimization, Machine Learning, Algorithms
+
 #- name: Gagandeep Goyal
 # type: alum
 # info: M.Tech RA, 2019-2022
