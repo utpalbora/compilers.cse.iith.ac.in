@@ -36,7 +36,9 @@ permalink: /publications/packet_processing/
 
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/projects/packet_processing/Proposed_approach_overview.png" width="100%">
+<center><p><b>Overview of the proposed approach</b></p></center>
 </figure>
+
 
 </div>
 
