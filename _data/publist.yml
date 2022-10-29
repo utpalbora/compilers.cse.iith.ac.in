@@ -1,3 +1,14 @@
+- shortname: "rl_loop_distribution"   
+  title: "Reinforcement Learning assisted Loop Distribution for Locality and Vectorization"
+  authors: "Shalini Jain, S. VenkataKeerthy, Rohit Aggarwal, Tharun Kumar Dangeti, Dibyendu Das, Ramakrishna Upadrasta"
+  year: "2022"
+  publishedAt: "To appear in LLVM-HPC"
+  project: 0
+  publication: 1
+  type: "Journal|Transaction|Conference"
+  # image: ""   
+  highlight: 1
+
 - shortname: "packet_processing"       
   title: "Packet Processing Algorithm Identification using Program Embeddings"  
   authors: "S. VenkataKeerthy, Yashas Andaluri, Sayan Dey, Rinku Shah, Praveen Tammana, Ramakrishna Upadrasta"
