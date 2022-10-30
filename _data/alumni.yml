@@ -1,3 +1,11 @@
+- name: Yashas Andaluri
+  type: alum
+  info: B.Tech + M.Tech, 2017-2022
+  photo: yashas.jpg
+  thesis: Packet Processing Algorithm Identification using Program Embeddings
+  thesis_link:
+  next: Qualcomm compilers team
+
 - name: Gagandeep Goyal
   type: alum
   info: M.Tech RA, 2019-2022
