@@ -6,6 +6,14 @@
   thesis_link:
   next: Qualcomm compilers team
 
+- name: Nilesh Shah
+  type: alum
+  info: M.Tech RA, 2019-2022
+  photo: nilesh.jpg
+  thesis: Some approximations for cache miss calculations
+  thesis_link:
+  next: PhD, IIT Hyderabad Compilers 
+
 - name: Gagandeep Goyal
   type: alum
   info: M.Tech RA, 2019-2022
