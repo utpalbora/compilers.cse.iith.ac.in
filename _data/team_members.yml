@@ -88,15 +88,15 @@
   email: cs20mtech12003 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimizations, Machine Learning
 
-- name: Yashas Andaluri
-  type: mtech
-  url:
-    value: 0
-    link:
-  photo: yashas.jpg
-  info: started January, 2021 (Previously B.Tech 2017 - 2021)
-  email: cs17b21m000001 [AT] iith [DOT] ac [DOT] in
-  interests: Compilers for Networks, Compiler Optimizations, Program representation, Machine Learning
+# - name: Yashas Andaluri
+#   type: mtech
+#   url:
+#     value: 0
+#     link:
+#   photo: yashas.jpg
+#   info: started January, 2021 (Previously B.Tech 2017 - 2021)
+#   email: cs17b21m000001 [AT] iith [DOT] ac [DOT] in
+#   interests: Compilers for Networks, Compiler Optimizations, Program representation, Machine Learning
   
 - name: Sayan Dey
   type: mtech
