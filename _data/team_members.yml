@@ -49,14 +49,15 @@
   interests: Machine Learning in Compilers and Programming Languages
 
 - name: Nilesh Shah
-  type: mtech
+  type: phd
   url:
     value: 0
-    link:
+    link: 
+  info: started May 2021 (Previously M.Tech RA from August 2019 - May 2021)
   photo: nilesh.jpg
-  info: M.Tech RA, started August 2019
-  email: cs19mtech11021 [AT] iith [DOT] ac [DOT] in
+  email: cs22resch12001 [AT] iith [DOT] ac [DOT] in
   interests: Polyhedral Compilation, Compiler Optimizations
+
 
 - name: Kuldeep Gautam
   type: mtech
