@@ -20,4 +20,4 @@ Note: Short-term internship positions are usually summer internships. See [here]
 
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/groupPic-1.jpg" width="95%">
-</figure>
+</figure> 
