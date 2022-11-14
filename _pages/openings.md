@@ -1,9 +1,9 @@
 ---
-title: "IITH Compilers Team - Vacancies"
+title: "IITH Compilers Team - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
-permalink: /vacancies/
+permalink: /openings/
 ---
 
 # Open positions
@@ -18,6 +18,10 @@ If you are an undergrad (preferably, a 3rd year CS student) interested in a rese
 
 Note: Short-term internship positions are usually summer internships. See [here](https://cse.iith.ac.in/admissions/internships.html) for more details.
 
-<figure>
+<!-- <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/groupPic-1.jpg" width="95%">
-</figure> 
+</figure>  -->
+
+## List of Open Projects
+<!-- <iframe src="https://docs.google.com/document/d/e/2PACX-1vR9uSQTlAG-Mb5bkHfmUh84tAZA1o82WjLyBinTXd7MLHsqCv1UWoJVSocfvfzUgONf2sWiojChLmIM/pub?embedded=true" width="100%" height=1000></iframe> -->
+{% include projects.html %}
