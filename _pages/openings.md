@@ -22,8 +22,8 @@ Note: Short-term internship positions are usually summer internships; whereas lo
 <!-- <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/groupPic-1.jpg" width="95%">
 </figure>  -->
-
 <br/><br/>
+
 #### List of Open Projects for IITH students
 <!-- <iframe src="https://docs.google.com/document/d/e/2PACX-1vR9uSQTlAG-Mb5bkHfmUh84tAZA1o82WjLyBinTXd7MLHsqCv1UWoJVSocfvfzUgONf2sWiojChLmIM/pub?embedded=true" width="100%" height=1000></iframe> -->
 {% include projects.html %}
