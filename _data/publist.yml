@@ -1,8 +1,20 @@
+- shortname: "bullseye"
+  title: "BullsEye : Scalable and Accurate Approximation Framework for Cache Miss Calculation"    
+  authors: "Nilesh Rajendra Shah, Ashitabh misra, Antoine Miné, Rakesh Venkat, and Ramakrishna Upadrasta"
+  description: ""
+  year: "2022"
+  publishedAt: "TACO"
+  project: 1
+  publication: 0
+  type: "Conference"
+  # image: ""   
+  highlight: 1
+
 - shortname: "rl_loop_distribution"   
   title: "Reinforcement Learning assisted Loop Distribution for Locality and Vectorization"
   authors: "Shalini Jain, S. VenkataKeerthy, Rohit Aggarwal, Tharun Kumar Dangeti, Dibyendu Das, Ramakrishna Upadrasta"
   year: "2022"
-  publishedAt: "To appear in LLVM-HPC"
+  publishedAt: "LLVM-HPC"
   project: 0
   publication: 1
   type: "Journal|Transaction|Conference"
@@ -25,7 +37,7 @@
   title: "POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning"
   authors: "Shalini Jain, Yashas Andaluri, S. VenkataKeerthy, Ramakrishna Upadrasta"
   year: "2022"
-  publishedAt: "To appear in ISPASS"
+  publishedAt: "ISPASS"
   project: 1
   publication: 0
   type: "Conference"
