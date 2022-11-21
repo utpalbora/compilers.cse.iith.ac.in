@@ -10,6 +10,12 @@
   url: ""
   headline: "Congratulations to Nilesh Shah for receiving Kesav Nori research excellence award for the best MTech thesis in CSE department"
 
+- date: 2022-08-16
+  status: "Acceptance of paper by Nilesh et al. in TACO 2022"
+  new: "false"
+  url: ""
+  headline: "Congratulations to Nilesh Rajendra Shah, Ashitabh misra, Antoine Miné, Rakesh Venkat, and Ramakrishna Upadrasta for acceptance of their paper on BullsEye : Scalable and Accurate Approximation Framework for Cache Miss Calculation in TACO 2022"
+
 - date: 2022-04-18
   status: "Acceptance of paper by Venkat et al. in APNet 2022"
   new: "false"
