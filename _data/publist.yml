@@ -214,6 +214,13 @@
   type: "Talks"
   # image: ""   
   highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: ""
+  videos_link: "https://youtu.be/AgHy_4cQzMU"
+  arxiv_link: ""
  
    
 - shortname: "loop_profiler"
@@ -227,6 +234,13 @@
   type: "Posters"
   # image: ""    
   highlight: 1
+  github_link: "https://github.com/IITH-Compilers/LLVM-Loop-Profiler"
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: "https://llvm.org/devmtg/2017-10/slides/Jain-LLVM%20based%20Loop%20Profiler.pdf"
+  videos_link: "https://youtu.be/MKhXpRNekaM"
+  arxiv_link: ""
   
 
 - shortname: "optimizing_dl_kernels"
@@ -242,6 +256,19 @@
   award:
       title: "Won best poster award" 
   highlight: 1
+  github_link: "" 
+  citation: "@unknown{unknown,
+  author = {Vaidya, Hrishikesh and Patwardhan, Abhishek and Upadrasta, Ramakrishna and Badrinaaraayanan, Akilesh},
+  year = {2017},
+  month = {12},
+  pages = {},
+  title = {When Polyhedral Optimizations Meet Deep Learning Kernels}
+  }"
+  paper_link: ""
+  poster_link: ""
+  slides_link: ""
+  videos_link: ""
+  arxiv_link: ""
   
 
 - shortname: "polly_tensorflow"
@@ -255,6 +282,14 @@
   type: "Talks"
   # image: ""  
   highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: "https://llvm.org/devmtg/2017-10/slides/Agarwal-Enabling%20Polyhedral%20optimizations%20in%20TensorFlow%20through%20Polly.pdf"
+  videos_link: "https://youtu.be/uq67__tfdtQ"
+  arxiv_link: ""
+
   
 
 - shortname: "loop_distribution_improvement"
@@ -268,6 +303,13 @@
   type: "Talks"
   # image: ""    
   highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: "https://llvm-hpc4-workshop.github.io/talks.html#grosser"
+  videos_link: ""
+  arxiv_link: ""
  
 
 - shortname: "cache_miss_calc"
@@ -281,6 +323,13 @@
   type: "Talks"
   # image: ""   
   highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: "https://llvm-hpc4-workshop.github.io/talks.html#joshi"
+  videos_link: ""
+  arxiv_link: ""
   
 
 - shortname: "texturizing_ppcg"
@@ -296,6 +345,19 @@
   award:
      title: "Won best poster award"  
   highlight: 1
+  github_link: ""
+  citation: "@unknown{unknown,
+  author = {Patwardhan, Abhishek and Upadrasta, Ramakrishna},
+  year = {2016},
+  month = {12},
+  pages = {},
+  title = {Texturizing PPCG : Supporting Texture Memory in a Polyhedral Compiler}
+  }"
+  paper_link: ""
+  poster_link: ""
+  slides_link: ""
+  videos_link: ""
+  arxiv_link: ""
  
 
 - shortname: "vectorization"
@@ -311,6 +373,13 @@
   award:
       title: "Won best poster award"	  
   highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: "https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing"
+  videos_link: ""
+  arxiv_link: ""
   
 
 
@@ -326,6 +395,13 @@
   type: "Talks"
   # image: ""   
   highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: "https://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf"
+  videos_link: ""
+  arxiv_link: ""
  
 
 - shortname: "comp_complexity"
@@ -339,4 +415,11 @@
   type: "Talks"
   # image: ""     
   highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: "https://llvm.org/devmtg/2016-11/Slides/Singhal-ReducingTheComputationalComplexity.pdf"
+  videos_link: "https://www.youtube.com/watch?v=yOVeJtA5zxw"
+  arxiv_link: ""
  
