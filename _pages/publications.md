@@ -47,8 +47,10 @@ permalink: /publications/
   
   <div style="width:auto;display:flex;">
   {% if publi.shortname !="" %}    
-  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.project==1 %} <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{publi.shortname}}" target="_blank">{{ publi.title }}</a> &nbsp; </strong>{% elsif publi.publication==1 %}<strong><a href="{{site.url}}{{site.baseurl}}/publications/{{publi.shortname }}" target="_blank">{{ publi.title }}</a> &nbsp; </strong> {% endif %}</p>
+  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.project==1 %} <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{publi.shortname}}" target="_blank">{{ publi.title }}</a> &nbsp; </strong>{% elsif publi.publication==1 %}<strong><a href="{{site.url}}{{site.baseurl}}/publications/{{publi.shortname }}" target="_blank">{{ publi.title }}</a> &nbsp; </strong>
+   {% endif %}</p>
   {% else %}
+
   <p style="margin:0;padding:0;border:0;font-size:large;"><strong>{{ publi.title }}</strong></p>
   {% endif %}
 
@@ -66,24 +68,54 @@ permalink: /publications/
   </div>
 
   <div>  
-  <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>    
-</div>
+  <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>   
+  </div>
+  
+ 
+  <div style="display:inline;" >
+  <nobr>
+  {% if publi.github_link != "" %}
+  <button onclick="window.location.href='{{publi.github_link }}'">Code</button>&nbsp;&nbsp;&nbsp;&nbsp; 
+  {% endif %}
+  {% if publi.citation != "" %}
+  <button onclick="window.location.href='{{publi.citation }}'">Cite</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  {% if publi.paper_link != "" %}
+  <button onclick="window.location.href='{{publi.paper_link }}'">Paper</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  {% if publi.poster_link !="" %}
+  <button onclick="window.location.href='{{publi.poster_link }}'">Poster</button>&nbsp;&nbsp;&nbsp;&nbsp; 
+  {% endif %}
+  {% if publi.slides_link != "" %}
+  <button onclick="window.location.href='{{publi.slides_link }}'">Slides</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  {% if publi.videos_link != "" %}
+  <button onclick="window.location.href='{{publi.videos_link }}'">Videos</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  {% if publi.arxiv_link != "" %}
+  <button onclick="window.location.href='{{publi.arxiv_link }}'">arXiv</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  </nobr>
+  </div>
+
   <div style="margin-top:25px;">
   <p></p>
   </div>
   </div>
-
+  
   <div style="float:left; width:20%;position:relative; top:-15px;">
   <p style="margin:20px;padding:0;border:0;font-weight:bold;text-align:right; color:grey"><em>{{ publi.publishedAt }}</em>  <em>'{{publi.year| slice: 2,4 }}</em></p>
   </div>
   
  
 </div>
+
 {% endif %}
 {% endif %}
 
 {% endfor %} 
 
 <p> &nbsp; </p> 
+
 
 

@@ -7,8 +7,17 @@
   project: 1
   publication: 0
   type: "Conference"
+
   # image: ""   
   highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: "https://dl.acm.org/doi/full/10.1145/3558003"
+  poster_link: ""
+  slides_link: ""
+  videos_link: ""
+  arxiv_link: ""
+
 
 - shortname: "rl_loop_distribution"   
   title: "Reinforcement Learning assisted Loop Distribution for Locality and Vectorization"
@@ -31,6 +40,13 @@
   type: "Workshop"
   # image: ""   
   highlight: 1
+  github_link: ""  
+  citation: "" 
+  paper_link: "https://conferences.sigcomm.org/events/apnet2022/papers/Packet%20Processing%20Algorithm%20Identification%20using%20Program%20Embeddings1.pdf"  
+  poster_link: ""  
+  slides_link: "https://conferences.sigcomm.org/events/apnet2022/slides/apnet22/Packet%20Processing%20Algorithm%20Identification%20using%20Program%20Embeddings.pdf"  
+  videos_link: "https://youtu.be/SI5JyidQJC4"
+  arxiv_link: ""
   
 
 - shortname: "posetrl"    
