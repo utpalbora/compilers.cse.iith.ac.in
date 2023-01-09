@@ -770,6 +770,7 @@ $well-border:                 darken($well-bg, 7%) !default;
 //##
 
 $badge-color:                 #fff !default;
+$badge-font-color:            #0000;
 //** Linked badge text color on hover
 $badge-link-hover-color:      #fff !default;
 $badge-bg:                    $brand-primary !default;
@@ -781,7 +782,7 @@ $badge-active-bg:             #fff !default;
 
 $badge-font-weight:           normal !default;
 $badge-line-height:           1 !default;
-$badge-border-radius:         10px !default;
+$badge-border-radius:         7px !default;
 
 
 //== Breadcrumbs

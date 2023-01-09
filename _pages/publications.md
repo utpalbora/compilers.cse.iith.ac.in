@@ -68,32 +68,31 @@ permalink: /publications/
   </div>
 
   <div>  
-  <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>   
+  <p style="margin:0;padding:0;border:0;padding-bottom:3px;"><em>{{ publi.authors }}</em></p>   
   </div>
   
- 
   <div style="display:inline;" >
   <nobr>
   {% if publi.github_link != "" %}
-  <button onclick="window.location.href='{{publi.github_link }}'">Code</button>&nbsp;&nbsp;&nbsp;&nbsp; 
+  <a class=badge href="{{publi.github_link}}">Code</a>&nbsp;&nbsp;&nbsp;&nbsp; 
   {% endif %}
   {% if publi.citation != "" %}
-  <button onclick="window.location.href='{{publi.citation }}'">Cite</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class=badge href="{{publi.citation}}">Cite</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
   {% if publi.paper_link != "" %}
-  <button onclick="window.location.href='{{publi.paper_link }}'">Paper</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class=badge href="{{publi.paper_link}}">Paper</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
   {% if publi.poster_link !="" %}
-  <button onclick="window.location.href='{{publi.poster_link }}'">Poster</button>&nbsp;&nbsp;&nbsp;&nbsp; 
+  <a class=badge href="{{publi.poster_link}}">Poster</a>&nbsp;&nbsp;&nbsp;&nbsp; 
   {% endif %}
   {% if publi.slides_link != "" %}
-  <button onclick="window.location.href='{{publi.slides_link }}'">Slides</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class=badge href="{{publi.slides_link}}">Slides</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
   {% if publi.videos_link != "" %}
-  <button onclick="window.location.href='{{publi.videos_link }}'">Videos</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class=badge href="{{publi.videos_link}}">Video</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
   {% if publi.arxiv_link != "" %}
-  <button onclick="window.location.href='{{publi.arxiv_link }}'">arXiv</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class=badge href="{{publi.arxiv_link}}">arXiv</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
   </nobr>
   </div>
