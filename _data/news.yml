@@ -1,8 +1,26 @@
+- date: 2022-12-20
+  status: "Acceptance of presentation by Venkat et al. in IMPACT 2023"
+  new: "false"
+  url: ""
+  headline: "Congratulations to S. VenkataKeerthy, Nilesh Shah, Anilava Kundu, Shikhar Jain and Ramakrishna Upadrasta for acceptance of their presentation on GeMS: Towards Generating Millions of SCoPs in IMPACT 2023"
+
+- date: 2022-12-19
+  status: "Acceptance of paper by Venkat et al. in CC 2023"
+  new: "false"
+  url: ""
+  headline: "Congratulations to S. VenkataKeerthy, Siddharth Jain, Anilava Kundu, Rohit Aggarwal, Albert Cohen and Ramakrishna Upadrasta for acceptance of their paper on RL4ReAl : Reinforcement Learning for Register Allocation in CC 2023"
+  
 - date: 2022-10-11
   status: "Successful PhD thesis defence of Utpal Bora"
   new: "false"
   url: ""
   headline: "Utpal Bora successfully defended his PhD thesis. Congratulations Dr. Utpal!"
+
+- date: 2022-09-10
+  status: "Acceptance of paper by Shalini et al. in  LLVM-HPC 2022"
+  new: "false"
+  url: ""
+  headline: "Congratulations to Shalini Jain, S. VenkataKeerthy, Rohit Aggarwal, Tharun Kumar Dangeti, Dibyendu Das, Ramakrishna Upadrasta for acceptance of their paper on Reinforcement Learning assisted Loop Distribution for Locality and Vectorization in LLVM-HPC 2022"
 
 - date: 2022-08-27
   status: "Nilesh awarded Kesav Nori research excellence award for best MTech thesis"
