@@ -42,10 +42,8 @@ We consider allocations of general purpose, vector, floating point registers for
 </figure>
 </center>
 
-RL4ReAl opens up new opportunities for research on regalloc and on other backend    compilation problems.
+RL4ReAl opens up new opportunities for research on regalloc and on other backend compilation problems.
 
 ### Artifacts
-TBD 
-
-### Funding
-TBD
+*TBD* 
+Soon to be open-sourced; Artifacts will be available in our GitHub page. 

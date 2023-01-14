@@ -15,24 +15,28 @@ permalink: /projects/ir2vec/
 IR2Vec is a LLVM IR based framework to generate distributed representations for the source code in an unsupervised manner, which can be used to represent programs as input to solve machine learning tasks that take programs as inputs.
 It can capture intrinsic characteristics of the program. This is achieved by using the flow analyses information like *Use-Def*, *Reaching Definitions* and *Live Variable information* of the program.
 
-
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/projects/ir2vec/flow.jpg" width="85%">
 </figure>
+</center>
 
 The entities of the IR are modeled as relationships, and their
 representations are learned to form a seed embedding vocabulary.For this we create a Knowledge Graph by modelling LLVM IR of the program as entities and relations. Then a representation learning algorithm is used to learn the embeddings of these entities. Such embeddings exhibit semantic relationships and form clusters demonstrating them.
 
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/projects/ir2vec/clusters.png" width="95%">
 </figure>
+</center>
 
 Such seed embeddings are annotated with the flow information to capture semantics of the program and propagated. The vectors to represent programs at various levels (instruction, function, module) can be formed based on the application.
 
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/projects/ir2vec/propagation.png" width="85%">
 </figure>
-
+</center>
 
 ### Performance
 We demonstrate the effectiveness of the embeddings on two different tasks 
