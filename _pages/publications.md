@@ -47,8 +47,10 @@ permalink: /publications/
   
   <div style="width:auto;display:flex;">
   {% if publi.shortname !="" %}    
-  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.project==1 %} <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{publi.shortname}}" target="_blank">{{ publi.title }}</a> &nbsp; </strong>{% elsif publi.publication==1 %}<strong><a href="{{site.url}}{{site.baseurl}}/publications/{{publi.shortname }}" target="_blank">{{ publi.title }}</a> &nbsp; </strong> {% endif %}</p>
+  <p style="margin:0;padding:0;border:0;font-size:large;">{% if publi.project==1 %} <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{publi.shortname}}" target="_blank">{{ publi.title }}</a> &nbsp; </strong>{% elsif publi.publication==1 %}<strong><a href="{{site.url}}{{site.baseurl}}/publications/{{publi.shortname }}" target="_blank">{{ publi.title }}</a> &nbsp; </strong>
+   {% endif %}</p>
   {% else %}
+
   <p style="margin:0;padding:0;border:0;font-size:large;"><strong>{{ publi.title }}</strong></p>
   {% endif %}
 
@@ -66,24 +68,53 @@ permalink: /publications/
   </div>
 
   <div>  
-  <p style="margin:0;padding:0;border:0;"><em>{{ publi.authors }}</em></p>    
-</div>
+  <p style="margin:0;padding:0;border:0;padding-bottom:3px;"><em>{{ publi.authors }}</em></p>   
+  </div>
+  
+  <div style="display:inline;" >
+  <nobr>
+  {% if publi.github_link != "" %}
+  <a class=badge href="{{publi.github_link}}">Code</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+  {% endif %}
+  <!-- {% if publi.citation != "" %}
+  <a class=badge href="{{publi.citation}}">Cite</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %} -->
+  {% if publi.paper_link != "" %}
+  <a class=badge href="{{publi.paper_link}}">Paper</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  {% if publi.poster_link !="" %}
+  <a class=badge href="{{publi.poster_link}}">Poster</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+  {% endif %}
+  {% if publi.slides_link != "" %}
+  <a class=badge href="{{publi.slides_link}}">Slides</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  {% if publi.videos_link != "" %}
+  <a class=badge href="{{publi.videos_link}}">Video</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  {% if publi.arxiv_link != "" %}
+  <a class=badge href="{{publi.arxiv_link}}">arXiv</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  </nobr>
+  </div>
+
   <div style="margin-top:25px;">
   <p></p>
   </div>
   </div>
-
+  
   <div style="float:left; width:20%;position:relative; top:-15px;">
   <p style="margin:20px;padding:0;border:0;font-weight:bold;text-align:right; color:grey"><em>{{ publi.publishedAt }}</em>  <em>'{{publi.year| slice: 2,4 }}</em></p>
   </div>
   
  
 </div>
+
 {% endif %}
 {% endif %}
 
 {% endfor %} 
 
 <p> &nbsp; </p> 
+
 
 

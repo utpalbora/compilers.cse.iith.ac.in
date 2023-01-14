@@ -2,7 +2,7 @@
   type: faculty
   photo: rama.png
   url: https://iith.ac.in/~ramakrishna/
-  info: Assistant Professor, started March 2014
+  info: Associate Professor, started March 2014
   email: ramakrishna [AT] cse [DOT] iith [DOT] ac [DOT] in
   number_educ: 5
   education1: MTech from IISc Bangalore, India
@@ -22,9 +22,6 @@
   info: started July 2015 (Previously M.Tech TA from August 2014 - July 2015)
   email: cs14mtech11017 [AT] iith [DOT] ac [DOT] in
   interests: Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection
-  # number_educ: 2
-  # education1: B.Tech. NIT Jalandhar, Punjab, India
-  # education2: M.Tech. IIT Hyderabad, India
 
 - name: Shalini Jain
   type: phd
@@ -35,8 +32,7 @@
   info: started August 2015
   email: cs15resch11010 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
-  # number_educ: 1
-  # education1: M.Tech. IIIT Gwalior, India
+
 
 - name: S. VenkataKeerthy
   type: phd
