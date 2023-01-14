@@ -76,9 +76,9 @@ permalink: /publications/
   {% if publi.github_link != "" %}
   <a class=badge href="{{publi.github_link}}">Code</a>&nbsp;&nbsp;&nbsp;&nbsp; 
   {% endif %}
-  {% if publi.citation != "" %}
+  <!-- {% if publi.citation != "" %}
   <a class=badge href="{{publi.citation}}">Cite</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  {% endif %}
+  {% endif %} -->
   {% if publi.paper_link != "" %}
   <a class=badge href="{{publi.paper_link}}">Paper</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
