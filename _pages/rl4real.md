@@ -1,5 +1,7 @@
 ---
 title: "RL4ReAl"
+redirect_from:
+    - /research/ir2vec
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false
@@ -47,3 +49,7 @@ RL4ReAl opens up new opportunities for research on regalloc and on other backend
 ### Artifacts
 *TBD* 
 Soon to be open-sourced; Artifacts will be available in our GitHub page. 
+
+### Funding
+This research is partially funded by a Google PhD fellowship, an NSM research grant 
+(MeitY/R&D/HPC/2(1)/2014), and a faculty research grant from AMD.
