@@ -62,6 +62,27 @@ On both of these tasks we achieve better accuracies and speed-ups with very few 
 
 Code and other artifacts are available in our [GitHub](https://github.com/IITH-Compilers/IR2Vec) page.
 
+### Publications based on IR2Vec
+{% assign idx = 1 %}
+{% for publi in site.data.publist %}
+<div>
+<nobr>
+  {% if publi.subdomain == "IR2Vec" %}
+       <p style="font-size: medium"> {{idx}}. 
+            {% if publi.shortname !="" %}    
+                {% if publi.project==1 %}
+                        <a style="font-weight: bold" href="{{ site.url }}{{ site.baseurl }}/projects/{{publi.shortname}}/" target="_blank">{{publi.title}}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                {% elsif publi.publication==1 %}
+                        <a style="font-weight: bold" href="{{ site.url }}{{ site.baseurl }}/publications/{{publi.shortname}}/" target="_blank">{{publi.title}}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                {% endif %}
+            {% endif %}
+         <br> &nbsp;&nbsp;&nbsp;&nbsp; {{publi.authors}} </p>
+       {% assign idx = idx | plus:1 %}
+  {% endif %}
+</nobr>
+</div>
+{% endfor %} 
+
 ### Funding
 This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications
 & Information Technology, Government of India. This work is partially supported by a Visvesvaraya PhD Scheme under
