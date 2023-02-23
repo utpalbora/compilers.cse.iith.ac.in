@@ -10,7 +10,7 @@ permalink: /publications/rl4real/
 
 # RL4ReAl: Reinforcement Learning for Register Allocation
 *S. VenkataKeerthy, Siddharth Jain, Anilava Kundu, Rohit Aggarwal, Albert Cohen and Ramakrishna Upadrasta*
-#### To appear in CC 2023
+#### Published in [CC 2023](https://dl.acm.org/doi/abs/10.1145/3578360.3580273){:target="_blank"}([arXiv](https://arxiv.org/abs/2204.02013){:target="_blank"})
 
 Register allocation is one of the well-studied and important compiler optimization problems. It involves assigning a finite set of registers to an unbounded set of variables. Its decision problem is reducible to graph coloring, which is one of the classical NP-Complete problems.  Register allocation as an optimization involves additional sub-tasks, more than graph coloring itself. Several formulations have been proposed that return exact, or heuristic-based solutions.
 
