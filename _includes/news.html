@@ -39,8 +39,8 @@
 	{% endif %}
 	{{ article.date }}
 	<p><em>
-	{% if article.status == "ACM Summer School on Compilers/PL 2021" %}
-	<a href="{{ site.url }}{{ site.baseurl }}/event/summerschool2021" target="_blank">{{ article.status }}</a>
+	{% if article.url != "" %}
+	<a href="{{ site.url }}{{ site.baseurl }}/{{ article.url }}" target="_blank">{{ article.status }}</a>
 	{% else %}
 	{{ article.status }}
 	{% endif %}

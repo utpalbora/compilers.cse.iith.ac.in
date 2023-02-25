@@ -15,7 +15,9 @@ If you are interested in working with us as a PhD or MTech RA student, please se
 <br/><br/>
 
 #### Long-term and Short-term Research Internship positions for external/non-IITH undergrads
-If you are an undergrad (preferably, a 3rd/4th year CS student) interested in a research internship, please send an [email](mailto:ramakrishna@cse.iith.ac.in) indicating your interests, relevant grades and your CV. **Important**: please insert _"Application Long-term Internship"_ or _"Application Short-term Internship"_ in the subject line.
+If you are an undergrad interested in pursuing a research internship with us, please check [here]({{site.url}}/internships).
+
+<!-- If you are an undergrad (preferably, a 3rd/4th year CS student) interested in a research internship, please send an [email](mailto:ramakrishna@cse.iith.ac.in) indicating your interests, relevant grades and your CV. **Important**: please insert _"Application Long-term Internship"_ or _"Application Short-term Internship"_ in the subject line. -->
 
 Note: Short-term internship positions are usually summer internships; whereas long-term internships are semester long positions.
 
