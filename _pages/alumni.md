@@ -25,7 +25,7 @@ permalink: /alumni/
   <i>{{ member.info }}</i>
   {% if member.thesis_link %}
   Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a>
-  {% else %}
+  {% elsif member.thesis != "NA" %}
   Thesis: {{ member.thesis }}
   {% endif %}
   <i>Next: {{ member.next }}</i>
@@ -70,7 +70,7 @@ permalink: /alumni/
   <i>{{ member.info }}</i>
   {% if member.thesis_link %}
   Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a>
-  {% else %}
+   {% elsif member.thesis != "NA" %}
   Thesis: {{ member.thesis }}
   {% endif %}
   <i>Next: {{ member.next }}</i>
