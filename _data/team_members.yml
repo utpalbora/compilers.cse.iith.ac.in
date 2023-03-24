@@ -133,14 +133,14 @@
   photo: Raj_Ambekar.png
   info: M.Tech RA, started August 2022
   email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler optimization, Machine Learning, Algorithms
+  interests: Compiler optimization,Machine Learning, Algorithms, Deep Learning
 
 - name: Raghvendra Gupta 
   type: mtech
   url :
     value: 1
     link: https://github.com/raghav9-97
-  photo:
+  photo: raghavendra.jpg
   info: M.Tech TA, started August 2022
   email: cs22mtech11009 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimizations, Reinforcement Learning, HPC
