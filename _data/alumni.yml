@@ -1,9 +1,9 @@
 - name: Utpal Bora
   type: alum
   value: phd
-  info: PhD,2018-2022
+  info: M.Tech + PhD, 2014-2022
   photo: utpal.jpg
-  next : Check his website https://utpalbora.com/
+  next : PostDoc at University of Cambridge, UK
   thesis : Techniques for Static Detection of Data-Races in OpenMP Programs 
 
 - name: Kuldeep Gautam
@@ -11,16 +11,16 @@
   value: mtech
   info: M.Tech RA, 2020-2023
   photo: kuldeep.jpg
+  thesis: NA
   next : AIRA Matrix AI Team
-  thesis : 
 
 - name: Anilava Kundu
   type: alum
   value: mtech
   info: M.Tech RA, 2020-2023
   photo: anilava.jpg
+  thesis: NA
   next : Imagination Technologies compilers team 
-  thesis : 
 
 - name: Yashas Andaluri
   type: alum
