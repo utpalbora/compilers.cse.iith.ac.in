@@ -13,15 +13,15 @@
   education6: Compiler Engineer in Hewlett Packard, India
   education7: BTech from Andhra University, Visakhapatnam, India
   
-- name: Utpal Bora
-  type: phd
-  url:
-    value: 1
-    link: https://utpalbora.com/
-  photo: utpal.jpg
-  info: started July 2015 (Previously M.Tech TA from August 2014 - July 2015)
-  email: cs14mtech11017 [AT] iith [DOT] ac [DOT] in
-  interests: Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection
+# - name: Utpal Bora
+#   type: phd
+#   url:
+#     value: 1
+#     link: https://utpalbora.com/
+#   photo: utpal.jpg
+#   info: started July 2015 (Previously M.Tech TA from August 2014 - July 2015)
+#   email: cs14mtech11017 [AT] iith [DOT] ac [DOT] in
+#   interests: Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection
 
 - name: Shalini Jain
   type: phd
@@ -55,25 +55,25 @@
   interests: Polyhedral Compilation, Compiler Optimizations
 
 
-- name: Kuldeep Gautam
-  type: mtech
-  url:
-    value: 1
-    link: https://kgautam01.github.io/
-  photo: kuldeep.jpg
-  info: M.Tech RA, started January 2020
-  email: cs20mtech01004 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimizations, Deep Learning in Compilers
+# - name: Kuldeep Gautam
+#   type: mtech
+#   url:
+#     value: 1
+#     link: https://kgautam01.github.io/
+#   photo: kuldeep.jpg
+#   info: M.Tech RA, started January 2020
+#   email: cs20mtech01004 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimizations, Deep Learning in Compilers
 
-- name: Anilava Kundu
-  type: mtech
-  url:
-    value: 0
-    link:
-  photo: anilava.jpg
-  info: M.Tech RA, started January 2020
-  email: cs20mtech01002 [AT] iith [DOT] ac [DOT] in
-  interests: Static Analysis,Code Compliance in Critical Systems
+# - name: Anilava Kundu
+#   type: mtech
+#   url:
+#     value: 0
+#     link:
+#   photo: anilava.jpg
+#   info: M.Tech RA, started January 2020
+#   email: cs20mtech01002 [AT] iith [DOT] ac [DOT] in
+#   interests: Static Analysis,Code Compliance in Critical Systems
 
 - name: Siddharth Jain
   type: mtech
@@ -133,7 +133,18 @@
   photo: Raj_Ambekar.png
   info: M.Tech RA, started August 2022
   email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler optimization, Machine Learning, Algorithms
+  interests: Compiler optimization,Machine Learning, Algorithms, Deep Learning
+
+- name: Raghvendra Gupta 
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/raghav9-97
+  photo: raghavendra.jpg
+  info: M.Tech TA, started August 2022
+  email: cs22mtech11009 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimizations, Reinforcement Learning, HPC
+
 
 #- name: Gagandeep Goyal
 # type: alum

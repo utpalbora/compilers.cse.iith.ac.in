@@ -1,5 +1,30 @@
+- name: Utpal Bora
+  type: alum
+  value: phd
+  info: M.Tech + PhD, 2014-2022
+  photo: utpal.jpg
+  next : PostDoc at University of Cambridge, UK
+  thesis : Techniques for Static Detection of Data-Races in OpenMP Programs 
+
+- name: Kuldeep Gautam
+  type: alum
+  value: mtech
+  info: M.Tech RA, 2020-2023
+  photo: kuldeep.jpg
+  thesis: NA
+  next : AIRA Matrix AI Team
+
+- name: Anilava Kundu
+  type: alum
+  value: mtech
+  info: M.Tech RA, 2020-2023
+  photo: anilava.jpg
+  thesis: NA
+  next : Imagination Technologies compilers team 
+
 - name: Yashas Andaluri
   type: alum
+  value: mtech
   info: B.Tech + M.Tech, 2017-2022
   photo: yashas.jpg
   thesis: Packet Processing Algorithm Identification using Program Embeddings
@@ -8,6 +33,7 @@
 
 - name: Nilesh Shah
   type: alum
+  value: mtech
   info: M.Tech RA, 2019-2022
   photo: nilesh.jpg
   thesis: Some approximations for cache miss calculations
@@ -16,6 +42,7 @@
 
 - name: Gagandeep Goyal
   type: alum
+  value: mtech
   info: M.Tech RA, 2019-2022
   photo: gagan.jpg
   thesis: Profile Guided Intelligent Compilers
@@ -24,6 +51,7 @@
  
 - name: Shailendra Dilip Singh
   type: alum
+  value: mtech
   info: M.Tech, 2019-2021
   photo: shailendra.jpg
   thesis: Vectorization and Code-Summarization using IR2Vec
@@ -32,6 +60,7 @@
  
 - name: Rohit Aggarwal
   type: alum
+  value: mtech
   info: M.Tech RA, 2018-2021
   photo: rohit.jpg
   thesis: Applying Machine Learning Techniques to Compilers and Programs
@@ -40,6 +69,7 @@
  
 - name: Gayatri PK
   type: alum
+  value: mtech
   info: M.S., 2015-2019
   photo: gayatri.jpg
   thesis: GPU-Based Multi-Level Parallelization for Hines Solver and Some Related Problems
@@ -48,6 +78,7 @@
  
 - name: Rahul Utkoor
   type: alum
+  value: mtech
   info: B.Tech + M.Tech, 2014-2019
   photo: male.jpeg
   thesis: A Loop-level Analysis and Optimal Sub-sequence Mining
@@ -56,6 +87,7 @@
  
 - name: Anirudh Sundar Subramaniam
   type: alum
+  value: mtech
   info: M.Tech, 2016-2018
   photo: male.jpeg
   thesis: Optimization and parallelization of tensor and ODE/PDE computations on GPU
@@ -64,6 +96,7 @@
  
 - name: Abhishek A Patwardhan
   type: alum
+  value: mtech
   info: M.Tech RA, 2015-2018
   photo: male.jpeg
   thesis: Polyhedral Compilation:Applications, Approximations and GPU-specific Optimizations
@@ -72,6 +105,7 @@
  
 - name: Dangeti Tharun Kumar
   type: alum
+  value: mtech
   info: M.Tech RA, 2015-2018
   photo: male.jpeg
   thesis: Vectorization, Obfuscation and P4 LLVM Tool-chain
@@ -80,6 +114,7 @@
  
 - name: Santanu Das
   type: alum
+  value: mtech
   info: M.Tech RA, 2015-2018
   photo: male.jpeg
   thesis: Optimizations In Compiler:Vectorization, Reordering, Register Allocation And Verification Of Explicitly Parallel Programs
@@ -88,6 +123,7 @@
  
 - name: Prateek Bhatu
   type: alum
+  value: mtech
   info: B.Tech + M.Tech, 2012-2017
   photo: male.jpeg
   thesis: A Study of Software Prefetching in LLVM
