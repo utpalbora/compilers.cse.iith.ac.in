@@ -60,10 +60,10 @@
   headline: "Congratulations to Shalini Jain, Yashas Andaluri, S. VenkataKeerthy and Ramakrishna Upadrasta for acceptance of their paper on Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning in ISPASS 2022"
 
 - date: 2021-09-24
-  status: "Venkat awarded the prestigious Google PhD Fellowship 2021"
+  status: "Venkat awarded the prestigious Google PhD Fellowship"
   new: "false"
-  url: "https://research.google/outreach/phd-fellowship/recipients/"
-  headline: "Congratulations to S. VenkataKeerthy for being awarded the Google PhD Fellowship 2021"
+  url: "https://research.google/outreach/phd-fellowship/recipients/?category=2021"
+  headline: "Congratulations to S. VenkataKeerthy for being awarded the Google PhD Fellowship 2021 under the Systems category"
 
 - date: 2021-09-17
   status: "Paper by Utpal et al. gets accepted in LLVM-HPC 2021"
