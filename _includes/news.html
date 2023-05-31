@@ -40,7 +40,7 @@
 	{{ article.date }}
 	<p><em>
 	{% if article.url != "" %}
-	<a href="{{ site.url }}{{ site.baseurl }}/{{ article.url }}" target="_blank">{{ article.status }}</a>
+	<a href="{{ article.url }}" target="_blank">{{ article.status }}</a>
 	{% else %}
 	{{ article.status }}
 	{% endif %}

@@ -10,7 +10,7 @@ permalink: /publications/ml-llvm-tools/
 
 # ML-LLVM-Tools: Towards Seamless Integration of Machine Learning in Compiler Optimizations
 *Siddharth Jain, S. VenkataKeerthy, Umesh Kalvakuntla, Albert Cohen, Ramakrishna Upadrasta*
-#### Accepted as Technical Talk EuroLLVM'23
+#### Technical Talk at EuroLLVM'23 ([Slides]({{site.url}}{{site.baseurl}}/pdfs/ML-LLVM-Tools_EuroLLVM'23.pdf))
 
 With the growth in usage of Machine Learning (ML) to support compiler optimization decisions, there is a need for robust tools to support both training and inference. Such tools should be scalable and independent of the underlying model, and the ML framework upon which the model is built. We propose a unified infrastructure to aid ML based compiler optimizations in LLVM at each of training and inference stages by using: (1) LLVM-gRPC, a gRPC based framework to support training, (2) LLVM-InferenceEngine, a novel ONNX based infrastructure to support ML inference within LLVM. Our infrastructure allows seamless integration of both the approaches with ML based compiler optimization passes. When our LLVM-InferenceEngine is integrated with a recently proposed approach that uses Reinforcement Learning for performing Register Allocation, it results in a 12.5x speedup in compile time.
 
