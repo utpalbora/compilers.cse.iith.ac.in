@@ -4,7 +4,15 @@
   info: M.Tech + PhD, 2014-2022
   photo: utpal.jpg
   next : PostDoc at University of Cambridge, UK
-  thesis : Techniques for Static Detection of Data-Races in OpenMP Programs 
+  thesis : Techniques for Static Detection of Data-Races in OpenMP Programs
+
+- name: Shalini Jain
+  type: alum
+  value: phd
+  info: PhD, 2015-2023
+  photo: shalini.jpg
+  next : Qualcomm compilers team
+  thesis :  NA
 
 - name: Kuldeep Gautam
   type: alum

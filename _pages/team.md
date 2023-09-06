@@ -8,7 +8,7 @@ permalink: /team/
 
 # Team Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **.**
+ **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings) **.**
 
 
 Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#masters-students), [Alumni]({{ site.url }}{{ site.baseurl }}/alumni).
@@ -136,7 +136,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="cover" width="25%" height="25%" style="float: left">
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   <p class="right">
