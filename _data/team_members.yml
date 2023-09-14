@@ -54,6 +54,16 @@
   email: cs22resch12001 [AT] iith [DOT] ac [DOT] in
   interests: Polyhedral Compilation, Compiler Optimizations
 
+- name: Maruti Sairam Venkata Annaluru
+  type: phd
+  url:
+    value: 1
+    link: https://github.com/msvannaluru
+  photo: maruti.jpg
+  info: started May 2022
+  email: cs22resch04001 [AT] iith [DOT] ac [DOT] in
+  interests: Program Analysis, Code Compliance, Safety Critical Systems, Parallel Programs
+
 - name: Siddharth Jain
   type: phd
   url:
@@ -72,7 +82,17 @@
   photo: jayalakshmi.jpg
   info: started July 2023
   email: cs23resch11001 [AT] iith [DOT] ac [DOT] in
-  interests: Compilers and their Optimizations, Computer Architecture, Performance Modeling
+  interests: Compilers, Computer Architecture, Performance Modleing
+
+- name: Ponnampalam Pirapuraj
+  type: phd
+  url:
+    value: 1
+    link: https://github.com/pirapu
+  photo: pirapuraj.jpg
+  info: started July 2023
+  email: cs23resch16001 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Machine Learning, Code Compliance
 
 # - name: Kuldeep Gautam
 #   type: mtech
@@ -108,7 +128,7 @@
   type: mtech
   url:
     value: 1
-    link: https://github.com/sayan-dey
+    link: https://www.linkedin.com/in/sayandey19/
   photo: sayan.jpg
   info: M.Tech RA, started January 2022
   email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
@@ -142,7 +162,7 @@
   photo: Raj_Ambekar.png
   info: M.Tech RA, started August 2022
   email: cs23mtech12006 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Machine Learning, Algorithms, Deep Learning
+  interests: Compiler Optimization, Code Compliance
 
 - name: Neha Bhargava
   type: mtech
@@ -152,7 +172,7 @@
   photo: neha.jpg
   info: M.Tech RA, started July 2023
   email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Computer Architecture
+  interests: Compilers, Computer Architecture
 
 - name: Joshi Jay Prafulkumar
   type: mtech
@@ -162,7 +182,7 @@
   photo: jay.jpg
   info: M.Tech RA, started July 2023
   email: cs22mtech12004 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler optimisation, Parallel computing, Algorithms
+  interests: Compiler Optimization, Embedded Systems
 
 - name: Siddhartha Neyagapula
   type: mtech
@@ -172,7 +192,7 @@
   photo: siddhartha.jpg
   info: M.Tech RA, started July 2023
   email: cs22mtech12010 [AT] iith [DOT] ac [DOT] in
-  interests: 
+  interests: Compiler Optimization, Comde Compliance
 
 # - name: Raghvendra Gupta 
 #   type: mtech
