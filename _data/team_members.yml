@@ -47,8 +47,8 @@
 - name: Nilesh Shah
   type: phd
   url:
-    value: 0
-    link: 
+    value: 1
+    link: https://www.linkedin.com/in/nilesh-shah-9700b051
   info: started Aug 2022 (Previously M.Tech RA from August 2019 - May 2022)
   photo: nilesh.jpg
   email: cs22resch12001 [AT] iith [DOT] ac [DOT] in
@@ -67,8 +67,8 @@
 - name: Siddharth Jain
   type: phd
   url:
-    value: 0
-    link:
+    value: 1
+    link: https://www.linkedin.com/in/siddharth-jain-a1821a12a
   photo: siddharth.jpg
   info: started July 2023 (Previously M.Tech RA from August 2020 - June 2023)
   email: cs23resch11005 [AT] iith [DOT] ac [DOT] in
@@ -77,8 +77,8 @@
 - name: Yeruva Jayalakshmi
   type: phd
   url:
-    value: 0
-    link:
+    value: 1
+    link: https://www.linkedin.com/in/jaya-yeruva/
   photo: jayalakshmi.jpg
   info: started July 2023
   email: cs23resch11001 [AT] iith [DOT] ac [DOT] in
@@ -158,7 +158,7 @@
   type: mtech
   url :
     value: 1
-    link: https://github.com/RajAmbekar191094
+    link: https://www.linkedin.com/in/raj-ambekar-b090a474/
   photo: Raj_Ambekar.png
   info: M.Tech RA, started August 2022
   email: cs23mtech12006 [AT] iith [DOT] ac [DOT] in
@@ -168,7 +168,7 @@
   type: mtech
   url :
     value: 1
-    link: https://github.com/neha-bhargav
+    link: https://in.linkedin.com/in/neha-bhargava-0b8a69164
   photo: neha.jpg
   info: M.Tech RA, started July 2023
   email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
