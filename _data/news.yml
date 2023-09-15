@@ -1,25 +1,31 @@
 - date: 2023-05-04
   status: "Successful PhD thesis defence of Shalini Jain"
-  new: "true"
+  new: "false"
   url: ""
   headline: "Shalini Jain successfully defended her PhD thesis. Congratulations Dr. Shalini! "
 
 - date: 2023-04-14
   status: "Anilava awarded Kesav Nori research excellence award for best MTech thesis"
-  new: "true"
+  new: "false"
   url: ""
   headline: "Congratulations to Anilava Kundu for receiving Kesav Nori research excellence award for the best MTech thesis in CSE department"
+
+- date: 2023-03-23
+  status: "Technical talk by Siddharth, Venkat and others in EuroLLVM'23"
+  new: "false"
+  url: "https://llvm.swoogo.com/2023eurollvm/agenda"
+  headline: "Congratulations to Siddharth Jain, S. VenkataKeerthy , Umesh Kalvakuntla, Albert Cohen and Ramakrishna Upadrasta for acceptance of their presentation on ML-LLVM-Tools: Towards Seamless Integration of Machine Learning in Compiler Optimizations in EuroLLVM 2023"
   
 - date: 2023-03-12
   status: "Nilesh receives the prestigious Prime Minister's Research Fellowship (PMRF)"
-  new: "true"
+  new: "false"
   url: ""
   headline: "Congratulations to Nilesh Shah for receiving the prestigious Prime Minister's Research Fellowship (PMRF) "
 
 
 - date: 2023-02-25
   status: "Long and Short term Research Internship Positions"
-  new: "true"
+  new: "false"
   url: "../internships/"
   headline: "Long and Short term Research Internship Positions in our group"
 
