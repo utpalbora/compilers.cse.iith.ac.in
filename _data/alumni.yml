@@ -4,22 +4,14 @@
   info: M.Tech + PhD, 2014-2022
   photo: utpal.jpg
   next : PostDoc at University of Cambridge, UK
-  thesis : Techniques for Static Detection of Data-Races in OpenMP Programs
-
-- name: Shalini Jain
-  type: alum
-  value: phd
-  info: PhD, 2015-2023
-  photo: shalini.jpg
-  next : Qualcomm compilers team
-  thesis : Reinforcement Learning based Compiler Optimizations for Size and Performance
+  thesis : Techniques for Static Detection of Data-Races in OpenMP Programs 
 
 - name: Kuldeep Gautam
   type: alum
   value: mtech
   info: M.Tech RA, 2020-2023
   photo: kuldeep.jpg
-  thesis: A Dataset for Code Comprehension and Experiments with Binary Similarity
+  thesis: NA
   next : AIRA Matrix AI Team
 
 - name: Anilava Kundu
@@ -27,7 +19,7 @@
   value: mtech
   info: M.Tech RA, 2020-2023
   photo: anilava.jpg
-  thesis: Engineering Aspects of Machine Learning in Compilers
+  thesis: NA
   next : Imagination Technologies compilers team 
 
 - name: Yashas Andaluri
@@ -39,14 +31,14 @@
   thesis_link:
   next: Qualcomm compilers team
 
-# - name: Nilesh Shah
-#   type: alum
-#   value: mtech
-#   info: M.Tech RA, 2019-2022
-#   photo: nilesh.jpg
-#   thesis: Some approximations for cache miss calculations
-#   thesis_link:
-#   next: PhD, IIT Hyderabad Compilers 
+- name: Nilesh Shah
+  type: alum
+  value: mtech
+  info: M.Tech RA, 2019-2022
+  photo: nilesh.jpg
+  thesis: Some approximations for cache miss calculations
+  thesis_link:
+  next: PhD, IIT Hyderabad Compilers 
 
 - name: Gagandeep Goyal
   type: alum
