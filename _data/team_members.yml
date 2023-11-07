@@ -60,7 +60,7 @@
     value: 1
     link: https://github.com/msvannaluru
   photo: maruti.jpg
-  info: started May 2022
+  info: started May 2022 (co-advised by Dr. Jyothi Vedurada)
   email: cs22resch04001 [AT] iith [DOT] ac [DOT] in
   interests: Program Analysis, Code Compliance, Safety Critical Systems, Parallel Programs
 
@@ -80,19 +80,19 @@
     value: 1
     link: https://www.linkedin.com/in/jaya-yeruva/
   photo: jayalakshmi.jpg
-  info: started July 2023
+  info: started July 2023 (co-advised by Dr. Rajesh Kedia)
   email: cs23resch11001 [AT] iith [DOT] ac [DOT] in
   interests: Compilers, Computer Architecture, Performance Modelling
 
-- name: Ponnampalam Pirapuraj
-  type: phd
-  url:
-    value: 1
-    link: https://github.com/pirapu
-  photo: pirapuraj.jpg
-  info: started July 2023
-  email: cs23resch16001 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Machine Learning, Code Compliance
+# - name: Ponnampalam Pirapuraj
+#   type: phd
+#   url:
+#     value: 1
+#     link: https://github.com/pirapu
+#   photo: pirapuraj.jpg
+#   info: started July 2023
+#   email: cs23resch16001 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimization, Machine Learning, Code Compliance
 
 # - name: Kuldeep Gautam
 #   type: mtech
@@ -170,7 +170,7 @@
     value: 1
     link: https://in.linkedin.com/in/neha-bhargava-0b8a69164
   photo: neha.jpg
-  info: M.Tech RA, started July 2023
+  info: M.Tech RA, started July 2023 (co-advised by Dr. Rajesh Kedia)
   email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
   interests: Compilers, Computer Architecture
 
