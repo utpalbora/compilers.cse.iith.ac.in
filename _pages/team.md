@@ -94,14 +94,14 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   
   <p class="right">
-  <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Areas:</b> {{ member.interests }}</i>
+  <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   </p>
   {% endif %}
 
   {% if member.url.value == 0 %}
   <h4>{{ member.name }}</h4>
   <p class="right">
-  <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Areas:</b> {{ member.interests }}</i>
+  <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   </p>
   {% endif %}
   
@@ -140,14 +140,14 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   <p class="right">
-  <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Areas:</b> {{ member.interests }}</i>
+  <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   </p>
   {% endif %}
 
   {% if member.url.value == 0 %}
   <h4>{{ member.name }}</h4>
   <p class="right">
-  <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Areas:</b> {{ member.interests }}</i>
+  <i>{{ member.info }}<br>{{ member.email }}<br><b>Research Interests:</b> {{ member.interests }}</i>
   </p>
   {% endif %}
 
