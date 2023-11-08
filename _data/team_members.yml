@@ -160,7 +160,7 @@
     value: 1
     link: https://www.linkedin.com/in/raj-ambekar-b090a474/
   photo: Raj_Ambekar.png
-  info: M.Tech RA, started August 2022
+  info: M.Tech RA, started August 2022 (co-advised by Dr. Jyothi Vedurada)
   email: cs23mtech12006 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Code Compliance
 
@@ -193,6 +193,16 @@
   info: M.Tech RA, started July 2023 (co-advised by Dr. Jyothi Vedurada)
   email: cs22mtech12010 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Code Compliance
+
+# - name: Raghvendra Gupta 
+#   type: mtech
+#   url :
+#     value: 1
+#     link: https://github.com/raghav9-97
+#   photo: raghavendra.jpg
+#   info: M.Tech TA, started August 2022
+#   email: cs22mtech11009 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimizations, Reinforcement Learning, HPC
 
 
 #- name: Gagandeep Goyal

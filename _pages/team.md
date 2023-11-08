@@ -8,10 +8,10 @@ permalink: /team/
 
 # Team Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **.**
+ **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings) **.**
 
 
-Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#masters-students), [Alumni]({{ site.url }}{{ site.baseurl }}/alumni).
+Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#masters-students), [Alumni](#alumni).
 
 ## Faculty
 {% for member in site.data.team_members %}
@@ -89,7 +89,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive float-left object-fit-cover custom-padding">
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   
@@ -136,7 +136,7 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" object-fit="scale-down" width="25%" height="auto" style="float: left">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive float-left object-fit-cover custom-padding">
   {% if member.url.value == 1 %}
   <h4><a href="{{ member.url.link }}" target="_blank">{{ member.name }}</a></h4>
   <p class="right">
@@ -169,42 +169,92 @@ Jump to [Faculty](#faculty), [PhD Students](#phd-students), [Masters Students](#
 {% endif %}
 {% endif %}
 
-<!--
+<br>
+
 ## Alumni
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+### Doctoral Students
+{% assign number_printed_phd = 0 %}
+{% for member in site.data.alumni %}
+{% if member.value == "phd" %} 
 
-{% assign even_odd = number_printed | modulo: 2 %}
 
-{% if even_odd == 0 %}
-<div class="col">
+{% assign even_odd_phd = number_printed_phd | modulo: 2 %}
+{% if even_odd_phd == 0 %}
+<div class="row">
 {% endif %}
 
-{% if member.type == 'alum' %}
-<div class="col-md-4">
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive float-left object-fit-cover custom-padding">
   <h4>{{ member.name }}</h4>
+  <p class="right">
   <i>{{ member.info }}</i>
-  <i>{{ member.affiliation }}</i>
+  {% if member.thesis_link %}
+  Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a>
+  {% elsif member.thesis != "NA" %}
+  Thesis: {{ member.thesis }}
+  {% endif %}
+  <i>Next: {{ member.next }}</i>
+  </p>
+</div>
+
+{% assign number_printed_phd = number_printed_phd | plus: 1 %}
+
+{% if even_odd_phd == 1 %}
 </div>
 {% endif %}
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
+{% endif %} 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
+
+{% assign even_odd_phd = number_printed_phd | modulo: 2 %}
+{% if even_odd_phd == 1 %}
 </div>
-{% endif %}
--->
+{% endif %} 
+
+
 
 <br/>
 
 
+### Masters Students
+{% assign number_printed_mtech = 0 %}
+{% for member in site.data.alumni %}
+{% if member.value == "mtech" %} 
+
+{% assign even_odd_mtech = number_printed_mtech | modulo: 2 %}
+
+{% if even_odd_mtech == 0 %}
+<div class="row">
+{% endif %}
+
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive float-left object-fit-cover custom-padding">
+  <h4>{{ member.name }}</h4>
+  <p class="right">
+  <i>{{ member.info }}</i>
+  {% if member.thesis_link %}
+  Thesis: <a href="{{ member.thesis_link }}" target="_blank">{{ member.thesis }}</a>
+   {% elsif member.thesis != "NA" %}
+  Thesis: {{ member.thesis }}
+  {% endif %}
+  <i>Next: {{ member.next }}</i>
+  </p>
+</div>
+
+{% assign number_printed_mtech = number_printed_mtech | plus: 1 %}
+{% if even_odd_mtech == 1 %}
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
 
 
 
+{% assign even_odd_mtech = number_printed_mtech | modulo: 2 %}
+{% if even_odd_mtech == 1 %}
+</div>
+{% endif %}
+
+
+<br/>
