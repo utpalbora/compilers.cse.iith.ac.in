@@ -1,11 +1,3 @@
-- name: Utpal Bora
-  type: alum
-  value: phd
-  info: M.Tech + PhD, 2014-2022
-  photo: utpal.jpg
-  next : PostDoc at University of Cambridge, UK
-  thesis : Techniques for Static Detection of Data-Races in OpenMP Programs
-
 - name: Shalini Jain
   type: alum
   value: phd
@@ -13,6 +5,14 @@
   photo: shalini.jpg
   next : Qualcomm compilers team
   thesis : Reinforcement Learning based Compiler Optimizations for Size and Performance
+
+- name: Utpal Bora
+  type: alum
+  value: phd
+  info: M.Tech + PhD, 2014-2022
+  photo: utpal.jpg
+  next : PostDoc at University of Cambridge, UK
+  thesis : Techniques for Static Detection of Data-Races in OpenMP Programs
 
 - name: Kuldeep Gautam
   type: alum

@@ -161,7 +161,7 @@
     link: https://www.linkedin.com/in/raj-ambekar-b090a474/
   photo: Raj_Ambekar.png
   info: M.Tech RA, started August 2022 (co-advised by Dr. Jyothi Vedurada)
-  email: cs23mtech12006 [AT] iith [DOT] ac [DOT] in
+  email: cs22mtech12008 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Code Compliance
 
 - name: Neha Bhargava
@@ -171,18 +171,18 @@
     link: https://in.linkedin.com/in/neha-bhargava-0b8a69164
   photo: neha.jpg
   info: M.Tech RA, started July 2023 (co-advised by Dr. Rajesh Kedia)
-  email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
-  interests: Compilers, Computer Architecture
+  email: cs23mtech12006 [AT] iith [DOT] ac [DOT] in
+  interests: Compilers, Computer Architecture, Hardware Security
 
-- name: Joshi Jay Prafulkumar
-  type: mtech
-  url :
-    value: 1
-    link: https://github.com/Jay-Joshi-GIT
-  photo: jay.jpg
-  info: M.Tech RA, started July 2023
-  email: cs22mtech12004 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Embedded Systems
+# - name: Joshi Jay Prafulkumar
+#   type: mtech
+#   url :
+#     value: 1
+#     link: https://github.com/Jay-Joshi-GIT
+#   photo: jay.jpg
+#   info: M.Tech RA, started July 2023
+#   email: cs22mtech12004 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimization, Embedded Systems
 
 - name: Siddhartha Neyagapula
   type: mtech
@@ -191,8 +191,18 @@
     link: https://github.com/siddu12
   photo: siddhartha.jpg
   info: M.Tech RA, started July 2023 (co-advised by Dr. Jyothi Vedurada)
-  email: cs22mtech12010 [AT] iith [DOT] ac [DOT] in
+  email: cs23mtech12010 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Code Compliance
+
+- name: Aayush Shrivastava
+  type: mtech
+  url :
+    value: 1
+    link: https://www.linkedin.com/in/iamaayushrivastava/
+  photo: aayush.jpg
+  info: M.Tech RA, started Jan 2024
+  email: cs24mtech02001 [AT] iith [DOT] ac [DOT] in
+  interests: Machine Learning, Compiler Optimizations
 
 # - name: Raghvendra Gupta 
 #   type: mtech
