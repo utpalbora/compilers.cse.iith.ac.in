@@ -14,6 +14,14 @@
   next : PostDoc at University of Cambridge, UK
   thesis : Techniques for Static Detection of Data-Races in OpenMP Programs
 
+- name: Shalini Jain
+  type: alum
+  value: phd
+  info: PhD, 2015-2023
+  photo: shalini.jpg
+  next : Qualcomm compilers team
+  thesis : Reinforcement Learning based Compiler Optimizations for Size and Performance
+
 - name: Kuldeep Gautam
   type: alum
   value: mtech
