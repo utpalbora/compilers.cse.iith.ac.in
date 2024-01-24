@@ -1,7 +1,29 @@
+- shortname: "ml-compiler-bridge"
+  title: "The Next 700 ML-Enabled Compiler Optimizations"    
+  short_title: "ML-Compiler-Bridge"
+  authors: "S. VenkataKeerthy, Siddharth Jain, Umesh Kalvakuntla, Pranav Sai Gorantla, Rajiv Shailesh Chitale, Eugene Brevdo, Albert Cohen, Mircea Trofin, Ramakrishna Upadrasta"
+  description: ""
+  domain: "ML4Compilers"
+  subdomain: "IR2Vec"
+  year: "2024"
+  publishedAt: "CC"
+  project: 0
+  publication: 1
+  type: "Conference"
+  # image: ""   
+  highlight: 1
+  github_link: ""
+  citation: ""
+  paper_link: ""
+  poster_link: ""
+  slides_link: ""
+  videos_link: ""
+  arxiv_link: "https://arxiv.org/abs/2311.10800"
+
 - shortname: "ml-llvm-tools"
   title: "ML-LLVM-Tools: Towards Seamless Integration of Machine Learning in Compiler Optimizations"    
   short_title: "ML-LLVM-Tools"
-  authors: "Siddharth Jain, S. VenkataKeerthy, Umesh Kalvakuntla, Albert Cohen, Ramakrishna Upadrast"
+  authors: "Siddharth Jain, S. VenkataKeerthy, Umesh Kalvakuntla, Albert Cohen, Ramakrishna Upadrasta"
   description: ""
   domain: "ML4Compilers"
   subdomain: "IR2Vec"
@@ -16,8 +38,8 @@
   citation: ""
   paper_link: ""
   poster_link: ""
-  slides_link: ""
-  videos_link: ""
+  slides_link: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/10-Venkat-ML-LLVM-Tools.pdf"
+  videos_link: "https://www.youtube.com/watch?v=3RYPv27Tp6s"
   arxiv_link: ""
 
 
@@ -100,7 +122,7 @@
   highlight: 1
   github_link: ""   
   citation: "" 
-  paper_link: "" 
+  paper_link: "https://ieeexplore.ieee.org/document/10026979" 
   poster_link: "" 
   slides_link: ""  
   videos_link: "" 
@@ -369,27 +391,7 @@
   # image: "" 
   highlight: 1
   github_link: ""
-  citation: "TY  - JOUR
-  AU  - Jain, Shalini
-  AU  - Bora, Utpal
-  AU  - Kumar, Prateek
-  AU  - Sinha, Vaibhav B.
-  AU  - Purini, Suresh
-  AU  - Upadrasta, Ramakrishna
-  PY  - 2019
-  DA  - 2019/06/01
-  TI  - An analysis of executable size reduction by LLVM passes
-  JO  - CSI Transactions on ICT
-  SP  - 105
-  EP  - 110
-  VL  - 7
-  IS  - 2
-  AB  - The formidable increase in the number of smaller and smarter embedded devices has compelled programmers to develop more and more specialized application programs for these systems. These resource intensive programs that have to be executed on limited memory systems make a strong case for compiler optimizations that reduce the executable size of programs. Standard compilers (like LLVM) offer an out-of-the-box -Oz optimization option—just a series of compiler optimization passes—that is specifically targeted for the reduction of the generated executable size. In this paper, we aim to analyze the effects of optimizations of LLVM compiler on the reduction of executable size. Specifically, we take the size of the executable as a metric and attempt to divide the -Oz series into logical groups and study their individual effects; while also study the effect of their combinations. Our preliminary study over SPEC CPU 2017 benchmarks gives us an insight into the comparative effect of the groups of passes on the executable size. Our work has potential to enable the user to tailor a custom series of passes so as to obtain the desired executable size.
-  SN  - 2277-9086
-  UR  - https://doi.org/10.1007/s40012-019-00248-5
-  DO  - 10.1007/s40012-019-00248-5
-  ID  - Jain2019
-  ER  - "
+  citation: ""
   paper_link: "https://link.springer.com/article/10.1007/s40012-019-00248-5"
   poster_link: ""
   slides_link: ""
@@ -412,15 +414,7 @@
   # image: ""   
   highlight: 1
   github_link: "https://github.com/abhishek111226/Texturizing-PPCG"
-  citation: "@INPROCEEDINGS{9188095,
-  author={Patwardhan, Abhishek A. and Upadrasta, Ramakrishna},
-  booktitle={2019 International Conference on High Performance Computing & Simulation (HPCS)}, 
-  title={Polyhedral Model Guided Automatic GPU Cache Exploitation Framework}, 
-  year={2019},
-  volume={},
-  number={},
-  pages={496-503},
-  doi={10.1109/HPCS48598.2019.9188095}}"
+  citation: ""
   paper_link: "https://ieeexplore.ieee.org/document/9188095"
   poster_link: ""
   slides_link: ""
@@ -453,24 +447,24 @@
   
  
 
-- shortname: ""
-  title: "Exploiting GPU caches By Polyhedral Compilation" 
-  authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
-  description: ""
-  year: "2019"
-  publishedAt: "OMASE"
-  project: 0
-  publication: 0
-  type: "Talks"
-  # image: ""  
-  highlight: 1
-  github_link: ""
-  citation: ""
-  paper_link: ""
-  poster_link: ""
-  slides_link: ""
-  videos_link: ""
-  arxiv_link: ""
+# - shortname: ""
+#   title: "Exploiting GPU caches By Polyhedral Compilation" 
+#   authors: "Abhishek A Patwardhan & Ramakrishna Upadrasta"
+#   description: ""
+#   year: "2019"
+#   publishedAt: "OMASE"
+#   project: 0
+#   publication: 0
+#   type: "Talks"
+#   # image: ""  
+#   highlight: 1
+#   github_link: ""
+#   citation: ""
+#   paper_link: ""
+#   poster_link: ""
+#   slides_link: ""
+#   videos_link: ""
+#   arxiv_link: ""
  
  
 
