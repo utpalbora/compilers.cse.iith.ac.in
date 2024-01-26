@@ -61,7 +61,7 @@
   citation: ""
   paper_link: "https://dl.acm.org/doi/abs/10.1145/3578360.3580273"
   poster_link: ""
-  slides_link: ""
+  slides_link: "https://llvm.org/devmtg/2023-02-25/slides/RL4ReAl.pdf"
   videos_link: ""
   arxiv_link: "https://arxiv.org/abs/2204.02013"
 
@@ -79,7 +79,7 @@
   type: "Conference"
   # image: ""   
   highlight: 1
-  github_link: ""  
+  github_link: "https://github.com/IITH-Compilers/bullseye"  
   citation: "@article{10.1145/3558003,
   author = {Shah, Nilesh Rajendra and Misra, Ashitabh and Miné, Antoine and Venkat, Rakesh and Upadrasta, Ramakrishna},
   title = {BullsEye : Scalable and Accurate Approximation Framework for Cache Miss Calculation},
@@ -102,7 +102,7 @@
   "
   paper_link: "https://dl.acm.org/doi/full/10.1145/3558003"
   poster_link: ""
-  slides_link: ""
+  slides_link: "https://docs.google.com/presentation/d/e/2PACX-1vSFSYrGUOtBszJ4TPyFzz5RUNCvRJP3BJLCo54QsgGcRKZ18b7MqrjoMZjwhpWP8gbggm6DkfdVB3pD/pub?start=false&loop=false&delayms=3000"
   videos_link: ""
   arxiv_link: ""
   
