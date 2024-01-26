@@ -1,11 +1,11 @@
 ---
 title: "The Next 700 ML-Enabled Compiler Optimizations"
 redirect_from:
-    - /research/ml-compiler-bridge
+    - /research/mlcompilerbridge
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false
-permalink: /publications/ml-compiler-bridge/
+permalink: /publications/mlcompilerbridge/
 ---
 
 # The Next 700 ML-Enabled Compiler Optimizations
