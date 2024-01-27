@@ -1,16 +1,14 @@
 ---
-title: "IITH Compilers Team - Publications"
+title: 'IITH Compilers Team - Publications'
 layout: gridlay
-excerpt: "IITH Compilers Team -- Publications."
+excerpt: 'IITH Compilers Team -- Publications.'
 sitemap: false
 permalink: /publications/
 ---
 
-
 # Publications
 
-
-(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=3qZCtWYAAAAJ&hl=en){:target="_blank"}, [dblp](https://dblp.org/pers/hd/u/Upadrasta:Ramakrishna){:target="_blank"})
+(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=3qZCtWYAAAAJ&hl=en){:target="\_blank"}, [dblp](https://dblp.org/pers/hd/u/Upadrasta:Ramakrishna){:target="\_blank"})
 
 <style>
   .trophyimage {
@@ -29,6 +27,54 @@ permalink: /publications/
     color: red;
     width: auto;
     
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+.closeCitationButton {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeCitationButton:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.citation-box{
+    margin-top: 20px;
+    padding: 10px;
+    height: 300px;
+    overflow: auto;
+    background-color: #eee;
+    font-size: 18px;
+}
+
+.dropdown {
+    padding: 10px 10px;
+    margin: 10px 0;
+    width: 20%;
 }
 </style>
 
@@ -54,17 +100,20 @@ permalink: /publications/
   <p style="margin:0;padding:0;border:0;font-size:large;"><strong>{{ publi.title }}</strong></p>
   {% endif %}
 
-  {% if publi.award %}   
-  {% assign aw=publi.award.title %} 
+{% if publi.award %}  
+ {% assign aw=publi.award.title %}
+
   <div class="trophyimage" style="--content:'{{aw}}';">
   <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px;">  
   </div> 
-  <script> 
-  var a='{{aw}}';
-  console.log(a); 
-    document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
-  </script>
- {% endif %} 
+  <script>
+
+var a='{{aw}}';
+console.log(a);
+document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
+</script>
+{% endif %}
+
   </div>
 
   <div>  
@@ -94,7 +143,46 @@ permalink: /publications/
   {% if publi.arxiv_link != "" %}
   <a class=badge href="{{publi.arxiv_link}}">arXiv</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
-  </nobr>
+  {% if publi.paper_link != "" || publi.paper_link != "" %}
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var openCitationButton = document.getElementById('openCitationButton_{{publi.shortname}}');
+    console.log(openCitationButton)
+    var closeCitationButton = document.getElementById('closeCitationButton_{{publi.shortname}}');
+    var citationPopup = document.getElementById('modal_{{publi.shortname}}');
+    var dropdown = document.getElementById('dropdown_{{publi.shortname}}');
+
+        openCitationButton.addEventListener('click', function() {
+            citationPopup.style.display = 'block';
+        });
+
+        closeCitationButton.addEventListener('click', function() {
+            citationPopup.style.display = 'none';
+        });
+    });
+
+  </script>
+
+<button class="badge openCitationButton" id="openCitationButton_{{publi.shortname}}">Cite</button>
+
+  <div id="modal_{{publi.shortname}}" class="modal">
+      <div class="modal-content">
+          <span class="closeCitationButton" id="closeCitationButton_{{publi.shortname}}">&times;</span>
+          <h3 style="color:#222;font-weight: bold;"> Export Citations </h3>
+          <select class="dropdown_{{publi.shortname}}">
+              <option value="bibtex">BibTeX</option>
+              <option value="acmref">ACM Ref</option>
+          </select>
+          <div class="citation-box"> 
+           <p > Authors: {{publi.authors}} </p>
+          </div>
+      </div>
+
+  </div>
+
+{% endif %}
+</nobr>
+
   </div>
 
   <div style="margin-top:25px;">
@@ -112,9 +200,6 @@ permalink: /publications/
 {% endif %}
 {% endif %}
 
-{% endfor %} 
+{% endfor %}
 
-<p> &nbsp; </p> 
-
-
-
+<p> &nbsp; </p>
