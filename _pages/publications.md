@@ -62,13 +62,16 @@ permalink: /publications/
     cursor: pointer;
 }
 
-.citation-box{
+.citationBox{
     margin-top: 20px;
     padding: 10px;
     height: 300px;
     overflow: auto;
     background-color: #eee;
     font-size: 18px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    display: none;
 }
 
 .dropdown {
@@ -151,15 +154,32 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
     var closeCitationButton = document.getElementById('closeCitationButton_{{publi.shortname}}');
     var citationPopup = document.getElementById('modal_{{publi.shortname}}');
     var dropdown = document.getElementById('dropdown_{{publi.shortname}}');
+    var citation_type = dropdown.value;
+    var citation_bibtex = document.getElementById('bibtex_{{publi.shortname}}');
+    var citation_acmref = document.getElementById('acmref_{{publi.shortname}}');
+    citation_bibtex.style.display = 'block';
 
-        openCitationButton.addEventListener('click', function() {
-            citationPopup.style.display = 'block';
-        });
-
-        closeCitationButton.addEventListener('click', function() {
-            citationPopup.style.display = 'none';
-        });
+    openCitationButton.addEventListener('click', function() {
+        citationPopup.style.display = 'block';
     });
+
+    closeCitationButton.addEventListener('click', function() {
+        citationPopup.style.display = 'none';
+    });
+
+    dropdown.addEventListener('change', function() {
+            console.log('here')
+        citation_type = dropdown.value;
+        if(citation_type == 'bibtex') {
+            citation_bibtex.style.display = 'block';
+            citation_acmref.style.display = 'none';
+        } else if(citation_type == 'acmref') {
+            citation_bibtex.style.display = 'none';
+            citation_acmref.style.display = 'block';
+        }
+    });
+
+});
 
   </script>
 
@@ -169,12 +189,15 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
       <div class="modal-content">
           <span class="closeCitationButton" id="closeCitationButton_{{publi.shortname}}">&times;</span>
           <h3 style="color:#222;font-weight: bold;"> Export Citations </h3>
-          <select class="dropdown_{{publi.shortname}}">
+          <select class="dropdown" id="dropdown_{{publi.shortname}}">
               <option value="bibtex">BibTeX</option>
               <option value="acmref">ACM Ref</option>
           </select>
-          <div class="citation-box"> 
-           <p > Authors: {{publi.authors}} </p>
+          <div class="citationBox" id="bibtex_{{publi.shortname}}">
+          <p > bibtex here... Authors: {{publi.authors}} </p>
+          </div>
+          <div class="citationBox" id="acmref_{{publi.shortname}}">
+          <p > acm here... Authors: {{publi.authors}} </p>
           </div>
       </div>
 
