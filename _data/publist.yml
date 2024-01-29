@@ -12,7 +12,7 @@
   type: "Conference"
   # image: ""   
   highlight: 1
-  github_link: ""
+  github_link: "https://github.com/IITH-Compilers/ml-compiler-bridge"
   citation: ""
   paper_link: ""
   poster_link: ""
