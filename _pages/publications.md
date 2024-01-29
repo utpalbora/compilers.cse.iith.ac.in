@@ -45,7 +45,9 @@ permalink: /publications/
     background-color: #fff;
     padding: 20px;
     border: 1px solid #888;
-    width: 60%;
+    width: 50%;
+    color: rgb(51, 51, 51);
+    font-family: monospace;
 }
 
 .closeCitationButton {
@@ -146,7 +148,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
   {% if publi.arxiv_link != "" %}
   <a class=badge href="{{publi.arxiv_link}}">arXiv</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
-  {% if publi.paper_link != "" || publi.paper_link != "" %}
+  {% if publi.paper_link != "" || publi.arxiv_link != "" %}
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     var openCitationButton = document.getElementById('openCitationButton_{{publi.shortname}}');
@@ -194,10 +196,26 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
               <option value="acmref">ACM Ref</option>
           </select>
           <div class="citationBox" id="bibtex_{{publi.shortname}}">
-          <p > bibtex here... Authors: {{publi.authors}} </p>
+            author = { {{publi.authors}} },<br>
+            title = { {{publi.title}} },<br>
+            year = { {{publi.year}} },<br>
+            {% if publi.paper_link != "" %}
+            url = { {{publi.paper_link}} },<br>
+            {% else %}
+            url = { {{publi.arxiv_link}} },<br>
+            {% endif %}
+            series = { {{publi.publishedAt}} {{publi.year}} }
           </div>
           <div class="citationBox" id="acmref_{{publi.shortname}}">
-          <p > acm here... Authors: {{publi.authors}} </p>
+            {{publi.authors}}.
+            {{publi.year}}.
+            {{publi.title}}.
+            {{publi.publishedAt}}.
+            {% if publi.paper_link != "" %}
+            {{publi.paper_link}}.
+            {% else %}
+            {{publi.arxiv_link}}.
+            {% endif %}
           </div>
       </div>
 
