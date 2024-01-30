@@ -229,7 +229,6 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
   <p style="margin:20px;padding:0;border:0;font-weight:bold;text-align:right; color:grey"><em>{{ publi.publishedAt }}</em>  <em>'{{publi.year| slice: 2,4 }}</em></p>
   </div>
   
- 
 </div>
 
 {% endif %}
