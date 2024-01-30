@@ -204,8 +204,6 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
           {% endif %}
           <!-- pages = {133–144}, -->
           <!-- numpages = {12}, -->
-          <!-- keywords = {Register Allocation, Reinforcement Learning}, -->
-          <!-- location = {<conf-loc>, <city>Montr\'{e}al</city>, <state>QC</state>, <country>Canada</country>, </conf-loc>}, -->
           series = { {{publi.publishedAt}} {{publi.year}} }
           </p>
           </div>
