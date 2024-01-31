@@ -81,6 +81,19 @@ permalink: /publications/
     margin: 10px 0;
     width: 20%;
 }
+
+.copyButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .copyButton:hover {
+    background-color: #45a049;
+  }
 </style>
 
 {% assign number_printed = 0 %}
@@ -186,6 +199,21 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
 
   </script>
 
+<script>
+
+function copyToClipboard(elementId) {
+    var copyText = document.getElementById(elementId);
+    var textArea = document.createElement("textarea");
+    textArea.value = copyText.innerText;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
+    alert('Citation copied to clipboard!');
+  }
+
+</script>
+
 <button class="badge openCitationButton" id="openCitationButton_{{publi.shortname}}">Cite</button>
 
   <div id="modal_{{publi.shortname}}" class="modal">
@@ -206,6 +234,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
             url = { {{publi.arxiv_link}} },<br>
             {% endif %}
             series = { {{publi.publishedAt}} {{publi.year}} }
+            <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy to Clipboard</button>
           </div>
           <div class="citationBox" id="acmref_{{publi.shortname}}">
             {{publi.authors}}.
@@ -217,6 +246,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
             {% else %}
             {{publi.arxiv_link}}.
             {% endif %}
+            <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy to Clipboard</button>
           </div>
       </div>
 
