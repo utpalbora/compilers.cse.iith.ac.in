@@ -83,16 +83,20 @@ permalink: /publications/
 }
 
 .copyButton {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+    background-color: #3498db; /* Premium blue color */
+    color: #fff; /* White text color */
+    padding: 8px 15px; /* Smaller padding for a more compact size */
     border: none;
-    border-radius: 5px;
+    border-radius: 3px; /* Slightly rounded corners */
     cursor: pointer;
+    font-size: 14px; /* Adjust font size for a smaller button */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
   }
 
-  .copyButton:hover {
-    background-color: #45a049;
+.copyButton:hover {
+    background-color: #2980b9; /* Darker blue on hover for a subtle effect */
   }
 </style>
 
