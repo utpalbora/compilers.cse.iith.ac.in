@@ -207,15 +207,15 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
             {% endif %}
             series = { {{publi.publishedAt}} {{publi.year}} } -->
 
-            author = { {{ publi.authors | lstrip }} },<br>
-            title = { {{ publi.title | lstrip }} },<br>
-            year = { {{ publi.year | lstrip }} },<br>
+            author = {{{ publi.authors | lstrip }}},<br>
+            title = {{{ publi.title | lstrip }}},<br>
+            year = { {{ publi.year | lstrip }}},<br>
             {% if publi.paper_link != "" %}
-            url = { {{ publi.paper_link | lstrip }} },<br>
+            url = {{{ publi.paper_link | lstrip }}},<br>
             {% else %}
-            url = { {{ publi.arxiv_link | lstrip }} },<br>
+            url = {{{ publi.arxiv_link | lstrip }}},<br>
             {% endif %}
-            series = { {{ publi.publishedAt | lstrip }} {{ publi.year | lstrip }} }
+            series = { { publi.publishedAt | lstrip }} {{ publi.year | lstrip }}}
           </div>
           <div class="citationBox" id="acmref_{{publi.shortname}}">
             {{publi.authors}}.
