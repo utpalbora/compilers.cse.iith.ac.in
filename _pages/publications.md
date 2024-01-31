@@ -1,15 +1,14 @@
 ---
-title: "IITH Compilers Team - Publications"
+title: 'IITH Compilers Team - Publications'
 layout: gridlay
-excerpt: "IITH Compilers Team -- Publications."
+excerpt: 'IITH Compilers Team -- Publications.'
 sitemap: false
 permalink: /publications/
 ---
 
 # Publications
 
-
-(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=3qZCtWYAAAAJ&hl=en){:target="_blank"}, [dblp](https://dblp.org/pers/hd/u/Upadrasta:Ramakrishna){:target="_blank"})
+(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=3qZCtWYAAAAJ&hl=en){:target="\_blank"}, [dblp](https://dblp.org/pers/hd/u/Upadrasta:Ramakrishna){:target="\_blank"})
 
 <style>
   .trophyimage {
@@ -106,18 +105,19 @@ permalink: /publications/
   <p style="margin:0;padding:0;border:0;font-size:large;"><strong>{{ publi.title }}</strong></p>
   {% endif %}
 
-  {% if publi.award %}  
-  {% assign aw=publi.award.title %}
+{% if publi.award %}  
+ {% assign aw=publi.award.title %}
+
   <div class="trophyimage" style="--content:'{{aw}}';">
   <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px;">  
   </div> 
   <script>
 
-  var a='{{aw}}';
-  console.log(a);
-    document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
-  </script>
-  {% endif %}
+var a='{{aw}}';
+console.log(a);
+document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
+</script>
+{% endif %}
 
   </div>
 
@@ -148,7 +148,7 @@ permalink: /publications/
   {% if publi.arxiv_link != "" %}
   <a class=badge href="{{publi.arxiv_link}}">arXiv</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
-  {% if publi.paper_link != "" || publi.arxiv_link != "" || publi.authors != ""  %}
+  <!-- {% if publi.paper_link != "" || publi.arxiv_link != "" %} -->
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     var openCitationButton = document.getElementById('openCitationButton_{{publi.shortname}}');
@@ -196,15 +196,15 @@ permalink: /publications/
               <option value="acmref">ACM Ref</option>
           </select>
           <div class="citationBox" id="bibtex_{{publi.shortname}}">
-            author = {{{publi.authors}} },<br>
-            title = {{{publi.title}}},<br>
-            year = {{{publi.year}}},<br>
+            author = { {{publi.authors}} },<br>
+            title = { {{publi.title}} },<br>
+            year = { {{publi.year}} },<br>
             {% if publi.paper_link != "" %}
-            url = {{{publi.paper_link}}},<br>
+            url = { {{publi.paper_link}} },<br>
             {% else %}
-            url = {{{publi.arxiv_link}}},<br>
+            url = { {{publi.arxiv_link}} },<br>
             {% endif %}
-            series = {{{publi.publishedAt}} {{publi.year}}}
+            series = { {{publi.publishedAt}} {{publi.year}} }
           </div>
           <div class="citationBox" id="acmref_{{publi.shortname}}">
             {{publi.authors}}.
@@ -218,6 +218,7 @@ permalink: /publications/
             {% endif %}
           </div>
       </div>
+
   </div>
 
 {% endif %}
@@ -233,7 +234,8 @@ permalink: /publications/
   <div style="float:left; width:20%;position:relative; top:-15px;">
   <p style="margin:20px;padding:0;border:0;font-weight:bold;text-align:right; color:grey"><em>{{ publi.publishedAt }}</em>  <em>'{{publi.year| slice: 2,4 }}</em></p>
   </div>
-
+  
+ 
 </div>
 
 {% endif %}
