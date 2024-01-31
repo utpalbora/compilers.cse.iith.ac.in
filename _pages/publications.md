@@ -82,7 +82,7 @@ permalink: /publications/
     width: 20%;
 }
 
-/* .copyButton {
+.copyButton {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -93,21 +93,8 @@ permalink: /publications/
 
   .copyButton:hover {
     background-color: #45a049;
-  } */
-
-.copyIcon {
-    color: #4CAF50;
-    cursor: pointer;
-}
-
-  .copyIcon:hover {
-    color: #45a049;
-}
-
+  }
 </style>
-
-<!-- Add Font Awesome CDN to your head if not already included -->
-<script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -247,8 +234,7 @@ function copyToClipboard(elementId) {
             url = { {{publi.arxiv_link}} },<br>
             {% endif %}
             series = { {{publi.publishedAt}} {{publi.year}} }
-            <!-- <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy to Clipboard</button> -->
-            <i class="fas fa-copy copyIcon" onclick="copyToClipboard('bibtex_{{publi.shortname}}')" title="Copy to Clipboard"></i>
+            <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy to Clipboard</button>
           </div>
           <div class="citationBox" id="acmref_{{publi.shortname}}">
             {{publi.authors}}.
@@ -260,8 +246,7 @@ function copyToClipboard(elementId) {
             {% else %}
             {{publi.arxiv_link}}.
             {% endif %}
-            <!-- <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy to Clipboard</button> -->
-            <i class="fas fa-copy copyIcon" onclick="copyToClipboard('bibtex_{{publi.shortname}}')" title="Copy to Clipboard"></i>
+            <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy to Clipboard</button>
           </div>
       </div>
 
