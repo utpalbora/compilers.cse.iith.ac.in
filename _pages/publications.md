@@ -197,7 +197,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
               <option value="acmref">ACM Ref</option>
           </select>
           <div class="citationBox" id="bibtex_{{publi.shortname}}">
-            author = {{{publi.authors}}},<br>
+            <!-- author = {{{publi.authors}}},<br>
             title = {{{publi.title}}},<br>
             year = {{{publi.year}}},<br>
             {% if publi.paper_link != "" %}
@@ -205,7 +205,16 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
             {% else %}
             url = {{{publi.arxiv_link}}},<br>
             {% endif %}
-            series = {{{publi.publishedAt}} {{publi.year}}}
+            series = {{{publi.publishedAt}} {{publi.year}}} -->
+            author = {{ "{{" }} {{publi.authors | replace: ", ", ", " | replace: ",", ", " | replace: " and ", ", " }} {{ "}}" }} ,<br>
+            title = {{ "{{" }} "{{publi.title}}" {{ "}}" }} ,<br>
+            year = {{ "{{" }} {{publi.year}} {{ "}}" }} ,<br>
+            {% if publi.paper_link != "" %}
+            url = {{ "{{" }} "{{publi.paper_link}}" {{ "}}" }} ,<br>
+            {% else %}
+            url = {{ "{{" }} "{{publi.arxiv_link}}" {{ "}}" }} ,<br>
+            {% endif %}
+            series = {{ "{{" }} "{{publi.publishedAt}} {{publi.year}}" {{ "}}" }}
           </div>
           <div class="citationBox" id="acmref_{{publi.shortname}}">
             {{publi.authors}}.
