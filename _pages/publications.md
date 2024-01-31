@@ -93,11 +93,12 @@ permalink: /publications/
     position: absolute;
     bottom: 10px;
     right: 10px;
-  }
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
 
 .copyButton:hover {
     background-color: #2980b9; /* Darker blue on hover for a subtle effect */
-  }
+}
 </style>
 
 {% assign number_printed = 0 %}
@@ -204,8 +205,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
   </script>
 
 <script>
-
-function copyToClipboard(elementId) {
+  function copyToClipboard(elementId) {
     var copyText = document.getElementById(elementId);
     var textArea = document.createElement("textarea");
     textArea.value = copyText.innerText;
@@ -215,7 +215,6 @@ function copyToClipboard(elementId) {
     document.body.removeChild(textArea);
     alert('Citation copied to clipboard!');
   }
-
 </script>
 
 <button class="badge openCitationButton" id="openCitationButton_{{publi.shortname}}">Cite</button>
