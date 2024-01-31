@@ -206,7 +206,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
 
 <script>
   function copyToClipboard(elementId) {
-    var copyText = document.getElementById(elementId);
+    var copyText = document.getElementById(elementId).innerText;
     var textArea = document.createElement("textarea");
     textArea.value = copyText.innerText;
     document.body.appendChild(textArea);
