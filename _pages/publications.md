@@ -149,7 +149,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
   <a class=badge href="{{publi.arxiv_link}}">arXiv</a>&nbsp;&nbsp;&nbsp;&nbsp;
   {% endif %}
 
-  {% if publi.paper_link != "" or publi.arxiv_link != "" %}
+  {% if publi.authors != ""%}
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     var openCitationButton = document.getElementById('openCitationButton_{{publi.shortname}}');
