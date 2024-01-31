@@ -238,7 +238,7 @@ function copyToClipboard(elementId) {
             url = { {{publi.arxiv_link}} },<br>
             {% endif %}
             series = { {{publi.publishedAt}} {{publi.year}} }
-            <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')"></button>
+            <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy</button>
           </div>
           <div class="citationBox" id="acmref_{{publi.shortname}}">
             {{publi.authors}}.
@@ -250,7 +250,7 @@ function copyToClipboard(elementId) {
             {% else %}
             {{publi.arxiv_link}}.
             {% endif %}
-            <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')"></button>
+            <button class="copyButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy</button>
           </div>
       </div>
 
