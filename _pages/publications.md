@@ -197,7 +197,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
               <option value="acmref">ACM Ref</option>
           </select>
           <div class="citationBox" id="bibtex_{{publi.shortname}}">
-            author = {{{{publi.authors}}}},<br>
+            author = {{{publi.authors}}},<br>
             title = {{{publi.title}}},<br>
             year = {{{publi.year}}},<br>
             {% if publi.paper_link != "" %}
