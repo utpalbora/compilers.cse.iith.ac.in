@@ -191,7 +191,7 @@ permalink: /publications/
     var textArea = document.createElement("textarea");
     
     // Exclude button text
-    copyText = copyText.replace(/Copy Citation/g, '');
+    copyText = copyText.replace(/Copy/g, '');
     
     textArea.value = copyText.trim();
     document.body.appendChild(textArea);
