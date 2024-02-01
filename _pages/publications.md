@@ -186,6 +186,23 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
 
   </script>
 
+<script>
+  function copyToClipboard(elementId) {
+    var copyText = document.getElementById(elementId).innerText;
+    var textArea = document.createElement("textarea");
+    
+    // Exclude button text
+    copyText = copyText.replace(/Copy Citation/g, '');
+    
+    textArea.value = copyText.trim();
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
+    alert('Citation copied to clipboard!');
+}
+</script>
+
 <button class="badge openCitationButton" id="openCitationButton_{{publi.shortname}}">Cite</button>
 
   <div id="modal_{{publi.shortname}}" class="modal">
@@ -206,6 +223,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
             url = { {{publi.arxiv_link}} },<br>
             {% endif %}
             series = { {{publi.publishedAt}} {{publi.year}} }
+            <button class="badge copyCitationButton" onclick="copyToClipboard('bibtex_{{publi.shortname}}')">Copy</button>
           </div>
           <div class="citationBox" id="acmref_{{publi.shortname}}">
             {{publi.authors}}.
@@ -217,6 +235,7 @@ document.querySelectorAll('trophyimage')[1].style.setProperty("--content", a);
             {% else %}
             {{publi.arxiv_link}}.
             {% endif %}
+            <button class="badge copyCitationButton" onclick="copyToClipboard('acmref_{{publi.shortname}}')">Copy</button>
           </div>
       </div>
 
