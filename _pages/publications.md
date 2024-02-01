@@ -191,7 +191,7 @@ permalink: /publications/
     var textArea = document.createElement("textarea");
     
     // Exclude button text
-    copyText = copyText.replace(/Copy Citation/g, '');
+    copyText = copyText.replace(/Copy/g, '');
     
     textArea.value = copyText.trim();
     document.body.appendChild(textArea);
@@ -213,13 +213,13 @@ permalink: /publications/
               <option value="acmref">ACM Ref</option>
           </select>
           <div class="citationBox" id="bibtex_{{publi.shortname}}">
-            author = {{{publi.authors}} },<br>
-            title = {{{publi.title}}},<br>
-            year = {{{publi.year}}},<br>
+            author = { {{publi.authors}} },<br>
+            title = { {{publi.title}} },<br>
+            year = { {{publi.year}} },<br>
             {% if publi.paper_link != "" %}
-            url = {{{publi.paper_link}}},<br>
+            url = { {{publi.paper_link}} },<br>
             {% else %}
-            url = {{{publi.arxiv_link}}},<br>
+            url = { {{publi.arxiv_link}} },<br>
             {% endif %}
 
             series = { {{publi.publishedAt}} {{publi.year}} }
