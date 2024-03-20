@@ -8,7 +8,7 @@ permalink: /publications/rl_loop_distribution/
 
 # Reinforcement Learning assisted Loop Distribution for Locality and Vectorization
 *Shalini Jain, S. VenkataKeerthy, Rohit Aggarwal, Tharun Kumar Dangeti, Dibyendu Das, [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna)*
-#### Published at LLVM-HPC 2022
+#### Published at LLVM-HPC 2022 [Paper](https://ieeexplore.ieee.org/document/10026979) <a href="https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/Scalar/IR2Vec-LOF/custom_loop_distribution" target="_blank"> <img  class="dp-img" alt="Loop-Distribution GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 
 
 Loop distribution (loop fission) is a well known compiler optimization that splits the loop into multiple loops. Loop distribution can be seen as an enabler of various other optimizations with different goals, like, the parallelizability of the loop, the vectorizability of the loop, its locality characteristics. 
