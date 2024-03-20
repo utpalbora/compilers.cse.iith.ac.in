@@ -10,7 +10,7 @@ permalink: /projects/posetrl/
 
 # POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning
 *Shalini Jain, Yashas Andaluri, S. VenkataKeerthy and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}*
-#### Published in ISPASS 2022 ([Slides](https://llvm.org/devmtg/2022-04-03/slides/POSET-RL.Phase.ordering.for.Optimizing.Size.and.Execution.Time.using.Reinforcement.Learning.pdf){:target="_blank"})
+#### Published in ISPASS 2022 ([Slides](https://llvm.org/devmtg/2022-04-03/slides/POSET-RL.Phase.ordering.for.Optimizing.Size.and.Execution.Time.using.Reinforcement.Learning.pdf){:target="_blank"}) <a href="https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/IPO/PosetRL" target="_blank"> <img  class="dp-img" alt="POSET-RL GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 <br>
  <div style="display: flex; justify-content: center;">
  <iframe width="1064" height="608" src="https://www.youtube.com/embed/_SqWd74zG2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

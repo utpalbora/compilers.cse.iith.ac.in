@@ -57,7 +57,7 @@
   type: "Conference"
   # image: ""   
   highlight: 1
-  github_link: ""  
+  github_link: "https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/CodeGen/MLRegAlloc"  
   citation: ""
   paper_link: "https://dl.acm.org/doi/abs/10.1145/3578360.3580273"
   poster_link: ""
@@ -120,7 +120,7 @@
   type: "Journal|Transaction|Conference"
   # image: ""   
   highlight: 1
-  github_link: ""   
+  github_link: "https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/Scalar/IR2Vec-LOF/custom_loop_distribution"   
   citation: "" 
   paper_link: "https://ieeexplore.ieee.org/document/10026979" 
   poster_link: "" 
@@ -165,7 +165,7 @@
   subdomain: "IR2Vec"
   # image: ""   
   highlight: 1
-  github_link: ""
+  github_link: "https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/IPO/PosetRL"
   citation: ""
   paper_link: "https://llvm.org/devmtg/2022-04-03/slides/POSET-RL.Phase.ordering.for.Optimizing.Size.and.Execution.Time.using.Reinforcement.Learning.pdf"
   poster_link: ""
