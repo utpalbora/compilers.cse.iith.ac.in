@@ -10,7 +10,7 @@ permalink: /publications/mlcompilerbridge/
 
 # The Next 700 ML-Enabled Compiler Optimizations
 *S. VenkataKeerthy, Siddharth Jain, Umesh Kalvakuntla, Pranav Sai Gorantla, Rajiv Shailesh Chitale, Eugene Brevdo, Albert Cohen, Mircea Trofin, Ramakrishna Upadrasta*
-#### Published in [CC 2024](https://doi.org/10.1145/3640537.3641580){:target="_blank"}([arXiv](https://arxiv.org/abs/2311.10800){:target="_blank"}) <a href="https://github.com/IITH-Compilers/ml-compiler-bridge" target="_blank"> <img  class="dp-img" alt="ML-Compiler-Bridge GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
+#### Published in [CC 2024](https://doi.org/10.1145/3640537.3641580){:target="_blank"}([arXiv](https://arxiv.org/abs/2311.10800){:target="_blank"}) [Slides](https://llvm.org/devmtg/2024-03/slides/ML-Compiler-Bridge.pdf){:target="_blank"} [Poster](https://drive.google.com/file/d/1wQHTboBQYXRo9FsPB6F9TANw4w8TvT19/view){:target="_blank"} <a href="https://github.com/IITH-Compilers/ml-compiler-bridge" target="_blank"> <img  class="dp-img" alt="ML-Compiler-Bridge GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 
 ### ML-Compiler-Bridge
 There is a growing interest in enhancing compiler optimizations with ML models, yet interactions between compilers
