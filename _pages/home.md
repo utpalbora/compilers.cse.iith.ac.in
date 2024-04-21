@@ -20,6 +20,7 @@ permalink: /
         <li data-target="#carousel" data-slide-to="6"></li>
         <li data-target="#carousel" data-slide-to="7"></li>
         <li data-target="#carousel" data-slide-to="8"></li>
+        <li data-target="#carousel" data-slide-to="9"></li>
     </ol>
 
     <!-- Items -->
@@ -47,6 +48,9 @@ permalink: /
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/projects/ir2vec/flow.jpg" alt="IR2VEC">
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/projects/ml-compiler-bridge/compiler-bridge-poster.jpg" alt="IR2VEC">
         </div>
     </div> 
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
