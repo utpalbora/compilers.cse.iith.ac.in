@@ -69,7 +69,7 @@ The improvements we achieved over Oz in terms of binary size and execution time 
 </center>
 
 ### Artifacts
-Code and other artifacts will be available on our [GitHub](https://github.com/IITH-Compilers/POSET-RL) page.
+Code and other artifacts are available on our [GitHub](https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/IPO/PosetRL) page.
 
 ### Funding
 This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications
