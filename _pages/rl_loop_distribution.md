@@ -50,6 +50,9 @@ The improvements we achieved over O3 in terms of execution time and Instruction 
 </figure>
 </center>
 
+### Artifacts
+Artifacts are available in our [GitHub](https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/Scalar/IR2Vec-LOF/custom_loop_distribution) page. 
+
 ### Funding
 This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications
 & Information Technology, Government of India. This work is partially supported by a Visvesvaraya PhD Scheme under
