@@ -38,7 +38,7 @@ permalink: /
             <img src="{{ site.url }}{{ site.baseurl }}/images/projects/rl-distribution/FlowGraph.png" alt="RL-Loop-Distribution">
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/projects/projects/rl4real/rl4real.png" alt="RL4ReAl">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/projects/rl4real/rl4real.png" alt="RL4ReAl">
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/projects/ml-compiler-bridge/compiler-bridge-poster.jpg" alt="ML-Compiler-Bridge-Poster">
