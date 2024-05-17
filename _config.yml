@@ -101,4 +101,5 @@ filtered_bibtex_keywords:
     slides_link,
     videos_link,
     arxiv_link,
+    conference,
   ]

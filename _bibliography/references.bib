@@ -30,13 +30,14 @@ arxiv_link = {{https://arxiv.org/abs/2311.10800}},
 shortname = {ml-llvm-tools},
 short_title={ML-LLVM-Tools},
 domain={ML4Compilers},
-author = {{ Siddharth Jain, S. VenkataKeerthy, Umesh Kalvakuntla, Albert Cohen, Ramakrishna Upadrasta }} ,
-title={ ML-LLVM-Tools: Towards Seamless Integration of Machine Learning in Compiler Optimizations } ,
+author = {{Siddharth Jain, S. VenkataKeerthy, Umesh Kalvakuntla, Albert Cohen, Ramakrishna Upadrasta}} ,
+title={ML-LLVM-Tools: Towards Seamless Integration of Machine Learning in Compiler Optimizations} ,
 year={2023},
 publication = {1},
 publishedAt = {EuroLLVM},
 slides_link = {https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/10-Venkat-ML-LLVM-Tools.pdf},
 videos_link = {https://www.youtube.com/watch?v=3RYPv27Tp6s},
+conference={2023 European LLVM Developers' Meeting},
 }
 
 // 2 done 
@@ -45,7 +46,7 @@ videos_link = {https://www.youtube.com/watch?v=3RYPv27Tp6s},
   shortname = {rl4real},
   short_title={RL4ReAl},
   domain={ML4Compilers},
-  author = {{S. VenkataKeerthy, Siddharth Jain, Anilava Kundu, Rohit Aggarwal, Albert Cohen, and Ramakrishna Upadrasta"}},
+  author = {{S. VenkataKeerthy, Siddharth Jain, Anilava Kundu, Rohit Aggarwal, Albert Cohen, and Ramakrishna Upadrasta}},
   title = {RL4ReAl: Reinforcement Learning for Register Allocation},
   year = {2023},
   isbn = {9798400700880},
@@ -53,8 +54,6 @@ videos_link = {https://www.youtube.com/watch?v=3RYPv27Tp6s},
   address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3578360.3580273},
   doi = {10.1145/3578360.3580273},
-  abstract = {We aim to automate decades of research and experience in register allocation, leveraging machine learning. We tackle this problem by embedding a multi-agent reinforcement learning algorithm within LLVM, training it with the state of the art techniques. We formalize the constraints that precisely define the problem for a given instruction-set architecture, while ensuring that the generated code preserves semantic correctness. We also develop a gRPC based framework providing a modular and efficient compiler interface for training and inference. Our approach is architecture independent: we show experimental results targeting Intel x86 and ARM AArch64. Our results match or out-perform the  
-  heavily tuned, production-grade register allocators of LLVM.},
   booktitle = {Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction},
   pages = {133–144},
   numpages = {12},
@@ -94,6 +93,7 @@ videos_link = {https://www.youtube.com/watch?v=3RYPv27Tp6s},
   github_link = {https://github.com/IITH-Compilers/bullseye},
   slides_link = {https://docs.google.com/presentation/d/e/2PACX-1vSFSYrGUOtBszJ4TPyFzz5RUNCvRJP3BJLCo54QsgGcRKZ18b7MqrjoMZjwhpWP8gbggm6DkfdVB3pD/pub?start=false&loop=false&delayms=3000},
   project= {1},
+  conference={ACM Transactions on Architecture and Code Optimization},
   }
 
   // 4 done 
@@ -114,6 +114,7 @@ url={https://ieeexplore.ieee.org/document/10026979},
 github_link = {https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/Scalar/IR2Vec-LOF/custom_loop_distribution},
 publication = {1},
 publishedAt = {LLVM-HPC},
+conference={2022 IEEE/ACM Eighth Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)},
 }
 
 
@@ -233,6 +234,7 @@ publishedAt = {LLVM-HPC},
   publishedAt = {TACO},
   github_link = {https://github.com/IITH-Compilers/polydl},
   videos_link = {https://www.youtube.com/watch?v=kyD4ysn8ljE&t=1866s&ab_channel=HiPEACTV},
+  conference={ACM Transactions on Architecture and Code Optimization},
   }
 
 
@@ -263,12 +265,13 @@ publishedAt = {LLVM-HPC},
   github_link = {https://github.com/IITH-Compilers/IR2Vec},
   videos_link = {https://www.youtube.com/watch?v=kyD4ysn8ljE&t=4688s&ab_channel=HiPEACTV},
   arxiv_link = {https://arxiv.org/abs/1909.06228},
+  conference={ACM Transactions on Architecture and Code Optimization},
   }
 
   // 11 done
 
   @article{Bora-2020-LLOV,
-  shortname = {LLOV},
+  shortname = {llov},
   short_title={LLOV},
   domain= {SA+Opt},
   author = {{Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye}},
@@ -293,6 +296,7 @@ publishedAt = {LLVM-HPC},
   github_link = {https://github.com/utpalbora/llov},
   videos_link = {https://www.youtube.com/watch?v=kyD4ysn8ljE&t=3781s&ab_channel=HiPEACTV},
   arxiv_link = {https://arxiv.org/abs/1912.12189},
+  conference={ACM Transactions on Architecture and Code Optimization},
   }
 
 // 12 done 
@@ -300,12 +304,13 @@ publishedAt = {LLVM-HPC},
 
 @inproceedings{ Akash-2020-bpi_improvements,
 shortname = {bpi_improvements},
-author= { {Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy, Ramakrishna Upadrasta }},
-title={ Some Improvements to Branch Probability Information (BPI) },
+author= {{Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy, Ramakrishna Upadrasta}},
+title={Some Improvements to Branch Probability Information (BPI)},
 year={2020},
 publication = {1},
 publishedAt = {Euro LLVM Meet},
 github_link ={https://github.com/TIFitis/BPI--llvm},
+conference={2023 European LLVM Developers' Meeting},
 }
 
 // 13 done 
@@ -314,8 +319,8 @@ github_link ={https://github.com/TIFitis/BPI--llvm},
 shortname = {executable_size_reduction},
 short_title={Executable Size Reduction},
 domain= {SA+Opt},
-author= {{ Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta }} ,
-title={ An analysis of executable size reduction by LLVM passes } ,
+author= {{Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta}} ,
+title={An analysis of executable size reduction by LLVM passes} ,
 year={2019} ,
 issn={ 2277-9086 } ,
 issue-date={ June 2019 } ,
@@ -325,6 +330,7 @@ pages={ 105–110 } ,
 keywords={ Compilers, Compiler optimizations, Code size optimizations },
 publication = {1},
 publishedAt = {CSI[ICT]},
+conference={CSI Transactions on ICT},
 }
 
 // 14 done
@@ -343,6 +349,7 @@ publishedAt = {CSI[ICT]},
   publication = {1},
   publishedAt = {HPCS},
   github_link = {https://github.com/abhishek111226/Texturizing-PPCG},
+  conference={International Conference on High Performance Computing & Simulation (HPCS 2019)},
   }
 
 
@@ -360,6 +367,8 @@ publication ={1},
 publishedAt = {IMPACT},
 url={https://acohen.gitlabpages.inria.fr/impact/impact2019/papers/IMPACT_2019_paper_2.pdf},
 github_link= {https://github.com/IITH-Compilers/ISL-UTVPI?files=1},
+conference={IMPACT Conference (2019)},
+
 }
 
 // 16 done 
@@ -379,6 +388,7 @@ github_link= {https://github.com/IITH-Compilers/ISL-UTVPI?files=1},
   publication= {1},
   publishedAt= {{P4WE in ICNP}},
   github_link= {https://github.com/IITH-Compilers/P4LLVM},
+  conference={2018 IEEE 26th International Conference on Network Protocols (ICNP)},
   }
 
   // 17 done 
@@ -386,11 +396,12 @@ github_link= {https://github.com/IITH-Compilers/ISL-UTVPI?files=1},
   @inproceedings{ Malhar-2018-isl_memory_management,
   shortname={isl_memory_management},
   author= {{ Malhar Thakkar, Ramakrishna Upadrasta }} ,
-  title={ ISL Memory Management Using Clang Static Analyzer } ,
+  title={ISL Memory Management Using Clang Static Analyzer} ,
   year={2018},
   publication= {1},
   publishedAt={US LLVM Dev Meet},
   videos_link={https://youtu.be/AgHy_4cQzMU},
+  conference= {2018 US LLVM Developers' Meeting},
 }
 
 // 18 done 
@@ -399,14 +410,15 @@ github_link= {https://github.com/IITH-Compilers/ISL-UTVPI?files=1},
   shortname={loop_profiler},
   short_title= {LLProf},
   domain= {SA+Opt},
-  author= {{ Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das, Ramakrishna Upadrasta }} ,
-  title={ An LLVM based Loop Profiler } ,
+  author= {{Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das, Ramakrishna Upadrasta}} ,
+  title={An LLVM based Loop Profiler} ,
   year={2017} ,
   publication={1},
   publishedAt={US LLVM Dev Meet},
   github_link={https://github.com/IITH-Compilers/LLVM-Loop-Profiler},
   slides_link={https://llvm.org/devmtg/2017-10/slides/Jain-LLVM%20based%20Loop%20Profiler.pdf},
   videos_link={https://youtu.be/MKhXpRNekaM},
+  conference= {2017 US LLVM Developers' Meeting},
 } 
 
 // 19 done 
@@ -415,38 +427,41 @@ github_link= {https://github.com/IITH-Compilers/ISL-UTVPI?files=1},
 shortname={optimizing_dl_kernels},
 short_title= {Optimizing DL Kernels},
 domain= {Polyhedral},
-author= {{Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta }} ,
-title={ When Polyhedral Optimizations Meet Deep Learning Kernels } ,
+author= {{Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta}} ,
+title={When Polyhedral Optimizations Meet Deep Learning Kernels} ,
 year={2017} ,
 issue-date={Dec 2017} ,
-url={ https://www.researchgate.net/publication/332542886_When_Polyhedral_Optimizations_Meet_Deep_Learning_Kernels } ,
+url={https://www.researchgate.net/publication/332542886_When_Polyhedral_Optimizations_Meet_Deep_Learning_Kernels} ,
 publication={1},
 publishedAt={HiPC},
+conference={24th IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC 2017)},
 }
 
 // 20 done 
 
 @inproceedings{ Annanay-2017-polly_tensorflow,
 shortname= {polly_tensorflow},
-author= {{ Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser, Ramakrishna Upadrasta }} ,
-title={ Enabling Polyhedral optimizations in TensorFlow through Polly } ,
+author= {{Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser, Ramakrishna Upadrasta}} ,
+title={Enabling Polyhedral optimizations in TensorFlow through Polly} ,
 year={2017}, 
 publication={1},
 publishedAt={US LLVM Dev Meet},
 slides_link={https://llvm.org/devmtg/2017-10/slides/Agarwal-Enabling%20Polyhedral%20optimizations%20in%20TensorFlow%20through%20Polly.pdf},
 videos_link={https://youtu.be/uq67__tfdtQ},
+conference={2017 LLVM Developers’ Meeting},
 }
 
 // 21 done 
 
 @inproceedings{ Tharun-2017-loop_distribution_improvement,
 shortname={loop_distribution_improvement},
-author= {{ Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser , Ramakrishna Upadrasta }} ,
-title={ Improved Loop Distribution in LLVM using Polyhedral Dependences } ,
+author= {{Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser , Ramakrishna Upadrasta}} ,
+title={Improved Loop Distribution in LLVM using Polyhedral Dependences} ,
 year={2017}, 
 publication={1},
 publishedAt={LLVM HPC},
 slides_link={https://llvm-hpc4-workshop.github.io/talks.html#grosser},
+conference={LLVM-HPC2017: The Fourth Workshop on the LLVM Compiler Infrastructure in HPC},
 }
 
 // 22 done
@@ -455,61 +470,66 @@ slides_link={https://llvm-hpc4-workshop.github.io/talks.html#grosser},
 shortname={cache_miss_calc},
 short_title= {Cache Miss Calculator},
 domain= {Polyhedral},
-author= {{ Keyur Joshi, Ramakrishna Upadrasta, Albert Cohen }} ,
+author= {{Keyur Joshi, Ramakrishna Upadrasta, Albert Cohen}} ,
 title={ Implementation of a Cache Miss Calculator in LLVM/Polly } ,
 year={2017},
 publication={1},
 publishedAt={LLVM HPC}, 
 slides_link={https://llvm-hpc4-workshop.github.io/talks.html#joshi},
+conference={LLVM-HPC2017: The Fourth Workshop on the LLVM Compiler Infrastructure in HPC},
 }
 
 // 23 done 
 
 @inproceedings{ Abhishek-2016-texturizing_ppcg,
 shortname={texturizing_ppcg},
-author= { Abhishek A Patwardhan , Ramakrishna Upadrasta } ,
-title={ Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler } ,
+author= {Abhishek A Patwardhan , Ramakrishna Upadrasta} ,
+title={Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler} ,
 year={2016} ,
 url={ https://www.researchgate.net/publication/334597546_Polyhedral_Compilation_Applications_Approximations_and_GPU-specific_Optimizations_Best_MTech_thesis_Award_by_AMD_India_PVT_LTD },
 publication={1},
 publishedAt={HiPC},
+conference={23rd IEEE International Conference on High Performance Computing, Data, and Analytics},
 }
 
 // 24 done
 
 @inproceedings{ Santanu-2016-vectorization,
 shortname={vectorization},
-author= {{ Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta }} ,
-title={ A Comparative Study of Vectorization in Compilers } ,
+author= {{Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta}} ,
+title={A Comparative Study of Vectorization in Compilers} ,
 year={2016},
 publication={1},
 publishedAt={HiPC},
 slides_link={https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing},
+conference={23rd IEEE International Conference on High Performance Computing, Data, and Analytics},
 }
 
 // 25 done 
 
 @inproceedings{ Uptal-2016-analysis_pass-polly,
 shortname={analysis_pass-polly},
-short_title= {Polly as Analysis Pass},
-domain= {Polyhedral},
-author= {{ Utpal Bora, Johannes Doerfert, Tobias Grosser, Venugopal Raghavan, Ramakrishna Upadrasta }} ,
-title={ Polly as an Analysis pass in LLVM } ,
+short_title={Polly as Analysis Pass},
+domain={Polyhedral},
+author={{Utpal Bora, Johannes Doerfert, Tobias Grosser, Venugopal Raghavan, Ramakrishna Upadrasta}},
+title={ Polly as an Analysis pass in LLVM },
 year={2016}, 
 publication={1},
 publishedAt={US LLVM Dev Meet},
 slides_link={https://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf},
+conference={2016 LLVM Developers’ Meeting},
 }
 
 // 26 done 
 
 @inproceedings{ Nandini-2016-comp_complexity,
 shortname={comp_complexity},
-author= {{Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta}} ,
-title={ Reducing the Computational Complexity of RegionInfo } ,
+author= {{Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta}},
+title={Reducing the Computational Complexity of RegionInfo},
 year={2016},
 publication={1},
 publishedAt={US LLVM Dev Meet},
 slides_link={https://llvm.org/devmtg/2016-11/Slides/Singhal-ReducingTheComputationalComplexity.pdf},
 videos_link={https://www.youtube.com/watch?v=yOVeJtA5zxw},
+conference={2016 LLVM Developers’ Meeting},
 }
