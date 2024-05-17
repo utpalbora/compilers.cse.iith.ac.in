@@ -236,12 +236,12 @@
                     <div class="citationBox" id="acmref_{{entry.key}}">
                         <p>
                         {{entry.author}}.{{entry.year}}.{{entry.title}}.
-                        {% if entry.booktitle and entry.series %}
+                        {%if entry.journal %}
+                            {{entry.journal}}.
+                        {% elsif entry.booktitle and entry.series %}
                             {{entry.booktitle}}({{entry.series}}).
                         {% elsif entry.booktitle %}
                             {{entry.booktitle}}.
-                        {% elsif entry.conference %}
-                            In {{entry.conference}}.
                         {% endif %}
                         {% if entry.url %}
                             {{entry.url}}.
