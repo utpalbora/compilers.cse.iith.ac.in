@@ -1,0 +1,515 @@
+@inproceedings{VenkataKeerthy-2024-mlcompilerbridge,
+shortname = {mlcompilerbridge},
+short_title= {ML-Compiler-Bridge},
+domain= {ML4Compilers},
+author = {{S. VenkataKeerthy, Siddharth Jain, Umesh Kalvakuntla, Pranav Sai Gorantla, Rajiv Shailesh Chitale, Eugene Brevdo, Albert Cohen, Mircea Trofin, Ramakrishna Upadrasta}},
+title = {The Next 700 ML-Enabled Compiler Optimizations},
+year = {2024},
+isbn = {9798400705076},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3640537.3641580},
+doi = {10.1145/3640537.3641580},
+abstract = {There is a growing interest in enhancing compiler optimizations with ML models, yet interactions between compilers and ML frameworks remain challenging. Some optimizations require tightly coupled models and compiler internals, raising issues with modularity, performance and framework independence. Practical deployment and transparency for the end-user are also important concerns. We propose ML-Compiler-Bridge to enable ML model development within a traditional Python framework while making end-to-end integration with an optimizing compiler possible and efficient. We evaluate it on both research and production use cases, for training and inference, over several optimization problems, multiple compilers and its versions, and gym infrastructures.},
+booktitle = {Proceedings of the 33rd ACM SIGPLAN International Conference on Compiler Construction},
+pages = {238–249},
+numpages = {12},
+keywords = {Machine Learning for Compiler Optimizations, ONNX, Pipes, TensorFlow AOT, gRPC},
+location = {Edinburgh, United Kingdom},
+series = {CC 2024},
+publication = {1},
+publishedAt = {CC},
+github_link = {{https://github.com/IITH-Compilers/ml-compiler-bridge}},
+poster_link = {{https://drive.google.com/file/d/1wQHTboBQYXRo9FsPB6F9TANw4w8TvT19/view}},
+slides_link = {{https://llvm.org/devmtg/2024-03/slides/ML-Compiler-Bridge.pdf}},
+arxiv_link = {{https://arxiv.org/abs/2311.10800}},
+}
+
+// 1 done 
+@inproceedings{ Jain-2023-ml_llvm_tools,
+shortname = {ml-llvm-tools},
+short_title={ML-LLVM-Tools},
+domain={ML4Compilers},
+author = {{ Siddharth Jain, S. VenkataKeerthy, Umesh Kalvakuntla, Albert Cohen, Ramakrishna Upadrasta }} ,
+title={ ML-LLVM-Tools: Towards Seamless Integration of Machine Learning in Compiler Optimizations } ,
+year={2023},
+publication = {1},
+publishedAt = {EuroLLVM},
+slides_link = {https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/10-Venkat-ML-LLVM-Tools.pdf},
+videos_link = {https://www.youtube.com/watch?v=3RYPv27Tp6s},
+}
+
+// 2 done 
+
+@inproceedings{VenkataKeerthy-2023-rl4real,
+  shortname = {rl4real},
+  short_title={RL4ReAl},
+  domain={ML4Compilers},
+  author = {{S. VenkataKeerthy, Siddharth Jain, Anilava Kundu, Rohit Aggarwal, Albert Cohen, and Ramakrishna Upadrasta"}},
+  title = {RL4ReAl: Reinforcement Learning for Register Allocation},
+  year = {2023},
+  isbn = {9798400700880},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3578360.3580273},
+  doi = {10.1145/3578360.3580273},
+  abstract = {We aim to automate decades of research and experience in register allocation, leveraging machine learning. We tackle this problem by embedding a multi-agent reinforcement learning algorithm within LLVM, training it with the state of the art techniques. We formalize the constraints that precisely define the problem for a given instruction-set architecture, while ensuring that the generated code preserves semantic correctness. We also develop a gRPC based framework providing a modular and efficient compiler interface for training and inference. Our approach is architecture independent: we show experimental results targeting Intel x86 and ARM AArch64. Our results match or out-perform the  
+  heavily tuned, production-grade register allocators of LLVM.},
+  booktitle = {Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction},
+  pages = {133–144},
+  numpages = {12},
+  keywords = {Register Allocation, Reinforcement Learning},
+  series = {CC 2023},
+  publication = {1},
+  publishedAt = {CC},
+  github_link = {https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/CodeGen/MLRegAlloc},
+  slides_link = {https://llvm.org/devmtg/2023-02-25/slides/RL4ReAl.pdf},
+  arxiv_link = {https://arxiv.org/abs/2204.02013},
+  }
+
+  // 3 done 
+
+@article{Shah-2022-bullseye,
+  shortname ={bullseye},
+  short_title={BullsEye},
+  domain={Polyhedral},
+  author = {{Nilesh Rajendra Shah, Ashitabh misra, Antoine Miné, Rakesh Venkat, and Ramakrishna Upadrasta}},
+  title = {BullsEye : Scalable and Accurate Approximation Framework for Cache Miss Calculation},
+  year = {2022},
+  issue_date = {March 2023},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {20},
+  number = {1},
+  issn = {1544-3566},
+  url = {https://doi.org/10.1145/3558003},
+  doi = {10.1145/3558003},
+  abstract = {For Affine Control Programs or Static Control Programs (SCoP), symbolic counting of reuse distances could induce polynomials for each reuse pair. These polynomials along with cache capacity constraints lead to non-affine (semi-algebraic) sets; and counting these sets is considered to be a hard problem. The state-of-the-art methods use various exact enumeration techniques relying on existing cardinality algorithms that can efficiently count affine sets.We propose BullsEye , a novel, scalable, accurate, and problem-size independent approximation framework. It is an analytical cache model for fully associative caches with LRU replacement policy focusing on sampling and linearization of non-affine stack distance polynomials. First, we propose a simple domain sampling method that can improve the scalability of exact enumeration. Second, we propose linearization techniques relying on Handelman’s theorem and Bernstein’s representation. To improve the scalability of the Handelman’s theorem linearization technique, we propose template (Interval or Octagon) sub-polyhedral approximations.Our methods obtain significant compile-time improvements with high-accuracy when compared to HayStack on important polyhedral compilation kernels such as nussinov, cholesky, and adi from PolyBench, and harris, gaussianblur from LLVM-TestSuite. Overall, on PolyBench kernels, our methods show up to 3.31\texttimes{} (geomean) speedup with errors below ≈ 0.08% (geomean) for the octagon sub-polyhedral approximation.},
+  journal = {ACM Trans. Archit. Code Optim.},
+  month = {nov},
+  articleno = {2},
+  numpages = {28},
+  keywords = {Static analysis, performance analysis, cache model},
+  publishedAt= {TACO},
+  github_link = {https://github.com/IITH-Compilers/bullseye},
+  slides_link = {https://docs.google.com/presentation/d/e/2PACX-1vSFSYrGUOtBszJ4TPyFzz5RUNCvRJP3BJLCo54QsgGcRKZ18b7MqrjoMZjwhpWP8gbggm6DkfdVB3pD/pub?start=false&loop=false&delayms=3000},
+  project= {1},
+  }
+
+  // 4 done 
+
+
+@INPROCEEDINGS{Jain-2022-rl_loop_distribution,
+shortname = {rl_loop_distribution},
+short_title={RL-LoopDistribution},
+domain={ML4Compilers},
+author={{Shalini Jain, S. VenkataKeerthy, Rohit Aggarwal, Tharun Kumar Dangeti, Dibyendu Das, Ramakrishna Upadrasta}},
+booktitle={2022 IEEE/ACM Eighth Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)}, 
+title={Reinforcement Learning assisted Loop Distribution for Locality and Vectorization}, 
+year={2022},
+pages={1-12},
+keywords={Training;Measurement;Costs;Computational modeling;Pipelines;Reinforcement learning;Benchmark testing;Loop Distribution;Vectorization;Locality;Reinforcement Learning},
+doi={10.1109/LLVM-HPC56686.2022.00006},
+url={https://ieeexplore.ieee.org/document/10026979},
+github_link = {https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/Scalar/IR2Vec-LOF/custom_loop_distribution},
+publication = {1},
+publishedAt = {LLVM-HPC},
+}
+
+
+// 5 done 
+
+@inproceedings{VenkataKeerthy-2023-packet_processing,
+  shortname = {packet_processing},
+  short_title={Network Function Identification},
+  domain={ML4Compilers},
+  author = {{S. VenkataKeerthy, Yashas Andaluri, Sayan Dey, Rinku Shah, Praveen Tammana, Ramakrishna Upadrasta}},
+  title = {Packet Processing Algorithm Identification using Program Embeddings},
+  year = {2023},
+  isbn = {9781450397483},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3542637.3542649},
+  doi = {10.1145/3542637.3542649},
+  abstract = {To keep up with the network speeds, many recent works propose to offload network functions to SmartNICs. The process involves identifying packet-processing algorithms in a network function program then offloading them to appropriate accelerators available on SmartNICs. This process is often done manually for each architecture and is error-prone and laborious. In this work, we propose an automated solution to identify algorithms in network function programs. We model our approach as a classification problem of Machine Learning (ML) and propose using sophisticated program embeddings for representing the network function programs. We also identify the limited availability of datasets and propose a way of extrapolating them by systematically generating equivalent programs using (existing) compiler transformations in popular compiler infrastructures. Our approach relies on modeling programs as embeddings, uses ML models trained on such extrapolated datasets, and shows superior results over the recent works.},
+  booktitle = {Proceedings of the 6th Asia-Pacific Workshop on Networking},
+  pages = {76–82},
+  numpages = {7},
+  keywords = {SmartNICs, Program Embeddings, Network Function program identification, Machine Learning},
+  location = {Fuzhou, China},
+  series = {APNet '22},
+  publication = {1},
+  publishedAt = {APNet},
+  slides_link = {https://conferences.sigcomm.org/events/apnet2022/slides/apnet22/Packet%20Processing%20Algorithm%20Identification%20using%20Program%20Embeddings.pdf},
+  videos_link = {https://youtu.be/SI5JyidQJC4},
+  }
+
+  // 6 done 
+
+@inproceedings{Jain-2022-posetrl,
+  shortname = {posetrl},
+  short_title={POSET-RL},
+  domain={ML4Compilers},
+  author={{Shalini Jain, Yashas Andaluri, S. VenkataKeerthy, Ramakrishna Upadrasta}},
+  booktitle={2022 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+  title={POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning}, 
+  year={2022},
+  pages={121-131},
+  keywords={Training;Codes;Runtime;Reinforcement learning;Manuals;Benchmark testing;Software;Phase Ordering;Compiler Optimization;Reinforcement learning},
+  doi={10.1109/ISPASS55109.2022.00012},
+  url = {https://ieeexplore.ieee.org/document/9804673},
+  project = {1},
+  publishedAt = {ISPASS},
+  github_link= {https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/IPO/PosetRL},
+  slides_link = {https://llvm.org/devmtg/2022-04-03/slides/POSET-RL.Phase.ordering.for.Optimizing.Size.and.Execution.Time.using.Reinforcement.Learning.pdf},
+  videos_link = {https://youtu.be/_SqWd74zG2Y},
+  }
+
+
+// 7 done 
+
+@inproceedings{Bora-2021-llov,
+  shortname = {llov},
+  short_title={LLOV},
+  author={{Utpal Bora, Shraiysh Vaishay, Saurabh Joshi, Ramakrishna Upadrasta}},
+  booktitle={2021 IEEE/ACM 7th Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)}, 
+  title={OpenMP aware MHP Analysis for Improved Static Data-Race Detection}, 
+  year={2021},
+  pages={1-11},
+  keywords={Productivity;Measurement;Concurrent computing;Runtime;Program processors;Conferences;Computer bugs;Data Races;OpenMP;Program Analysis;Static Analysis;MHP;Phase Interval Analysis;LLVM},
+  doi={10.1109/LLVMHPC54804.2021.00006},
+  url={https://ieeexplore.ieee.org/document/9651305},
+  project = {1},
+  publishedAt={LLVM-HPC},
+  github_link = {https://github.com/utpalbora/llov},
+  }
+
+// 8 done 
+
+
+ @article{Tavarageri-2021-polyAI,
+  shortname = {polyAI},
+  author = {{Sanket Tavarageri, Gagandeep Goyal, Sasikanth Avancha, Bharat Kaul, Ramakrishna Upadrasta}},
+  title = {{AI} Powered Compiler Techniques for {DL} Code Optimization},
+  journal = {CoRR},
+  volume = {abs/2104.05573},
+  year = {2021},
+  url = {https://arxiv.org/abs/2104.05573},
+  eprinttype= {arXiv},
+  eprint = {2104.05573},
+  timestamp= {Mon, 19 Apr 2021 16:45:47 +0200},
+  biburl= {https://dblp.org/rec/journals/corr/abs-2104-05573.bib},
+  bibsource= {dblp computer science bibliography, https://dblp.org},
+  project = {1},
+  publishedAt = {arXiv},
+  github_link = {https://github.com/IITH-Compilers/polydl},
+  videos_link = {https://www.youtube.com/watch?v=kyD4ysn8ljE&t=1866s&ab_channel=HiPEACTV},
+  arxiv_link = {https://arxiv.org/abs/2104.05573}
+}
+
+// 9 done 
+
+@article{Tavarageri-2021-polydl,
+  shortname = {polydl},
+  short_title={PolyDL},
+  author = {{Sanket Tavarageri, Alexander Heinecke, Sasikanth Avancha, Gagandeep Goyal, Ramakrishna Upadrasta, Bharat Kaul}},
+  title = {PolyDL: Polyhedral Optimizations for Creation of High-Performance DL Primitives},
+  year = {2021},
+  issue_date = {March 2021},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {18},
+  number = {1},
+  issn = {1544-3566},
+  url = {https://doi.org/10.1145/3433103},
+  doi = {10.1145/3433103},
+  abstract = {Deep Neural Networks (DNNs) have revolutionized many aspects of our lives. The use of DNNs is becoming ubiquitous, including in software for image recognition, speech recognition, speech synthesis, language translation, to name a few. The training of DNN architectures, however, is computationally expensive. Once the model is created, its use in the intended application—the inference task, is computationally heavy too and the inference needs to be fast for real time use. For obtaining high performance today, the code of Deep Learning (DL) primitives optimized for specific architectures by expert programmers exposed via libraries is the norm. However, given the constant emergence of new DNN architectures, creating hand optimized code is expensive, slow and is not scalable.To address this performance-productivity challenge, in this article we present compiler algorithms to automatically generate high-performance implementations of DL primitives that closely match the performance of hand optimized libraries. We develop novel data reuse analysis algorithms using the polyhedral model to derive efficient execution schedules automatically. In addition, because most DL primitives use some variant of matrix multiplication at their core, we develop a flexible framework where it is possible to plug in library implementations of the same in lieu of a subset of the loops. We show that such a hybrid compiler plus a minimal library-use approach results in state-of-the-art performance. We develop compiler algorithms to also perform operator fusions that reduce data movement through the memory hierarchy of the computer system. Using Convolution Neural Network (CNN) models and matrix multiplication operations, we demonstrate that our approach automatically creates high performing DNN building blocks whose performance matches the performance of hand-crafted kernels of Intel’s oneDNN library on high end CPUs. At the same time, our techniques take only a fraction of time (1/20 or less) compared to AutoTVM, a deep learning auto-tuner to create optimized implementations.},
+  journal = {ACM Trans. Archit. Code Optim.},
+  month = {jan},
+  articleno = {11},
+  numpages = {27},
+  keywords = {loop optimization, microkernels, data reuse, machine learning, Polyhedral compilation},
+  project = {1},
+  publishedAt = {TACO},
+  github_link = {https://github.com/IITH-Compilers/polydl},
+  videos_link = {https://www.youtube.com/watch?v=kyD4ysn8ljE&t=1866s&ab_channel=HiPEACTV},
+  }
+
+
+// 10 done
+
+@article{VenkataKeerthy-2020-IR2Vec,
+  shortname = {ir2vec},
+  short_title={IR2Vec},
+  author = {{S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain, Maunendra Desarkar, Ramakrishna Upadrasta and Y. N. Srikant}},
+  title = {IR2VEC: LLVM IR Based Scalable Program Embeddings},
+  year = {2020},
+  issue_date = {December 2020},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {17},
+  number = {4},
+  issn = {1544-3566},
+  url = {https://doi.org/10.1145/3418463},
+  doi = {10.1145/3418463},
+  abstract = {We propose IR2VEC, a Concise and Scalable encoding infrastructure to represent programs as a distributed embedding in continuous space. This distributed embedding is obtained by combining representation learning methods with flow information to capture the syntax as well as the semantics of the input programs. As our infrastructure is based on the Intermediate Representation (IR) of the source code, obtained embeddings are both language and machine independent. The entities of the IR are modeled as relationships, and their representations are learned to form a seed embedding vocabulary. Using this infrastructure, we propose two incremental encodings: Symbolic and Flow-Aware. Symbolic encodings are obtained from the seed embedding vocabulary, and Flow-Aware encodings are obtained by augmenting the Symbolic encodings with the flow information.We show the effectiveness of our methodology on two optimization tasks (Heterogeneous device mapping and Thread coarsening). Our way of representing the programs enables us to use non-sequential models resulting in orders of magnitude of faster training time. Both the encodings generated by IR2VEC outperform the existing methods in both the tasks, even while using simple machine learning models. In particular, our results improve or match the state-of-the-art speedup in 11/14 benchmark-suites in the device mapping task across two platforms and 53/68 benchmarks in the thread coarsening task across four different platforms. When compared to the other methods, our embeddings are more scalable, is non-data-hungry, and has better Out-Of-Vocabulary (OOV) characteristics.},
+  journal = {ACM Trans. Archit. Code Optim.},
+  month = {dec},
+  articleno = {32},
+  numpages = {27},
+  keywords = {heterogeneous systems, LLVM, intermediate representations, representation learning, compiler optimizations},
+  project= {1},
+  publishedAt = {TACO},
+  github_link = {https://github.com/IITH-Compilers/IR2Vec},
+  videos_link = {https://www.youtube.com/watch?v=kyD4ysn8ljE&t=4688s&ab_channel=HiPEACTV},
+  arxiv_link = {https://arxiv.org/abs/1909.06228},
+  }
+
+  // 11 done
+
+  @article{Bora-2020-LLOV,
+  shortname = {LLOV},
+  short_title={LLOV},
+  domain= {SA+Opt},
+  author = {{Utpal Bora, Santanu Das, Pankaj Kukreja, Saurabh Joshi, Ramakrishna Upadrasta, Sanjay Rajopadhye}},
+  title = {LLOV: A Fast Static Data-Race Checker for OpenMP Programs},
+  year = {2020},
+  issue_date = {December 2020},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {17},
+  number = {4},
+  issn = {1544-3566},
+  url = {https://doi.org/10.1145/3418597},
+  doi = {10.1145/3418597},
+  abstract = {In the era of Exascale computing, writing efficient parallel programs is indispensable, and, at the same time, writing sound parallel programs is very difficult. Specifying parallelism with frameworks such as OpenMP is relatively easy, but data races in these programs are an important source of bugs. In this article, we propose LLOV, a fast, lightweight, language agnostic, and static data race checker for OpenMP programs based on the LLVM compiler framework. We compare LLOV with other state-of-the-art data race checkers on a variety of well-established benchmarks. We show that the precision, accuracy, and the F1 score of LLOV is comparable to other checkers while being orders of magnitude faster. To the best of our knowledge, LLOV is the only tool among the state-of-the-art data race checkers that can verify a C/C++ or FORTRAN program to be data race free.},
+  journal = {ACM Trans. Archit. Code Optim.},
+  month = {dec},
+  articleno = {35},
+  numpages = {26},
+  keywords = {data race detection, OpenMP, program verification, polyhedral compilation, static analysis, shared memory programming},
+  project = {1},
+  publishedAt={TACO},
+  github_link = {https://github.com/utpalbora/llov},
+  videos_link = {https://www.youtube.com/watch?v=kyD4ysn8ljE&t=3781s&ab_channel=HiPEACTV},
+  arxiv_link = {https://arxiv.org/abs/1912.12189},
+  }
+
+// 12 done 
+
+
+@inproceedings{ Akash-2020-bpi_improvements,
+shortname = {bpi_improvements},
+author= { {Akash Banerjee, Rohit Aggarwal, S. VenkataKeerthy, Ramakrishna Upadrasta }},
+title={ Some Improvements to Branch Probability Information (BPI) },
+year={2020},
+publication = {1},
+publishedAt = {Euro LLVM Meet},
+github_link ={https://github.com/TIFitis/BPI--llvm},
+}
+
+// 13 done 
+
+@article{ Shalini-2019-executable_size_reduction,
+shortname = {executable_size_reduction},
+short_title={Executable Size Reduction},
+domain= {SA+Opt},
+author= {{ Shalini Jain, Utpal Bora, Prateek Kumar, Vaibhav B Sinha, Suresh Purini and Ramakrishna Upadrasta }} ,
+title={ An analysis of executable size reduction by LLVM passes } ,
+year={2019} ,
+issn={ 2277-9086 } ,
+issue-date={ June 2019 } ,
+doi={ 10.1007/s40012-019-00248-5 } ,
+url={ https://link.springer.com/article/10.1007/s40012-019-00248-5 } ,
+pages={ 105–110 } ,
+keywords={ Compilers, Compiler optimizations, Code size optimizations },
+publication = {1},
+publishedAt = {CSI[ICT]},
+}
+
+// 14 done
+
+@inproceedings{Patwardhan-2019-automatic_cache_exploitation,
+  shortname = {automatic_cache_exploitation},
+  domain= {Polyhedral},
+  author={{Abhishek A. Patwardhan, Ramakrishna Upadrasta}},
+  booktitle={2019 International Conference on High Performance Computing & Simulation (HPCS)}, 
+  title={Polyhedral Model Guided Automatic GPU Cache Exploitation Framework}, 
+  year={2019},
+  pages={496-503},
+  keywords={Graphics processing units;Kernel;Surface texture;Arrays;Computational modeling;Acceleration;GPU memory hierarchy;Polyhedral Model},
+  doi={10.1109/HPCS48598.2019.9188095},
+  url= {https://ieeexplore.ieee.org/document/9188095},
+  publication = {1},
+  publishedAt = {HPCS},
+  github_link = {https://github.com/abhishek111226/Texturizing-PPCG},
+  }
+
+
+  // 15 done 
+
+@inproceedings{Patwardhan-2019-tightest_utvpi_over-approximation,
+shortname = {tightest_utvpi_over-approximation},
+short_title= {UTVPI Over-approximation} ,
+domain= {Polyhedral},
+author = {Abhishek A. Patwardhan, Upadrasta Ramakrishna},
+title = {Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem},
+year = {2019},
+month = {01},
+publication ={1},
+publishedAt = {IMPACT},
+url={https://acohen.gitlabpages.inria.fr/impact/impact2019/papers/IMPACT_2019_paper_2.pdf},
+github_link= {https://github.com/IITH-Compilers/ISL-UTVPI?files=1},
+}
+
+// 16 done 
+
+@inproceedings{Dangeti-2018-p4llvm,
+  shortname= {p4llvm},
+  short_title= {P4LLVM},
+  domain= {SA+Opt},
+  author={{Tharun Kumar Dangeti, S. VenkataKeerthy, Ramakrishna Upadrasta}},
+  booktitle={2018 IEEE 26th International Conference on Network Protocols (ICNP)}, 
+  title={P4LLVM: An LLVM Based P4 Compiler}, 
+  year={2018},
+  pages={424-429},
+  keywords={Optimization;Switches;Program processors;Computer architecture;Metadata;Computer languages;LLVM, Compilers, P4, SDN, Optimizations},
+  doi={10.1109/ICNP.2018.00059},
+  url= {https://ieeexplore.ieee.org/document/8526847},
+  publication= {1},
+  publishedAt= {{P4WE in ICNP}},
+  github_link= {https://github.com/IITH-Compilers/P4LLVM},
+  }
+
+  // 17 done 
+
+  @inproceedings{ Malhar-2018-isl_memory_management,
+  shortname={isl_memory_management},
+  author= {{ Malhar Thakkar, Ramakrishna Upadrasta }} ,
+  title={ ISL Memory Management Using Clang Static Analyzer } ,
+  year={2018},
+  publication= {1},
+  publishedAt={US LLVM Dev Meet},
+  videos_link={https://youtu.be/AgHy_4cQzMU},
+}
+
+// 18 done 
+
+@inproceedings{ Shalini-2017-loop_profiler,
+  shortname={loop_profiler},
+  short_title= {LLProf},
+  domain= {SA+Opt},
+  author= {{ Shalini Jain, Kamlesh Kumar, Suresh Purini, Dibyendu Das, Ramakrishna Upadrasta }} ,
+  title={ An LLVM based Loop Profiler } ,
+  year={2017} ,
+  publication={1},
+  publishedAt={US LLVM Dev Meet},
+  github_link={https://github.com/IITH-Compilers/LLVM-Loop-Profiler},
+  slides_link={https://llvm.org/devmtg/2017-10/slides/Jain-LLVM%20based%20Loop%20Profiler.pdf},
+  videos_link={https://youtu.be/MKhXpRNekaM},
+} 
+
+// 19 done 
+
+@inproceedings{ Hrishikesh-2017-optimizing_dl_kernels,
+shortname={optimizing_dl_kernels},
+short_title= {Optimizing DL Kernels},
+domain= {Polyhedral},
+author= {{Hrishikesh Vaidya, Akilesh B, Abhishek A Patwardhan, Ramakrishna Upadrasta }} ,
+title={ When Polyhedral Optimizations Meet Deep Learning Kernels } ,
+year={2017} ,
+issue-date={Dec 2017} ,
+url={ https://www.researchgate.net/publication/332542886_When_Polyhedral_Optimizations_Meet_Deep_Learning_Kernels } ,
+publication={1},
+publishedAt={HiPC},
+}
+
+// 20 done 
+
+@inproceedings{ Annanay-2017-polly_tensorflow,
+shortname= {polly_tensorflow},
+author= {{ Annanay Agarwal, Michael Kruse, Brian Retford, Tobias Grosser, Ramakrishna Upadrasta }} ,
+title={ Enabling Polyhedral optimizations in TensorFlow through Polly } ,
+year={2017}, 
+publication={1},
+publishedAt={US LLVM Dev Meet},
+slides_link={https://llvm.org/devmtg/2017-10/slides/Agarwal-Enabling%20Polyhedral%20optimizations%20in%20TensorFlow%20through%20Polly.pdf},
+videos_link={https://youtu.be/uq67__tfdtQ},
+}
+
+// 21 done 
+
+@inproceedings{ Tharun-2017-loop_distribution_improvement,
+shortname={loop_distribution_improvement},
+author= {{ Tharun Kumar Dangeti, Utpal Bora, Santanu Das, Tobias Grosser , Ramakrishna Upadrasta }} ,
+title={ Improved Loop Distribution in LLVM using Polyhedral Dependences } ,
+year={2017}, 
+publication={1},
+publishedAt={LLVM HPC},
+slides_link={https://llvm-hpc4-workshop.github.io/talks.html#grosser},
+}
+
+// 22 done
+
+@inproceedings{ Keyur-2017-cache_miss_calc,
+shortname={cache_miss_calc},
+short_title= {Cache Miss Calculator},
+domain= {Polyhedral},
+author= {{ Keyur Joshi, Ramakrishna Upadrasta, Albert Cohen }} ,
+title={ Implementation of a Cache Miss Calculator in LLVM/Polly } ,
+year={2017},
+publication={1},
+publishedAt={LLVM HPC}, 
+slides_link={https://llvm-hpc4-workshop.github.io/talks.html#joshi},
+}
+
+// 23 done 
+
+@inproceedings{ Abhishek-2016-texturizing_ppcg,
+shortname={texturizing_ppcg},
+author= { Abhishek A Patwardhan , Ramakrishna Upadrasta } ,
+title={ Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler } ,
+year={2016} ,
+url={ https://www.researchgate.net/publication/334597546_Polyhedral_Compilation_Applications_Approximations_and_GPU-specific_Optimizations_Best_MTech_thesis_Award_by_AMD_India_PVT_LTD },
+publication={1},
+publishedAt={HiPC},
+}
+
+// 24 done
+
+@inproceedings{ Santanu-2016-vectorization,
+shortname={vectorization},
+author= {{ Santanu Das, D. Tharun Kumar, Utpal Bora, Ramakrishna Upadrasta }} ,
+title={ A Comparative Study of Vectorization in Compilers } ,
+year={2016},
+publication={1},
+publishedAt={HiPC},
+slides_link={https://drive.google.com/file/d/1eeNd8hTIcDWJDKQhMb4xNoYcGRcRXq4d/view?usp=sharing},
+}
+
+// 25 done 
+
+@inproceedings{ Uptal-2016-analysis_pass-polly,
+shortname={analysis_pass-polly},
+short_title= {Polly as Analysis Pass},
+domain= {Polyhedral},
+author= {{ Utpal Bora, Johannes Doerfert, Tobias Grosser, Venugopal Raghavan, Ramakrishna Upadrasta }} ,
+title={ Polly as an Analysis pass in LLVM } ,
+year={2016}, 
+publication={1},
+publishedAt={US LLVM Dev Meet},
+slides_link={https://www.llvm.org/devmtg/2016-11/Slides/Bora-PollyAsAnAnalysisPass.pdf},
+}
+
+// 26 done 
+
+@inproceedings{ Nandini-2016-comp_complexity,
+shortname={comp_complexity},
+author= {{Nandini Singhal, Pratik Bhatu, Aditya Kumar, Tobias Grosser, Ramakrishna Upadrasta}} ,
+title={ Reducing the Computational Complexity of RegionInfo } ,
+year={2016},
+publication={1},
+publishedAt={US LLVM Dev Meet},
+slides_link={https://llvm.org/devmtg/2016-11/Slides/Singhal-ReducingTheComputationalComplexity.pdf},
+videos_link={https://www.youtube.com/watch?v=yOVeJtA5zxw},
+}

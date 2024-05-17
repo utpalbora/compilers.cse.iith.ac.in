@@ -59,9 +59,46 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-scholar
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
     date-format: '%d-%b-%y'
 
-bibliography_template: bibtemplate
+
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bibtemplate
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    _bibliography
+  details_layout: bibtex.html
+  details_link:   Details   
+  query: "@*"
+
+
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords:
+  [
+    shortname,
+    short_title,
+    domain,
+    publication,
+    project,
+    publishedat,
+    github_link,
+    poster_link,
+    slides_link,
+    videos_link,
+    arxiv_link,
+  ]
