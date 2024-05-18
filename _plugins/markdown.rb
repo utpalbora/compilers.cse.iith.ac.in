@@ -11,6 +11,7 @@ module Jekyll
       super
       @text = text.strip
     end
+    require "jekyll/scholar"
     require "kramdown"
     def render(context)
       tmpl = File.read File.join Dir.pwd, "_includes", @text
