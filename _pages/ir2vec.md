@@ -2,6 +2,7 @@
 title: "IR2Vec"
 redirect_from:
     - /research/ir2vec
+    - /publications/ir2vec
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false

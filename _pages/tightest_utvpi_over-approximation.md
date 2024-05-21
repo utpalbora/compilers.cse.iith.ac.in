@@ -1,7 +1,7 @@
 ---
 title: "Some Efficient Algorithms for the Tightest UTVPI Polyhedral Over-Approximation Problem"
-#redirect_from:
-#    - /publications/tightestutvpipolyhedral
+redirect_from:
+   - /research/tightest_utvpi_over-approximation/
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
