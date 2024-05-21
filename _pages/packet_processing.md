@@ -1,7 +1,7 @@
 ---
 title: "Packet Processing Algorithm Identification using Program Embeddings"
-redirect_from:
-    - /research/packet_processing/
+# redirect_from:
+#     - /publications/packet_processing
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

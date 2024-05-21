@@ -1,8 +1,5 @@
 ---
 title: "PolyDL: Polyhedral Optimizations for Creation of High Performance DL primitives"
-redirect_from:
-  - /publications/polydl/
-  - /research/polydl/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false

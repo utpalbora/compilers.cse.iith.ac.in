@@ -3,17 +3,23 @@
 
 
 <style>
-    .trophy:hover+.mod
-    {
-        display: inline;
-        background-color: rgb(238, 209, 78);
-        position: absolute;
-        color: red;
-    }
-
-    .mod{
-        display: none;
-    }
+    .trophyimage {
+      position: relative;
+      top: -13px;
+      height: 20px;
+  }
+  
+  .trophyimage:hover:after {   
+      position: relative;
+      content: var(--content,"");
+      display: inline-block;
+      left: 24px;
+      top: -40px;    
+      background-color: rgba(241, 242, 179, 0.985);
+      color: red;
+      width: auto;
+      
+  }
   
   .modal {
       display: none;
@@ -96,10 +102,12 @@
 <div >
     <div style="display: flex; justify-content: space-between;">
         <div>
-            <strong><a href="{{site.url}}{{site.baseurl}}/publications/{{entry.shortname}}" style="margin:0;padding:0;border:0;font-size:large;" target="_blank" >{{entry.title}}</a></strong>
-            {% if entry.award and  entry.award  != empty %}
-            <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px; margin-top: -5px;" class="trophy">  
-            <p  class="mod">best poster award</p>
+            {% if entry.title and  entry.project  %}
+                <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{entry.shortname}}" style="margin:0;padding:0;border:0;font-size:large;" target="_blank" >{{entry.title}}</a></strong>
+            {% elsif entry.title and entry.publication  %}
+                <strong><a href="{{site.url}}{{site.baseurl}}/publications/{{entry.shortname}}" style="margin:0;padding:0;border:0;font-size:large;" target="_blank" >{{entry.title}}</a></strong>
+            {% else %}
+                <strong><a target="_blank">{{entry.title}}</a></strong>
             {% endif %}
             <div>  
                 <p style="margin:0;padding:0;border:0;padding-bottom:3px;"><em>{{ entry.author }}</em></p>   

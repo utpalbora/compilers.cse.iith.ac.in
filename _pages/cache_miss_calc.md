@@ -1,7 +1,7 @@
 ---
 title: "Implementation of a Cache Miss Calculator in LLVM/Polly"
-redirect_from:
-   - /research/cache_miss_calc/
+#redirect_from:
+#    - /publications/cache_miss_calc
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

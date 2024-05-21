@@ -1,7 +1,5 @@
 ---
 title: "Reinforcement Learning assisted Loop Distribution for Locality and Vectorization"
-redirect_from:
-    - /research/rl_loop_distribution/
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

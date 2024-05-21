@@ -22,6 +22,6 @@ permalink: /publications/
   }
   </style>
 <div class="bib">
-{% bibliography --template bibtemplate %}
+{% bibliography  %}
 </div>
 

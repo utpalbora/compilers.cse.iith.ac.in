@@ -1,7 +1,5 @@
 ---
 title: "BullsEye: Scalable and Accurate Approximation Framework for Cache Miss Calculation"
-redirect_from:
-  - /research/bullseye/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false

@@ -1,7 +1,7 @@
 ---
 title: "P4LLVM: An LLVM Based P4 Compiler"
-redirect_from:
-   - /research/p4llvm/
+#redirect_from:
+#    - /publications/llvmbasedp4compiler
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

@@ -1,7 +1,7 @@
 ---
 title: "Texturizing PPCG: Supporting Texture Memory in a Polyhedral Compiler"
-redirect_from:
-   - /research/texturizing_ppcg/
+#redirect_from:
+#    - /publications/ppcg
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

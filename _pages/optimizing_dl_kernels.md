@@ -1,7 +1,7 @@
 ---
 title: "When Polyhedral Optimizations Meet Deep Learning Kernels"
-redirect_from:
-   - /research/optimizing_dl_kernels/
+#redirect_from:
+#    - /publications/polly_dl
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
