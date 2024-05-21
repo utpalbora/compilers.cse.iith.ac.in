@@ -1,7 +1,8 @@
 ---
 title: "POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning"
-# redirect_from:
-#     - /research/posetrl
+redirect_from:
+    - /research/posetrl/
+    - /publications/posetrl/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false

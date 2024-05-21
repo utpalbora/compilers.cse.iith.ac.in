@@ -1,5 +1,8 @@
 ---
 title: "LLOV: A Fast Static Data-Race Checker for OpenMP Programs"
+redirect_from:
+  - /publications/llov/
+  - /research/llov/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false

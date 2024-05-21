@@ -1,7 +1,7 @@
 ---
 title: "Reducing the Computational Complexity of RegionInfo"
-#redirect_from:
-#    - /publications/comp_complexity
+redirect_from:
+   - /research/comp_complexity/
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

@@ -1,7 +1,7 @@
 ---
 title: "Improved Loop Distribution in LLVM using Polyhedral Dependences"
-#redirect_from:
-#    - /publications/loop_distri
+redirect_from:
+   - /research/loop_distribution_improvement
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

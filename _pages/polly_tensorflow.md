@@ -1,7 +1,7 @@
 ---
 title: "Enabling Polyhedral optimizations in TensorFlow through Polly"
-#redirect_from:
-#    - /publications/polly_tensor
+redirect_from:
+   - /research/polly_tensorflow/
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
