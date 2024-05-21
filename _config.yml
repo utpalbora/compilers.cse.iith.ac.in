@@ -76,6 +76,9 @@ scholar:
 
   source: ./_bibliography
   bibliography: references.bib
+  bibliography_template: 
+    - bibtemplate
+    - bibtemplate_project
   bibliography_template: bibtemplate
 
   replace_strings: true
@@ -93,6 +96,7 @@ filtered_bibtex_keywords:
     shortname,
     short_title,
     domain,
+    award,
     publication,
     project,
     publishedat,
