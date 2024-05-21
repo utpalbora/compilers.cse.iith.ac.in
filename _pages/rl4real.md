@@ -7,7 +7,6 @@ excerpt: "IITH Compilers Team -- Research"
 sitemap: false
 permalink: /publications/rl4real/
 ---
-
 # RL4ReAl: Reinforcement Learning for Register Allocation
 *S. VenkataKeerthy, Siddharth Jain, Anilava Kundu, Rohit Aggarwal, Albert Cohen and Ramakrishna Upadrasta*
 #### Published in [CC 2023](https://dl.acm.org/doi/abs/10.1145/3578360.3580273){:target="_blank"}([arXiv](https://arxiv.org/abs/2204.02013){:target="_blank"}) <a href="https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/CodeGen/MLRegAlloc" target="_blank"> <img  class="dp-img" alt="RL4ReAL GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>

@@ -3,23 +3,19 @@
 
 
 <style>
-    .trophyimage {
-      position: relative;
-      top: -13px;
-      height: 20px;
-  }
   
-  .trophyimage:hover:after {   
-      position: relative;
-      content: var(--content,"");
-      display: inline-block;
-      left: 24px;
-      top: -40px;    
-      background-color: rgba(241, 242, 179, 0.985);
-      color: red;
-      width: auto;
-      
-  }
+    .trophy:hover+.mod
+    {
+        display: inline;
+        background-color: rgb(238, 209, 78);
+        position: absolute;
+        color: red;
+    }
+
+    .mod{
+        display: none;
+    }
+
   
   .modal {
       display: none;
@@ -71,6 +67,7 @@
   .dropdown {
       padding: 10px 10px;
       margin: 10px 0;
+      margin-left: 10 rem;
       width: 20%;
   }
   
@@ -102,12 +99,10 @@
 <div >
     <div style="display: flex; justify-content: space-between;">
         <div>
-            {% if entry.title and  entry.project  %}
-                <strong><a href="{{site.url}}{{site.baseurl}}/projects/{{entry.shortname}}" style="margin:0;padding:0;border:0;font-size:large;" target="_blank" >{{entry.title}}</a></strong>
-            {% elsif entry.title and entry.publication  %}
-                <strong><a href="{{site.url}}{{site.baseurl}}/publications/{{entry.shortname}}" style="margin:0;padding:0;border:0;font-size:large;" target="_blank" >{{entry.title}}</a></strong>
-            {% else %}
-                <strong><a target="_blank">{{entry.title}}</a></strong>
+            <strong><a href="{{site.url}}{{site.baseurl}}/publications/{{entry.shortname}}" style="margin:0;padding:0;border:0;font-size:large;" target="_blank" >{{entry.title}}</a></strong>
+            {% if entry.award and  entry.award  != empty %}
+                <img src="/images/trophy.jpeg" alt="Trophy" style="height:20px; margin-top: -5px;" class="trophy">  
+                <p  class="mod">{{entry.award}}</p>
             {% endif %}
             <div>  
                 <p style="margin:0;padding:0;border:0;padding-bottom:3px;"><em>{{ entry.author }}</em></p>   
@@ -118,7 +113,6 @@
             <p style="color:grey; font-weight: Bold;"> <em>{{entry.publishedat}}</em><em>'{{entry.year| slice: 2,4 }}</em></p>
         </div>
     </div>
-
     <div style="display:inline">
             {% if entry.github_link and  entry.github_link  != empty %}
                 <a class=badge href="{{entry.github_link}}">Code</a>&nbsp;&nbsp;&nbsp;&nbsp; 

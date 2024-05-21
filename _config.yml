@@ -76,8 +76,9 @@ scholar:
 
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: bibtemplate
-
+  bibliography_template: 
+    - bibtemplate
+    - bibtemplate_projects
   replace_strings: true
   join_strings:    true
 
@@ -93,13 +94,11 @@ filtered_bibtex_keywords:
     shortname,
     short_title,
     domain,
-    publication,
-    project,
+    award,
     publishedat,
     github_link,
     poster_link,
     slides_link,
     videos_link,
     arxiv_link,
-    conference,
   ]

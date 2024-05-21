@@ -1,10 +1,14 @@
 ---
 title: "BullsEye: Scalable and Accurate Approximation Framework for Cache Miss Calculation"
+redirect_from:
+  - /publications/bullseye/
+  - /research/bullseye/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false
 permalink: /projects/bullseye/
 ---
+
 
 # BullsEye: Scalable and Accurate Approximation Framework for Cache Miss Calculation
 *Nilesh Shah, Ashitabh Misra, [Antoine Miné](https://www-apr.lip6.fr/~mine/){:target="_blank"}, [Rakesh Venkat](https://www.iith.ac.in/~rakeshvenkat/){:target="_blank"}, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}*
