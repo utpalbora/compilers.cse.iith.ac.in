@@ -1,7 +1,7 @@
 ---
 title: "ML-LLVM-Tools"
 redirect_from:
-    - /research/ml-llvm-tools
+    - /research/ml-llvm-tools/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false

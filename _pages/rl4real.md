@@ -1,7 +1,7 @@
 ---
 title: "RL4ReAl"
 redirect_from:
-    - /research/rl4real
+    - /research/rl4real/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false
