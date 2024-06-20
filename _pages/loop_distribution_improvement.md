@@ -5,7 +5,7 @@ redirect_from:
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
-permalink: /publications/loop_distribution_improvement
+permalink: /publications/loop_distribution_improvement/
 ---
 
 

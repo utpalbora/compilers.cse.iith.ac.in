@@ -1,7 +1,7 @@
 ---
 title: "ISL Memory Management Using Clang Static Analyzer"
 redirect_from:
-   - /research/Talkislmemmanage
+   - /research/isl_memory_management/
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

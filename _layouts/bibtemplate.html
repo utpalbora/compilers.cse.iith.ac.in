@@ -53,15 +53,7 @@
   }
   
   .citationBox{
-      margin-top: 20px;
-      padding: 10px;
-      height: 300px;
-      overflow: auto;
-      background-color: #eee;
-      font-size: 18px;
-      overflow-wrap: break-word;
-      white-space: normal;
-      display: none;
+      display:none;
   }
   
   .dropdown {
@@ -94,6 +86,20 @@
     margin: 10px 0;
     width: 15%;
   } 
+
+  .acm_citation
+  {
+    display: none;
+    padding: 10.5px;
+    margin: 0 0 11px;
+    line-height: 1.428571429;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow-y: scroll;
+    resize: vertical;
+    height: 300px;
+  }
 </style>
 
 <div >
@@ -208,7 +214,7 @@
                       <pre>{{- entry.bibtex | hideCustomBibtex -}}</pre>
                       <button class="badge copyCitationButton demo" id ="abibtex_{{entry.key}}" onclick="copyToClipboard('bibtex_{{entry.key}}')">Copy</button>
                     </div>
-                    <div class="citationBox" id="acmref_{{entry.key}}">
+                    <div class="citationBox acm_citation" id="acmref_{{entry.key}}">
                         <p>
                         {{entry.author}}.{{entry.year}}.{{entry.title}}.
                         {%if entry.journal %}
