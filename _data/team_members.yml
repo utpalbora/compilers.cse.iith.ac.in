@@ -23,15 +23,15 @@
 #   email: cs14mtech11017 [AT] iith [DOT] ac [DOT] in
 #   interests: Program Analysis, Compiler Optimization, Polyhedral Compilation, Parallel Programming, Race Detection
 
-- name: Shalini Jain
-  type: phd
-  url:
-    value: 0
-    link:
-  photo: shalini.jpg
-  info: started August 2015
-  email: cs15resch11010 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
+# - name: Shalini Jain
+#   type: phd
+#   url:
+#     value: 0
+#     link:
+#   photo: shalini.jpg
+#   info: started August 2015
+#   email: cs15resch11010 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimizations, Compiler optimizations using machine learning, Profilers
 
 
 - name: S. VenkataKeerthy
@@ -47,13 +47,52 @@
 - name: Nilesh Shah
   type: phd
   url:
-    value: 0
-    link: 
+    value: 1
+    link: https://nileshshah21.github.io/
   info: started Aug 2022 (Previously M.Tech RA from August 2019 - May 2022)
   photo: nilesh.jpg
   email: cs22resch12001 [AT] iith [DOT] ac [DOT] in
   interests: Polyhedral Compilation, Compiler Optimizations
 
+- name: Maruti Sairam Venkata Annaluru
+  type: phd
+  url:
+    value: 1
+    link: https://github.com/msvannaluru
+  photo: maruti.jpg
+  info: started May 2022 (co-advised by Dr. Jyothi Vedurada)
+  email: cs22resch04001 [AT] iith [DOT] ac [DOT] in
+  interests: Program Analysis, Code Compliance, Safety Critical Systems, Parallel Programs
+
+- name: Siddharth Jain
+  type: phd
+  url:
+    value: 1
+    link: https://sid18996.github.io/
+  photo: siddharth.jpg
+  info: started July 2023 (Previously M.Tech RA from August 2020 - June 2023)
+  email: cs23resch11005 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Machine Learning
+
+- name: Yeruva Jayalakshmi
+  type: phd
+  url:
+    value: 1
+    link: https://github.com/JayaYeruva
+  photo: jayalakshmi.jpg
+  info: started July 2023 (co-advised by Dr. Rajesh Kedia)
+  email: cs23resch11001 [AT] iith [DOT] ac [DOT] in
+  interests: Compilers, Computer Architecture, Performance Modelling
+
+# - name: Ponnampalam Pirapuraj
+#   type: phd
+#   url:
+#     value: 1
+#     link: https://github.com/pirapu
+#   photo: pirapuraj.jpg
+#   info: started July 2023
+#   email: cs23resch16001 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimization, Machine Learning, Code Compliance
 
 # - name: Kuldeep Gautam
 #   type: mtech
@@ -74,16 +113,6 @@
 #   info: M.Tech RA, started January 2020
 #   email: cs20mtech01002 [AT] iith [DOT] ac [DOT] in
 #   interests: Static Analysis,Code Compliance in Critical Systems
-
-- name: Siddharth Jain
-  type: mtech
-  url:
-    value: 0
-    link:
-  photo: siddharth.jpg
-  info: M.Tech RA, started August 2020
-  email: cs20mtech12003 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimizations, Machine Learning
 
 # - name: Yashas Andaluri
 #   type: mtech
@@ -113,7 +142,7 @@
   photo: Shikhar.jpg
   info: M.Tech RA, started January 2022
   email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Reinforcement Learning, Accelarated Computing
+  interests: Compiler (& Polyhedral) Optimization, Energy-Efficient Computing, Computer Architecture, LLVM
 
 - name: Soumya Banerjee
   type: mtech
@@ -123,7 +152,7 @@
   photo: Soumya.jpg
   info: M.Tech RA, started August 2022
   email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler optimization, Machine Learning
+  interests: Compiler Optimization, Machine Learning
 
 - name: Raj Ambekar
   type: mtech
@@ -131,19 +160,59 @@
     value: 1
     link: https://github.com/RajAmbekar191094
   photo: Raj_Ambekar.png
-  info: M.Tech RA, started August 2022
-  email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler optimization,Machine Learning, Algorithms, Deep Learning
+  info: M.Tech RA, started August 2022 (co-advised by Dr. Jyothi Vedurada)
+  email: cs22mtech12008 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Code Compliance
 
-- name: Raghvendra Gupta 
+- name: Neha Bhargava
   type: mtech
   url :
     value: 1
-    link: https://github.com/raghav9-97
-  photo: raghavendra.jpg
-  info: M.Tech TA, started August 2022
-  email: cs22mtech11009 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimizations, Reinforcement Learning, HPC
+    link: https://github.com/neha-bhargav
+  photo: neha.jpg
+  info: M.Tech RA, started July 2023 (co-advised by Dr. Rajesh Kedia)
+  email: cs23mtech12006 [AT] iith [DOT] ac [DOT] in
+  interests: Compilers, Computer Architecture, Hardware Security
+
+# - name: Joshi Jay Prafulkumar
+#   type: mtech
+#   url :
+#     value: 1
+#     link: https://github.com/Jay-Joshi-GIT
+#   photo: jay.jpg
+#   info: M.Tech RA, started July 2023
+#   email: cs22mtech12004 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimization, Embedded Systems
+
+- name: Siddhartha Neyagapula
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/siddu12
+  photo: siddhartha.jpg
+  info: M.Tech RA, started July 2023 (co-advised by Dr. Jyothi Vedurada)
+  email: cs23mtech12010 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Code Compliance
+
+- name: Aayush Shrivastava
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/iamaayushrivastava
+  photo: aayush.jpg
+  info: M.Tech RA, started Jan 2024
+  email: cs24mtech02001 [AT] iith [DOT] ac [DOT] in
+  interests: Machine Learning, Compiler Optimizations
+
+# - name: Raghvendra Gupta 
+#   type: mtech
+#   url :
+#     value: 1
+#     link: https://github.com/raghav9-97
+#   photo: raghavendra.jpg
+#   info: M.Tech TA, started August 2022
+#   email: cs22mtech11009 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimizations, Reinforcement Learning, HPC
 
 
 #- name: Gagandeep Goyal

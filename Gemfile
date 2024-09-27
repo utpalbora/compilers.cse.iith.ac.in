@@ -7,6 +7,7 @@ group :jekyll_plugins do
     gem "jemoji"
     gem "jekyll-redirect-from"
     gem "jekyll-seo-tag"
+    gem "jekyll-scholar" 
   end
 #below line needed for command jekyll serve to launch in local branch
 #gem "webrick", "~> 1.7"

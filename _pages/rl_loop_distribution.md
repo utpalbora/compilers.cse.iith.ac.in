@@ -1,5 +1,7 @@
 ---
 title: "Reinforcement Learning assisted Loop Distribution for Locality and Vectorization"
+redirect_from:
+    - /research/rl_loop_distribution/
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
@@ -8,7 +10,7 @@ permalink: /publications/rl_loop_distribution/
 
 # Reinforcement Learning assisted Loop Distribution for Locality and Vectorization
 *Shalini Jain, S. VenkataKeerthy, Rohit Aggarwal, Tharun Kumar Dangeti, Dibyendu Das, [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna)*
-#### Published at LLVM-HPC 2022
+#### Published at LLVM-HPC 2022 [Paper](https://ieeexplore.ieee.org/document/10026979) <a href="https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/Scalar/IR2Vec-LOF/custom_loop_distribution" target="_blank"> <img  class="dp-img" alt="Loop-Distribution GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 
 
 Loop distribution (loop fission) is a well known compiler optimization that splits the loop into multiple loops. Loop distribution can be seen as an enabler of various other optimizations with different goals, like, the parallelizability of the loop, the vectorizability of the loop, its locality characteristics. 
@@ -49,6 +51,9 @@ The improvements we achieved over O3 in terms of execution time and Instruction 
 <img src="{{ site.url }}{{ site.baseurl }}/images/projects/rl-distribution/result.png" width="35%">
 </figure>
 </center>
+
+### Artifacts
+Artifacts are available in our [GitHub](https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/Transforms/Scalar/IR2Vec-LOF/custom_loop_distribution) page. 
 
 ### Funding
 This research is funded by the Department of Electronics & Information Technology and the Ministry of Communications

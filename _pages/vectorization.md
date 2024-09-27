@@ -1,7 +1,7 @@
 ---
 title: "A Comparative Study of Vectorization in Compilers"
-#redirect_from:
-#    - /publications/vectorization
+redirect_from:
+   - /research/vectorization/
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false

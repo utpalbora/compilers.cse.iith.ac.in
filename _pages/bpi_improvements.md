@@ -1,12 +1,13 @@
 ---
 title: "Some Improvements to the Branch Probability Information (BPI)"
-#redirect_from:
-#    - /publications/TalkimproveBPI
+redirect_from:
+   - /research/bpi_improvements/
 layout: textlay
 excerpt: "IITH Compilers Team -- Publications"
 sitemap: false
 permalink: /publications/bpi_improvements/
 ---
+
 
 
 <div class="container-fluid" style="height:100%; width:100%"> 

@@ -1,16 +1,15 @@
 ---
 title: "RL4ReAl"
 redirect_from:
-    - /research/rl4real
+    - /research/rl4real/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false
 permalink: /publications/rl4real/
 ---
-
 # RL4ReAl: Reinforcement Learning for Register Allocation
 *S. VenkataKeerthy, Siddharth Jain, Anilava Kundu, Rohit Aggarwal, Albert Cohen and Ramakrishna Upadrasta*
-#### Published in [CC 2023](https://dl.acm.org/doi/abs/10.1145/3578360.3580273){:target="_blank"}([arXiv](https://arxiv.org/abs/2204.02013){:target="_blank"})
+#### Published in [CC 2023](https://dl.acm.org/doi/abs/10.1145/3578360.3580273){:target="_blank"}([arXiv](https://arxiv.org/abs/2204.02013){:target="_blank"}) <a href="https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/CodeGen/MLRegAlloc" target="_blank"> <img  class="dp-img" alt="RL4ReAL GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 
 Register allocation is one of the well-studied and important compiler optimization problems. It involves assigning a finite set of registers to an unbounded set of variables. Its decision problem is reducible to graph coloring, which is one of the classical NP-Complete problems.  Register allocation as an optimization involves additional sub-tasks, more than graph coloring itself. Several formulations have been proposed that return exact, or heuristic-based solutions.
 
@@ -47,8 +46,7 @@ We consider allocations of general purpose, vector, floating point registers for
 RL4ReAl opens up new opportunities for research on regalloc and on other backend compilation problems.
 
 ### Artifacts
-*TBD* 
-Soon to be open-sourced; Artifacts will be available in our GitHub page. 
+Artifacts are available in our [GitHub](https://github.com/IITH-Compilers/ml-llvm-project/tree/mlbridge-lib/llvm/lib/CodeGen/MLRegAlloc) page. 
 
 ### Funding
 This research is partially funded by a Google PhD fellowship, an NSM research grant 
