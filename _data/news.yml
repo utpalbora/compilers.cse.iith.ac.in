@@ -1,6 +1,12 @@
-- date: 2024-04-21
+- date: 2024-09-27
   status: "Long term Research Internship Positions"
   new: "true"
+  url: "../internships_dec24/"
+  headline: "Long term Research Internship Positions starting December 2024 in our group"
+
+- date: 2024-04-21
+  status: "Long term Research Internship Positions"
+  new: "false"
   url: "../internships_may24/"
   headline: "Long term Research Internship Positions starting May 2024 in our group"
 
