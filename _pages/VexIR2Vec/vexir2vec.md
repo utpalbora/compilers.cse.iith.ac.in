@@ -1,0 +1,8 @@
+---
+title: "VexIR2Vec"
+layout: default
+excerpt: "VexIR2Vec - Binary Similarity"
+sitemap: false
+permalink: /research/vexir2vec/
+redirect_to: https://project.iith.ac.in/VexIR2Vec/about
+---
