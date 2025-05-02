@@ -1,6 +1,12 @@
+- date: 2025-02-13
+  status: "Acceptance of paper by S. VenkataKeerthy and Soumya Banerjee et al. in TOSEM 2025"
+  new: "true"
+  url: ""
+  headline: "Congratulations to S. Venkatakeerthy, Soumya Banerjee, Sayan Dey, Yashas Andaluri, Raghul P.S., and Subrahmanyam Kalyanasundaram, Fernando Magno Quintao Pereira, Ramakrishna Upadrasta for acceptance of their paper on VexIR2Vec: An Architecture-Neutral Embedding Framework for Binary Similarity in TOSEM 2025"
+
 - date: 2024-09-27
   status: "Long term Research Internship Positions"
-  new: "true"
+  new: "false"
   url: "../internships_dec24/"
   headline: "Long term Research Internship Positions starting December 2024 in our group"
 

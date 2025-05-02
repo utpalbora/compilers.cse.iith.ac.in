@@ -1,8 +1,8 @@
 ---
-title: "VexIR2Vec: An Architecture-Neutral Embedding Framework for Binary Similarity"
+title: "VexIR2Vec"
 redirect_from:
-  - /publications/bullseye/
-  - /research/bullseye/
+  - /publications/vexir2vec/
+  - /research/vexir2vec/
 layout: textlay
 excerpt: "IITH Compilers Team -- Research"
 sitemap: false
@@ -11,9 +11,9 @@ permalink: /projects/vexir2vec/
 
 # VexIR2Vec: An Architecture-Neutral Embedding Framework for Binary Similarity
 
-S. Venkatakeerthy, Soumya Banerjee, Sayan Dey, Yashas Andaluri, Raghul P.S., and Subrahmanyam Kalyanasundaram, Fernando Magno Quintão Pereira, Ramakrishna Upadrasta
+S. Venkatakeerthy, Soumya Banerjee, Sayan Dey, Yashas Andaluri, Raghul P.S., and Subrahmanyam Kalyanasundaram, Fernando Magno Quintao Pereira, Ramakrishna Upadrasta
 
-#### Published in [ACM TOSEM](https://dl.acm.org/doi/10.1145/3721481)([arXiv](https://arxiv.org/abs/2312.00507){:target="_blank"})
+#### Published in [ACM TOSEM](https://dl.acm.org/doi/10.1145/3721481)([arXiv](https://arxiv.org/abs/2312.00507){:target="_blank"}) ([Webapp Link](https://project.iith.ac.in/VexIR2Vec/){:target="_blank"})
 
 Binary similarity involves determining whether two binary programs exhibit similar functionality with applications in
 vulnerability detection, malware analysis, and copyright detection. However, variations in compiler settings, target archi-
@@ -46,4 +46,3 @@ by using different normalizing transformations. Function embedding is obtained f
 Opcodes, Types, and Arguments, along with the strings and external library calls used in the function. This embedding is
 used as input to train VexNet, a simple feed-forward network in the Siamese setting designed to obtain the final embedding
 of the function.
-
