@@ -188,21 +188,32 @@
   type: mtech
   url :
     value: 1
-    link: https://github.com/siddu12
+    link: https://github.com/NeyagapulaSiddhartha
   photo: siddhartha.jpg
   info: M.Tech RA, started July 2023 (co-advised by Dr. Jyothi Vedurada)
   email: cs23mtech12010 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Code Compliance
+  interests: Compiler Optimization, Static Program Analysis
 
 - name: Aayush Shrivastava
   type: mtech
   url :
     value: 1
     link: https://github.com/iamaayushrivastava
-  photo: aayush.jpg
+  photo: aayush.png
   info: M.Tech RA, started Jan 2024
   email: cs24mtech02001 [AT] iith [DOT] ac [DOT] in
   interests: Machine Learning, Compiler Optimizations
+
+- name: Sri Harika
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/Harikaraja
+  photo: Harika.jpg
+  info: M.Tech RA, started January 2025
+  email: cs25mtech02001 [AT] iith [DOT] ac [DOT] in
+  interests: Compiler Optimization, Machine Learning
+
 
 # - name: Raghvendra Gupta 
 #   type: mtech
