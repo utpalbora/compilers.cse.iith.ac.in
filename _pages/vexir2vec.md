@@ -13,7 +13,7 @@ permalink: /projects/vexir2vec/
 
 S. Venkatakeerthy, Soumya Banerjee, Sayan Dey, Yashas Andaluri, Raghul P.S., and Subrahmanyam Kalyanasundaram, Fernando Magno Quintao Pereira, Ramakrishna Upadrasta
 
-#### Published in [ACM TOSEM](https://dl.acm.org/doi/10.1145/3721481)([arXiv](https://arxiv.org/abs/2312.00507){:target="_blank"}) ([Webapp Link](https://project.iith.ac.in/VexIR2Vec/){:target="_blank"})
+#### Published in [ACM TOSEM](https://dl.acm.org/doi/10.1145/3721481)([arXiv](https://arxiv.org/abs/2312.00507){:target="_blank"}) ([Webapp Link](https://project.iith.ac.in/VexIR2Vec/){:target="_blank"}) <a href="https://github.com/IITH-Compilers/VexIR2Vec" target="_blank"> <img  class="dp-img" alt="VexIR2Vec GitHub" src="https://github.githubassets.com/favicons/favicon.svg" width="23px" height="23px"></a>
 
 Binary similarity involves determining whether two binary programs exhibit similar functionality with applications in
 vulnerability detection, malware analysis, and copyright detection. However, variations in compiler settings, target archi-
