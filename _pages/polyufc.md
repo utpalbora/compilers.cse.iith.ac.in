@@ -11,7 +11,7 @@ permalink: /projects/polyufc/
 
 
 # PolyUFC: Polyhedral Compilation Meets Roofline Analysis for Uncore Frequency Capping
-*[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}*
+[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}
 
 #### Published in [CGO'26](#){:target="_blank"} 
 
@@ -90,6 +90,8 @@ Analysis is fine-grain at affine IR with statement level characterization, and A
 
 ### Go to Supplementary Page: 
 [PolyUFC](https://compilers.cse.iith.ac.in/projects/polyufc-supplementary/){:target="_blank"}
+
+Go to supplementary page: [PolyUFC](https://compilers.cse.iith.ac.in/projects/polyufc-supplementary/){:target="_blank"}
 
 ### Funding 
 This work is supported by the Prime Minister’s Research Fellowship (PMRF) programme, Government of India, with additional funding from faculty grants provided by AMD, and Qualcomm.
