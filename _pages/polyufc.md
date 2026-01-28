@@ -11,7 +11,7 @@ permalink: /projects/polyufc/
 
 
 # PolyUFC: Polyhedral Compilation Meets Roofline Analysis for Uncore Frequency Capping
-*[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}*
+[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}
 
 #### Published in [CGO'26](#){:target="_blank"} 
 
@@ -25,8 +25,48 @@ POLYUFC, an MLIR based compilation flow for uncore frequency capping that combin
 ### Performance/Power Roofline based Characterization 
 We evaluate the value of Operational Intensity (OI) against both performance and power roofline boundaries to determine the bound and bottleneck characteristics of the program. So, the I metric provides crucial insights into the compute and bandwidth characteristics of the program. Based on the relationship between OI and the time machine balance, programs are classified as follows: 
 
-1. Compute-Bound (CB): $OI$ >= time balance 
-2. Bandwidth-Bound (BB): $OI$ < time balance 
+1. Compute-Bound (CB): $I \geq \bm{B}^{t}_{\text{DRAM}}$
+
+2. Bandwidth-Bound (BB): $I < \bm{B}^{t}_{\text{DRAM}}$
+
+$T_{f_c,I} = T^Ω_I + T^Q_{f_{c},I} $
+
+
+$T^{Q}{{f_c}, I}=\sum{i=1}^{N}\left(\prod_{j=1}^{i-1}\rho^{m}{c_j}\cdot\rho^{h}{c_i}\right)\cdot Q_{c_i}
+\cdot H_{c_i}  $
+$ +
+\left(
+\prod_{j=1}^{N}
+\rho^{m}_{c_j}
+\right)
+\cdot
+Q_{DRAM}
+\cdot
+M^{t}_{{fc,LLC}}
+$
+
+
+$Perf_{f_c, I} = \frac{\Omega}{T_{f_c, I}}$  ${BW}{f_c, I} =\frac{Q_DRAM}{T{f_c, I}}$
+
+$P_{f_c, I}=p_{con}+P^{core}{I}+P^{uncore}{f_c, I}$
+
+
+$\hat{p}{f_s, I}=\hat{p}{\bar{con}}+\begin{cases}\hat{p}{fs,DRAM}\cdot\dfrac{B^{t}{DRAM}}{I}+\hat{p}{FPU},& \text{(CB)} \\[8pt]\hat{p}{fs,DRAM}+\hat{p}_{FPU}\cdot
+\dfrac{I}{B^{t}_{DRAM}},& \text{(BB)}\end{cases}
+$
+
+$\hat{P}{f_s, I}=p{con}+\begin{cases}(\alpha \hat{P}\cdot f_s + \gamma \hat{P})\cdot\dfrac{B^{t}{DRAM}}{I}+\hat{p}{FPU},& \text{(CB)} \\[8pt](\alpha \hat{P}\cdot f_s + \gamma \hat{P})+\hat{p}_{FPU}\cdot
+\dfrac{I}{B^{t}_{DRAM}},& \text{(BB)}\end{cases}$
+
+
+$P_{f_c, I}=p_{con}+\begin{cases}Q_{DRAM}\cdot M^{p}{f_c,LLC}\cdot\dfrac{B^{t}{DRAM}}{I}+\hat{p}{FPU},& \text{(CB)} \\[8pt]Q{DRAM}\cdot M^{p}{f_c,LLC}+\hat{p}{FPU}\cdot\dfrac{I}{B^{t}_{DRAM}},& \text{(BB)}\end{cases}
+$
+
+
+$P_{f_c, I}=p_{con}+\begin{cases}Q_{DRAM}\cdot(\alpha P \cdot f_c + \gamma P)\cdot\dfrac{B^{t}{DRAM}}{I}+\hat{p}{FPU},& \text{(CB)} \\[8pt]Q_{DRAM}\cdot(\alpha P \cdot f_c + \gamma P)+\hat{p}{FPU}\cdot\dfrac{I}{B^{t}{DRAM}},& \text{(BB)}\end{cases}$
+
+
+$E_{f_c, I}=E^{\Omega}{I}+E^{Q}{f_c, I}=\Omega \cdot e_{FPU}+T^{Q}{f_c, I}\cdot P{f_c, I}$
 
 We propose a mathematical model that estimates performance, bandwidth and power, with uncore frequency cap ($f_c$), and Operational Intensity ($OI$ or $I$) as parameters under the given performance and power roofs. We estimate the performance and bandwidth for affine programs on a target architecture by decomposing total execution time ($T$) into computation time ($T_Ω$) and memory transfer time ($T_Q$); each are parameterized by uncore frequency cap ($f_c$) and Operational Intensity ($I$). Computation time $T_Ω$ is based on total FLOPs and FPU throughput at a fixed core frequency. And, time taken by data movement $T_Q$ is derived from cache analysis; this accounts for both cache hits and misses to accurately estimate data movement costs between the processor core and DRAM.
 
@@ -42,6 +82,8 @@ Analysis is fine-grain at affine IR with statement level characterization, and A
 
 #### sdpa from bert:
 ![image]({{ site.url }}{{ site.baseurl }}/images/projects/polyufc/phasechange.png){: style="float: left"; height="100%" width="100%"}
+
+Go to supplementary page: [PolyUFC](https://compilers.cse.iith.ac.in/projects/polyufc-supplementary/){:target="_blank"}
 
 ### Funding 
 This work is supported by the Prime Minister’s Research Fellowship (PMRF) programme, Government of India, with additional funding from faculty grants provided by AMD, and Qualcomm.
