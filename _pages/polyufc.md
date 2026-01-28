@@ -25,48 +25,53 @@ POLYUFC, an MLIR based compilation flow for uncore frequency capping that combin
 ### Performance/Power Roofline based Characterization 
 We evaluate the value of Operational Intensity (OI) against both performance and power roofline boundaries to determine the bound and bottleneck characteristics of the program. So, the I metric provides crucial insights into the compute and bandwidth characteristics of the program. Based on the relationship between OI and the time machine balance, programs are classified as follows: 
 
-1. Compute-Bound (CB): $I \geq \bm{B}^{t}_{\text{DRAM}}$
-
-2. Bandwidth-Bound (BB): $I < \bm{B}^{t}_{\text{DRAM}}$
-
-$T_{f_c,I} = T^Ω_I + T^Q_{f_{c},I} $
+1. Compute-Bound (CB): OI >= time balance 
+2. Bandwidth-Bound (BB): OI < time balance 
 
 
-$T^{Q}{{f_c}, I}=\sum{i=1}^{N}\left(\prod_{j=1}^{i-1}\rho^{m}{c_j}\cdot\rho^{h}{c_i}\right)\cdot Q_{c_i}
-\cdot H_{c_i}  $
-$ +
-\left(
-\prod_{j=1}^{N}
-\rho^{m}_{c_j}
-\right)
-\cdot
-Q_{DRAM}
-\cdot
-M^{t}_{{fc,LLC}}
-$
+<figure style="display:inline-block; width:33%; vertical-align: top;">
+  <img src="{{ site.baseurl }}/images/projects/polyufc/0.png" width="60%">
+</figure>
 
+<figure style="display:inline-block; width:33%; vertical-align: top;">
+  <img src="{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="60%">
+</figure>
 
-$Perf_{f_c, I} = \frac{\Omega}{T_{f_c, I}}$  ${BW}{f_c, I} =\frac{Q_DRAM}{T{f_c, I}}$
+<figure style="display:inline-block; width:35%;vertical-align: top;">
+  <img src="{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="60%">
+</figure>
 
-$P_{f_c, I}=p_{con}+P^{core}{I}+P^{uncore}{f_c, I}$
+<figure style="display:inline-block; width:30%;vertical-align: top;">
+  <img src="{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="60%">
+</figure>
 
+<figure style="display:inline-block; width:50%;">
+  <img src="{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="60%">
+</figure>
 
-$\hat{p}{f_s, I}=\hat{p}{\bar{con}}+\begin{cases}\hat{p}{fs,DRAM}\cdot\dfrac{B^{t}{DRAM}}{I}+\hat{p}{FPU},& \text{(CB)} \\[8pt]\hat{p}{fs,DRAM}+\hat{p}_{FPU}\cdot
-\dfrac{I}{B^{t}_{DRAM}},& \text{(BB)}\end{cases}
-$
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/1.png" width="50%">
+</figure>
 
-$\hat{P}{f_s, I}=p{con}+\begin{cases}(\alpha \hat{P}\cdot f_s + \gamma \hat{P})\cdot\dfrac{B^{t}{DRAM}}{I}+\hat{p}{FPU},& \text{(CB)} \\[8pt](\alpha \hat{P}\cdot f_s + \gamma \hat{P})+\hat{p}_{FPU}\cdot
-\dfrac{I}{B^{t}_{DRAM}},& \text{(BB)}\end{cases}$
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/2.png" width="60%">
+</figure>
 
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/3.png" width="60%">
+</figure>
 
-$P_{f_c, I}=p_{con}+\begin{cases}Q_{DRAM}\cdot M^{p}{f_c,LLC}\cdot\dfrac{B^{t}{DRAM}}{I}+\hat{p}{FPU},& \text{(CB)} \\[8pt]Q{DRAM}\cdot M^{p}{f_c,LLC}+\hat{p}{FPU}\cdot\dfrac{I}{B^{t}_{DRAM}},& \text{(BB)}\end{cases}
-$
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/4.png" width="60%">
+</figure>
 
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/5.png" width="60%">
+</figure>
 
-$P_{f_c, I}=p_{con}+\begin{cases}Q_{DRAM}\cdot(\alpha P \cdot f_c + \gamma P)\cdot\dfrac{B^{t}{DRAM}}{I}+\hat{p}{FPU},& \text{(CB)} \\[8pt]Q_{DRAM}\cdot(\alpha P \cdot f_c + \gamma P)+\hat{p}{FPU}\cdot\dfrac{I}{B^{t}{DRAM}},& \text{(BB)}\end{cases}$
-
-
-$E_{f_c, I}=E^{\Omega}{I}+E^{Q}{f_c, I}=\Omega \cdot e_{FPU}+T^{Q}{f_c, I}\cdot P{f_c, I}$
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/6.png" width="60%">
+</figure>
 
 We propose a mathematical model that estimates performance, bandwidth and power, with uncore frequency cap ($f_c$), and Operational Intensity ($OI$ or $I$) as parameters under the given performance and power roofs. We estimate the performance and bandwidth for affine programs on a target architecture by decomposing total execution time ($T$) into computation time ($T_Ω$) and memory transfer time ($T_Q$); each are parameterized by uncore frequency cap ($f_c$) and Operational Intensity ($I$). Computation time $T_Ω$ is based on total FLOPs and FPU throughput at a fixed core frequency. And, time taken by data movement $T_Q$ is derived from cache analysis; this accounts for both cache hits and misses to accurately estimate data movement costs between the processor core and DRAM.
 
@@ -74,14 +79,17 @@ We propose a mathematical model that estimates performance, bandwidth and power,
 We model each cache set as a fully-associative cache. First, we compute reuse-pairs for each set and model all the conflict/capacity misses using the constraint on cache associativity for a cache level. To model sharing of working set sizes across threads, the total cache misses (of any category) are approximated by dividing the sequential miss-count by the number of OpenMP program threads. This simple heuristic provides a first-order approximation, though it could miss inter-thread conflict and coherence misses.
 
 #### Example:
-![image]({{ site.url }}{{ site.baseurl }}/images/projects/polyufc/cacheexample.png){: style="float: left"; height="45%" width="45%"}
-![image]({{ site.url }}{{ site.baseurl }}/images/projects/polyufc/reusepairs.png){: style="float: left"; height="45%" width="45%"}
+![image]({{ site.url }}{{ site.baseurl }}/images/projects/polyufc/Cacheexample.png){: style="float: left"; height="35%" width="35%"}
+![image]({{ site.url }}{{ site.baseurl }}/images/projects/polyufc/Reusepairs.png){: style="float: left"; height="35%" width="35%"}
 
 ### Uncore Frequency Capping per Loop-nest and Phase Change
 Analysis is fine-grain at affine IR with statement level characterization, and Application is at loop-nest level at affine/linalg IR. Based on the characterization, objective (EDP, Performance, Energy) and tuning parameters, searching is done using linear/binary search. For each CB loop-nest, we take minimum of uncore frequency caps obtained across all the statements. For each BB loop-nest, we take maximum of uncore frequency caps obtained across all the statements. For ML kernels (like conv2d and lm-head-matmul), we choose linalgOp-level granularity for frequency capping. 
 
 #### sdpa from bert:
-![image]({{ site.url }}{{ site.baseurl }}/images/projects/polyufc/phasechange.png){: style="float: left"; height="100%" width="100%"}
+![image]({{ site.url }}{{ site.baseurl }}/images/projects/polyufc/Phasechange.png){: style="float: left"; height="100%" width="100%"}
+
+### Go to Supplementary Page: 
+[PolyUFC](https://compilers.cse.iith.ac.in/projects/polyufc-supplementary/){:target="_blank"}
 
 Go to supplementary page: [PolyUFC](https://compilers.cse.iith.ac.in/projects/polyufc-supplementary/){:target="_blank"}
 

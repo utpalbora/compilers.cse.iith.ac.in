@@ -522,7 +522,8 @@ over a range of uncore frequencies for miss latency using
 Eq.&nbsp;<span style="font-weight:600;">(6)</span>.
 </p>
 
-Go to main page: [PolyUFC](https://compilers.cse.iith.ac.in/projects/polyufc/){:target="_blank"}
+### Go to Main Page: 
+[PolyUFC](https://compilers.cse.iith.ac.in/projects/polyufc/){:target="_blank"}
 
 <h2 style="text-align:left; margin-top:60px; letter-spacing:1px;">
 REFERENCES
