@@ -149,7 +149,7 @@ polybench-table tr {
 # PolyUFC: Polyhedral Compilation Meets Roofline Analysis for Uncore Frequency Capping
 [Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}
 
-#### Published in [CGO'26](#){:target="_blank"} 
+#### Published in [CGO'26](https://2026.cgo.org/details/cgo-2026-papers/40/PolyUFC-Polyhedral-Compilation-Meets-Roofline-Analysis-for-Uncore-Frequency-Capping){:target="_blank"} 
 
 
 
