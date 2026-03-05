@@ -124,7 +124,7 @@ Performance and bandwidth estimation assumes no overlap between compute and memo
 Total execution time with frequency cap as a parameter:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="50%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="60%">
 </figure>
 
 where:
@@ -135,25 +135,25 @@ where:
 Compute performance:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="50%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="60%">
 </figure>
 
 Data movement latency with uncore frequency cap:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="50%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="60%">
 </figure>
 
 Total Compute Performance:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="50%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="60%">
 </figure>
 
 Total LLC Bandwidth: 
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/0.png" width="50%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/0.png" width="60%">
 </figure>
 
 ### Uncore Power Characterization and Estimation
@@ -161,7 +161,7 @@ Total LLC Bandwidth:
 Total power estimation includes contributions from both **core and uncore subsystems**, with core power modeled at the maximum core frequency.
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/1.png" width="50%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/1.png" width="60%">
 </figure>
 
 Peak power as a function of scaling frequency:
@@ -234,8 +234,8 @@ This design strikes a balance between **optimization precision and runtime overh
 
 For each program phase:
 
-- **Compute-bound phases:** choose the **minimum uncore frequency cap**
-- **Bandwidth-bound phases:** choose the **maximum uncore frequency cap**
+- **Compute-bound phases:** choose to **decrease uncore frequency cap**
+- **Bandwidth-bound phases:** choose to **increase uncore frequency cap**
 
 This ensures that compute-intensive kernels avoid unnecessary power consumption while memory-intensive kernels maintain sufficient bandwidth.
 

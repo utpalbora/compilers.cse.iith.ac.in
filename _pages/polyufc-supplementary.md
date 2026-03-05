@@ -156,8 +156,7 @@ polybench-table tr {
 
 
 <p>
-In section <a ref="#variable-for-mathematical-modeling"> A</a>, we show the variables used for mathematical
-modeling in <a href="https://compilers.cse.iith.ac.in/projects/polyufc/">PolyUFC</a>.
+In section <a ref="#variable-for-mathematical-modeling"> A</a>, we show the variables used for mathematical modeling in <a href="https://compilers.cse.iith.ac.in/projects/polyufc/">PolyUFC</a>.
 
 In section 
 <a href="#frequency-scaling-vs-cap">B</a>, we show a study comparing frequency capping and scaling.
