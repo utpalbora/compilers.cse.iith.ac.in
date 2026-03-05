@@ -11,8 +11,7 @@ permalink: /projects/polyufc/
 
 # PolyUFC: Polyhedral Compilation Meets Roofline Analysis for Uncore Frequency Capping
 
-[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and  
-[Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}
+[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}
 
 #### Published in [CGO'26](https://www.computer.org/csdl/proceedings-article/cgo/2026/11395211/2elc16cKELK){:target="_blank"}
 
@@ -159,7 +158,7 @@ Peak power as a function of scaling frequency:
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/2.png" width="60%">
 </figure>
 
-Peak DRAM power modeled as an affine function:
+Peak DRAM power modeled as:
 
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/3.png" width="60%">
@@ -223,8 +222,8 @@ This design strikes a balance between **optimization precision and runtime overh
 
 For each program phase:
 
-- **Compute-bound phases:** choose the **minimum uncore frequency cap**
-- **Bandwidth-bound phases:** choose the **maximum uncore frequency cap**
+- **Compute-bound phases:** choose the **decrease the uncore frequency cap**
+- **Bandwidth-bound phases:** choose the **increase the uncore frequency cap**
 
 This ensures that compute-intensive kernels avoid unnecessary power consumption while memory-intensive kernels maintain sufficient bandwidth.
 
