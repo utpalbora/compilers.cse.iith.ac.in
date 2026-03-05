@@ -147,9 +147,9 @@ polybench-table tr {
 
 
 # PolyUFC: Polyhedral Compilation Meets Roofline Analysis for Uncore Frequency Capping
-[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}
 
-#### Published in [CGO'26](https://2026.cgo.org/details/cgo-2026-papers/40/PolyUFC-Polyhedral-Compilation-Meets-Roofline-Analysis-for-Uncore-Frequency-Capping){:target="_blank"} 
+
+#### Published in [CGO'26](https://www.computer.org/csdl/proceedings-article/cgo/2026/11395211/2elc16cKELK){:target="_blank"} 
 
 
 
@@ -167,22 +167,26 @@ polybench-table tr {
 
 <hr style="margin:50px 0;">
 
-<h2 id="appendix" style="text-align:center; letter-spacing:2px;">
-APPENDIX
-</h2>
 
 <p>
-In App.&nbsp;
-<a href="#variables-mathematical-modeling">A</a>, we show the variables used for mathematical
-modeling in Sec.&nbsp;
-<a href="#performance-power-estimation">2</a>.
-In App.&nbsp;
+In section <a ref="#variable-for-mathematical-modeling"> A</a>, we show the variables used for mathematical
+modeling in <a>??</a>.
+
+In section 
 <a href="#frequency-scaling-vs-cap">B</a>, we show a study comparing frequency capping and scaling.
 We also discuss the experiments that we performed to obtain the
 (performance and power) rooflines, followed by a pointer-chasing algorithm
 for miss penalty.
-<sup id="fn1-ref"><a href="#fn1">1</a></sup>
 </p>
+<p>
+It may be noted that we computed these ourselves, partially because of a
+lack of usable data, but it is possible that they can be inferred by the data
+provided by the manufacturer or obtained using roofline generation tools.
+</p>
+
+<h3 id="variable-for-mathematical-modeling" style="margin-top:40px;">
+A. Variable for Mathematical Modeling
+</h3>
 
 <figure style="margin:40px auto; width:90%; max-width:1100px;">
 <table class="poly-table" style="width:100%; font-size:95%;">
@@ -259,7 +263,7 @@ for miss penalty.
 
 
 
-<h3 id="requency scaling vs. capping" style="margin-top:40px;">
+<h3 id="frequency-scaling-vs-cap" style="margin-top:40px;">
 B. Frequency scaling vs. capping
 </h3>
 
@@ -294,7 +298,7 @@ Selected kernels from PolyBench&nbsp;[6] with performance characterization on
 BDW and RPL (static vs dynamic).
 </p>
 
-<table class="polybench-table">
+<table id="table-evaluation-benchmarks-polybench" class="polybench-table">
 <thead>
 <tr>
   <th>Kernels</th>
@@ -354,7 +358,7 @@ performance characterization accuracy for
 </p>
 
 
-<figure class="text-center" style="margin: 30px 0;">
+<figure id="fig-performance-power-characterization-broadwell" class="text-center" style="margin: 30px 0;">
   <img src="/images/projects/polyufc/supplementary/polybench_characterize_BDW_mark.png"
      style="display:block; margin:0 auto; width:110%; max-width:1800px;">
 <figcaption style="margin-top:10px; font-size:95%; text-align:center;">
@@ -495,7 +499,7 @@ $$\approx 1$$
 hour.
 </p>
 
-<figure class="text-center" style="margin: 30px 0;">
+<figure id ="#fig-pointer-chasing-latency" class="text-center" style="margin: 30px 0;">
   <img src="/images/projects/polyufc/supplementary/combined_chart.jpg"
        style="width:100%; max-width:1100px;">
 </figure>
@@ -521,9 +525,6 @@ Fig.&nbsp;<a href="#fig-pointer-chasing-latency">3</a>, we show the curve fittin
 over a range of uncore frequencies for miss latency using
 Eq.&nbsp;<span style="font-weight:600;">(6)</span>.
 </p>
-
-### Go to Main Page: 
-[PolyUFC](https://compilers.cse.iith.ac.in/projects/polyufc/){:target="_blank"}
 
 <h2 style="text-align:left; margin-top:60px; letter-spacing:1px;">
 REFERENCES
@@ -566,14 +567,14 @@ in <i>2021 30th International Conference on Parallel Architectures and Compilati
 IEEE Computer Society, Sep. 2021, pp. 45–59.
 </p>
 
-<p>
+<p id = "polybench">
 [6] L.-N. Pouchet <i>et al.</i>, “PolyBench benchmarks,”
 <a href="http://sourceforge.net/projects/polybench/">
 http://sourceforge.net/projects/polybench/
 </a>, 2025.
 </p>
 
-<p>
+<p id="polygeist">
 [7] S. Williams, A. Waterman, and D. Patterson, “Roofline: An insightful visual performance model for
 multicore architectures,” <i>Commun. ACM</i>, vol. 52, no. 4, pp. 65–76, Apr. 2009. [Online].
 Available:
