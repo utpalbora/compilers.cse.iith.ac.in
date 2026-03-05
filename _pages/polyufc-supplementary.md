@@ -152,25 +152,12 @@ polybench-table tr {
 #### Published in [CGO'26](https://www.computer.org/csdl/proceedings-article/cgo/2026/11395211/2elc16cKELK){:target="_blank"} 
 
 
-
-<figure class="text-center" style="margin: 30px 0;">
-  <img src="/images/projects/polyufc/supplementary/scaling_capping_comparison.jpg"
-       style="width:100%; max-width:1100px;">
-    <strong>Fig. 1.</strong>
-    Scaling and Capping comparison across the uncore frequency range.
-    (a) <code style="color:#000; background:none;">gemver</code> capped from PolyBench.
-    (b) <code style="color:#000; background:none;">gemver</code> frequency scaled.
-    (c) <code style="color:#000; background:none;">conv2d</code> from ConvNeXt capped.
-    (d) <code style="color:#000; background:none;">conv2d</code> scaled.
-</figure>
-
-
 <hr style="margin:50px 0;">
 
 
 <p>
 In section <a ref="#variable-for-mathematical-modeling"> A</a>, we show the variables used for mathematical
-modeling in <a>??</a>.
+modeling in <a href="https://compilers.cse.iith.ac.in/projects/polyufc/">PolyUFC</a>.
 
 In section 
 <a href="#frequency-scaling-vs-cap">B</a>, we show a study comparing frequency capping and scaling.
@@ -266,6 +253,17 @@ A. Variable for Mathematical Modeling
 <h3 id="frequency-scaling-vs-cap" style="margin-top:40px;">
 B. Frequency scaling vs. capping
 </h3>
+
+<figure class="text-center" style="margin: 30px 0;">
+  <img src="/images/projects/polyufc/supplementary/scaling_capping_comparison.jpg"
+       style="width:100%; max-width:1100px;">
+    <strong>Fig. 1.</strong>
+    Scaling and Capping comparison across the uncore frequency range.
+    (a) <code style="color:#000; background:none;">gemver</code> capped from PolyBench.
+    (b) <code style="color:#000; background:none;">gemver</code> frequency scaled.
+    (c) <code style="color:#000; background:none;">conv2d</code> from ConvNeXt capped.
+    (d) <code style="color:#000; background:none;">conv2d</code> scaled.
+</figure>
 
 <p>
 To understand the difference between uncore frequency scaling and uncore capping,
