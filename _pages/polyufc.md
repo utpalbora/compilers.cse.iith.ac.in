@@ -11,8 +11,7 @@ permalink: /projects/polyufc/
 
 # PolyUFC: Polyhedral Compilation Meets Roofline Analysis for Uncore Frequency Capping
 
-[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"},  
-M V V S Manoj Kumar, Dhairya Baxi, and  
+[Nilesh Rajendra Shah](https://nileshshah21.github.io/){:target="_blank"}, M V V S Manoj Kumar, Dhairya Baxi, and  
 [Ramakrishna Upadrasta](https://www.iith.ac.in/~ramakrishna){:target="_blank"}
 
 #### Published in [CGO'26](https://www.computer.org/csdl/proceedings-article/cgo/2026/11395211/2elc16cKELK){:target="_blank"}
@@ -239,7 +238,7 @@ The figure below illustrates phase transitions across compiler IR levels for **S
 
 # Experimental Evaluation
 
-PolyUFC was evaluated on **two modern Intel microarchitectures** using workloads from both machine learning models and scientific computing benchmarks.
+PolyUFC was evaluated on **two Intel microarchitectures** using workloads from both machine learning models and scientific computing benchmarks.
 
 - Vision and NLP workloads (BERT, GPT, LLaMA, AlexNet, ConvNeXt)
 - Scientific kernels from the **PolyBench benchmark suite**
