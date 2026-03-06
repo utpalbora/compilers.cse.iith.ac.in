@@ -128,7 +128,11 @@ Performance and bandwidth estimation assumes no overlap between compute and memo
 Total execution time with frequency cap as a parameter:
 
 <figure>
+<<<<<<< HEAD
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="30%">
+=======
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="60%">
+>>>>>>> origin/master
 </figure>
 
 where:
@@ -139,25 +143,41 @@ where:
 Compute performance:
 
 <figure>
+<<<<<<< HEAD
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="30%">
+=======
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="60%">
+>>>>>>> origin/master
 </figure>
 
 Data movement latency with uncore frequency cap:
 
 <figure>
+<<<<<<< HEAD
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="30%">
+=======
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="60%">
+>>>>>>> origin/master
 </figure>
 
 Total Compute Performance:
 
 <figure>
+<<<<<<< HEAD
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="30%">
+=======
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="60%">
+>>>>>>> origin/master
 </figure>
 
 Total LLC Bandwidth: 
 
 <figure>
+<<<<<<< HEAD
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/0.png" width="30%">
+=======
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/0.png" width="60%">
+>>>>>>> origin/master
 </figure>
 
 ### Uncore Power Characterization and Estimation
