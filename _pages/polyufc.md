@@ -86,41 +86,23 @@ By combining static analysis with architectural modeling, PolyUFC enables **comp
 
 PolyUFC characterizes program behavior using **Operational Intensity (OI)**, defined as:
 
-\[
-OI = \frac{\text{Floating Point Operations}}{\text{Bytes transferred between LLC and DRAM}}
-\]
+$OI = \frac{\text{Floating Point Operations}}{\text{Bytes transferred between LLC and DRAM}}$
 
 Operational intensity provides a principled way to reason about the **compute–memory balance** of an application. By comparing OI against the architecture’s machine balance derived from the roofline model, programs can be classified into two regimes:
 
 **Compute-Bound (CB)**  
 
-\[
-OI \geq \text{Machine Balance}
-\]
+$OI \geq \text{Machine Balance}$
 
 These kernels are limited by compute throughput and exhibit little sensitivity to memory bandwidth.
 
 **Bandwidth-Bound (BB)**  
 
-\[
-OI < \text{Machine Balance}
-\]
+$OI < \text{Machine Balance}$
 
 These kernels are limited by memory bandwidth and benefit from higher uncore frequencies.
 
 This classification allows PolyUFC to determine whether reducing or increasing the uncore frequency will improve energy efficiency while maintaining performance.
-
-### Roofline Characterization
-
-Performance and bandwidth estimation assumes no overlap between compute and memory phases. The total execution time is therefore decomposed into compute time and memory transfer time. Compute time is derived from static FLOP counts and processor throughput, while memory time is estimated using cache analysis and frequency-aware latency modeling.
-
-<div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
-<img src="{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="220">
-<img src="{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="220">
-<img src="{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="260">
-<img src="{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="220">
-<img src="{{ site.baseurl }}/images/projects/polyufc/0.png" width="220">
-</div>
 
 ---
 
@@ -128,28 +110,58 @@ Performance and bandwidth estimation assumes no overlap between compute and memo
 
 PolyUFC derives **architecture-aware analytical models** that estimate performance, bandwidth, and power consumption as functions of:
 
-- Uncore frequency \(f_c\)
-- Operational intensity \(I\)
-
-Total execution time is modeled as:
-
-\[
-T = T_{\Omega} + T_Q
-\]
-
-where:
-
-- \(T_{\Omega}\) represents compute time
-- \(T_Q\) represents memory transfer time
+- Uncore frequency $f_c$
+- Operational intensity $I$
 
 Compute time depends on total floating-point operations and processor throughput, while memory transfer time is derived from **cache miss analysis and DRAM latency modeling**.
 
-### Performance and Power Estimation
+### Performance Characterization
+
+Performance and bandwidth estimation assumes no overlap between compute and memory phases. The total execution time is therefore decomposed into compute time and memory transfer time. Compute time is derived from static FLOP counts and processor throughput, while memory time is estimated using cache analysis and frequency-aware latency modeling.
+
+### Performance/Bandwidth Estimation
+
+Total execution time with frequency cap as a parameter:
+
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="60%">
+</figure>
+
+where:
+
+- $T_{\Omega}$ represents compute time
+- $T_Q$ represents memory transfer time
+
+Compute performance:
+
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="60%">
+</figure>
+
+Data movement latency with uncore frequency cap:
+
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="60%">
+</figure>
+
+Total Compute Performance:
+
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="60%">
+</figure>
+
+Total LLC Bandwidth: 
+
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/0.png" width="60%">
+</figure>
+
+### Uncore Power Characterization and Estimation
 
 Total power estimation includes contributions from both **core and uncore subsystems**, with core power modeled at the maximum core frequency.
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/1.png" width="50%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/1.png" width="60%">
 </figure>
 
 Peak power as a function of scaling frequency:
@@ -158,7 +170,7 @@ Peak power as a function of scaling frequency:
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/2.png" width="60%">
 </figure>
 
-Peak DRAM power modeled as:
+Peak DRAM power modeled as an affine function:
 
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/3.png" width="60%">
@@ -222,8 +234,8 @@ This design strikes a balance between **optimization precision and runtime overh
 
 For each program phase:
 
-- **Compute-bound phases:** choose the **decrease the uncore frequency cap**
-- **Bandwidth-bound phases:** choose the **increase the uncore frequency cap**
+- **Compute-bound phases:** choose to **decrease uncore frequency cap**
+- **Bandwidth-bound phases:** choose to **increase uncore frequency cap**
 
 This ensures that compute-intensive kernels avoid unnecessary power consumption while memory-intensive kernels maintain sufficient bandwidth.
 
@@ -237,7 +249,7 @@ The figure below illustrates phase transitions across compiler IR levels for **S
 
 # Experimental Evaluation
 
-PolyUFC was evaluated on **two Intel microarchitectures** using workloads from both machine learning models and scientific computing benchmarks.
+PolyUFC was evaluated on **two modern Intel microarchitectures** using workloads from both machine learning models and scientific computing benchmarks.
 
 - Vision and NLP workloads (BERT, GPT, LLaMA, AlexNet, ConvNeXt)
 - Scientific kernels from the **PolyBench benchmark suite**
