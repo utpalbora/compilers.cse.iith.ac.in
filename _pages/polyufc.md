@@ -21,6 +21,10 @@ permalink: /projects/polyufc/
 
 Modern server processors contain a large **uncore subsystem**—including the last-level cache (LLC), memory controllers, and on-chip interconnects—which constitutes a significant fraction of total processor power. While contemporary compilers aggressively optimize computation on CPU cores, they largely overlook opportunities for **compiler-driven management of the uncore subsystem**. As a result, modern processors frequently operate with **over-provisioned uncore frequencies**, leading to unnecessary power consumption without meaningful performance benefits.
 
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/polyufc_overview_small.png" width="100%">
+</figure>
+
 **PolyUFC** addresses this gap by introducing a **compiler-driven framework for uncore frequency capping** that combines:
 
 - **Polyhedral compilation**
@@ -124,7 +128,7 @@ Performance and bandwidth estimation assumes no overlap between compute and memo
 Total execution time with frequency cap as a parameter:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="60%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq2.png" width="30%">
 </figure>
 
 where:
@@ -135,25 +139,25 @@ where:
 Compute performance:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="60%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq3.png" width="30%">
 </figure>
 
 Data movement latency with uncore frequency cap:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="60%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq4.png" width="30%">
 </figure>
 
 Total Compute Performance:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="60%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/eq5.png" width="30%">
 </figure>
 
 Total LLC Bandwidth: 
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/0.png" width="60%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/polyufc/0.png" width="30%">
 </figure>
 
 ### Uncore Power Characterization and Estimation
@@ -265,7 +269,7 @@ Static roofline characterization of ML kernels and PolyBench workloads:
 
 ![image]({{ site.url }}{{ site.baseurl }}/images/projects/polyufc/characterization_RPL.png){: style="width:100%"}
 
-### Results
+### Energy, Performance and EDP Improvements
 
 PolyUFC delivers significant improvements in energy efficiency:
 
