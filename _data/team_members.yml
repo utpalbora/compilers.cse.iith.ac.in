@@ -124,45 +124,45 @@
 #   email: cs17b21m000001 [AT] iith [DOT] ac [DOT] in
 #   interests: Compilers for Networks, Compiler Optimizations, Program representation, Machine Learning
   
-- name: Sayan Dey
-  type: mtech
-  url:
-    value: 1
-    link: https://github.com/sayan-dey
-  photo: sayan.jpg
-  info: M.Tech RA, started January 2022
-  email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Compilers for Networks, Machine Learning
+# - name: Sayan Dey
+#   type: mtech
+#   url:
+#     value: 1
+#     link: https://github.com/sayan-dey
+#   photo: sayan.jpg
+#   info: M.Tech RA, started January 2022
+#   email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimization, Compilers for Networks, Machine Learning
   
-- name: Shikhar Jain
-  type: mtech
-  url:
-    value: 1
-    link: https://github.com/zimgithub
-  photo: Shikhar.jpg
-  info: M.Tech RA, started January 2022
-  email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler (& Polyhedral) Optimization, Energy-Efficient Computing, Computer Architecture, LLVM
+# - name: Shikhar Jain
+#   type: mtech
+#   url:
+#     value: 1
+#     link: https://github.com/zimgithub
+#   photo: Shikhar.jpg
+#   info: M.Tech RA, started January 2022
+#   email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler (& Polyhedral) Optimization, Energy-Efficient Computing, Computer Architecture, LLVM
 
-- name: Soumya Banerjee
-  type: mtech
-  url :
-    value: 1
-    link: https://github.com/Soumyaworks
-  photo: Soumya.jpg
-  info: M.Tech RA, started August 2022
-  email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Machine Learning
+# - name: Soumya Banerjee
+#   type: mtech
+#   url :
+#     value: 1
+#     link: https://github.com/Soumyaworks
+#   photo: Soumya.jpg
+#   info: M.Tech RA, started August 2022
+#   email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimization, Machine Learning
 
-- name: Raj Ambekar
-  type: mtech
-  url :
-    value: 1
-    link: https://github.com/RajAmbekar191094
-  photo: Raj_Ambekar.png
-  info: M.Tech RA, started August 2022 (co-advised by Dr. Jyothi Vedurada)
-  email: cs22mtech12008 [AT] iith [DOT] ac [DOT] in
-  interests: Compiler Optimization, Code Compliance
+# - name: Raj Ambekar
+#   type: mtech
+#   url :
+#     value: 1
+#     link: https://github.com/RajAmbekar191094
+#   photo: Raj_Ambekar.png
+#   info: M.Tech RA, started August 2022 (co-advised by Dr. Jyothi Vedurada)
+#   email: cs22mtech12008 [AT] iith [DOT] ac [DOT] in
+#   interests: Compiler Optimization, Code Compliance
 
 - name: Neha Bhargava
   type: mtech
@@ -213,6 +213,26 @@
   info: M.Tech RA, started January 2025
   email: cs25mtech02001 [AT] iith [DOT] ac [DOT] in
   interests: Compiler Optimization, Machine Learning
+
+- name: Yogesh Febyani
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/yogesh0127
+  photo: yogesh.png
+  info: M.Tech RA, started July 2025
+  email: cs25mtech12014 [AT] iith [DOT] ac [DOT] in
+  interests: Machine Learning, Compiler Optimization 
+
+- name: Vishal Kumar Patwa
+  type: mtech
+  url :
+    value: 1
+    link: https://github.com/cs25mtech12013-commits
+  photo: vishal.jpeg
+  info: M.Tech RA, started July 2025
+  email: cs25mtech12013 [AT] iith [DOT] ac [DOT] in
+  interests: Polyhedral Compilation, Compiler Optimizations
 # - name: Raghvendra Gupta 
 #   type: mtech
 #   url :

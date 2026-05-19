@@ -14,6 +14,61 @@
   next : PostDoc at University of Cambridge, UK
   thesis : Techniques for Static Detection of Data-Races in OpenMP Programs
 
+- name: Soumya Banerjee
+  type: alum
+  # url :
+  #   value: 1
+  #   link: https://github.com/Soumyaworks
+  value: mtech
+  photo: Soumya.jpg
+  info: M.Tech RA, 2022-2025
+  thesis:
+  next : Qualcomm ML Compilers team
+  # email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
+  # interests: Compiler Optimization, Machine Learning
+
+- name: Raj Ambekar
+  type: alum
+  # url :
+  #   value: 1
+  #   link: https://github.com/RajAmbekar191094
+  value: mtech
+  photo: Raj_Ambekar.png
+  info: M.Tech RA, 2022-2025
+  thesis: 
+  next : ONIX
+  # email: cs22mtech12008 [AT] iith [DOT] ac [DOT] in
+  # interests: Compiler Optimization, Code Compliance
+
+- name: Sayan Dey
+  type: alum
+  # url:
+  #   value: 1
+  #   link: https://github.com/sayan-dey
+  value: mtech
+  info: M.Tech RA, 2022-2025
+  photo: sayan.jpg
+  thesis: 
+  next : Qualcomm ML Compilers team
+  # info: M.Tech RA, started January 2022
+  # email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
+  # interests: Compiler Optimization, Compilers for Networks, Machine Learning
+
+- name: Shikhar Jain
+  type: alum
+  # url:
+  #   value: 1
+  #   link: https://github.com/zimgithub
+  value: mtech
+  photo: Shikhar.jpg
+  info: M.Tech RA, 2022-2025
+  thesis: 
+  next : Texas Instruments 
+  # email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
+  # interests: Compiler (& Polyhedral) Optimization, Energy-Efficient Computing, Computer Architecture, LLVM
+
+
+
 - name: Kuldeep Gautam
   type: alum
   value: mtech
