@@ -22,7 +22,7 @@
   value: mtech
   photo: Soumya.jpg
   info: M.Tech RA, 2022-2025
-  thesis:
+  thesis: Bridging Static and Dynamic Analyses for Binary Similarity and Inlining-Cost Modeling
   next : Qualcomm ML Compilers team
   # email: cs22mtech12011 [AT] iith [DOT] ac [DOT] in
   # interests: Compiler Optimization, Machine Learning
@@ -35,7 +35,7 @@
   value: mtech
   photo: Raj_Ambekar.png
   info: M.Tech RA, 2022-2025
-  thesis: 
+  thesis: Use After Scope (UAS) bug detection in multi-threaded programs - Benchmarking and Evaluation
   next : ONIX
   # email: cs22mtech12008 [AT] iith [DOT] ac [DOT] in
   # interests: Compiler Optimization, Code Compliance
@@ -62,7 +62,7 @@
   value: mtech
   photo: Shikhar.jpg
   info: M.Tech RA, 2022-2025
-  thesis: 
+  thesis: Study of trade-offs for DVFS and Powercapping in modern CPUs
   next : Texas Instruments 
   # email: cs22mtech02002 [AT] iith [DOT] ac [DOT] in
   # interests: Compiler (& Polyhedral) Optimization, Energy-Efficient Computing, Computer Architecture, LLVM
