@@ -48,7 +48,7 @@
   value: mtech
   info: M.Tech RA, 2022-2025
   photo: sayan.jpg
-  thesis: 
+  thesis: IR-based matching of Binary and Source Code
   next : Qualcomm ML Compilers team
   # info: M.Tech RA, started January 2022
   # email: cs22mtech02005 [AT] iith [DOT] ac [DOT] in
@@ -152,7 +152,7 @@
   type: alum
   value: mtech
   info: M.Tech, 2016-2018
-  photo: male.jpeg
+  photo: anirudh.jpeg
   thesis: Optimization and parallelization of tensor and ODE/PDE computations on GPU
   thesis_link: http://raiith.iith.ac.in/4112/
   next: Xilinx compilers team
@@ -170,7 +170,7 @@
   type: alum
   value: mtech
   info: M.Tech RA, 2015-2018
-  photo: male.jpeg
+  photo: Tharun.jpeg
   thesis: Vectorization, Obfuscation and P4 LLVM Tool-chain
   thesis_link: http://raiith.iith.ac.in/4106/
   next: AMD compilers team
@@ -179,7 +179,7 @@
   type: alum
   value: mtech
   info: M.Tech RA, 2015-2018
-  photo: male.jpeg
+  photo: Shantanu.jpeg
   thesis: Optimizations In Compiler:Vectorization, Reordering, Register Allocation And Verification Of Explicitly Parallel Programs
   thesis_link: http://raiith.iith.ac.in/4126/
   next: Qualcomm compilers team
